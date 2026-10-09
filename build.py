@@ -13,6 +13,7 @@ import sys
 import time
 import urllib.request
 
+from fotos import limpiar
 from pricing import precio
 
 BASE = os.environ.get("SUPPLIER_URL", "").rstrip("/")
@@ -24,18 +25,38 @@ MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
          "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
 
 
-def get(url: str) -> str:
+def get_bytes(url: str) -> bytes:
     for intento in range(3):
         try:
             req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=30) as r:
-                return r.read().decode("utf-8", "replace")
+                return r.read()
         except Exception as e:  # noqa: BLE001
             if intento == 2:
                 raise
             print(f"Reintentando {url}: {e}")
             time.sleep(3)
-    return ""
+    return b""
+
+
+def get(url: str) -> str:
+    return get_bytes(url).decode("utf-8", "replace")
+
+
+def foto_limpia(url: str, slug: str) -> str:
+    """Si la foto no tiene fondo blanco, guarda una copia corregida y devuelve su ruta."""
+    if not url:
+        return url
+    try:
+        nueva = limpiar(get_bytes(url))
+    except Exception as e:  # noqa: BLE001
+        print(f"No se pudo revisar la foto de {slug}: {e}")
+        return url
+    if nueva is None:
+        return url
+    os.makedirs("_site/img", exist_ok=True)
+    open(f"_site/img/{slug}.webp", "wb").write(nueva)
+    return f"img/{slug}.webp"
 
 
 def texto(fragmento: str) -> str:
@@ -104,7 +125,7 @@ def main() -> None:
     dolar = None
     for i, p in enumerate(productos):
         ficha = leer_ficha(p["slug"])
-        p["foto"] = foto(ficha)
+        p["foto"] = foto_limpia(foto(ficha), p["slug"])
         if dolar is None:
             dolar = dolar_desde_ficha(ficha)
         if i % 50 == 0:
@@ -136,7 +157,8 @@ def main() -> None:
     os.makedirs("_site", exist_ok=True)
     open("_site/index.html", "w", encoding="utf-8").write(page)
     con_foto = sum(1 for d in datos if d[5])
-    print(f"Listo: {len(datos)} paletas, {con_foto} con foto.")
+    corregidas = sum(1 for d in datos if d[5].startswith("img/"))
+    print(f"Listo: {len(datos)} paletas, {con_foto} con foto, {corregidas} con fondo corregido.")
 
 
 if __name__ == "__main__":

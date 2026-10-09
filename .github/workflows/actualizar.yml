@@ -27,6 +27,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Instalar librerías para las fotos
+        run: pip install pillow numpy scipy
       - name: Armar la web
         env:
           SUPPLIER_URL: ${{ secrets.SUPPLIER_URL }}

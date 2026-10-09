@@ -1,14 +1,14 @@
 """Reglas de precio de Sur Padel.
 
-- Margen sobre el costo del proveedor: mínimo 25%, máximo 30% (nunca más de 30%).
+- Margen sobre el costo del proveedor: mínimo 20%, máximo 25% (nunca más de 25%).
 - El precio en pesos es redondo: se busca el número más alto dentro de ese rango
   que sea múltiplo de 10.000; si no hay, de 5.000; si no hay, de 1.000.
 - El precio en dólares se deriva del precio en pesos y se muestra sin decimales.
 """
 import math
 
-MARGEN_MIN = 0.25
-MARGEN_MAX = 0.30
+MARGEN_MIN = 0.20
+MARGEN_MAX = 0.25
 PASOS = (10_000, 5_000, 1_000)
 
 
@@ -21,5 +21,5 @@ def precio(costo_usd: float, dolar: float) -> tuple[int, int]:
         if ars >= piso:
             break
     else:
-        ars = math.floor(techo / 1_000) * 1_000  # caso extremo: nunca pasarse del 30%
+        ars = math.floor(techo / 1_000) * 1_000  # caso extremo: nunca pasarse del máximo
     return ars, round(ars / dolar)
