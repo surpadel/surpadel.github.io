@@ -90,6 +90,8 @@ main .wrap{padding-block:18px 40px}
 .pill{font-size:11.5px;font-weight:600;padding:3px 8px;border-radius:999px;white-space:nowrap}
 .st-s{background:var(--ok-bg);color:var(--ok)} .st-u{background:var(--warn-bg);color:var(--warn)}
 .st-c{background:var(--info-bg);color:var(--info)} .st-e{background:var(--plain-bg);color:var(--muted)}
+.eta{margin:-4px 0 0;display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted)}
+.eta svg{width:14px;height:14px}
 .card h3{margin:0;font-size:16px;font-weight:600;line-height:1.25;text-wrap:balance;flex:1}
 .card .bot{display:flex;justify-content:space-between;align-items:flex-end;gap:8px}
 .price{display:flex;flex-direction:column;gap:3px}
@@ -164,7 +166,8 @@ svg.ic{width:16px;height:16px;flex:0 0 auto}
 const DATA = __DATA__;
 const PHONE = "5491163351250";
 const RATE = __RATE__;
-const ST = {s:["Entrega inmediata",0],u:["Última unidad",1],c:["Llega pronto",2],e:["Por encargo",3]};
+const ST = {s:["Entrega inmediata",0,"24/48 hs"],u:["Última unidad",1,"24/48 hs"],c:["Llega pronto",2,"4/5 días"],e:["Por encargo",3,"7/10 días"]};
+const CLK = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>';
 const waLink = t => "https://wa.me/"+PHONE+"?text="+encodeURIComponent(t);
 document.getElementById("waTop").href = waLink("Hola Sur Padel, quería hacer una consulta.");
 
@@ -201,11 +204,12 @@ function render(){
   empty.hidden = list.length>0;
   grid.innerHTML = list.map(d=>{
     const full=d[0]==="Otras"?d[1]:d[0]+" "+d[1];
-    const msg="Hola Sur Padel, me interesa la paleta "+full+" ($ "+fmt(d[2])+" / USD "+fmt(d[3])+"). ¿Está disponible?";
+    const msg="Hola Sur Padel, me interesa la paleta "+full+" ($ "+fmt(d[2])+" / USD "+fmt(d[3])+", entrega en "+ST[d[4]][2]+"). ¿Está disponible?";
     const ph = d[5] ? `<div class="ph"><img src="${esc(d[5])}" alt="${esc(full)}" loading="lazy" decoding="async"></div>` : `<div class="ph"><span>${esc(d[0])}</span></div>`;
     return `<article class="card">${ph}
       <div class="top"><span class="mk">${esc(d[0])}</span><span class="pill st-${d[4]}">${ST[d[4]][0]}</span></div>
       <h3>${esc(d[1])}</h3>
+      <p class="eta">${CLK}Entrega en ${ST[d[4]][2]}</p>
       <div class="bot"><div class="price"><span class="ars">$ ${fmt(d[2])}</span><span class="usd">USD ${fmt(d[3])}</span></div>
       <a class="wa" href="${waLink(msg)}" target="_blank" rel="noopener">${WAI}Consultar</a></div>
     </article>`;
