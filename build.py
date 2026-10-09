@@ -127,6 +127,7 @@ def main() -> None:
         "__RATE_FMT__": f"{dolar:,.0f}".replace(",", "."),
         "__RATE_DATE__": f"{hoy.day}/{hoy.month}",
         "__RATE__": str(dolar),
+        "__LOGO__": open("logo.txt", encoding="utf-8").read().strip(),
     }
     for clave, valor in reemplazos.items():
         plantilla = plantilla.replace(clave, valor)
