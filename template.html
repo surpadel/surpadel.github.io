@@ -156,6 +156,7 @@ svg.ic{width:16px;height:16px;flex:0 0 auto}
     <div class="chips" id="chips" role="group" aria-label="Marcas"></div>
     <div class="row">
       <label class="toggle"><input type="checkbox" id="onlyStock"> Solo entrega inmediata</label>
+      <label class="toggle"><input type="checkbox" id="onlyWoman"> Línea mujer</label>
       <span class="rate">Dólar <b>$ __RATE_FMT__</b> · __RATE_DATE__</span>
       <span class="count" id="count"></span>
     </div>
@@ -194,7 +195,8 @@ brands.forEach(b=>{
   chips.appendChild(el);
 });
 
-const q=document.getElementById("q"), sort=document.getElementById("sort"), only=document.getElementById("onlyStock");
+const q=document.getElementById("q"), sort=document.getElementById("sort"), only=document.getElementById("onlyStock"), onlyW=document.getElementById("onlyWoman");
+const isWoman = d => /\bwoman\b/i.test(d[1]);
 const grid=document.getElementById("grid"), empty=document.getElementById("empty"), count=document.getElementById("count");
 const esc = s => s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
@@ -206,6 +208,7 @@ function render(){
   let list = DATA.filter(d=>{
     if(brand!=="Todas" && d[0]!==brand) return false;
     if(only.checked && !(d[4]==="s"||d[4]==="u")) return false;
+    if(onlyW.checked && !isWoman(d)) return false;
     const hay = norm(d[0]+" "+d[1]);
     return terms.every(t=>hay.includes(t));
   });
@@ -226,6 +229,6 @@ function render(){
     </article>`;
   }).join("");
 }
-[q,sort,only].forEach(el=>el.addEventListener("input",render));
+[q,sort,only,onlyW].forEach(el=>el.addEventListener("input",render));
 render();
 </script>
