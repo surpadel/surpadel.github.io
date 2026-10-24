@@ -156,7 +156,7 @@ svg.ic{width:16px;height:16px;flex:0 0 auto}
     <div class="chips" id="chips" role="group" aria-label="Marcas"></div>
     <div class="row">
       <label class="toggle"><input type="checkbox" id="onlyStock"> Solo entrega inmediata</label>
-      <label class="toggle"><input type="checkbox" id="onlyWoman"> Línea mujer</label>
+      <label class="toggle"><input type="checkbox" id="onlyWoman"> Mujer y livianas</label>
       <span class="rate">Dólar <b>$ __RATE_FMT__</b> · __RATE_DATE__</span>
       <span class="count" id="count"></span>
     </div>
@@ -196,7 +196,7 @@ brands.forEach(b=>{
 });
 
 const q=document.getElementById("q"), sort=document.getElementById("sort"), only=document.getElementById("onlyStock"), onlyW=document.getElementById("onlyWoman");
-const isWoman = d => /\bwoman\b/i.test(d[1]);
+const isWoman = d => /\b(woman|women|light|lite|ultralight|superlight|rosa|pink|purple|violeta|lila|fucsia)\b/i.test(d[1]) && !/\b(junior|youth)\b/i.test(d[1]);
 const grid=document.getElementById("grid"), empty=document.getElementById("empty"), count=document.getElementById("count");
 const esc = s => s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
