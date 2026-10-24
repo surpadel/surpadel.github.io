@@ -1,0 +1,437 @@
+<title>Guía para elegir tu paleta · Sur Padel</title>
+<meta name="description" content="Materiales, nivel de juego, formas, peso y balance: todo lo que conviene saber para elegir tu paleta de pádel.">
+<link rel="icon" type="image/webp" href="__LOGO__">
+<meta name="theme-color" content="#071528">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700;1,800&family=Barlow:wght@400;500;600&display=swap">
+<style>
+/* Guía: misma marca que el catálogo (estadio de noche, azul cancha, celeste y dorado) */
+:root{
+  --bg:#edf3fa; --surface:#ffffff; --ink:#0c2340; --muted:#55697f; --line:#d3deea;
+  --court:#1a5bb0; --turf:#1d5cad; --turf-dark:#174d94; --night:#071528; --shield:#0b1d36; --celeste:#74b4e8; --celeste-soft:#e3effa;
+  --sol:#f2b21c; --sol-ink:#2b1e00; --wa:#1f8f4f;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#071528; --surface:#0d1f3a; --ink:#e8f0fa; --muted:#94a9c2; --line:#1f3659;
+  --court:#7fb6ea; --celeste-soft:#15335a; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#071528; --surface:#0d1f3a; --ink:#e8f0fa; --muted:#94a9c2; --line:#1f3659;
+  --court:#7fb6ea; --celeste-soft:#15335a; color-scheme:dark }
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:16px}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);font-style:italic;font-weight:800;text-transform:uppercase;line-height:.95;margin:0}
+svg.ic{width:18px;height:18px;flex:0 0 auto}
+
+/* Encabezado con foto de estadio */
+.hero{position:relative;color:#fff;background:var(--night) url(img/hero-800.webp) center 62%/cover no-repeat;overflow:hidden}
+@media (min-width:800px){.hero{background-image:url(img/hero.webp)}}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,21,40,.55) 0%,rgba(7,21,40,.35) 45%,rgba(7,21,40,.92) 100%)}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:6px;background:linear-gradient(var(--celeste) 0 33.3%,#fff 33.3% 66.6%,var(--celeste) 66.6%)}
+.hero .wrap{position:relative;padding-block:18px 46px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.mini{display:flex;align-items:center;gap:10px;text-decoration:none}
+.mini img{width:46px;height:46px;border-radius:50%;box-shadow:0 0 0 2px var(--celeste)}
+.mini b{font-family:var(--display);font-style:italic;font-weight:800;font-size:22px;text-transform:uppercase;letter-spacing:.02em}
+.pill{display:inline-flex;align-items:center;gap:7px;text-decoration:none;font-family:var(--display);font-style:italic;font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;
+  padding:7px 14px 7px 11px;border:1.5px solid rgba(116,180,232,.6);border-radius:999px;background:rgba(7,21,40,.55);color:#fff}
+.pill:hover{border-color:var(--celeste)}
+.kicker{margin:clamp(56px,12vw,120px) 0 10px;font-family:var(--display);font-style:italic;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--celeste);font-size:15px}
+.hero h1{font-size:clamp(44px,9vw,86px);max-width:12ch;text-wrap:balance}
+.hero h1 em{font-style:inherit;color:var(--sol)}
+.hero p.lead{max-width:52ch;margin:14px 0 22px;font-size:17px;color:#dbe7f5}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.toc a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(4px);
+  border-radius:10px;padding:9px 14px;font-weight:600;font-size:14.5px}
+.toc a span{font-family:var(--display);font-style:italic;font-weight:800;color:var(--sol);font-size:16px}
+.toc a:hover{background:rgba(116,180,232,.22)}
+
+/* Secciones */
+section{padding-block:56px 20px;scroll-margin-top:8px}
+.sec-head{display:flex;align-items:flex-end;gap:14px;margin-bottom:22px}
+@media (max-width:600px){.sec-head{flex-direction:column;align-items:flex-start;gap:6px}.num{font-size:44px}}
+.num{font-family:var(--display);font-style:italic;font-weight:800;font-size:64px;line-height:.8;color:var(--celeste);opacity:.9}
+.sec-head h2{font-size:clamp(34px,6vw,52px)}
+.sec-head p{margin:6px 0 0;color:var(--muted);max-width:60ch}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;min-width:0}
+.card h3{font-size:24px;margin-bottom:8px;color:var(--court)}
+.card p{margin:0 0 8px}
+.card p:last-child{margin-bottom:0}
+.card ul{margin:0;padding-left:18px}
+.card li{margin-bottom:4px}
+.tag{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:3px 9px;border-radius:999px;background:var(--celeste-soft);color:var(--court);margin-bottom:10px}
+.note{margin-top:14px;display:flex;gap:12px;align-items:flex-start;background:var(--celeste-soft);border-radius:12px;padding:14px 16px}
+.note svg{width:22px;height:22px;color:var(--sol);flex:0 0 auto;margin-top:2px}
+.note p{margin:0}
+
+/* Banda de foto entre secciones */
+.band{height:clamp(140px,26vw,260px);background:var(--night) center/cover no-repeat;position:relative;margin-top:40px}
+.band::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,21,40,.85),rgba(7,21,40,.15) 60%)}
+.band .wrap{position:relative;z-index:1;height:100%;display:flex;align-items:center}
+.band q{font-family:var(--display);font-style:italic;font-weight:800;text-transform:uppercase;color:#fff;font-size:clamp(26px,5vw,44px);line-height:1;max-width:14ch;quotes:none}
+.band q b{color:var(--sol);font-weight:inherit}
+
+/* Esquema de capas */
+.layers{display:grid;gap:16px;grid-template-columns:1fr;align-items:center;margin-bottom:16px}
+@media (min-width:820px){.layers{grid-template-columns:1.05fr 1fr}}
+.layers figure{margin:0;background:var(--night);border-radius:14px;padding:16px;color:#fff}
+.layers figcaption{font-size:13px;color:#94a9c2;margin-top:6px}
+.layers svg{width:100%;height:auto;display:block}
+
+/* Niveles */
+.lvl .card{display:flex;flex-direction:column;gap:6px;border-top:5px solid var(--c)}
+.lvl .card .tag{align-self:flex-start;margin-bottom:4px}
+.mat{grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr))}
+.lvl dl{margin:6px 0 0;display:grid;grid-template-columns:auto 1fr;gap:6px 12px;font-size:15px}
+.lvl dt{color:var(--muted);font-weight:500}
+.lvl dd{margin:0;font-weight:600}
+.meter{display:flex;gap:3px;margin:4px 0 2px}
+.meter i{height:7px;flex:1;border-radius:4px;background:var(--line)}
+.meter i.on{background:var(--c)}
+
+/* Formas */
+.mango{fill:var(--muted)}
+.shape svg{width:100%;max-width:120px;height:auto;display:block;margin:0 auto 10px}
+.scale{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);margin-top:8px}
+.bar{position:relative;height:8px;border-radius:5px;background:linear-gradient(90deg,var(--celeste),var(--sol))}
+.bar i{position:absolute;top:50%;width:18px;height:18px;border-radius:50%;background:var(--surface);border:3px solid var(--ink);transform:translate(-50%,-50%)}
+
+/* CTA */
+.cta{margin:56px 0 0;background:var(--night);color:#fff;border-radius:18px;padding:28px 22px;display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between;position:relative;overflow:hidden}
+.cta::before{content:"";position:absolute;inset:0;background:radial-gradient(50% 120% at 100% 0,rgba(116,180,232,.25),transparent 60%);pointer-events:none}
+.cta h2{font-size:clamp(28px,5vw,40px);position:relative}
+.cta p{margin:6px 0 0;color:#c9d7e8;position:relative}
+.btns{display:flex;flex-wrap:wrap;gap:10px;position:relative}
+.wa-big{display:inline-flex;align-items:center;gap:10px;background:var(--sol);color:var(--sol-ink);text-decoration:none;font-family:var(--display);font-style:italic;font-weight:800;font-size:18px;letter-spacing:.05em;text-transform:uppercase;padding:12px 20px;border-radius:999px;white-space:nowrap}
+.ghost{display:inline-flex;align-items:center;gap:8px;color:#fff;text-decoration:none;font-family:var(--display);font-style:italic;font-weight:700;font-size:16px;letter-spacing:.05em;text-transform:uppercase;padding:11px 18px;border-radius:999px;border:1.5px solid rgba(116,180,232,.6)}
+a:focus-visible{outline:3px solid var(--celeste);outline-offset:2px}
+footer{margin-top:48px;border-top:1px solid var(--line)}
+footer .wrap{padding-block:20px 32px;display:flex;flex-wrap:wrap;gap:12px 28px;color:var(--muted);font-size:13px}
+footer a{color:var(--ink);font-weight:600;text-decoration:none}
+/* Subsecciones de materiales */
+h3.sub{font-size:clamp(24px,4vw,32px);margin:34px 0 6px;color:var(--ink)}
+.subp{margin:0 0 14px;color:var(--muted);max-width:62ch}
+.dot{margin-top:12px;display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.dot i{flex:1;height:8px;border-radius:5px;background:linear-gradient(90deg,var(--court) calc(var(--v)*20%),var(--line) 0)}
+.firm{display:flex;justify-content:space-between;gap:10px;font-size:12.5px;font-weight:600;color:var(--muted);margin:0 0 10px;padding:8px 12px;border-radius:10px;
+  background:linear-gradient(90deg,var(--celeste-soft),transparent 45%,transparent 55%,rgba(242,178,28,.18))}
+.firm span:last-child{text-align:right}
+.matrix{display:grid;grid-template-columns:auto 1fr;grid-template-rows:1fr auto;gap:8px}
+.mx-axis{display:flex;justify-content:space-between;font-family:var(--display);font-style:italic;font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:13px;color:var(--muted)}
+.mx-y{writing-mode:vertical-rl;transform:rotate(180deg);flex-direction:row-reverse}
+.mx-x{grid-column:2}
+.mx-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mx{border-radius:12px;padding:14px;color:#fff;min-width:0}
+.mx b{font-family:var(--display);font-style:italic;font-weight:800;text-transform:uppercase;font-size:19px;letter-spacing:.02em}
+.mx p{margin:6px 0 0;font-size:14.5px;line-height:1.45;color:#dbe7f5}
+.mx.c1{background:#174d94}.mx.c2{background:#123f7a}.mx.c3{background:#0e2c55}.mx.c4{background:#0b1d36;box-shadow:inset 0 0 0 2px var(--sol)}
+@media (max-width:560px){.mx{padding:11px}.mx b{font-size:16px}.mx p{font-size:13px}}
+</style>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="top">
+      <a class="mini" href="/"><img src="__LOGO__" alt="" width="46" height="46"><b>Sur Padel</b></a>
+      <a class="pill" href="/"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Catálogo</a>
+    </div>
+    <p class="kicker">Guía Sur Padel</p>
+    <h1>Elegí la paleta que va con <em>tu juego</em></h1>
+    <p class="lead">De qué está hecha una paleta, qué conviene según tu nivel y cómo influyen la forma, el peso y el balance. Simple y sin vueltas.</p>
+    <ul class="toc">
+      <li><a href="#materiales"><span>01</span>Materiales</a></li>
+      <li><a href="#nivel"><span>02</span>Según tu nivel</a></li>
+      <li><a href="#formas"><span>03</span>Formas</a></li>
+      <li><a href="#peso"><span>04</span>Peso y balance</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+<section id="materiales"><div class="wrap">
+  <div class="sec-head"><span class="num">01</span><div><h2>De qué está hecha</h2><p>Toda paleta tiene tres partes: las caras, el núcleo de goma y el marco. Cada una cambia cómo se siente el golpe.</p></div></div>
+
+  <div class="layers">
+    <figure>
+      <svg viewBox="0 0 520 250" role="img" aria-label="Corte de una paleta: dos caras exteriores, núcleo de goma en el medio y marco en los bordes">
+        <defs>
+          <pattern id="weave" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#1d5cad"/><path d="M0 5h10M5 0v10" stroke="#74b4e8" stroke-width="1" opacity=".45"/></pattern>
+          <pattern id="foam" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#f4f7fb"/><circle cx="3" cy="3" r="1.4" fill="#c7d5e6"/><circle cx="9" cy="8" r="1.1" fill="#c7d5e6"/></pattern>
+        </defs>
+        <!-- marco -->
+        <rect x="40" y="40" width="300" height="170" rx="16" fill="#0b1d36" stroke="#74b4e8" stroke-width="2"/>
+        <!-- cara superior -->
+        <rect x="58" y="62" width="264" height="22" rx="3" fill="url(#weave)"/>
+        <!-- núcleo -->
+        <rect x="58" y="88" width="264" height="74" rx="3" fill="url(#foam)"/>
+        <!-- cara inferior -->
+        <rect x="58" y="166" width="264" height="22" rx="3" fill="url(#weave)"/>
+        <!-- rugosidad -->
+        <g fill="#ffffff" opacity=".7"><circle cx="80" cy="60" r="1.6"/><circle cx="120" cy="59" r="1.6"/><circle cx="160" cy="60" r="1.6"/><circle cx="200" cy="59" r="1.6"/><circle cx="240" cy="60" r="1.6"/><circle cx="280" cy="59" r="1.6"/></g>
+        <!-- etiquetas -->
+        <g font-family="Barlow,system-ui,sans-serif" font-size="15" fill="#ffffff" font-weight="600">
+          <path d="M322 73h46" stroke="#f2b21c" stroke-width="2"/><circle cx="322" cy="73" r="3.5" fill="#f2b21c"/>
+          <text x="376" y="70">Cara</text><text x="376" y="88" fill="#94a9c2" font-weight="500" font-size="13">carbono o fibra de vidrio</text>
+          <path d="M322 125h46" stroke="#f2b21c" stroke-width="2"/><circle cx="322" cy="125" r="3.5" fill="#f2b21c"/>
+          <text x="376" y="122">Núcleo</text><text x="376" y="140" fill="#94a9c2" font-weight="500" font-size="13">goma EVA o foam</text>
+          <path d="M340 200h28" stroke="#f2b21c" stroke-width="2"/><circle cx="338" cy="200" r="3.5" fill="#f2b21c"/>
+          <text x="376" y="197">Marco</text><text x="376" y="215" fill="#94a9c2" font-weight="500" font-size="13">tubular, da rigidez</text>
+        </g>
+        <text x="40" y="28" font-family="Barlow,system-ui,sans-serif" font-size="12" letter-spacing="2" fill="#74b4e8" font-weight="600">CORTE DE UNA PALETA</text>
+      </svg>
+      <figcaption>Esquema ilustrativo, no está a escala.</figcaption>
+    </figure>
+    <div class="card">
+      <span class="tag">En una frase</span>
+      <p><b>Las caras</b> deciden la potencia y el tacto, <b>el núcleo</b> decide cuánta salida tiene la pelota y qué tan cómoda es, y <b>el marco</b> le da estabilidad.</p>
+      <p>No hay un material "mejor": hay combinaciones que van mejor con cada forma de jugar.</p>
+    </div>
+  </div>
+
+  <h3 class="sub">Las caras: tipos de fibra</h3>
+  <p class="subp">La cara es lo primero que toca la pelota. Más rígida, más precisión y potencia cuando acelerás; más flexible, más salida con poco esfuerzo.</p>
+  <div class="grid mat">
+    <div class="card">
+      <span class="tag">Flexible</span>
+      <h3>Fibra de vidrio</h3>
+      <p>Elástica y cómoda: la pelota sale sola aunque le pegues suave. Absorbe mejor las vibraciones. Ideal para empezar o para jugar relajado.</p>
+      <div class="dot"><span>Rígida</span><i style="--v:1"></i></div>
+    </div>
+    <div class="card">
+      <span class="tag">Híbrida</span>
+      <h3>Carbono y fibra</h3>
+      <p>Mezcla las dos: algo de la precisión del carbono con el confort de la fibra. Muy buena opción para quien está pasando de nivel.</p>
+      <div class="dot"><span>Rígida</span><i style="--v:2"></i></div>
+    </div>
+    <div class="card">
+      <span class="tag">Rígida</span>
+      <h3>Carbono 3K</h3>
+      <p>El carbono de tejido más fino y firme. Tacto seco, mucha precisión y potencia cuando el golpe es rápido. Pide técnica.</p>
+      <div class="dot"><span>Rígida</span><i style="--v:5"></i></div>
+    </div>
+    <div class="card">
+      <span class="tag">Rígida y elástica</span>
+      <h3>Carbono 12K y 18K</h3>
+      <p>Tejido más grueso. Sigue siendo carbono, pero en general se siente un poco más elástico y con algo más de salida que el 3K.</p>
+      <div class="dot"><span>Rígida</span><i style="--v:4"></i></div>
+    </div>
+    <div class="card">
+      <span class="tag">Detalle</span>
+      <h3>Capas</h3>
+      <p>Más capas de carbono hacen la cara más firme y resistente; menos capas, más elástica. Por eso <b>el número de K solo no define el tacto</b>: importan las capas y, sobre todo, la goma que va debajo.</p>
+    </div>
+  </div>
+
+  <h3 class="sub">El núcleo: tipos de goma</h3>
+  <p class="subp">La goma es el corazón de la paleta: define cuánto se hunde la pelota, cuánto rebota y qué tan cómoda se siente.</p>
+  <div class="firm" aria-hidden="true"><span>Más blanda · más salida y confort</span><span>Más dura · más control y potencia al acelerar</span></div>
+  <div class="grid mat">
+    <div class="card">
+      <span class="tag">Muy blanda</span>
+      <h3>Foam</h3>
+      <p>Mucha salida y golpe muy suave. Cómoda para principiantes, pero pierde firmeza con el uso antes que la goma EVA.</p>
+      <div class="dot"><span>Dureza</span><i style="--v:1"></i></div>
+    </div>
+    <div class="card">
+      <span class="tag">Blanda</span>
+      <h3>EVA soft</h3>
+      <p>La más elegida para disfrutar: buena salida en golpes lentos, confort para el brazo y algo más de durabilidad que el foam.</p>
+      <div class="dot"><span>Dureza</span><i style="--v:2"></i></div>
+    </div>
+    <div class="card">
+      <span class="tag">Media</span>
+      <h3>EVA media</h3>
+      <p>El punto de equilibrio: no es tabla ni trampolín. Va bien con casi cualquier forma de jugar.</p>
+      <div class="dot"><span>Dureza</span><i style="--v:3"></i></div>
+    </div>
+    <div class="card">
+      <span class="tag">Dura</span>
+      <h3>EVA dura</h3>
+      <p>Firme y precisa. Cuesta más sacar la pelota en golpes suaves, pero cuando acelerás devuelve toda la potencia. Para jugadores con técnica.</p>
+      <div class="dot"><span>Dureza</span><i style="--v:5"></i></div>
+    </div>
+    <div class="card">
+      <span class="tag">Combinada</span>
+      <h3>Doble densidad</h3>
+      <p>Dos gomas en una: una capa más blanda y otra más dura. Busca sumar salida en la defensa sin perder firmeza en el remate.</p>
+      <div class="dot"><span>Dureza</span><i style="--v:3.5"></i></div>
+    </div>
+  </div>
+
+  <h3 class="sub">Cómo se combinan</h3>
+  <p class="subp">La sensación final sale de la mezcla entre cara y goma. Estas son las cuatro combinaciones básicas.</p>
+  <div class="matrix">
+    <div class="mx-axis mx-y"><span>Cara rígida</span><span>Cara flexible</span></div>
+    <div class="mx-grid">
+      <div class="mx c3"><b>Rígida + blanda</b><p>Precisión de la cara con salida de la goma. Muy completa para el jugador intermedio que quiere crecer.</p></div>
+      <div class="mx c4"><b>Rígida + dura</b><p>Máximo control y potencia al acelerar. Seca en los golpes lentos: es la paleta del jugador avanzado.</p></div>
+      <div class="mx c1"><b>Flexible + blanda</b><p>La más cómoda y con más salida. Ideal para empezar o si te molesta el brazo.</p></div>
+      <div class="mx c2"><b>Flexible + dura</b><p>Salida de la fibra con el control de la goma firme. Buena para el que juega mucho desde el fondo.</p></div>
+    </div>
+    <div class="mx-axis mx-x"><span>Goma blanda</span><span>Goma dura</span></div>
+  </div>
+
+  <div class="grid mat" style="margin-top:14px">
+    <div class="card">
+      <span class="tag">Concepto</span>
+      <h3>Salida o potencia</h3>
+      <p><b>Salida</b> es cuánto rebota la pelota cuando le pegás suave. <b>Potencia</b> es lo que devuelve cuando acelerás fuerte. Las paletas blandas tienen más salida; las duras, más potencia en el golpe rápido.</p>
+    </div>
+    <div class="card">
+      <span class="tag">Concepto</span>
+      <h3>Tacto seco o elástico</h3>
+      <p>Una paleta <b>seca</b> despide la pelota al instante y se siente firme. Una <b>elástica</b> la retiene un poco y la "empuja". Ninguno es mejor: depende de qué te guste sentir.</p>
+    </div>
+    <div class="card">
+      <span class="tag">Tip</span>
+      <h3>El clima cambia la goma</h3>
+      <p>Con frío la goma se endurece y la paleta se siente más dura; con calor se ablanda. Si jugás mucho de noche en invierno, una goma un poco más blanda ayuda.</p>
+    </div>
+    <div class="card">
+      <span class="tag">Detalle</span>
+      <h3>Rugosidad y agujeros</h3>
+      <p>La superficie rugosa ayuda a darle efecto a la pelota. Los agujeros alivianan la paleta y mejoran cómo corta el aire.</p>
+    </div>
+  </div>
+</div></section>
+
+<div class="band" style="background-image:url(img/cesped-800.webp)"><div class="wrap"><q>Primero <b>tu juego,</b> después la paleta</q></div></div>
+
+<section id="nivel"><div class="wrap">
+  <div class="sec-head"><span class="num">02</span><div><h2>Según tu nivel</h2><p>Una guía orientativa. Si estás entre dos niveles, elegí pensando en cómo jugás hoy, no en cómo querés jugar dentro de un año.</p></div></div>
+  <div class="grid lvl">
+    <div class="card" style="--c:#74b4e8">
+      <span class="tag">Iniciación</span>
+      <h3>Recién empezás</h3>
+      <p>Jugás hace poco o de vez en cuando. Lo importante es la comodidad y que perdone los golpes descentrados.</p>
+      <dl>
+        <dt>Forma</dt><dd>Redonda</dd>
+        <dt>Núcleo</dt><dd>Blando</dd>
+        <dt>Caras</dt><dd>Fibra de vidrio</dd>
+        <dt>Peso</dt><dd>Liviana a media</dd>
+        <dt>Balance</dt><dd>Bajo</dd>
+      </dl>
+      <span class="tag" style="margin:10px 0 0;align-self:flex-start">Control</span>
+      <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+    </div>
+    <div class="card" style="--c:#1d5cad">
+      <span class="tag">Intermedio</span>
+      <h3>Ya le agarraste la mano</h3>
+      <p>Jugás seguido, dominás los golpes básicos y empezás a buscar más precisión o algo de potencia.</p>
+      <dl>
+        <dt>Forma</dt><dd>Redonda o lágrima</dd>
+        <dt>Núcleo</dt><dd>Medio</dd>
+        <dt>Caras</dt><dd>Fibra o carbono</dd>
+        <dt>Peso</dt><dd>Media</dd>
+        <dt>Balance</dt><dd>Medio</dd>
+      </dl>
+      <span class="tag" style="margin:10px 0 0;align-self:flex-start">Control y potencia</span>
+      <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div>
+    </div>
+    <div class="card" style="--c:#f2b21c">
+      <span class="tag">Avanzado</span>
+      <h3>Competís o jugás fuerte</h3>
+      <p>Tenés buena técnica, jugás torneos o mucho volumen y querés definir con el remate.</p>
+      <dl>
+        <dt>Forma</dt><dd>Lágrima o diamante</dd>
+        <dt>Núcleo</dt><dd>Duro</dd>
+        <dt>Caras</dt><dd>Carbono</dd>
+        <dt>Peso</dt><dd>Media a pesada</dd>
+        <dt>Balance</dt><dd>Medio a alto</dd>
+      </dl>
+      <span class="tag" style="margin:10px 0 0;align-self:flex-start">Potencia</span>
+      <div class="meter"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+    </div>
+  </div>
+  <div class="note"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg>
+    <p><b>¿Te molesta el codo o el hombro?</b> Priorizá núcleo blando, peso liviano y balance bajo, sin importar tu nivel. Y si buscás algo más liviano, en el catálogo está el filtro <b>Mujer y livianas</b>.</p></div>
+</div></section>
+
+<section id="formas"><div class="wrap">
+  <div class="sec-head"><span class="num">03</span><div><h2>Las tres formas</h2><p>La forma define dónde está el punto dulce, la zona donde la pelota sale mejor, y cuánto control o potencia te da.</p></div></div>
+  <div class="grid">
+    <div class="card shape">
+      <svg viewBox="0 0 120 200" aria-hidden="true"><rect class="mango" x="52" y="126" width="16" height="60" rx="6"/><circle cx="60" cy="76" r="54" fill="#1d5cad" stroke="#74b4e8" stroke-width="3"/><circle cx="60" cy="80" r="26" fill="#f2b21c" opacity=".85"/><text x="60" y="85" text-anchor="middle" font-family="Barlow,sans-serif" font-size="12" font-weight="700" fill="#2b1e00">PUNTO</text></svg>
+      <h3>Redonda</h3>
+      <p>Punto dulce grande y en el centro. Muy fácil de manejar y perdona los errores.</p>
+      <div class="bar"><i style="left:12%"></i></div>
+      <div class="scale"><span>Control</span><span>Potencia</span></div>
+    </div>
+    <div class="card shape">
+      <svg viewBox="0 0 120 200" aria-hidden="true"><rect class="mango" x="52" y="140" width="16" height="52" rx="6"/><path d="M60 14C96 14 112 40 110 70 108 104 84 132 60 146 36 132 12 104 10 70 8 40 24 14 60 14Z" fill="#1d5cad" stroke="#74b4e8" stroke-width="3"/><ellipse cx="60" cy="64" rx="24" ry="26" fill="#f2b21c" opacity=".85"/><text x="60" y="69" text-anchor="middle" font-family="Barlow,sans-serif" font-size="12" font-weight="700" fill="#2b1e00">PUNTO</text></svg>
+      <h3>Lágrima</h3>
+      <p>El equilibrio entre las dos: punto dulce un poco más arriba, buen control y potencia cuando la necesitás.</p>
+      <div class="bar"><i style="left:50%"></i></div>
+      <div class="scale"><span>Control</span><span>Potencia</span></div>
+    </div>
+    <div class="card shape">
+      <svg viewBox="0 0 120 200" aria-hidden="true"><rect class="mango" x="52" y="140" width="16" height="52" rx="6"/><path d="M60 12C82 12 112 30 112 52 112 86 84 124 60 146 36 124 8 86 8 52 8 30 38 12 60 12Z" fill="#1d5cad" stroke="#74b4e8" stroke-width="3"/><ellipse cx="60" cy="48" rx="22" ry="20" fill="#f2b21c" opacity=".85"/><text x="60" y="53" text-anchor="middle" font-family="Barlow,sans-serif" font-size="12" font-weight="700" fill="#2b1e00">PUNTO</text></svg>
+      <h3>Diamante</h3>
+      <p>Punto dulce arriba y más chico. Máxima potencia en el remate, pero exige técnica y es menos tolerante.</p>
+      <div class="bar"><i style="left:88%"></i></div>
+      <div class="scale"><span>Control</span><span>Potencia</span></div>
+    </div>
+  </div>
+</div></section>
+
+<div class="band" style="background-image:url(img/red-800.webp)"><div class="wrap"><q>Unos gramos <b>cambian todo</b></q></div></div>
+
+<section id="peso"><div class="wrap">
+  <div class="sec-head"><span class="num">04</span><div><h2>Peso y balance</h2><p>Dos datos que casi nadie mira y que se sienten desde el primer partido.</p></div></div>
+  <div class="grid">
+    <div class="card">
+      <span class="tag">Peso</span>
+      <h3>Liviana o pesada</h3>
+      <ul>
+        <li><b>Liviana (340 a 355 g):</b> más rápida en la red, menos cansancio y menos carga para el brazo.</li>
+        <li><b>Media (355 a 365 g):</b> la más versátil, va bien para la mayoría.</li>
+        <li><b>Pesada (365 a 375 g):</b> más potencia y estabilidad, pero cansa más.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <span class="tag">Balance</span>
+      <h3>Dónde está el peso</h3>
+      <svg viewBox="0 0 300 70" width="100%" role="img" aria-label="Balance bajo hacia el mango, medio en el centro y alto hacia la cabeza de la paleta" style="margin:4px 0 10px">
+        <rect x="10" y="30" width="280" height="10" rx="5" fill="url(#bal)"/>
+        <defs><linearGradient id="bal"><stop offset="0" stop-color="#74b4e8"/><stop offset="1" stop-color="#f2b21c"/></linearGradient></defs>
+        <g font-family="Barlow,sans-serif" font-size="12" font-weight="600" fill="currentColor">
+          <circle cx="40" cy="35" r="7" fill="#0b1d36" stroke="#74b4e8" stroke-width="2"/><text x="40" y="62" text-anchor="middle">Bajo</text><text x="40" y="18" text-anchor="middle" opacity=".7">mango</text>
+          <circle cx="150" cy="35" r="7" fill="#0b1d36" stroke="#74b4e8" stroke-width="2"/><text x="150" y="62" text-anchor="middle">Medio</text>
+          <circle cx="260" cy="35" r="7" fill="#0b1d36" stroke="#f2b21c" stroke-width="2"/><text x="260" y="62" text-anchor="middle">Alto</text><text x="260" y="18" text-anchor="middle" opacity=".7">cabeza</text>
+        </g>
+      </svg>
+      <ul>
+        <li><b>Bajo:</b> se siente más liviana y fácil de mover. Control.</li>
+        <li><b>Medio:</b> equilibrio para todo tipo de golpe.</li>
+        <li><b>Alto:</b> más golpe en el remate, más exigencia para el brazo.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="note"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z"/></svg>
+    <p><b>Ojo:</b> una paleta liviana con balance alto se puede sentir más pesada que una pesada con balance bajo. Por eso conviene mirar los dos datos juntos.</p></div>
+
+  <div class="cta">
+    <div><h2>¿Todavía con dudas?</h2><p>Contanos cómo jugás y te recomendamos la paleta justa.</p></div>
+    <div class="btns">
+      <a class="wa-big" id="waGuia" href="#" target="_blank" rel="noopener"><svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>Escribinos por WhatsApp</a>
+      <a class="ghost" href="/">Ver catálogo</a>
+    </div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <span>Sur Padel · Paletas originales con envío a todo el país</span>
+  <span>Instagram: <a href="https://www.instagram.com/surpadelstore/" target="_blank" rel="noopener">@surpadelstore</a></span>
+  <span>Mail: <a href="mailto:sur.padel.store@gmail.com">sur.padel.store@gmail.com</a></span>
+  <span>Los rangos de esta guía son orientativos.</span>
+</div></footer>
+
+<script>
+document.getElementById("waGuia").href = "https://wa.me/5491163351250?text=" + encodeURIComponent("Hola Sur Padel, leí la guía y quiero que me ayuden a elegir una paleta.");
+</script>

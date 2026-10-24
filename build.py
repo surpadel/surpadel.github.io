@@ -156,9 +156,21 @@ def main() -> None:
            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n" + plantilla + "\n</html>\n"
     os.makedirs("_site", exist_ok=True)
     open("_site/index.html", "w", encoding="utf-8").write(page)
+    armar_guia(reemplazos["__LOGO__"])
     con_foto = sum(1 for d in datos if d[5])
     corregidas = sum(1 for d in datos if d[5].startswith("img/"))
     print(f"Listo: {len(datos)} paletas, {con_foto} con foto, {corregidas} con fondo corregido.")
+
+
+def armar_guia(logo):
+    """Arma la página de la Guía (guia/template.html) en _site/guia/ con sus imágenes."""
+    import shutil
+    plantilla = open("guia/template.html", encoding="utf-8").read().replace("__LOGO__", logo)
+    page = "<!doctype html>\n<html lang=\"es\">\n<head>\n<meta charset=\"utf-8\">\n" \
+           "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n" + plantilla + "\n</html>\n"
+    os.makedirs("_site/guia", exist_ok=True)
+    open("_site/guia/index.html", "w", encoding="utf-8").write(page)
+    shutil.copytree("guia/img", "_site/guia/img", dirs_exist_ok=True)
 
 
 if __name__ == "__main__":
