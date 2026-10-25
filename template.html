@@ -113,6 +113,31 @@ footer{border-top:1px solid var(--line)}
 footer .wrap{padding-block:20px 32px;display:flex;flex-wrap:wrap;gap:12px 28px;color:var(--muted);font-size:13px}
 footer b{color:var(--ink);user-select:all}
 svg.ic{width:16px;height:16px;flex:0 0 auto}
+/* Banner a la Guía: césped de noche, foco que barre y textos que rotan */
+.gb{display:block;position:relative;overflow:hidden;text-decoration:none;color:#fff;background:#0b1d36 url(/guia/img/cesped-800.webp) center 70%/cover no-repeat;border-bottom:1px solid var(--line)}
+.gb::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,21,40,.94) 0%,rgba(7,21,40,.78) 55%,rgba(7,21,40,.45) 100%)}
+.gb::after{content:"";position:absolute;top:-60%;bottom:-60%;width:38%;left:-45%;transform:rotate(14deg);
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.14),transparent);animation:gbSweep 5.5s ease-in-out infinite}
+@keyframes gbSweep{0%{left:-45%}55%,100%{left:120%}}
+.gb .wrap{position:relative;z-index:1;display:flex;align-items:center;gap:14px;padding-block:13px}
+.gb-ic{flex:0 0 auto;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--sol);color:var(--sol-ink);box-shadow:0 0 0 0 rgba(242,178,28,.55);animation:gbPulse 2.4s ease-out infinite}
+.gb-ic svg{width:22px;height:22px}
+@keyframes gbPulse{0%{box-shadow:0 0 0 0 rgba(242,178,28,.55)}70%,100%{box-shadow:0 0 0 12px rgba(242,178,28,0)}}
+.gb-tx{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.gb-t{font-family:var(--display);font-style:italic;font-weight:800;text-transform:uppercase;font-size:clamp(19px,3.4vw,25px);line-height:1;letter-spacing:.01em}
+.gb-t b{color:var(--sol);font-weight:inherit}
+.gb-rot{position:relative;height:1.4em;overflow:hidden;font-size:14px;color:#c9daee}
+.gb-rot span{position:absolute;left:0;top:0;white-space:nowrap;opacity:0;transform:translateY(100%);animation:gbRot 12s infinite}
+.gb-rot span:nth-child(2){animation-delay:3s}.gb-rot span:nth-child(3){animation-delay:6s}.gb-rot span:nth-child(4){animation-delay:9s}
+@keyframes gbRot{0%{opacity:0;transform:translateY(100%)}4%,22%{opacity:1;transform:none}26%,100%{opacity:0;transform:translateY(-100%)}}
+.gb-go{flex:0 0 auto;display:inline-flex;align-items:center;gap:6px;font-family:var(--display);font-style:italic;font-weight:800;text-transform:uppercase;letter-spacing:.05em;font-size:16px;
+  padding:9px 16px;border-radius:999px;border:1.5px solid var(--celeste);background:rgba(116,180,232,.12);transition:background .15s}
+.gb-go svg{width:16px;height:16px;animation:gbArr 1.6s ease-in-out infinite}
+@keyframes gbArr{0%,100%{transform:none}50%{transform:translateX(4px)}}
+.gb:hover .gb-go{background:rgba(116,180,232,.28)}
+.gb:focus-visible{outline:3px solid var(--celeste);outline-offset:-3px}
+@media (max-width:560px){.gb .wrap{gap:10px}.gb-ic{width:36px;height:36px}.gb-ic svg{width:19px;height:19px}.gb-go{padding:8px 11px;font-size:14px}.gb-go em{display:none}.gb-rot{font-size:13px}}
+@media (prefers-reduced-motion:reduce){.gb::after,.gb-ic,.gb-go svg{animation:none}.gb-rot span{animation:none}.gb-rot span:first-child{opacity:1;transform:none}}
 </style>
 
 <header class="hero">
@@ -142,6 +167,17 @@ svg.ic{width:16px;height:16px;flex:0 0 auto}
     </div>
   </div>
 </header>
+
+<a class="gb" href="/guia/" aria-label="Ver la guía para elegir tu paleta">
+  <div class="wrap">
+    <span class="gb-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5M9 8h6M9 12h6"/></svg></span>
+    <span class="gb-tx">
+      <span class="gb-t">¿Qué paleta va con <b>tu juego?</b></span>
+      <span class="gb-rot" aria-hidden="true"><span>Carbono, fibra y tipos de goma</span><span>Qué conviene según tu nivel</span><span>Redonda, lágrima o diamante</span><span>Peso y balance, sin vueltas</span></span>
+    </span>
+    <span class="gb-go"><em>Ver la</em> guía<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+  </div>
+</a>
 
 <div class="bar">
   <div class="wrap">
