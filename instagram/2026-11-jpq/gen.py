@@ -74,9 +74,16 @@ h1 em{{color:{t['hot']};font-style:italic}}
 .foot .brand{{margin-top:14px;font-size:24px;letter-spacing:2px;color:rgba(255,255,255,.55)}}
 """
 
-def shell(t, inner, model=False, compact=False):
+POS={'hero.webp':'center','cesped.webp':'35% center','red.webp':'30% center'}
+
+def shell(t, inner, model=False, compact=False, fondo=None):
     stars = "".join(f'<i style="left:{x}px;top:{y}px">★</i>' for x, y in [(0,0),(40,60),(-30,95),(10,150)])
-    return f"""<html><head><meta charset=utf-8><style>{css(t)}</style></head><body>
+    extra = ''
+    if fondo:
+        extra = (f'.floor,.line,.beam,.spot{{display:none}}'
+                 f'body{{background:linear-gradient(180deg,rgba(7,21,40,.93) 0%,rgba(7,21,40,.6) 25%,rgba(7,21,40,.55) 50%,rgba(7,21,40,.8) 78%,rgba(7,21,40,.97) 100%),url(data:image/webp;base64,{b64(D/fondo)}) {POS.get(fondo,"center")}/cover!important}}'
+                 '.m,.blk,.st{backdrop-filter:blur(8px)} h1,.lead{text-shadow:0 3px 14px rgba(0,0,0,.8)}')
+    return f"""<html><head><meta charset=utf-8><style>{css(t)}{extra}</style></head><body>
 <div class=beam style="left:-80px;transform:rotate(-18deg)"></div><div class=beam style="right:-80px;transform:rotate(18deg)"></div>
 <div class=spot style="left:120px"></div><div class=spot style="right:120px"></div>
 <div class=floor></div><div class=line></div><div class=stars>{stars}</div>
@@ -92,7 +99,7 @@ def resultados(d, t):
         for m in d["partidos"])
     inner = f'<div class=kick>{d["kick"]}</div><h1>{d["titulo"]}</h1>'
     if d.get("cat"): inner += f'<div class=cat>{d["cat"]}</div>'
-    return shell(t, inner + f'<div class=list>{rows}</div>', model=d.get('modelo',False), compact=len(d['partidos'])>4)
+    return shell(t, inner + f'<div class=list>{rows}</div>', model=d.get('modelo',False), compact=len(d['partidos'])>4, fondo=d.get('fondo'))
 
 def campeones(d, t):
     inner = (f'<div class=kick>{d["kick"]}</div><h1>¡Tenemos<br><em>campeones!</em></h1>'
@@ -104,13 +111,13 @@ def campeones(d, t):
 def agenda(d, t):
     st = "".join(f'<div class=st><div class=n>{i+1}</div><div class=tx><div class=a>{a}</div><div class=b>{b}</div></div></div>' for i,(a,b) in enumerate(d["etapas"]))
     inner = f'<div class=kick>{d["kick"]}</div><h1>{d["titulo"]}</h1><div class=lead>{d["lead"]}</div><div class=tl>{st}</div>'
-    return shell(t, inner)
+    return shell(t, inner, fondo=d.get('fondo'))
 
 def pasaron(d, t):
     blk = "".join(f'<div class=blk><div class=tag>{c["cat"]}</div><div class=chips>' + "".join(f'<span>{p}</span>' for p in c["parejas"]) + '</div></div>' for c in d["cats"])
     inner = f'<div class=kick>{d["kick"]}</div><h1>{d["titulo"]}</h1>'
     if d.get("sub"): inner += f'<div class=cat>{d["sub"]}</div>'
-    return shell(t, inner + f'<div class=grp>{blk}</div>', model=d.get("modelo",False), compact=True)
+    return shell(t, inner + f'<div class=grp>{blk}</div>', model=d.get("modelo",False), compact=True, fondo=d.get('fondo'))
 
 def render(jobs, out):
     out = pathlib.Path(out); out.mkdir(exist_ok=True)
