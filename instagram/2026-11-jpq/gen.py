@@ -61,6 +61,11 @@ h1 em{{color:{t['hot']};font-style:italic}}
 .st .tx{{flex:1}} .st .a{{font-family:BC;font-weight:800;font-style:italic;font-size:58px;line-height:1;text-transform:uppercase}}
 .st .b{{font-size:28px;color:{t['acc']};font-weight:600;margin-top:4px}}
 .lead{{margin-top:26px;font-size:34px;text-align:center;color:rgba(255,255,255,.85);line-height:1.3}}
+.grp{{margin-top:34px;width:100%;display:flex;flex-direction:column;gap:22px}}
+.blk{{background:rgba(7,21,40,.62);border:2px solid rgba(255,255,255,.12);border-left:8px solid {t['acc']};border-radius:18px;padding:18px 26px}}
+.blk .tag{{font-family:BC;font-weight:800;font-style:italic;font-size:40px;text-transform:uppercase;color:{t['hot']};margin-bottom:8px}}
+.chips{{display:grid;grid-template-columns:1fr 1fr;gap:6px 24px}}
+.chips span{{font-size:27px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
 .foot{{margin-top:auto;padding-top:30px;text-align:center}}
 .compact .m{{padding:14px 26px}} .compact .w{{font-size:33px}} .compact .l{{font-size:26px}} .compact .sc{{font-size:42px}} .compact h1{{font-size:104px}} .compact .list{{margin-top:32px;gap:16px}}
 .foot .live{{display:inline-block;background:{t['hot']};color:{t['bg1']};font-weight:700;font-size:30px;padding:14px 34px;border-radius:40px}}
@@ -101,13 +106,19 @@ def agenda(d, t):
     inner = f'<div class=kick>{d["kick"]}</div><h1>{d["titulo"]}</h1><div class=lead>{d["lead"]}</div><div class=tl>{st}</div>'
     return shell(t, inner)
 
+def pasaron(d, t):
+    blk = "".join(f'<div class=blk><div class=tag>{c["cat"]}</div><div class=chips>' + "".join(f'<span>{p}</span>' for p in c["parejas"]) + '</div></div>' for c in d["cats"])
+    inner = f'<div class=kick>{d["kick"]}</div><h1>{d["titulo"]}</h1>'
+    if d.get("sub"): inner += f'<div class=cat>{d["sub"]}</div>'
+    return shell(t, inner + f'<div class=grp>{blk}</div>', model=d.get("modelo",False), compact=True)
+
 def render(jobs, out):
     out = pathlib.Path(out); out.mkdir(exist_ok=True)
     with sync_playwright() as p:
         b = p.chromium.launch(); pg = b.new_page(viewport={"width": 1080, "height": 1920})
         for j in jobs:
             t = THEMES[j.get("tema", "azul")]
-            html = {"resultados": resultados, "campeones": campeones, "agenda": agenda}[j["tipo"]](j, t)
+            html = {"resultados": resultados, "campeones": campeones, "agenda": agenda, "pasaron": pasaron}[j["tipo"]](j, t)
             pg.set_content(html); pg.wait_for_timeout(300)
             pg.screenshot(path=str(out / j["archivo"]))
             print(out / j["archivo"])
