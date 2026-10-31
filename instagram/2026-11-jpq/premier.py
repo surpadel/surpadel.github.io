@@ -91,12 +91,32 @@ def post_hype(d):
             f'<div class=sed>{sedes}</div>{FOOT}')
     return css, f'{deco(t)}<div class=wrap>{body}</div>'
 
+def story_pasaron(d):
+    t = T[d.get("tema", "azul")]
+    n = len(d["cats"])
+    fs = 30 if n <= 3 else 27
+    css = base_css(t, 1080, 1920, d.get("fondo", "red.webp")) + f"""
+.wrap{{padding:140px 70px 230px}}.grp{{width:100%;display:flex;flex-direction:column;gap:18px;margin-top:34px}}
+.ch{{display:grid;grid-template-columns:1fr 1fr;gap:4px 22px;padding:12px 20px}}
+.ch span{{font-size:{fs}px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:flex;align-items:center;gap:10px}}
+.ch span:before{{content:"";flex:none;border-left:11px solid {t['hot']};border-top:8px solid transparent;border-bottom:8px solid transparent}}
+"""
+    blk = "".join(
+        f'<div class=sb><div class=hd><span>{c["cat"]}</span><span>{d.get("etiq","A cuartos")}</span></div>'
+        '<div class=ch>' + "".join(f'<span>{p}</span>' for p in c["parejas"]) + '</div></div>'
+        for c in d["cats"])
+    body = (f'<div class=strip><div class=a>JPQ 4°</div><div class=b>{d["strip"]}</div></div>'
+            f'<img class=logo style="margin-top:36px;width:104px;height:104px" src="data:image/png;base64,{gen.LOGO}">'
+            f'<div class=metal style="font-size:{d.get("fs",112)}px;margin-top:18px">{d["titulo"]}</div>'
+            f'<div class=grp>{blk}</div>{FOOT}')
+    return css, f'{deco(t)}<div class=wrap>{body}</div>'
+
 def render(jobs, out):
     out = pathlib.Path(out); out.mkdir(exist_ok=True)
     with sync_playwright() as p:
         b = p.chromium.launch()
         for j in jobs:
-            css, body = {"story_resultados": story_resultados, "post_hype": post_hype}[j["tipo"]](j)
+            css, body = {"story_resultados": story_resultados, "post_hype": post_hype, "story_pasaron": story_pasaron}[j["tipo"]](j)
             H = 1350 if j["tipo"].startswith("post") else 1920
             pg = b.new_page(viewport={"width": 1080, "height": H})
             pg.set_content(f"<html><head><meta charset=utf-8><style>{css}</style></head><body>{body}</body></html>")
