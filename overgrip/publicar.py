@@ -169,7 +169,18 @@ def avisar(lineas):
         print("No se pudo avisar:", e)
 
 
+def probar_buffer(clave):
+    """Crea un BORRADOR de prueba en Buffer (no publica) para validar clave y formato."""
+    h = {"url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/fondo-01-arena-tribuna.jpg",
+         "alt": "Prueba de conexión (borrar)", "organiza": "jpqpadelquilmes"}
+    post = crear(entrada(h, "borrador"), clave)
+    print("Borrador de prueba creado en Buffer:", post)
+
+
 def main():
+    if "--probar-buffer" in sys.argv:
+        probar_buffer(os.environ["BUFFER_API_KEY"])
+        return
     prueba = "--prueba" in sys.argv
     clave = os.environ.get("BUFFER_API_KEY", "")
     if not clave and not prueba:

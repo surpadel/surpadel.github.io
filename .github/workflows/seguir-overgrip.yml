@@ -9,6 +9,10 @@ on:
         description: "Dibujar todo lo pendiente sin esperar"
         type: boolean
         default: false
+      probar_buffer:
+        description: "Solo probar la conexión con Buffer (crea un borrador)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -19,7 +23,18 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  probar:
+    if: inputs.probar_buffer
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probar Buffer (crea un borrador, no publica)
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python3 overgrip/publicar.py --probar-buffer
+
   seguir:
+    if: ${{ !inputs.probar_buffer }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
