@@ -10,7 +10,9 @@
   "archivo": "TEO-CLI006-001/cuartos-rosa-1101-1653-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/cuartos-rosa-1101-1653-1.png",
   "alt": "Cuartos: Damas 6ta, ganaron Boveri Ansaldo L. / Palena S. 6/4 6/3",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6ae798da5604f9d85b85223e",
+  "modo": "auto"
  },
  {
   "creada": "2026-11-01 16:53",
@@ -24,7 +26,9 @@
   "archivo": "TEO-CLI006-001/semifinal-azul-1101-1653-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/semifinal-azul-1101-1653-1.png",
   "alt": "Semifinales: Caballeros 7ma +40, ganaron Auada J. / Dziewulski J. 3/6 6/3 6/2; Caballeros 7ma +40, ganaron Casalini N. / Fermoselle F. 6/2 6/3",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6ae798e41e69de2cfc12d186",
+  "modo": "recordatorio"
  },
  {
   "creada": "2026-11-01 16:53",
@@ -40,7 +44,9 @@
   "archivo": "TEO-CLI006-001/semifinal-rosa-1101-1653-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/semifinal-rosa-1101-1653-1.png",
   "alt": "Semifinales: Damas 4ta, ganaron Arrechea R. / Refort M. 6/4 6/2; Damas 4ta, ganaron Álvarez P. / Mainini M. 6/4 6/2; Damas 5ta, ganaron González L. / Stanganelli A. 4/6 6/1 6/3; Damas 5ta, ganaron Chapuis J. / Velázquez C. 6/3 7/6",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6ae798e5b7d22b897a0ca014",
+  "modo": "recordatorio"
  },
  {
   "creada": "2026-11-01 16:53",
@@ -56,6 +62,8 @@
   "archivo": "TEO-CLI006-001/semifinal-rosa-1101-1653-2.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/semifinal-rosa-1101-1653-2.png",
   "alt": "Semifinales: Damas 6ta, ganaron Boveri Ansaldo L. / Palena S. 6/3 7/6; Damas 6ta, ganaron Delbon M. / Duarte J. 4/6 6/3 7/6; Damas 7ma, ganaron Cufone F. / Lourenco C. 4/6 6/2 6/2; Damas 7ma, ganaron Orellana M. / Yaniri M. 3/6 7/6 6/1",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6ae798e53f7155902f73476a",
+  "modo": "recordatorio"
  }
 ]
