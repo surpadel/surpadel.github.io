@@ -7,12 +7,11 @@ historia con "publicada": false:
   terminados en OverGrip con el MISMO resultado (si lo corrigieron, no sale),
   las dos parejas están completas y el marcador tiene formato válido.
   Si algo no cierra, queda como BORRADOR en Buffer para que Nico la revise.
-- Octavos, cuartos (y 16avos): se publican solas, con etiquetas en la imagen.
+- Todas las instancias (16avos, octavos, cuartos, semis y finales) se
+  publican solas, con etiquetas en la imagen. Desde el 1/11/2026, a pedido
+  de Nico, semis y finales ya no van como recordatorio: nada manual.
 - Especiales (Hoy se juega, Lo mejor de las zonas, Ya están las llaves):
   también salen solas; las de zonas se controlan contra los partidos de zona.
-- Semifinales ("A la final") y finales ("Los campeones"): van como
-  RECORDATORIO de Buffer: llega el aviso al celu y Nico publica desde
-  Instagram agregando el sticker de mención.
 - Tope de historias automáticas por corrida y horario de silencio
   (00:30 a 8:00): en silencio no publica nada, queda para la mañana.
 - Siempre al canal de Instagram de Sur Padel y solo como historia:
@@ -44,7 +43,7 @@ CANAL_INSTAGRAM = "6ae29db22f1f5ed648070dca"  # @surpadelstore, fijo a propósit
 OVERGRIP = "overgripapp"
 TOPE_POR_CORRIDA = 4
 SILENCIO = ((0, 30), (8, 0))  # de 00:30 a 08:00 no se publica
-CON_STICKER = {"Semifinal", "Final"}  # van como recordatorio
+CON_STICKER = set()  # vacío: semis y finales también salen solas (pedido de Nico, 1/11)
 MARCADOR = re.compile(r"^\d{1,2}/\d{1,2}( \d{1,2}/\d{1,2}){1,2}$")
 
 
