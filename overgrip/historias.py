@@ -105,6 +105,8 @@ def armar_trabajos(lista, conf):
                      "p": corto(p["p2"] if p["gan"] == 1 else p["p1"]), "s": p["res"]}
                     for p in tramo
                 ],
+                "inst": inst,
+                "codigos": {p["codigo"]: p["res"] for p in tramo if p.get("codigo")},
                 "archivo": f"{torneo}/{slug}.png",
                 "alt": f"{rot}: " + "; ".join(f"{p['cat']}, ganaron {corto(p['p1'] if p['gan'] == 1 else p['p2'])} {p['res']}" for p in tramo),
             })
@@ -165,7 +167,8 @@ def main():
     hist = leer(HIST, [])
     ahora = datetime.now(ARG).strftime("%Y-%m-%d %H:%M")
     for d in trabajos:
-        hist.append({"creada": ahora, "torneo": d["torneo"], "archivo": d["archivo"],
+        hist.append({"creada": ahora, "torneo": d["torneo"], "inst": d["inst"],
+                     "organiza": d["organiza"], "codigos": d["codigos"], "archivo": d["archivo"],
                      "url": RAW + "instagram/overgrip/" + d["archivo"], "alt": d["alt"][:1000],
                      "publicada": False})
     HIST.write_text(json.dumps(hist[-200:], ensure_ascii=False, indent=1))

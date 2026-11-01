@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: overgrip
@@ -39,11 +40,24 @@ jobs:
           FONTS_DIR: /tmp/f/node_modules/@fontsource
           LOGO_PNG: marca/logo-sur-padel-transparente.png
         run: python3 overgrip/historias.py ${{ inputs.dibujar_ya && '--ya' || '' }}
-      - name: Guardar cambios
+      - name: Guardar imágenes
         run: |
           git add overgrip/datos instagram/overgrip 2>/dev/null || git add overgrip/datos
           if git diff --cached --quiet; then echo "Sin novedades"; exit 0; fi
           git config user.name "surpadel-bot"
           git config user.email "sur.padel.store@gmail.com"
           git commit -m "OverGrip: resultados nuevos [skip ci]"
+          git pull --rebase -q && git push
+      - name: Publicar en Instagram (Buffer)
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          sleep 20   # que la imagen ya esté disponible en raw.githubusercontent
+          python3 overgrip/publicar.py
+          git add overgrip/datos/historias.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "surpadel-bot"
+          git config user.email "sur.padel.store@gmail.com"
+          git commit -m "OverGrip: historias enviadas a Buffer [skip ci]"
           git pull --rebase -q && git push
