@@ -5,7 +5,8 @@ Una vez por día (proceso "Buscar torneos OverGrip"):
   (id, nombre, fechas, estado, sede, categorías) en un solo pedido.
 - Los torneos próximos que todavía no están en overgrip/torneos.json se suman
   con "auto": true, un nombre corto para la franja y el Instagram del
-  organizador (página de información del torneo; si no está, el del club sede).
+  organizador (link de contacto de la ficha del torneo, nunca el de un sponsor;
+  si no hay, el del club sede; si tampoco, se reintenta cada día y se avisa).
 - A los torneos automáticos les actualiza fechas y estado y los prende
   ("activo": true) desde el día anterior a la primera fecha hasta 2 días
   después de la última (o hasta que OverGrip los marque Finalizado).
@@ -109,9 +110,15 @@ def nombre_corto(t):
     return " ".join(palabras)[:18]
 
 
-def instagrams(texto):
+def instagrams(texto, solo_contacto=False):
+    """Usuarios de Instagram de una página. Con solo_contacto, solo el link de contacto
+    (en la ficha del torneo los sponsors también tienen links de Instagram, pero con clave propia)."""
+    if solo_contacto:
+        patron = r'"a",null,\{"href":"https://(?:www\.)?instagram\.com/([A-Za-z0-9_.]+)'
+    else:
+        patron = r"instagram\.com/([A-Za-z0-9_.]+)"
     out = []
-    for u in re.findall(r"instagram\.com/([A-Za-z0-9_.]+)", texto):
+    for u in re.findall(patron, texto):
         u = u.strip(".").lower()
         if u not in NO_SON_ORGANIZADORES and u not in out:
             out.append(u)
@@ -125,7 +132,7 @@ def buscar_instagram(tid):
     except Exception as e:
         print(f"{tid}: no se pudo leer la información ({e})")
         return "", []
-    propios = instagrams(info)
+    propios = instagrams(info, solo_contacto=True)
     clubes = []
     for cu in dict.fromkeys(re.findall(r"/clubes/(CU\w+)", info)):
         try:
@@ -178,6 +185,11 @@ def main():
     for c in conf:
         if not c.get("auto"):
             continue
+        if not c.get("organiza") and c.get("activo") is not None:
+            org, sedes = buscar_instagram(c["id"])  # reintenta cada día hasta encontrarlo
+            if org:
+                c["organiza"], c["sedes_ig"] = org, sedes
+                avisos.append(f"- 📸 Instagram encontrado para **{c['nombre']}**: @{org}")
         t = og.get(c["id"])
         if t:
             c["estado"] = t["grupo"]
