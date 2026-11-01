@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "7,37 * * * *"   # cada 30 minutos
   workflow_dispatch:
+    inputs:
+      dibujar_ya:
+        description: "Dibujar todo lo pendiente sin esperar"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -15,20 +20,30 @@ concurrency:
 jobs:
   seguir:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Leer torneos activos
-        id: lista
-        run: echo "torneos=$(grep -v '^#' overgrip/torneos.txt | xargs)" >> "$GITHUB_OUTPUT"
       - name: Bajar resultados
-        if: steps.lista.outputs.torneos != ''
-        run: python3 overgrip/seguir.py ${{ steps.lista.outputs.torneos }}
+        run: python3 overgrip/seguir.py
+      - name: ¿Hay historias para armar?
+        id: hay
+        run: echo "dibujar=$(python3 overgrip/historias.py --hay ${{ inputs.dibujar_ya && '--ya' || '' }})" >> "$GITHUB_OUTPUT"
+      - name: Preparar el dibujante
+        if: steps.hay.outputs.dibujar == 'true'
+        run: |
+          mkdir -p /tmp/f && cd /tmp/f && npm i --silent @fontsource/barlow @fontsource/barlow-condensed
+          pip install -q playwright && python3 -m playwright install --with-deps chromium > /dev/null
+      - name: Armar historias
+        if: steps.hay.outputs.dibujar == 'true'
+        env:
+          FONTS_DIR: /tmp/f/node_modules/@fontsource
+          LOGO_PNG: marca/logo-sur-padel-transparente.png
+        run: python3 overgrip/historias.py ${{ inputs.dibujar_ya && '--ya' || '' }}
       - name: Guardar cambios
         run: |
-          git add overgrip/datos
+          git add overgrip/datos instagram/overgrip 2>/dev/null || git add overgrip/datos
           if git diff --cached --quiet; then echo "Sin novedades"; exit 0; fi
           git config user.name "surpadel-bot"
           git config user.email "sur.padel.store@gmail.com"
           git commit -m "OverGrip: resultados nuevos [skip ci]"
-          git push
+          git pull --rebase -q && git push

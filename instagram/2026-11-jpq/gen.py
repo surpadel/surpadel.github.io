@@ -1,8 +1,8 @@
-import base64, json, sys, pathlib
+import base64, json, os, sys, pathlib
 from playwright.sync_api import sync_playwright
 
 D = pathlib.Path(__file__).parent
-F = D / "node_modules/@fontsource"
+F = pathlib.Path(os.environ.get("FONTS_DIR", D / "node_modules/@fontsource"))
 
 def b64(p): return base64.b64encode(pathlib.Path(p).read_bytes()).decode()
 
@@ -13,7 +13,7 @@ FONTS = f"""
 @font-face{{font-family:B;font-weight:600;src:url(data:font/woff2;base64,{b64(F/'barlow/files/barlow-latin-600-normal.woff2')})}}
 @font-face{{font-family:B;font-weight:700;src:url(data:font/woff2;base64,{b64(F/'barlow/files/barlow-latin-700-normal.woff2')})}}
 """
-LOGO = b64(D / "logo.png")
+LOGO = b64(os.environ.get("LOGO_PNG", D / "logo.png"))
 
 THEMES = {
     "azul": dict(bg1="#071528", bg2="#0b1d36", court="#1d5cad", court2="#174d94", acc="#74b4e8", hot="#f2b21c"),

@@ -5,7 +5,8 @@ Un solo pedido por torneo: la página de partidos pedida con el encabezado
 Se guardan solo los cruces (16avos en adelante) en formato compacto y se
 anotan como novedades los partidos que terminaron desde la corrida anterior.
 
-Uso: python3 overgrip/seguir.py TEO-CLI006-001 [OTRO-TORNEO ...]
+Uso: python3 overgrip/seguir.py [TORNEO ...]
+Sin argumentos sigue los torneos con "activo": true de overgrip/torneos.json.
 """
 import json
 import sys
@@ -104,5 +105,6 @@ def seguir(torneo):
 
 if __name__ == "__main__":
     CARPETA.mkdir(parents=True, exist_ok=True)
-    for t in sys.argv[1:] or ["TEO-CLI006-001"]:
+    conf = json.loads((Path(__file__).parent / "torneos.json").read_text())
+    for t in sys.argv[1:] or [x["id"] for x in conf if x.get("activo")]:
         seguir(t)
