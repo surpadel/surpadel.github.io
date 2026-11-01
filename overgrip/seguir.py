@@ -2,8 +2,10 @@
 
 Un solo pedido por torneo: la página de partidos pedida con el encabezado
 "RSC: 1" devuelve todos los partidos de todas las categorías en JSON.
-Se guardan solo los cruces (16avos en adelante) en formato compacto y se
-anotan como novedades los partidos que terminaron desde la corrida anterior.
+Se guardan los cruces (16avos en adelante) y los partidos de zona en formato
+compacto, y se anotan como novedades los cruces que terminaron desde la
+corrida anterior. La primera vez que se lee un torneo no hay novedades: lo
+jugado hasta ese momento queda como punto de partida.
 
 Uso: python3 overgrip/seguir.py [TORNEO ...]
 Sin argumentos sigue los torneos con "activo": true de overgrip/torneos.json.
@@ -67,6 +69,7 @@ def compactar(p):
         "p2": " / ".join(p.get("pareja2") or []),
         "res": p.get("resultado") or "",
         "gan": p.get("ganador"),
+        **({"zona": p.get("zona")} if p.get("instancia") == "Zona" else {}),
     }
 
 
@@ -77,20 +80,26 @@ def seguir(torneo):
         for p in partidos
         if p.get("instancia") != "Zona"
     }
+    zonas = {
+        p["codigoCompleto"]: compactar(p)
+        for p in partidos
+        if p.get("instancia") == "Zona"
+    }
     archivo = CARPETA / f"{torneo}.json"
-    antes = json.loads(archivo.read_text()) if archivo.exists() else {}
+    primera = not archivo.exists()
+    antes = {} if primera else json.loads(archivo.read_text())
     viejos = antes.get("cruces", {})
-    nuevos = [
+    nuevos = [] if primera else [
         dict(codigo=c, **d)
         for c, d in cruces.items()
         if d["estado"] in TERMINADOS
         and viejos.get(c, {}).get("estado") not in TERMINADOS
     ]
     ahora = datetime.now(ARG).strftime("%Y-%m-%d %H:%M")
-    if cruces != viejos:
+    if primera or cruces != viejos or zonas != antes.get("zonas", {}):
         archivo.write_text(
             json.dumps(
-                {"torneo": torneo, "actualizado": ahora, "cruces": cruces},
+                {"torneo": torneo, "actualizado": ahora, "cruces": cruces, "zonas": zonas},
                 ensure_ascii=False, indent=0, sort_keys=True,
             )
         )
@@ -99,7 +108,8 @@ def seguir(torneo):
         lista = json.loads(nov.read_text()) if nov.exists() else []
         lista.append({"torneo": torneo, "hora": ahora, "partidos": nuevos})
         nov.write_text(json.dumps(lista[-50:], ensure_ascii=False, indent=1))
-    print(f"{torneo}: {len(partidos)} partidos, {len(cruces)} cruces, {len(nuevos)} terminados nuevos")
+    print(f"{torneo}: {len(partidos)} partidos, {len(zonas)} de zona, {len(cruces)} cruces, "
+          f"{len(nuevos)} terminados nuevos" + (" (punto de partida)" if primera else ""))
     return len(nuevos)
 
 
@@ -107,4 +117,7 @@ if __name__ == "__main__":
     CARPETA.mkdir(parents=True, exist_ok=True)
     conf = json.loads((Path(__file__).parent / "torneos.json").read_text())
     for t in sys.argv[1:] or [x["id"] for x in conf if x.get("activo")]:
-        seguir(t)
+        try:
+            seguir(t)
+        except Exception as e:  # un torneo sin fixture todavía no frena a los demás
+            print(f"{t}: sin datos por ahora ({e})")

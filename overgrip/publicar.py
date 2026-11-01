@@ -8,6 +8,8 @@ historia con "publicada": false:
   las dos parejas están completas y el marcador tiene formato válido.
   Si algo no cierra, queda como BORRADOR en Buffer para que Nico la revise.
 - Octavos, cuartos (y 16avos): se publican solas, con etiquetas en la imagen.
+- Especiales (Hoy se juega, Lo mejor de las zonas, Ya están las llaves):
+  también salen solas; las de zonas se controlan contra los partidos de zona.
 - Semifinales ("A la final") y finales ("Los campeones"): van como
   RECORDATORIO de Buffer: llega el aviso al celu y Nico publica desde
   Instagram agregando el sticker de mención.
@@ -61,10 +63,12 @@ def problemas(h):
     out = []
     if not (SALIDA / h["archivo"]).exists():
         out.append("no está la imagen")
+    if h.get("tipo") in ("hoy", "llaves"):
+        return out  # sin marcadores que controlar
     codigos = h.get("codigos") or {}
     if not codigos:
         out.append("historia sin datos de partidos (formato viejo)")
-    datos = leer(DATOS / f"{h['torneo']}.json", {}).get("cruces", {})
+    datos = leer(DATOS / f"{h['torneo']}.json", {}).get("zonas" if h.get("tipo") == "zona" else "cruces", {})
     for cod, res in codigos.items():
         p = datos.get(cod)
         if not p:
@@ -83,9 +87,8 @@ def problemas(h):
 
 def entrada(h, modo):
     """Arma el input de createPost. modo: auto | recordatorio | borrador."""
-    etiquetas = [{"handle": OVERGRIP, "x": 0.5, "y": 0.93}]
-    if h.get("organiza"):
-        etiquetas.insert(0, {"handle": h["organiza"], "x": 0.5, "y": 0.9})
+    cuentas = list(dict.fromkeys((h.get("etiquetas") or ([h["organiza"]] if h.get("organiza") else [])) + [OVERGRIP]))
+    etiquetas = [{"handle": u, "x": 0.5, "y": round(0.84 + 0.03 * i, 2)} for i, u in enumerate(cuentas[-5:])]
     imagen = {"url": h["url"], "metadata": {"altText": h.get("alt") or "Resultados del torneo",
                                             "userTags": etiquetas}}
     inp = {

@@ -1,0 +1,35 @@
+name: Buscar torneos OverGrip
+
+# Una vez por día: suma los torneos nuevos de OverGrip al seguimiento,
+# busca el Instagram del organizador y prende o apaga cada torneo según sus fechas.
+on:
+  schedule:
+    - cron: "41 10 * * *"   # 7:41 de Argentina, antes del primer seguimiento de la mañana
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: overgrip
+  cancel-in-progress: false
+
+jobs:
+  buscar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Buscar torneos nuevos
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 overgrip/buscar.py
+      - name: Guardar
+        run: |
+          git add overgrip/torneos.json
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git config user.name "surpadel-bot"
+          git config user.email "sur.padel.store@gmail.com"
+          git commit -m "OverGrip: torneos actualizados [skip ci]"
+          git pull --rebase -q && git push

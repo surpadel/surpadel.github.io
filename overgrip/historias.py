@@ -11,6 +11,9 @@ Uso:
   python3 overgrip/historias.py --hay   -> imprime "true" o "false"
   python3 overgrip/historias.py         -> dibuja lo que corresponda
   python3 overgrip/historias.py --ya    -> dibuja todo lo pendiente sin esperar
+
+Además arma las historias especiales de especiales.py (Hoy se juega,
+Lo mejor de las zonas, Ya están las llaves) cuando corresponde.
 """
 import json
 import sys
@@ -115,7 +118,8 @@ def armar_trabajos(lista, conf):
 
 def dibujar(trabajos):
     sys.path.insert(0, str(RAIZ / "instagram" / "2026-11-jpq"))
-    import gen, premier
+    sys.path.insert(0, str(RAIZ / "overgrip"))
+    import gen, premier, especiales
     from playwright.sync_api import sync_playwright
 
     def html(d):
@@ -130,7 +134,7 @@ def dibujar(trabajos):
                 f'<div class=cred>{org}Resultados <b>@overgripapp</b></div>'
                 '<div class=brand>@SURPADELSTORE · SURPADEL.COM.AR</div></div>')
         cards = "".join(premier.scoreboard(m, m["tag"]) for m in d["partidos"])
-        body = (f'<div class=strip><div class=a>{d["corto"]}</div><div class=b>{d["strip"]}</div></div>'
+        body = (f'<div class=strip><div class=a{especiales.franja(d["corto"])}>{d["corto"]}</div><div class=b>{d["strip"]}</div></div>'
                 f'<img class=logo style="margin-top:46px" src="data:image/png;base64,{gen.LOGO}">'
                 f'<div class=metal style="font-size:124px;margin-top:22px">{d["titulo"]}</div>'
                 f'<div class=list>{cards}</div>{foot}')
@@ -152,29 +156,44 @@ def dibujar(trabajos):
 
 
 def main():
+    sys.path.insert(0, str(Path(__file__).parent))
+    import especiales
     nov = leer(NOV, [])
+    hist = leer(HIST, [])
+    conf_lista = leer(CONF, [])
     lista = pendientes(nov)
     forzar = "--ya" in sys.argv
+    ahora = datetime.now(ARG)
+    extra = especiales.trabajos(conf_lista, hist, ahora)
+    hay = conviene(lista, forzar)
     if "--hay" in sys.argv:
-        print("true" if conviene(lista, forzar) else "false")
+        print("true" if hay or extra else "false")
         return
-    if not conviene(lista, forzar):
+    if not hay and not extra:
         print("Nada para dibujar todavía")
         return
-    conf = {t["id"]: t for t in leer(CONF, [])}
-    trabajos = armar_trabajos(lista, conf)
+    conf = {t["id"]: t for t in conf_lista}
+    trabajos = armar_trabajos(lista, conf) if hay else []
     dibujar(trabajos)
-    hist = leer(HIST, [])
-    ahora = datetime.now(ARG).strftime("%Y-%m-%d %H:%M")
+    especiales.dibujar(extra, SALIDA)
+    sello = ahora.strftime("%Y-%m-%d %H:%M")
     for d in trabajos:
-        hist.append({"creada": ahora, "torneo": d["torneo"], "inst": d["inst"],
+        hist.append({"creada": sello, "torneo": d["torneo"], "inst": d["inst"],
                      "organiza": d["organiza"], "codigos": d["codigos"], "archivo": d["archivo"],
                      "url": RAW + "instagram/overgrip/" + d["archivo"], "alt": d["alt"][:1000],
                      "publicada": False})
-    HIST.write_text(json.dumps(hist[-200:], ensure_ascii=False, indent=1))
-    for tanda in nov:
-        tanda["dibujada"] = True
-    NOV.write_text(json.dumps(nov, ensure_ascii=False, indent=1))
+    for d in extra:
+        hist.append({"creada": sello, "torneo": d["torneo"], "inst": d["inst"], "tipo": d["tipo"],
+                     "clave": d["clave"], "organiza": d.get("organiza", ""),
+                     "etiquetas": d.get("etiquetas") or ([d["organiza"]] if d.get("organiza") else []),
+                     "codigos": d.get("codigos", {}), "archivo": d["archivo"],
+                     "url": RAW + "instagram/overgrip/" + d["archivo"], "alt": d["alt"][:1000],
+                     "publicada": False})
+    HIST.write_text(json.dumps(hist[-300:], ensure_ascii=False, indent=1))
+    if hay:
+        for tanda in nov:
+            tanda["dibujada"] = True
+        NOV.write_text(json.dumps(nov, ensure_ascii=False, indent=1))
 
 
 if __name__ == "__main__":
