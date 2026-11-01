@@ -65,5 +65,84 @@
   "publicada": true,
   "en_buffer": "6ae798e53f7155902f73476a",
   "modo": "recordatorio"
+ },
+ {
+  "creada": "2026-11-01 20:23",
+  "torneo": "TEO-CLI006-001",
+  "inst": "Semifinal",
+  "organiza": "jpqpadelquilmes",
+  "codigos": {
+   "006001-C2-12": "6/4 6/2",
+   "006001-C3-61": "6/3 6/4",
+   "006001-C3-62": "6/1 7/6",
+   "006001-C4-61": "6/2 6/1",
+   "006001-C5-61": "6/4 2/6 6/3"
+  },
+  "archivo": "TEO-CLI006-001/semifinal-azul-1101-2023-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/semifinal-azul-1101-2023-1.png",
+  "alt": "Semifinales: Caballeros 2da, ganaron Guattini L. / Ruiz F. 6/4 6/2; Caballeros 3ra, ganaron Cattaneo M. / Huenchuquir N. 6/3 6/4; Caballeros 3ra, ganaron Medina P. / Moran L. 6/1 7/6; Caballeros 4ta, ganaron Benítez L. / Libertini M. 6/2 6/1; Caballeros 5ta, ganaron Aristimuño G. / Cavazzoni J. 6/4 2/6 6/3",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-01 20:23",
+  "torneo": "TEO-CLI006-001",
+  "inst": "Semifinal",
+  "organiza": "jpqpadelquilmes",
+  "codigos": {
+   "006001-C5-62": "6/4 6/2",
+   "006001-C5+40-61": "3/6 6/1 7/6",
+   "006001-C5+40-62": "6/4 6/4",
+   "006001-C6-61": "6/4 5/7 6/1",
+   "006001-C6-62": "6/3 3/6 6/4"
+  },
+  "archivo": "TEO-CLI006-001/semifinal-azul-1101-2023-2.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/semifinal-azul-1101-2023-2.png",
+  "alt": "Semifinales: Caballeros 5ta, ganaron Garcia Perales L. / Herrera J. 6/4 6/2; Caballeros 5ta +40, ganaron Ferreiro C. / Ruiz D. 3/6 6/1 7/6; Caballeros 5ta +40, ganaron Castillo J. / Marcote S. 6/4 6/4; Caballeros 6ta, ganaron Aguilar G. / Isasi J. 6/4 5/7 6/1; Caballeros 6ta, ganaron Conde Meira M. / Salvatierra M. 6/3 3/6 6/4",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-01 20:23",
+  "torneo": "TEO-CLI006-001",
+  "inst": "Semifinal",
+  "organiza": "jpqpadelquilmes",
+  "codigos": {
+   "006001-C6+35-61": "6/4 6/3",
+   "006001-C6+35-62": "6/3 6/3",
+   "006001-C7-61": "6/4 6/2",
+   "006001-C7-62": "6/2 7/5"
+  },
+  "archivo": "TEO-CLI006-001/semifinal-azul-1101-2023-3.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/semifinal-azul-1101-2023-3.png",
+  "alt": "Semifinales: Caballeros 6ta +35, ganaron Montejo L. / Remorino N. 6/4 6/3; Caballeros 6ta +35, ganaron Peter D. / Torres M. 6/3 6/3; Caballeros 7ma, ganaron Bonaffini E. / Jose I. 6/4 6/2; Caballeros 7ma, ganaron Borras C. / Roberts K. 6/2 7/5",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-01 20:23",
+  "torneo": "TEO-CLI006-001",
+  "inst": "Final",
+  "organiza": "jpqpadelquilmes",
+  "codigos": {
+   "006001-C7+40-64": "6/2 6/3"
+  },
+  "archivo": "TEO-CLI006-001/final-azul-1101-2023-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/final-azul-1101-2023-1.png",
+  "alt": "Finales: Caballeros 7ma +40, ganaron Casalini N. / Fermoselle F. 6/2 6/3",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-01 20:23",
+  "torneo": "TEO-CLI006-001",
+  "inst": "Final",
+  "organiza": "jpqpadelquilmes",
+  "codigos": {
+   "006001-D4-64": "6/1 4/6 6/2",
+   "006001-D5-64": "6/2 7/5",
+   "006001-D6-64": "5/7 6/3 6/2",
+   "006001-D7-64": "6/2 7/6"
+  },
+  "archivo": "TEO-CLI006-001/final-rosa-1101-2023-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/final-rosa-1101-2023-1.png",
+  "alt": "Finales: Damas 4ta, ganaron Arrechea R. / Refort M. 6/1 4/6 6/2; Damas 5ta, ganaron Chapuis J. / Velázquez C. 6/2 7/5; Damas 6ta, ganaron Boveri Ansaldo L. / Palena S. 5/7 6/3 6/2; Damas 7ma, ganaron Orellana M. / Yaniri M. 6/2 7/6",
+  "publicada": false
  }
 ]
