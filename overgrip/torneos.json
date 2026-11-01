@@ -1,3 +1,202 @@
 [
- {"id": "TEO-CLI006-001", "corto": "JPQ 4°", "organiza": "jpqpadelquilmes", "activo": true}
+ {
+  "id": "TEO-CLI006-001",
+  "corto": "JPQ 4°",
+  "organiza": "jpqpadelquilmes",
+  "activo": true
+ },
+ {
+  "id": "TEO-CLI009-001",
+  "corto": "Tremendas 3°",
+  "organiza": "niupadel",
+  "sedes_ig": [],
+  "nombre": "Tremendas 3° Edición",
+  "cuando": "7 y 8 nov 2026",
+  "fechas": [
+   "2026-11-07",
+   "2026-11-08"
+  ],
+  "sede": "La Meca Quilmes · Quilmes",
+  "categorias": [
+   "Damas 2da",
+   "Damas 3ra",
+   "Damas 4ta"
+  ],
+  "estado": "Inscripción Abierta",
+  "auto": true,
+  "activo": false,
+  "alta": "2026-11-01"
+ },
+ {
+  "id": "TEO-CLI008-001",
+  "corto": "Juvepa",
+  "organiza": "dabbersport",
+  "sedes_ig": [],
+  "nombre": "Juvepa Torneo Malvinas Argentinas",
+  "cuando": "7, 8, 14 y 15 nov 2026",
+  "fechas": [
+   "2026-11-07",
+   "2026-11-08",
+   "2026-11-14",
+   "2026-11-15"
+  ],
+  "sede": "",
+  "categorias": [
+   "Caballeros 3ra +35",
+   "Caballeros 4ta +40",
+   "Caballeros 5ta +40",
+   "Caballeros 5ta +50",
+   "Caballeros 6ta +50",
+   "Caballeros 6ta +40",
+   "Caballeros 7ma +40"
+  ],
+  "estado": "Inscripción Abierta",
+  "auto": true,
+  "activo": false,
+  "alta": "2026-11-01"
+ },
+ {
+  "id": "TEO-CLI011-001",
+  "corto": "Metro Padel",
+  "organiza": "metropadeloficial",
+  "sedes_ig": [],
+  "nombre": "Metro Padel Open",
+  "cuando": "13 al 15 y 21 al 23 nov 2026",
+  "fechas": [
+   "2026-11-13",
+   "2026-11-14",
+   "2026-11-15",
+   "2026-11-21",
+   "2026-11-22",
+   "2026-11-23"
+  ],
+  "sede": "",
+  "categorias": [
+   "Caballeros 5ta",
+   "Caballeros 6ta",
+   "Caballeros 7ma",
+   "Caballeros 8va",
+   "Damas 5ta",
+   "Damas 6ta",
+   "Damas 7ma",
+   "Damas 8va"
+  ],
+  "estado": "Inscripción Abierta",
+  "auto": true,
+  "activo": false,
+  "alta": "2026-11-01"
+ },
+ {
+  "id": "TEO-CLI010-001",
+  "corto": "Eleven Route",
+  "organiza": "magnuspadel",
+  "sedes_ig": [],
+  "nombre": "Torneo Eleven Route",
+  "cuando": "13 al 15 nov 2026",
+  "fechas": [
+   "2026-11-13",
+   "2026-11-14",
+   "2026-11-15"
+  ],
+  "sede": "Eleven Route · La Plata",
+  "categorias": [
+   "Caballeros 6ta",
+   "Caballeros 7ma",
+   "Damas 6ta",
+   "Damas 7ma"
+  ],
+  "estado": "Inscripción Abierta",
+  "auto": true,
+  "activo": false,
+  "alta": "2026-11-01"
+ },
+ {
+  "id": "TEO-CLI015-001",
+  "corto": "Animal 81",
+  "organiza": "boulevard_81",
+  "sedes_ig": [
+   "estacionnortepadel"
+  ],
+  "nombre": "ANIMAL 81 - 21-22-28-29 Noviembre",
+  "cuando": "21, 22, 28 y 29 nov 2026",
+  "fechas": [
+   "2026-11-21",
+   "2026-11-22",
+   "2026-11-28",
+   "2026-11-29"
+  ],
+  "sede": "",
+  "categorias": [
+   "Caballeros 3ra",
+   "Caballeros 4ta",
+   "Caballeros 5ta",
+   "Caballeros 6ta",
+   "Caballeros 6ta +45",
+   "Caballeros 7ma",
+   "Damas 4ta",
+   "Damas 5ta",
+   "Damas 6ta",
+   "Damas 7ma"
+  ],
+  "estado": "Inscripción Abierta",
+  "auto": true,
+  "activo": false,
+  "alta": "2026-11-01"
+ },
+ {
+  "id": "TEO-CLI013-001",
+  "corto": "Women's Pádel",
+  "organiza": "wopnecochea",
+  "sedes_ig": [],
+  "nombre": "Women's Open Pádel",
+  "cuando": "5 al 8 dic 2026",
+  "fechas": [
+   "2026-12-05",
+   "2026-12-06",
+   "2026-12-07",
+   "2026-12-08"
+  ],
+  "sede": "",
+  "categorias": [
+   "Damas 2da",
+   "Damas 3ra",
+   "Damas 4ta",
+   "Damas 5ta",
+   "Damas 6ta",
+   "Damas 7ma",
+   "Damas 8va"
+  ],
+  "estado": "Inscripción Abierta",
+  "auto": true,
+  "activo": false,
+  "alta": "2026-11-01"
+ },
+ {
+  "id": "TEO-CLI012-001",
+  "corto": "Retro Padel",
+  "organiza": "retroclub.padel",
+  "sedes_ig": [],
+  "nombre": "Retro Padel",
+  "cuando": "7 al 11 dic 2026",
+  "fechas": [
+   "2026-12-07",
+   "2026-12-08",
+   "2026-12-09",
+   "2026-12-10",
+   "2026-12-11"
+  ],
+  "sede": "Club Retro Padel · Los Hornos",
+  "categorias": [
+   "Caballeros 6ta",
+   "Caballeros 7ma",
+   "Caballeros 8va",
+   "Damas 5ta",
+   "Damas 6ta",
+   "Damas 7ma"
+  ],
+  "estado": "Próximamente",
+  "auto": true,
+  "activo": false,
+  "alta": "2026-11-01"
+ }
 ]
