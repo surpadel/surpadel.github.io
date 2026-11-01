@@ -1,1 +1,152 @@
-[]
+[
+ {
+  "torneo": "TEO-CLI006-001",
+  "hora": "2026-11-01 16:53",
+  "partidos": [
+   {
+    "codigo": "006001-D6-57",
+    "cat": "Damas 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-10-31",
+    "hora": "18:30",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Errecart, Melany Daniela / Roman, Milagros Rocío",
+    "p2": "Boveri Ansaldo, Lola / Palena, Sofía",
+    "res": "6/4 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "006001-C7+40-61",
+    "cat": "Caballeros 7ma +40",
+    "inst": "Semifinal",
+    "dia": "2026-11-01",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Auada, Jymmy / Dziewulski, Javier",
+    "p2": "Oberto, Cristian / Palavecino, Ezequiel",
+    "res": "3/6 6/3 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "006001-C7+40-62",
+    "cat": "Caballeros 7ma +40",
+    "inst": "Semifinal",
+    "dia": "2026-11-01",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Barbero, Néstor Hugo / Mutti, Rubén Osvaldo",
+    "p2": "Casalini, Nahuel / Fermoselle, Federico Rubén",
+    "res": "6/2 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "006001-D4-61",
+    "cat": "Damas 4ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-01",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Delle Chiaie, Leonella / Fridman, Sabrina",
+    "p2": "Arrechea, Rosario / Refort, María Mercedes",
+    "res": "6/4 6/2",
+    "gan": 2
+   },
+   {
+    "codigo": "006001-D4-62",
+    "cat": "Damas 4ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-01",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Fotia, Martina / Núñez, Nicole",
+    "p2": "Álvarez, Paula Daniela / Mainini, María Cecilia",
+    "res": "6/4 6/2",
+    "gan": 2
+   },
+   {
+    "codigo": "006001-D7-61",
+    "cat": "Damas 7ma",
+    "inst": "Semifinal",
+    "dia": "2026-11-01",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Cufone, Florencia Noelia / Lourenco, Camila",
+    "p2": "Gutiérrez, Juliana / Liñeiro, Macarena",
+    "res": "4/6 6/2 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "006001-D7-62",
+    "cat": "Damas 7ma",
+    "inst": "Semifinal",
+    "dia": "2026-11-01",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Orellana, Melany Milagros / Yaniri, Mariana Noemi",
+    "p2": "Barrios, Sabrina / Flamingo, Juliana",
+    "res": "3/6 7/6 6/1",
+    "gan": 1
+   },
+   {
+    "codigo": "006001-D5-61",
+    "cat": "Damas 5ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-01",
+    "hora": "14:15",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "González, Lisi / Stanganelli, Anabella",
+    "p2": "Burgos, Noe / Paez, Sabrina",
+    "res": "4/6 6/1 6/3",
+    "gan": 1
+   },
+   {
+    "codigo": "006001-D5-62",
+    "cat": "Damas 5ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-01",
+    "hora": "14:15",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Chapuis, Jacqueline / Velázquez, Carolina Belen",
+    "p2": "Ángeles Sánchez, María / Movia, María Belen",
+    "res": "6/3 7/6",
+    "gan": 1
+   },
+   {
+    "codigo": "006001-D6-61",
+    "cat": "Damas 6ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-01",
+    "hora": "14:15",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Boveri Ansaldo, Lola / Palena, Sofía",
+    "p2": "Alegre, Andrea / Luzzi, Jennifer",
+    "res": "6/3 7/6",
+    "gan": 1
+   },
+   {
+    "codigo": "006001-D6-62",
+    "cat": "Damas 6ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-01",
+    "hora": "14:15",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Delbon, Mónica Elizabeth / Duarte, Josefina",
+    "p2": "Debasto, Ayelén / Demaria Lamas, Manuela",
+    "res": "4/6 6/3 7/6",
+    "gan": 1
+   }
+  ],
+  "dibujada": true
+ }
+]
