@@ -1,0 +1,2 @@
+# Torneos de OverGrip a seguir (uno por línea). Borrar la línea cuando termina.
+TEO-CLI006-001
