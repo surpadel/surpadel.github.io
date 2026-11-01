@@ -6,7 +6,13 @@ historia con "publicada": false:
 - Controles antes de publicar: la imagen existe, los partidos siguen
   terminados en OverGrip con el MISMO resultado (si lo corrigieron, no sale),
   las dos parejas están completas y el marcador tiene formato válido.
-  Si algo no cierra, queda como BORRADOR en Buffer para que Nico la revise.
+  Si algo no cierra, NO se publica ni queda nada para Nico (pedido del 1/11:
+  todo automático, nada manual):
+    - si es algo pasajero (todavía no figura terminado, falta una pareja,
+      marcador raro), se reintenta en cada vuelta hasta 3 horas;
+    - si el resultado cambió, o pasaron las 3 horas, la imagen se descarta y
+      los partidos que siguen bien se vuelven a encolar en novedades.json
+      para que historias.py los dibuje de nuevo con los datos correctos.
 - Todas las instancias (16avos, octavos, cuartos, semis y finales) se
   publican solas, con etiquetas en la imagen. Desde el 1/11/2026, a pedido
   de Nico, semis y finales ya no van como recordatorio: nada manual.
@@ -43,6 +49,7 @@ CANAL_INSTAGRAM = "6ae29db22f1f5ed648070dca"  # @surpadelstore, fijo a propósit
 OVERGRIP = "overgripapp"
 TOPE_POR_CORRIDA = 4
 SILENCIO = ((0, 30), (8, 0))  # de 00:30 a 08:00 no se publica
+ESPERA_MAX = timedelta(hours=3)  # reintentos de una historia con problemas
 CON_STICKER = set()  # vacío: semis y finales también salen solas (pedido de Nico, 1/11)
 MARCADOR = re.compile(r"^\d{1,2}/\d{1,2}( \d{1,2}/\d{1,2}){1,2}$")
 
@@ -82,6 +89,26 @@ def problemas(h):
         if not p["p1"].strip() or not p["p2"].strip() or p["gan"] not in (1, 2):
             out.append(f"{cod}: falta una pareja o el ganador")
     return out
+
+
+def reencolar(h, ahora):
+    """Vuelve a poner en novedades.json los partidos de una historia descartada
+    que hoy están bien en OverGrip, para que se dibujen de nuevo."""
+    if h.get("tipo") or not h.get("codigos") or not h.get("torneo"):
+        return 0  # especiales: se regeneran solas o se dejan pasar
+    cruces = leer(DATOS / f"{h['torneo']}.json", {}).get("cruces", {})
+    partidos = []
+    for cod in h["codigos"]:
+        p = cruces.get(cod)
+        if (p and p["estado"] == "Finalizado" and MARCADOR.match(p["res"] or "")
+                and p["p1"].strip() and p["p2"].strip() and p["gan"] in (1, 2)):
+            partidos.append({"codigo": cod, **p})
+    if partidos:
+        nov_path = DATOS / "novedades.json"
+        nov = leer(nov_path, [])
+        nov.append({"torneo": h["torneo"], "hora": ahora.strftime("%Y-%m-%d %H:%M"), "partidos": partidos})
+        nov_path.write_text(json.dumps(nov[-50:], ensure_ascii=False, indent=1))
+    return len(partidos)
 
 
 def entrada(h, modo):
@@ -200,8 +227,22 @@ def main():
     autos, lineas = 0, []
     for h in pend:
         motivos = problemas(h)
+        if motivos and not prueba:
+            desde = h.setdefault("espera_desde", ahora.strftime("%Y-%m-%d %H:%M"))
+            esperando = ahora - datetime.strptime(desde, "%Y-%m-%d %H:%M").replace(tzinfo=ARG)
+            cambio = any("resultado cambió" in m for m in motivos)
+            h["motivos"] = motivos
+            if not cambio and esperando < ESPERA_MAX:
+                print(f"Espera (se reintenta): {h['archivo']} {motivos}")
+                continue
+            n = reencolar(h, ahora)
+            h["publicada"] = True  # no se reintenta más esta imagen
+            h["modo"] = "descartada"
+            lineas.append(f"- ♻️ Descartada y {'rehecha con ' + str(n) + ' partidos' if n else 'sin rehacer'}: "
+                          f"{h.get('alt', h['archivo'])[:120]} — {'; '.join(motivos)}")
+            continue
         if motivos:
-            modo = "borrador"
+            modo = "borrador"  # solo en --prueba, para mostrar
         elif h.get("inst") in CON_STICKER:
             modo = "recordatorio"
         elif autos < TOPE_POR_CORRIDA:

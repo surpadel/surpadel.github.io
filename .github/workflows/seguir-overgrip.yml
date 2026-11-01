@@ -70,7 +70,7 @@ jobs:
         run: |
           sleep 20   # que la imagen ya esté disponible en raw.githubusercontent
           python3 overgrip/publicar.py
-          git add overgrip/datos/historias.json
+          git add overgrip/datos/historias.json overgrip/datos/novedades.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "surpadel-bot"
           git config user.email "sur.padel.store@gmail.com"
