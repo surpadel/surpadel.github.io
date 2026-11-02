@@ -1,7 +1,7 @@
 import gen, premier
 from playwright.sync_api import sync_playwright
 t=gen.THEMES['azul']; r=gen.THEMES['rosa']
-cab=[("2da","Covucci / Vélez","7/5 6/1"),("3ra","Cattaneo / Huenchuquir","7/5 1/6 6/3"),("4ta","Final en juego","Benítez / Libertini vs Reynoso / Sacarelo"),
+cab=[("2da","Covucci / Vélez","7/5 6/1"),("3ra","Cattaneo / Huenchuquir","7/5 1/6 6/3"),("4ta","Reynoso / Sacarelo","2/6 6/3 6/2"),
 ("5ta","Aristimuño / Cavazzoni","6/4 6/2"),("5ta +40","Castillo / Marcote","6/4 7/5"),("6ta","Aguilar / Isasi","6/1 7/6"),
 ("6ta +35","Peter / Torres","2/6 6/1 6/3"),("7ma","Borras / Roberts","2/6 6/1 7/6"),("7ma +40","Casalini / Fermoselle","6/2 6/3")]
 dam=[("3ra","Amarillo / Miranda","6/3 5/7 6/2"),("4ta","Arrechea / Refort","6/1 4/6 6/2"),("5ta","Chapuis / Velázquez","6/2 7/5"),
@@ -28,5 +28,5 @@ body=(f'<div class=strip><div class=a>JPQ 4°</div><div class=b>Abierto · Quilm
 html=f"<html><head><meta charset=utf-8><style>{css}</style></head><body>{premier.deco(t)}<div class=wrap>{body}</div></body></html>"
 with sync_playwright() as p:
     b=p.chromium.launch(); pg=b.new_page(viewport={"width":1080,"height":1350})
-    pg.set_content(html); pg.wait_for_timeout(400); pg.screenshot(path="out/jpq-post-campeones.png"); b.close()
+    pg.set_content(html); pg.wait_for_timeout(400); pg.screenshot(path="out/jpq-post-campeones-v2.png"); b.close()
 print("ok")
