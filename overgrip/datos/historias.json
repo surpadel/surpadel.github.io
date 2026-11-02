@@ -188,5 +188,20 @@
   "publicada": true,
   "en_buffer": "6ae7da3f48ce42a6b43547eb",
   "modo": "auto"
+ },
+ {
+  "creada": "2026-11-01 23:46",
+  "torneo": "TEO-CLI006-001",
+  "inst": "Final",
+  "organiza": "jpqpadelquilmes",
+  "codigos": {
+   "006001-C2-14": "7/5 6/1",
+   "006001-C3-64": "7/5 1/6 6/3",
+   "006001-C5-64": "6/4 6/2"
+  },
+  "archivo": "TEO-CLI006-001/final-azul-1101-2346-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/final-azul-1101-2346-1.png",
+  "alt": "Finales: Caballeros 2da, ganaron Covucci L. / Vélez M. 7/5 6/1; Caballeros 3ra, ganaron Cattaneo M. / Huenchuquir N. 7/5 1/6 6/3; Caballeros 5ta, ganaron Aristimuño G. / Cavazzoni J. 6/4 6/2",
+  "publicada": false
  }
 ]
