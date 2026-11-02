@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-01 21:32",
+"actualizado": "2026-11-01 23:17",
 "cruces": {
 "006001-C2-1": {
 "cat": "Caballeros 2da",
@@ -64,13 +64,13 @@
 "006001-C2-14": {
 "cat": "Caballeros 2da",
 "dia": "2026-11-01",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "21:00",
 "inst": "Final",
 "p1": "Guattini, Lautaro / Ruiz, Fernando",
 "p2": "Covucci, Leandro / Vélez, Matías",
-"res": "",
+"res": "7/5 6/1",
 "sede": "Real"
 },
 "006001-C2-2": {
@@ -340,13 +340,13 @@
 "006001-C3-64": {
 "cat": "Caballeros 3ra",
 "dia": "2026-11-01",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:30",
 "inst": "Final",
 "p1": "Cattaneo, Matías / Huenchuquir, Nahuel",
 "p2": "Medina, Pablo Augusto / Moran, Leandro",
-"res": "",
+"res": "7/5 1/6 6/3",
 "sede": "El Portal"
 },
 "006001-C4-34": {
@@ -628,7 +628,7 @@
 "006001-C4-64": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-01",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:15",
 "inst": "Final",
@@ -1132,13 +1132,13 @@
 "006001-C5-64": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-01",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:30",
 "inst": "Final",
 "p1": "Aristimuño, Gastón / Cavazzoni, Joaquín",
 "p2": "Garcia Perales, Lucio / Herrera, Juan Cruz",
-"res": "",
+"res": "6/4 6/2",
 "sede": "El Portal"
 },
 "006001-C6+35-34": {

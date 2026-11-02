@@ -487,5 +487,50 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI006-001",
+  "hora": "2026-11-01 23:17",
+  "partidos": [
+   {
+    "codigo": "006001-C3-64",
+    "cat": "Caballeros 3ra",
+    "inst": "Final",
+    "dia": "2026-11-01",
+    "hora": "20:30",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Cattaneo, Matías / Huenchuquir, Nahuel",
+    "p2": "Medina, Pablo Augusto / Moran, Leandro",
+    "res": "7/5 1/6 6/3",
+    "gan": 1
+   },
+   {
+    "codigo": "006001-C5-64",
+    "cat": "Caballeros 5ta",
+    "inst": "Final",
+    "dia": "2026-11-01",
+    "hora": "20:30",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Aristimuño, Gastón / Cavazzoni, Joaquín",
+    "p2": "Garcia Perales, Lucio / Herrera, Juan Cruz",
+    "res": "6/4 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "006001-C2-14",
+    "cat": "Caballeros 2da",
+    "inst": "Final",
+    "dia": "2026-11-01",
+    "hora": "21:00",
+    "sede": "Real",
+    "estado": "Finalizado",
+    "p1": "Guattini, Lautaro / Ruiz, Fernando",
+    "p2": "Covucci, Leandro / Vélez, Matías",
+    "res": "7/5 6/1",
+    "gan": 2
+   }
+  ]
  }
 ]
