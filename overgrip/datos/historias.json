@@ -167,7 +167,9 @@
   "archivo": "TEO-CLI006-001/semifinal-azul-1101-2132-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/semifinal-azul-1101-2132-1.png",
   "alt": "Semifinales: Caballeros 2da, ganaron Covucci L. / Vélez M. 7/6 3/6 6/2; Caballeros 4ta, ganaron Reynoso J. / Sacarelo N. 3/6 7/5 7/5",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6ae7da35d016796999fc4122",
+  "modo": "auto"
  },
  {
   "creada": "2026-11-01 21:32",
@@ -183,6 +185,8 @@
   "archivo": "TEO-CLI006-001/final-azul-1101-2132-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/final-azul-1101-2132-1.png",
   "alt": "Finales: Caballeros 5ta +40, ganaron Castillo J. / Marcote S. 6/4 7/5; Caballeros 6ta, ganaron Aguilar G. / Isasi J. 6/1 7/6; Caballeros 6ta +35, ganaron Peter D. / Torres M. 2/6 6/1 6/3; Caballeros 7ma, ganaron Borras C. / Roberts K. 2/6 6/1 7/6",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6ae7da3f48ce42a6b43547eb",
+  "modo": "auto"
  }
 ]
