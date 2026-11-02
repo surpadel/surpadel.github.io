@@ -256,7 +256,7 @@ def _html(d, gen, premier):
 def dibujar(lista, salida):
     if not lista:
         return
-    sys.path.insert(0, str(RAIZ / "instagram" / "2026-11-jpq"))
+    sys.path.insert(0, str(RAIZ / "overgrip" / "diseno"))
     import gen, premier
     from playwright.sync_api import sync_playwright
     with sync_playwright() as pw:

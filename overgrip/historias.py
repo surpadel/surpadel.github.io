@@ -117,7 +117,7 @@ def armar_trabajos(lista, conf):
 
 
 def dibujar(trabajos):
-    sys.path.insert(0, str(RAIZ / "instagram" / "2026-11-jpq"))
+    sys.path.insert(0, str(RAIZ / "overgrip" / "diseno"))
     sys.path.insert(0, str(RAIZ / "overgrip"))
     import gen, premier, especiales
     from playwright.sync_api import sync_playwright
