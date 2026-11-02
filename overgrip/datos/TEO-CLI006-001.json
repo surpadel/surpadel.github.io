@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-01 20:22",
+"actualizado": "2026-11-01 21:32",
 "cruces": {
 "006001-C2-1": {
 "cat": "Caballeros 2da",
@@ -52,13 +52,13 @@
 "006001-C2-13": {
 "cat": "Caballeros 2da",
 "dia": "2026-11-01",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:00",
 "inst": "Semifinal",
 "p1": "Covucci, Leandro / Vélez, Matías",
 "p2": "Duarte, Benjamín / Lagana, Mariano",
-"res": "",
+"res": "7/6 3/6 6/2",
 "sede": "Real"
 },
 "006001-C2-14": {
@@ -69,7 +69,7 @@
 "hora": "21:00",
 "inst": "Final",
 "p1": "Guattini, Lautaro / Ruiz, Fernando",
-"p2": "",
+"p2": "Covucci, Leandro / Vélez, Matías",
 "res": "",
 "sede": "Real"
 },
@@ -340,7 +340,7 @@
 "006001-C3-64": {
 "cat": "Caballeros 3ra",
 "dia": "2026-11-01",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:30",
 "inst": "Final",
@@ -616,13 +616,13 @@
 "006001-C4-62": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-01",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:00",
 "inst": "Semifinal",
 "p1": "Reynoso, Julio Leandro / Sacarelo, Nicolás",
 "p2": "Lorefice, Fernando Adrián / Reartes, Franco Javier",
-"res": "",
+"res": "3/6 7/5 7/5",
 "sede": "Real"
 },
 "006001-C4-64": {
@@ -633,7 +633,7 @@
 "hora": "21:15",
 "inst": "Final",
 "p1": "Benítez, Lucas / Libertini, Matías",
-"p2": "",
+"p2": "Reynoso, Julio Leandro / Sacarelo, Nicolás",
 "res": "",
 "sede": "Real"
 },
@@ -760,13 +760,13 @@
 "006001-C5+40-64": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-01",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:30",
 "inst": "Final",
 "p1": "Ferreiro, Christian / Ruiz, Diego",
 "p2": "Castillo, Jorge / Marcote, Sebastián",
-"res": "",
+"res": "6/4 7/5",
 "sede": "Real"
 },
 "006001-C5-33": {
@@ -1132,7 +1132,7 @@
 "006001-C5-64": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-01",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:30",
 "inst": "Final",
@@ -1396,13 +1396,13 @@
 "006001-C6+35-64": {
 "cat": "Caballeros 6ta +35",
 "dia": "2026-11-01",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:00",
 "inst": "Final",
 "p1": "Montejo, Leandro / Remorino, Nahuel",
 "p2": "Peter, Daniel / Torres, Maxi",
-"res": "",
+"res": "2/6 6/1 6/3",
 "sede": "El Portal"
 },
 "006001-C6-33": {
@@ -1756,13 +1756,13 @@
 "006001-C6-64": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-01",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:00",
 "inst": "Final",
 "p1": "Aguilar, Gabriel Gastón / Isasi, Juan Cruz",
 "p2": "Conde Meira, Matías / Salvatierra, Marcelo",
-"res": "",
+"res": "6/1 7/6",
 "sede": "El Portal"
 },
 "006001-C7+40-50": {
@@ -2092,13 +2092,13 @@
 "006001-C7-64": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-01",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:30",
 "inst": "Final",
 "p1": "Bonaffini, Esteban / Jose, Isaias",
 "p2": "Borras, Cristian Walter / Roberts, Kevin",
-"res": "",
+"res": "2/6 6/1 7/6",
 "sede": "Real"
 },
 "006001-D3-58": {

@@ -154,5 +154,35 @@
   "publicada": true,
   "en_buffer": "6ae7cb93d016796999f7fedc",
   "modo": "auto"
+ },
+ {
+  "creada": "2026-11-01 21:32",
+  "torneo": "TEO-CLI006-001",
+  "inst": "Semifinal",
+  "organiza": "jpqpadelquilmes",
+  "codigos": {
+   "006001-C2-13": "7/6 3/6 6/2",
+   "006001-C4-62": "3/6 7/5 7/5"
+  },
+  "archivo": "TEO-CLI006-001/semifinal-azul-1101-2132-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/semifinal-azul-1101-2132-1.png",
+  "alt": "Semifinales: Caballeros 2da, ganaron Covucci L. / Vélez M. 7/6 3/6 6/2; Caballeros 4ta, ganaron Reynoso J. / Sacarelo N. 3/6 7/5 7/5",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-01 21:32",
+  "torneo": "TEO-CLI006-001",
+  "inst": "Final",
+  "organiza": "jpqpadelquilmes",
+  "codigos": {
+   "006001-C5+40-64": "6/4 7/5",
+   "006001-C6-64": "6/1 7/6",
+   "006001-C6+35-64": "2/6 6/1 6/3",
+   "006001-C7-64": "2/6 6/1 7/6"
+  },
+  "archivo": "TEO-CLI006-001/final-azul-1101-2132-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI006-001/final-azul-1101-2132-1.png",
+  "alt": "Finales: Caballeros 5ta +40, ganaron Castillo J. / Marcote S. 6/4 7/5; Caballeros 6ta, ganaron Aguilar G. / Isasi J. 6/1 7/6; Caballeros 6ta +35, ganaron Peter D. / Torres M. 2/6 6/1 6/3; Caballeros 7ma, ganaron Borras C. / Roberts K. 2/6 6/1 7/6",
+  "publicada": false
  }
 ]
