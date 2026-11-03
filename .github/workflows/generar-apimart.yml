@@ -1,6 +1,6 @@
 name: Generar APIMart
 
-# Genera tomas de video con la API de APIMart (secreto APIMART_API_KEY),
+# Genera tomas de video e imágenes (fondos) con la API de APIMart (secreto APIMART_API_KEY),
 # las baja al repo y anota costo y saldo. Corre cuando cambia
 # apimart/generar.json o a mano (a mano solo actualiza el saldo si no hay
 # pedidos pendientes). Ver apimart/generar.py.
@@ -34,7 +34,7 @@ jobs:
       - name: Guardar en el repositorio
         if: always()
         run: |
-          git add instagram apimart/registro.json apimart/saldo.json 2>/dev/null || true
+          git add instagram marca/fondos apimart/registro.json apimart/saldo.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "nada nuevo"; exit 0; fi
           git commit -m "APIMart: tomas generadas [skip ci]"
           git pull --rebase origin main

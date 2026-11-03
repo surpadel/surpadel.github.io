@@ -1,4 +1,4 @@
-"""Genera tomas de video con la API de APIMart desde GitHub Actions.
+"""Genera tomas de video e imágenes con la API de APIMart desde GitHub Actions.
 
 Así no se gastan usos del conector de APIMart de Claude: Claude anota el
 pedido en apimart/generar.json, hace push, y este script (con el secreto
@@ -18,12 +18,18 @@ Pedido (cada elemento de apimart/generar.json):
     "permitir_caro": false                # obligatorio true para veo3.1-quality
   }
 
+Imágenes (fondos): mismo formato, con un modelo de imagen. Primera opción:
+  "modelo": "nano-banana-2"  (= gemini-3.1-flash-image-preview, ~USD 0,02 en 2K)
+  "resolucion": "2K"          # 1K | 2K | 4K
+  "formato": "9:16"
+  "destino": "marca/fondos/fondo-21-algo.png"
+
 Reglas de seguridad:
 - Nunca repite un pedido que ya tiene task_id en el registro: si quedó a
   medias, retoma la espera de esa misma tarea (no se cobra dos veces).
-- Máximo 2 pedidos nuevos por corrida.
+- Máximo 2 videos y 10 imágenes nuevos por corrida.
 - veo3.1-quality (USD 1 por toma) solo con "permitir_caro": true.
-- Destinos solo dentro de instagram/.
+- Destinos solo dentro de instagram/ o marca/fondos/.
 """
 import datetime, json, pathlib, subprocess, sys, time, urllib.error, urllib.request
 
@@ -34,7 +40,14 @@ REG = RAIZ / "apimart/registro.json"
 SALDO = RAIZ / "apimart/saldo.json"
 MODELOS_BARATOS = {"veo3.1-fast", "veo3.1-lite"}
 MODELOS_CAROS = {"veo3.1-quality"}
-MAX_NUEVOS = 2
+MAX_NUEVOS = 2          # videos por corrida
+MAX_IMAGENES = 10       # imágenes por corrida
+# Imágenes: alias amigable -> id de APIMart
+MODELOS_IMAGEN = {
+    "nano-banana-2": "gemini-3.1-flash-image-preview",
+    "gemini-3.1-flash-image-preview": "gemini-3.1-flash-image-preview",
+}
+CARPETAS_OK = ("instagram", "marca/fondos")
 ESPERA_MAX = 25 * 60  # segundos por tarea
 UA = "surpadel-generar/1.0"
 
@@ -116,7 +129,21 @@ def url_video(tarea):
     return None
 
 
-def esperar(task_id):
+def es_imagen(p):
+    return p.get("modelo") in MODELOS_IMAGEN
+
+
+def task_id_de(resp):
+    d = resp.get("data", resp)
+    if isinstance(d, list):
+        d = d[0] if d else {}
+    tid = d.get("task_id") or d.get("id") if isinstance(d, dict) else None
+    if not tid:
+        raise RuntimeError("la respuesta no trae task_id: " + json.dumps(resp)[:300])
+    return tid
+
+
+def esperar(task_id, pausa=20):
     inicio = time.time()
     while time.time() - inicio < ESPERA_MAX:
         t = api("GET", f"/tasks/{task_id}?language=es")
@@ -125,7 +152,7 @@ def esperar(task_id):
         print(f"  {task_id}: {estado} {t.get('progress', '')}%")
         if estado in ("completed", "failed", "cancelled"):
             return t
-        time.sleep(20)
+        time.sleep(pausa)
     return {"status": "esperando", "id": task_id}
 
 
@@ -146,10 +173,11 @@ def validar(p):
             return f"falta '{campo}'"
     if p["modelo"] in MODELOS_CAROS and not p.get("permitir_caro"):
         return f"{p['modelo']} es caro: requiere \"permitir_caro\": true"
-    if p["modelo"] not in MODELOS_BARATOS | MODELOS_CAROS:
+    if p["modelo"] not in MODELOS_BARATOS | MODELOS_CAROS | set(MODELOS_IMAGEN):
         return f"modelo no habilitado: {p['modelo']}"
-    if not str((RAIZ / p["destino"]).resolve()).startswith(str(RAIZ / "instagram")):
-        return "destino fuera de instagram/"
+    destino = str((RAIZ / p["destino"]).resolve())
+    if not any(destino.startswith(str(RAIZ / c) + "/") for c in CARPETAS_OK):
+        return "destino fuera de " + " o ".join(c + "/" for c in CARPETAS_OK)
     return None
 
 
@@ -158,6 +186,7 @@ def main():
     registro = leer(REG, {})
     saldo_inicial = consultar_saldo()
     nuevos = 0
+    nuevas_img = 0
     errores = 0
 
     for p in pedidos:
@@ -173,35 +202,50 @@ def main():
             continue
 
         if not r.get("task_id"):
-            if nuevos >= MAX_NUEVOS:
-                print(f"{pid}: queda para la próxima corrida (máximo {MAX_NUEVOS} por vez)")
+            imagen = es_imagen(p)
+            if imagen and nuevas_img >= MAX_IMAGENES or not imagen and nuevos >= MAX_NUEVOS:
+                print(f"{pid}: queda para la próxima corrida (tope por corrida)")
                 continue
-            cuerpo = {
-                "model": p["modelo"],
-                "prompt": p["prompt"],
-                "duration": 8,
-                "aspect_ratio": p.get("formato", "9:16"),
-                "resolution": p.get("resolucion", "1080p"),
-            }
+            if imagen:
+                cuerpo = {
+                    "model": MODELOS_IMAGEN[p["modelo"]],
+                    "prompt": p["prompt"],
+                    "size": p.get("formato", "9:16"),
+                    "resolution": p.get("resolucion", "2K"),
+                    "n": 1,
+                }
+                ruta = "/images/generations"
+            else:
+                cuerpo = {
+                    "model": p["modelo"],
+                    "prompt": p["prompt"],
+                    "duration": 8,
+                    "aspect_ratio": p.get("formato", "9:16"),
+                    "resolution": p.get("resolucion", "1080p"),
+                }
+                ruta = "/videos/generations"
             if p.get("imagenes"):
                 cuerpo["image_urls"] = p["imagenes"]
-            print(f"{pid}: pidiendo {p['modelo']} {cuerpo['resolution']}")
+            print(f"{pid}: pidiendo {cuerpo['model']} {cuerpo['resolution']}")
             try:
-                resp = api("POST", "/videos/generations", cuerpo)
-                task_id = resp["data"][0]["task_id"]
+                resp = api("POST", ruta, cuerpo)
+                task_id = task_id_de(resp)
             except Exception as e:
                 print(f"{pid}: error al pedir -> {e}")
                 registro[pid] = {"estado": "fallido", "motivo": str(e)[:300], "fecha": ahora()}
                 errores += 1
                 continue
-            nuevos += 1
+            if imagen:
+                nuevas_img += 1
+            else:
+                nuevos += 1
             r = {"estado": "pedido", "task_id": task_id, "modelo": p["modelo"],
                  "destino": p["destino"], "nota": p.get("nota", ""), "pedido": ahora()}
             registro[pid] = r
             guardar(REG, registro)
             subir(f"APIMart: pedido {pid}")
 
-        t = esperar(r["task_id"])
+        t = esperar(r["task_id"], pausa=8 if es_imagen(p) else 20)
         estado = t.get("status")
         if estado == "completed":
             url = url_video(t)
@@ -209,7 +253,7 @@ def main():
                       "segundos": t.get("actual_time"), "url": url})
             try:
                 if not url:
-                    raise ValueError("la tarea terminó sin URL de video: " + json.dumps(t.get("result"))[:300])
+                    raise ValueError("la tarea terminó sin URL: " + json.dumps(t.get("result"))[:300])
                 tam = bajar(url, RAIZ / p["destino"])
                 r.update({"estado": "listo", "kb": tam // 1024, "terminado": ahora()})
                 print(f"{pid}: listo -> {p['destino']} ({tam // 1024} KB, USD {t.get('cost')})")
@@ -228,7 +272,7 @@ def main():
         registro[pid] = r
         guardar(REG, registro)
 
-    if nuevos or any(v.get("estado") == "listo" for v in registro.values()):
+    if nuevos or nuevas_img or any(v.get("estado") == "listo" for v in registro.values()):
         try:
             consultar_saldo()
         except Exception as e:

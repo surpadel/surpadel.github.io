@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": "fondo-21-amanecer-cancha",
+    "prompt": "Outdoor padel court at dawn, first light over the glass walls, soft mist, blue court surface, cool blue sky turning warm on the horizon. Vertical 9:16 photo, cinematic, photorealistic, shallow depth of field, dark moody tones with electric blue accents, generous empty space in the upper and middle area for text overlay. No people, no text, no logos, no brand names, no watermarks.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "9:16",
+    "destino": "marca/fondos/fondo-21-amanecer-cancha.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)"
+  },
+  {
+    "id": "fondo-22-pelotas-detalle",
+    "prompt": "Close-up of three plain yellow padel balls resting on blue artificial turf with sand, low angle, rim light from stadium floodlights, bokeh background. Vertical 9:16 photo, cinematic, photorealistic, shallow depth of field, dark moody tones with electric blue accents, generous empty space in the upper and middle area for text overlay. No people, no text, no logos, no brand names, no watermarks.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "9:16",
+    "destino": "marca/fondos/fondo-22-pelotas-detalle.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)"
+  },
+  {
+    "id": "fondo-23-vestuario-banco",
+    "prompt": "Empty modern locker room of a padel club at night, wooden bench, dim blue LED strips, polished concrete floor reflections. Vertical 9:16 photo, cinematic, photorealistic, shallow depth of field, dark moody tones with electric blue accents, generous empty space in the upper and middle area for text overlay. No people, no text, no logos, no brand names, no watermarks.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "9:16",
+    "destino": "marca/fondos/fondo-23-vestuario-banco.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)"
+  },
+  {
+    "id": "fondo-24-vidrio-macro",
+    "prompt": "Macro abstract detail of a padel court glass wall with water droplets and blue and magenta light reflections, very dark, minimal, ideal as text background. Vertical 9:16 photo, cinematic, photorealistic, shallow depth of field, dark moody tones with electric blue accents, generous empty space in the upper and middle area for text overlay. No people, no text, no logos, no brand names, no watermarks.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "9:16",
+    "destino": "marca/fondos/fondo-24-vidrio-macro.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)"
+  },
+  {
+    "id": "fondo-25-club-industrial",
+    "prompt": "Indoor padel club inside an industrial warehouse at night, three blue courts in a row, steel beams, hanging lights, light haze. Vertical 9:16 photo, cinematic, photorealistic, shallow depth of field, dark moody tones with electric blue accents, generous empty space in the upper and middle area for text overlay. No people, no text, no logos, no brand names, no watermarks.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "9:16",
+    "destino": "marca/fondos/fondo-25-club-industrial.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)"
+  },
+  {
+    "id": "fondo-26-playa-atardecer",
+    "prompt": "Padel court next to the sea at golden hour sunset, glass walls catching orange light, blue court, calm ocean behind, palm silhouettes. Vertical 9:16 photo, cinematic, photorealistic, shallow depth of field, dark moody tones with electric blue accents, generous empty space in the upper and middle area for text overlay. No people, no text, no logos, no brand names, no watermarks.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "9:16",
+    "destino": "marca/fondos/fondo-26-playa-atardecer.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)"
+  },
+  {
+    "id": "fondo-27-rosa-neon",
+    "prompt": "Padel court at night lit with magenta pink neon lights, pink court surface, light fog, glossy glass reflections, elegant and feminine mood. Vertical 9:16 photo, cinematic, photorealistic, shallow depth of field, dark moody tones with electric blue accents, generous empty space in the upper and middle area for text overlay. No people, no text, no logos, no brand names, no watermarks.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "9:16",
+    "destino": "marca/fondos/fondo-27-rosa-neon.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)"
+  },
+  {
+    "id": "fondo-28-cesped-macro",
+    "prompt": "Extreme macro of blue padel turf fibers with grains of sand and a white court line, dramatic side light, very dark edges, minimal texture background. Vertical 9:16 photo, cinematic, photorealistic, shallow depth of field, dark moody tones with electric blue accents, generous empty space in the upper and middle area for text overlay. No people, no text, no logos, no brand names, no watermarks.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "9:16",
+    "destino": "marca/fondos/fondo-28-cesped-macro.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)"
+  }
+]
