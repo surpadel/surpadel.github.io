@@ -89,7 +89,12 @@ def subir(mensaje):
 
 def consultar_saldo():
     s = api("GET", "/balance")
-    info = {k: s.get(k) for k in ("remain_balance", "remain_credits", "used_balance", "used_credits", "unlimited_quota")}
+    info = {"clave_" + k: s.get(k) for k in ("remain_balance", "used_balance", "unlimited_quota")}
+    try:  # saldo de toda la cuenta (la clave puede no tener tope propio)
+        c = api("GET", "/user/balance")
+        info.update({"cuenta_saldo_usd": c.get("remain_balance"), "cuenta_usado_usd": c.get("used_balance")})
+    except Exception as e:
+        info["cuenta_error"] = str(e)[:200]
     info["fecha"] = ahora()
     guardar(SALDO, info)
     print("saldo:", info)
