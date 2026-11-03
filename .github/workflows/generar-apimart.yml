@@ -20,6 +20,9 @@ concurrency:
 jobs:
   generar:
     runs-on: ubuntu-latest
+    env:
+      # Carpetas donde se pueden guardar videos e imágenes (lo único que cambia entre repos)
+      APIMART_CARPETAS: "instagram,marca/fondos"
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
@@ -34,7 +37,8 @@ jobs:
       - name: Guardar en el repositorio
         if: always()
         run: |
-          git add instagram marca/fondos apimart/registro.json apimart/saldo.json 2>/dev/null || true
+          for c in ${APIMART_CARPETAS//,/ }; do git add "$c" 2>/dev/null || true; done
+          git add apimart/registro.json apimart/saldo.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "nada nuevo"; exit 0; fi
           git commit -m "APIMart: tomas generadas [skip ci]"
           git pull --rebase origin main

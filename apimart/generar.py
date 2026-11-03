@@ -29,7 +29,7 @@ Reglas de seguridad:
   medias, retoma la espera de esa misma tarea (no se cobra dos veces).
 - Máximo 2 videos y 10 imágenes nuevos por corrida.
 - veo3.1-quality (USD 1 por toma) solo con "permitir_caro": true.
-- Destinos solo dentro de instagram/ o marca/fondos/.
+- Destinos solo dentro de las carpetas de APIMART_CARPETAS (por defecto instagram/ y marca/fondos/).
 """
 import datetime, json, pathlib, subprocess, sys, time, urllib.error, urllib.request
 
@@ -47,7 +47,10 @@ MODELOS_IMAGEN = {
     "nano-banana-2": "gemini-3.1-flash-image-preview",
     "gemini-3.1-flash-image-preview": "gemini-3.1-flash-image-preview",
 }
-CARPETAS_OK = ("instagram", "marca/fondos")
+# Carpetas donde se puede guardar. Se configuran en el workflow (APIMART_CARPETAS,
+# separadas por coma) para que este mismo archivo sirva en cualquier repo.
+import os
+CARPETAS_OK = tuple(c.strip().strip("/") for c in os.environ.get("APIMART_CARPETAS", "instagram,marca/fondos").split(",") if c.strip())
 ESPERA_MAX = 25 * 60  # segundos por tarea
 UA = "surpadel-generar/1.0"
 
