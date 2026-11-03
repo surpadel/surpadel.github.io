@@ -70,11 +70,25 @@
     "terminado": "2026-11-03T14:58:46-03:00"
   },
   "fondo-26-playa-atardecer": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6H90HXSCAG91AEX5KRTT7MB",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/fondo-26-playa-atardecer.png",
     "nota": "Banco de fondos Sur Padel (Nano Banana 2)",
-    "pedido": "2026-11-03T14:58:47-03:00"
+    "pedido": "2026-11-03T14:58:47-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 21,
+    "url": "https://getapib.org/f/images/aiimg_9623c5c24cca86991d60047758a25b09-0.jpg",
+    "kb": 2885,
+    "terminado": "2026-11-03T14:59:16-03:00"
+  },
+  "fondo-27-rosa-neon": {
+    "estado": "pedido",
+    "task_id": "task_01M6H91EQ35GG5VNRT6XX20YVP",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/fondo-27-rosa-neon.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)",
+    "pedido": "2026-11-03T14:59:16-03:00"
   }
 }
