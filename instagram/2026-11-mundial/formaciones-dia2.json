@@ -1,11 +1,11 @@
 {"jornada": "Jornada 2", "titulo": "Así formó <span class=gold>Argentina</span>",
  "bloques": [
   {"rama": "Caballeros", "tema": "azul", "rival": "Países Bajos", "serie": "3-0",
-   "partidos": [{"g": "Tapia / Libaak", "p": "Países Bajos", "s": "6/4 6/2"},
-                {"g": "Stupaczuk / Arce", "p": "Países Bajos", "s": "6/1 6/3"},
-                {"g": "Augsburger / Chingotto", "p": "Países Bajos", "s": "6/3 6/4"}]},
+   "partidos": [{"g": "Tapia / Libaak", "p": "Richters / Roper", "fp": "nl", "s": "6/4 6/2"},
+                {"g": "Stupaczuk / Arce", "p": "Van Opstal / Prins", "fp": "nl", "s": "6/1 6/3"},
+                {"g": "Augsburger / Chingotto", "p": "Nolten / Van Betuw", "fp": "nl", "s": "6/3 6/4"}]},
   {"rama": "Damas", "tema": "rosa", "rival": "Bélgica", "serie": "3-0",
-   "partidos": [{"g": "Brea / Fassio", "p": "Bélgica", "s": "6/0 6/0"},
-                {"g": "Osoro / Riera", "p": "Bélgica", "s": "6/4 6/2"},
-                {"g": "Bidahorria / Jensen", "p": "Bélgica", "s": "6/1 6/2"}]}
+   "partidos": [{"g": "Brea / Fassio", "p": "Sermant / Van Mol", "fp": "be", "s": "6/0 6/0"},
+                {"g": "Osoro / Riera", "p": "Pysson / Boeykens", "fp": "be", "s": "6/4 6/2"},
+                {"g": "Bidahorria / Jensen", "p": "Wyckaert / Mestach", "fp": "be", "s": "6/1 6/2"}]}
  ]}
