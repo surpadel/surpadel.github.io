@@ -182,11 +182,17 @@
     "terminado": "2026-11-03T19:24:22-03:00"
   },
   "banco-toma09-camara-tv": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6HR6VTWV2C8BZC7WT4FPRXP",
     "modelo": "veo3.1-fast",
     "destino": "instagram/banco-tomas/toma09-camara-tv.mp4",
     "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)",
-    "pedido": "2026-11-03T19:24:22-03:00"
+    "pedido": "2026-11-03T19:24:22-03:00",
+    "costo_usd": 0.14,
+    "creditos": 1.4000000000000001,
+    "segundos": 121,
+    "url": "https://getapib.org/f/images/45cf81ac8e6a0e3269f25efe66a15911.mp4",
+    "kb": 8031,
+    "terminado": "2026-11-03T19:26:28-03:00"
   }
 }
