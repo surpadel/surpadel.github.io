@@ -154,11 +154,17 @@
     "terminado": "2026-11-03T19:14:51-03:00"
   },
   "banco-toma07-tunel": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6HQNEBQ1ER4HTAXPJ5TWBTG",
     "modelo": "veo3.1-fast",
     "destino": "instagram/banco-tomas/toma07-tunel.mp4",
     "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)",
-    "pedido": "2026-11-03T19:14:51-03:00"
+    "pedido": "2026-11-03T19:14:51-03:00",
+    "costo_usd": 0.14,
+    "creditos": 1.4000000000000001,
+    "segundos": 232,
+    "url": "https://getapib.org/f/images/502556855fb9933e24c5a735c21b8c85.mp4",
+    "kb": 5227,
+    "terminado": "2026-11-03T19:18:58-03:00"
   }
 }
