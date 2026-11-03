@@ -140,11 +140,25 @@
     "terminado": "2026-11-03T19:10:59-03:00"
   },
   "banco-toma06-cancha-mojada": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6HQGWXN1M0J11VR7R2QC79S",
     "modelo": "veo3.1-fast",
     "destino": "instagram/banco-tomas/toma06-cancha-mojada.mp4",
     "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)",
-    "pedido": "2026-11-03T19:12:22-03:00"
+    "pedido": "2026-11-03T19:12:22-03:00",
+    "costo_usd": 0.14,
+    "creditos": 1.4000000000000001,
+    "segundos": 141,
+    "url": "https://getapib.org/f/images/3886c92fc1056eb648a0d12238f2ee1e.mp4",
+    "kb": 33016,
+    "terminado": "2026-11-03T19:14:51-03:00"
+  },
+  "banco-toma07-tunel": {
+    "estado": "pedido",
+    "task_id": "task_01M6HQNEBQ1ER4HTAXPJ5TWBTG",
+    "modelo": "veo3.1-fast",
+    "destino": "instagram/banco-tomas/toma07-tunel.mp4",
+    "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)",
+    "pedido": "2026-11-03T19:14:51-03:00"
   }
 }
