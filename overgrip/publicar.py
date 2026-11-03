@@ -20,6 +20,10 @@ historia con "publicada": false:
   también salen solas; las de zonas se controlan contra los partidos de zona.
 - Tope de historias automáticas por corrida y horario de silencio
   (00:30 a 8:00): en silencio no publica nada, queda para la mañana.
+- Tope por día (pedido de Nico, 3/11: no saturar a los seguidores): 5
+  historias, 8 si ese día hay finales. Sale primero lo más importante
+  (finales, semis, "Hoy se juega", cuartos...). Lo que no entra en el día se
+  omite (no pasa al día siguiente); semis y finales salen igual.
 - Siempre al canal de Instagram de Sur Padel y solo como historia:
   el código no puede publicar en otro canal ni en el feed.
 - Avisa a Nico en un issue del repositorio (llega por mail).
@@ -47,7 +51,21 @@ ARG = timezone(timedelta(hours=-3))
 API = "https://api.buffer.com"
 CANAL_INSTAGRAM = "6ae29db22f1f5ed648070dca"  # @surpadelstore, fijo a propósito
 OVERGRIP = "overgripapp"
-TOPE_POR_CORRIDA = 4
+TOPE_POR_CORRIDA = 2
+TOPE_DIA = 5
+TOPE_DIA_FINALES = 8
+# Orden de prioridad: primero lo más importante.
+PRIORIDAD = {"Final": 0, "Semifinal": 1, "hoy": 2, "llaves": 3, "Cuartos de Final": 4, "zona": 5,
+             "Octavos de Final": 6, "16avos": 7}
+SIEMPRE = {"Final", "Semifinal"}  # semis y campeones salen aunque se haya llegado al tope
+
+
+def clase(h):
+    return h.get("tipo") or h.get("inst")
+
+
+def prioridad(h):
+    return PRIORIDAD.get(clase(h), 9)
 SILENCIO = ((0, 30), (8, 0))  # de 00:30 a 08:00 no se publica
 ESPERA_MAX = timedelta(hours=3)  # reintentos de una historia con problemas
 CON_STICKER = set()  # vacío: semis y finales también salen solas (pedido de Nico, 1/11)
@@ -224,8 +242,23 @@ def main():
     if en_silencio(ahora) and not prueba:
         print("Horario de silencio: queda para la mañana")
         return
+    hoy = ahora.strftime("%Y-%m-%d")
+    pend.sort(key=prioridad)
+    hay_finales = any(h.get("inst") == "Final" and (h.get("creada", "")[:10] == hoy or not h.get("publicada"))
+                      for h in hist)
+    tope_dia = TOPE_DIA_FINALES if hay_finales else TOPE_DIA
+    hechas_hoy = sum(1 for h in hist if h.get("modo") == "auto" and h.get("publicada_en", "")[:10] == hoy)
     autos, lineas = 0, []
     for h in pend:
+        vieja = (h.get("creada", hoy)[:10] < hoy and h.get("inst") not in SIEMPRE
+                 and h.get("tipo") != "zona")  # "Lo mejor de las zonas" puede salir a la mañana siguiente
+        lleno = hechas_hoy + autos >= tope_dia and h.get("inst") not in SIEMPRE
+        if (vieja or lleno) and not prueba:
+            h["publicada"] = True
+            h["modo"] = "omitida"
+            lineas.append(f"- ⏭️ Omitida ({'de otro día' if vieja else f'tope de {tope_dia} por día'}): "
+                          f"{h.get('alt', h['archivo'])[:120]}")
+            continue
         motivos = problemas(h)
         if motivos and not prueba:
             desde = h.setdefault("espera_desde", ahora.strftime("%Y-%m-%d %H:%M"))
@@ -261,6 +294,7 @@ def main():
             continue
         h["en_buffer"] = post["id"]
         h["modo"] = modo
+        h["publicada_en"] = ahora.strftime("%Y-%m-%d %H:%M")
         h["publicada"] = True  # ya está en Buffer (sale sola, recordatorio o borrador): no se repite
         if modo == "auto":
             autos += 1

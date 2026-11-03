@@ -2,7 +2,7 @@
 
 Lee overgrip/datos/novedades.json (lo escribe seguir.py), junta los partidos
 terminados que todavía no tienen imagen y, cuando conviene (4 o más partidos,
-o el más viejo espera hace más de 60 minutos), dibuja historias estilo
+o el más viejo espera hace más de 120 minutos), dibuja historias estilo
 "circuito pro" agrupadas por instancia y por rama (caballeros azul, damas rosa).
 Las deja en instagram/overgrip/<torneo>/ y las anota en overgrip/datos/historias.json
 como pendientes de publicar.
@@ -29,8 +29,8 @@ SALIDA = RAIZ / "instagram" / "overgrip"
 RAW = "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/"
 ARG = timezone(timedelta(hours=-3))
 MAX_POR_HISTORIA = 5
-MINIMO = 4
-ESPERA = timedelta(minutes=60)
+MINIMO = 5  # junta más partidos por historia (pedido de Nico, 3/11: no saturar)
+ESPERA = timedelta(minutes=120)
 
 # instancia -> (rótulo de la franja, título, fondo azul, fondo rosa)
 INSTANCIAS = {
