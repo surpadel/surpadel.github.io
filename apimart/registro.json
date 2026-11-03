@@ -112,11 +112,25 @@
     "terminado": "2026-11-03T15:00:14-03:00"
   },
   "banco-toma04-publico": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6HPT1W2F2G87455TXJHK9Y1",
     "modelo": "veo3.1-fast",
     "destino": "instagram/banco-tomas/toma04-publico.mp4",
     "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)",
-    "pedido": "2026-11-03T18:59:54-03:00"
+    "pedido": "2026-11-03T18:59:54-03:00",
+    "costo_usd": 0.14,
+    "creditos": 1.4000000000000001,
+    "segundos": 218,
+    "url": "https://getapib.org/video/9998206256592574-34ba9c71-d8af-43cf-a122-39c3980c6777-video_task_01M6HPT1W2F2G87455TXJHK9Y1.mp4",
+    "kb": 5773,
+    "terminado": "2026-11-03T19:03:43-03:00"
+  },
+  "banco-toma05-focos": {
+    "estado": "pedido",
+    "task_id": "task_01M6HQ12H1FEANTZ86131H64CS",
+    "modelo": "veo3.1-fast",
+    "destino": "instagram/banco-tomas/toma05-focos.mp4",
+    "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)",
+    "pedido": "2026-11-03T19:03:44-03:00"
   }
 }
