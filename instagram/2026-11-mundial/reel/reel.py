@@ -12,7 +12,8 @@ from playwright.sync_api import sync_playwright
 AQUI = pathlib.Path(__file__).resolve().parent
 RAIZ = AQUI.parents[2]
 F = pathlib.Path(os.environ["FONTS_DIR"])
-FPS, DUR = 30, 13.0
+FPS, DUR = 24, 13.5
+TOMA_A, TOMA_B, CRUCE = "toma2-estadio-hq.mp4", "toma3-red-hq.mp4", 7.2  # la B entra fundida en el segundo 7.2
 W, H = 1080, 1920
 
 
@@ -49,8 +50,8 @@ html,body{width:1080px;height:1920px;background:transparent;overflow:hidden;font
 
 /* capa oscura para que se lean los textos */
 .v1{inset:0;background:linear-gradient(180deg,rgba(5,11,22,.75) 0%,rgba(5,11,22,.05) 22%,rgba(5,11,22,.0) 50%,rgba(5,11,22,.55) 100%)}
-.v2{inset:0;background:rgba(5,11,22,.55);animation:dark .8s 3.4s both}
-.v3{inset:0;background:radial-gradient(ellipse 90% 60% at 50% 45%,rgba(5,11,22,.55),rgba(5,11,22,.92));animation:dark .8s 9.0s both}
+.v2{inset:0;background:rgba(5,11,22,.45);animation:dark .8s 3.4s both}
+.v3{inset:0;background:radial-gradient(ellipse 90% 60% at 50% 45%,rgba(5,11,22,.38),rgba(5,11,22,.78));animation:dark .8s 7.4s both}
 
 .strip{top:150px;left:50%;margin-left:-330px;width:660px;display:flex;height:66px;font-weight:700;letter-spacing:3px;
  text-transform:uppercase;font-size:24px;box-shadow:0 8px 30px rgba(0,0,0,.5);animation:wipe .6s .2s both}
@@ -70,7 +71,7 @@ html,body{width:1080px;height:1920px;background:transparent;overflow:hidden;font
  text-transform:uppercase;animation:up .6s .5s both,out .5s 3.3s forwards}
 
 .ttl{left:70px;right:70px;top:440px;text-align:center;font-family:BC;font-style:italic;font-weight:800;font-size:92px;
- text-transform:uppercase;line-height:.9;filter:drop-shadow(0 6px 20px rgba(0,0,0,.8));animation:up .6s 3.7s both,fadeout .4s 8.7s forwards}
+ text-transform:uppercase;line-height:.9;filter:drop-shadow(0 6px 20px rgba(0,0,0,.8));animation:up .6s 3.6s both,fadeout .4s 6.9s forwards}
 .sb{left:70px;right:70px;background:linear-gradient(180deg,rgba(10,22,42,.95),rgba(5,12,24,.95));border:1px solid rgba(255,255,255,.16);
  border-radius:8px;overflow:hidden;box-shadow:0 14px 40px rgba(0,0,0,.55)}
 .sb .hd{display:flex;justify-content:space-between;padding:10px 22px;font-weight:700;font-size:24px;letter-spacing:4px;text-transform:uppercase}
@@ -86,21 +87,21 @@ html,body{width:1080px;height:1920px;background:transparent;overflow:hidden;font
 .cab .hd{background:linear-gradient(90deg,#174d94,#1d5cad)} .cab .w .pt{background:#f2b21c;color:#071528}
 .dam .hd{background:linear-gradient(90deg,#8f2a5c,#b8366f)} .dam .w .pt{background:#ff6fa8;color:#16071a}
 .dam .tri{border-left-color:#ff6fa8}
-.s1{top:660px;animation:inL .6s 4.2s both,fadeout .4s 8.7s forwards}
-.s2{top:960px;animation:inR .6s 5.0s both,fadeout .4s 8.7s forwards}
+.s1{top:660px;animation:inL .6s 4.0s both,fadeout .4s 6.9s forwards}
+.s2{top:960px;animation:inR .6s 4.6s both,fadeout .4s 6.9s forwards}
 .dato{left:110px;right:110px;top:1270px;display:flex;align-items:center;gap:22px;background:rgba(7,21,40,.92);
  border-left:8px solid #f2b21c;padding:22px 28px;font-size:34px;font-weight:600;box-shadow:0 10px 30px rgba(0,0,0,.5);
- animation:up .6s 6.1s both,fadeout .4s 8.7s forwards}
+ animation:up .6s 5.4s both,fadeout .4s 6.9s forwards}
 .dato b{font-family:BC;font-style:italic;font-weight:800;font-size:54px;color:#f2b21c;white-space:nowrap}
 
-.logo{left:50%;top:430px;width:330px;height:330px;margin-left:-165px;filter:drop-shadow(0 10px 40px rgba(0,0,0,.7));animation:pop .7s 9.3s both}
-.c1{left:0;right:0;top:810px;font-size:132px;animation:up .6s 9.8s both}
-.c2{left:0;right:0;top:1060px;text-align:center;animation:up .6s 10.4s both}
+.logo{left:50%;top:430px;width:330px;height:330px;margin-left:-165px;filter:drop-shadow(0 10px 40px rgba(0,0,0,.7));animation:pop .7s 7.9s both}
+.c1{left:0;right:0;top:810px;font-size:132px;animation:up .6s 8.4s both}
+.c2{left:0;right:0;top:1060px;text-align:center;animation:up .6s 9.0s both}
 .pill{display:inline-flex;align-items:center;gap:16px;background:rgba(7,21,40,.92);border:1px solid rgba(255,255,255,.25);
  border-radius:60px;padding:20px 44px;font-weight:700;font-size:44px}
 .pill span{color:#f2b21c}
-.c3{left:0;right:0;top:1200px;text-align:center;font-size:28px;letter-spacing:5px;color:rgba(255,255,255,.7);animation:up .6s 10.9s both}
-.cruz{left:50%;top:1300px;margin-left:-60px;width:120px;height:120px;animation:up .8s 11.2s both;opacity:.6}
+.c3{left:0;right:0;top:1200px;text-align:center;font-size:28px;letter-spacing:5px;color:rgba(255,255,255,.7);animation:up .6s 9.5s both}
+.cruz{left:50%;top:1300px;margin-left:-60px;width:120px;height:120px;animation:up .8s 9.8s both;opacity:.6}
 """
 
 
@@ -153,19 +154,20 @@ def cuadros(carpeta):
 
 
 def montar(carpeta, salida):
-    toma = AQUI / "toma1-estadio.mp4"
+    # dos tomas 1080p nativas a 24 cuadros (sin estirar ni congelar), fundidas en CRUCE
+    a, b = AQUI / TOMA_A, AQUI / TOMA_B
     filtro = (
-        # la toma dura 8 s: se escala a 1080x1920 y el último cuadro se estira con un zoom lento
-        f"[0:v]scale={W}:{H}:flags=lanczos,fps={FPS},tpad=stop_mode=clone:stop_duration={DUR},"
-        f"trim=duration={DUR},zoompan=z='if(gte(on,{int(7.9*FPS)}),1+(on-{int(7.9*FPS)})*0.0006,1)':"
-        f"x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps={FPS},setsar=1[v];"
-        "[v][1:v]overlay=0:0:format=auto,format=yuv420p[out];"
-        f"[0:a]apad,atrim=duration={DUR},afade=t=out:st={DUR-2.5}:d=2.5[aud]"
+        "[0:v]setsar=1,format=yuv420p[a];[1:v]setsar=1,format=yuv420p[b];"
+        f"[a][b]xfade=transition=fade:duration=0.8:offset={CRUCE},trim=duration={DUR},"
+        "unsharp=5:5:0.35[v];"
+        "[v][2:v]overlay=0:0:format=auto,format=yuv420p[out];"
+        f"[0:a][1:a]acrossfade=d=0.8,apad,atrim=duration={DUR},afade=t=out:st={DUR-2.5}:d=2.5[aud]"
     )
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(toma), "-framerate", str(FPS),
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(a), "-i", str(b), "-framerate", str(FPS),
                     "-i", f"{carpeta}/%04d.png", "-filter_complex", filtro, "-map", "[out]", "-map", "[aud]",
-                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-profile:v", "high", "-r", str(FPS),
-                    "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", str(salida)], check=True)
+                    "-c:v", "libx264", "-preset", "slow", "-crf", "15", "-profile:v", "high", "-r", str(FPS),
+                    "-maxrate", "25M", "-bufsize", "40M",
+                    "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(salida)], check=True)
 
 
 if __name__ == "__main__":
