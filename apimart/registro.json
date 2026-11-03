@@ -98,11 +98,17 @@
     "terminado": "2026-11-03T14:59:46-03:00"
   },
   "fondo-28-cesped-macro": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6H92C98EV6FF29MDNVJCMCJ",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/fondo-28-cesped-macro.png",
     "nota": "Banco de fondos Sur Padel (Nano Banana 2)",
-    "pedido": "2026-11-03T14:59:46-03:00"
+    "pedido": "2026-11-03T14:59:46-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 21,
+    "url": "https://getapib.org/f/images/aiimg_f5519edcf011673eb71f868d634e0bdb-0.jpg",
+    "kb": 2563,
+    "terminado": "2026-11-03T15:00:14-03:00"
   }
 }
