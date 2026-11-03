@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Carpetas donde se pueden guardar videos e imágenes (lo único que cambia entre repos)
-      APIMART_CARPETAS: "instagram,marca/fondos"
+      APIMART_CARPETAS: "instagram,marca/fondos,linkedin"
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
