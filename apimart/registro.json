@@ -168,11 +168,25 @@
     "terminado": "2026-11-03T19:18:58-03:00"
   },
   "banco-toma08-confeti": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6HQZWFK9PCQDE1GGAKJ34SJ",
     "modelo": "veo3.1-fast",
     "destino": "instagram/banco-tomas/toma08-confeti.mp4",
     "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)",
-    "pedido": "2026-11-03T19:20:33-03:00"
+    "pedido": "2026-11-03T19:20:33-03:00",
+    "costo_usd": 0.14,
+    "creditos": 1.4000000000000001,
+    "segundos": 217,
+    "url": "https://getapib.org/video/9998206255353768-ffbeb72a-9cf4-46c3-8c21-30d656f0f949-video_task_01M6HQZWFK9PCQDE1GGAKJ34SJ.mp4",
+    "kb": 17682,
+    "terminado": "2026-11-03T19:24:22-03:00"
+  },
+  "banco-toma09-camara-tv": {
+    "estado": "pedido",
+    "task_id": "task_01M6HR6VTWV2C8BZC7WT4FPRXP",
+    "modelo": "veo3.1-fast",
+    "destino": "instagram/banco-tomas/toma09-camara-tv.mp4",
+    "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)",
+    "pedido": "2026-11-03T19:24:22-03:00"
   }
 }
