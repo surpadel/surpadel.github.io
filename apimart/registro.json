@@ -28,11 +28,25 @@
     "terminado": "2026-11-03T14:57:18-03:00"
   },
   "fondo-23-vestuario-banco": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6H8XVC6VPNV87RY7RKCYB4K",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/fondo-23-vestuario-banco.png",
     "nota": "Banco de fondos Sur Padel (Nano Banana 2)",
-    "pedido": "2026-11-03T14:57:18-03:00"
+    "pedido": "2026-11-03T14:57:18-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 20,
+    "url": "https://getapib.org/f/images/aiimg_0903e0d687ff68e90dae452d6ccebb4b-0.jpg",
+    "kb": 2714,
+    "terminado": "2026-11-03T14:57:46-03:00"
+  },
+  "fondo-24-vidrio-macro": {
+    "estado": "pedido",
+    "task_id": "task_01M6H8YQF4047VD2EE2YYSDHC6",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/fondo-24-vidrio-macro.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)",
+    "pedido": "2026-11-03T14:57:47-03:00"
   }
 }
