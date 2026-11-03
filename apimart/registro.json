@@ -56,11 +56,25 @@
     "terminado": "2026-11-03T14:58:17-03:00"
   },
   "fondo-25-club-industrial": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6H8ZN16TR0D8M4AYGWCQ5ZH",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/fondo-25-club-industrial.png",
     "nota": "Banco de fondos Sur Padel (Nano Banana 2)",
-    "pedido": "2026-11-03T14:58:17-03:00"
+    "pedido": "2026-11-03T14:58:17-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 20,
+    "url": "https://getapib.org/f/images/aiimg_53c0e8f9965f49ec59a1bb47e15d20eb-0.jpg",
+    "kb": 2915,
+    "terminado": "2026-11-03T14:58:46-03:00"
+  },
+  "fondo-26-playa-atardecer": {
+    "estado": "pedido",
+    "task_id": "task_01M6H90HXSCAG91AEX5KRTT7MB",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/fondo-26-playa-atardecer.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)",
+    "pedido": "2026-11-03T14:58:47-03:00"
   }
 }
