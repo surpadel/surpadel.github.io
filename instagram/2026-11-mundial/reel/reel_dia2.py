@@ -12,7 +12,7 @@ from playwright.sync_api import sync_playwright
 AQUI = pathlib.Path(__file__).resolve().parent
 RAIZ = AQUI.parents[2]
 F = pathlib.Path(os.environ["FONTS_DIR"])
-FPS, DUR = 24, 13.5
+FPS, DUR = 24, 14.0
 TOMA_A, TOMA_B, CRUCE = "toma3-red-hq.mp4", "toma2-estadio-hq.mp4", 7.2  # orden invertido para variar  # la B entra fundida en el segundo 7.2
 W, H = 1080, 1920
 
@@ -50,8 +50,8 @@ html,body{width:1080px;height:1920px;background:transparent;overflow:hidden;font
 
 /* capa oscura para que se lean los textos */
 .v1{inset:0;background:linear-gradient(180deg,rgba(5,11,22,.75) 0%,rgba(5,11,22,.05) 22%,rgba(5,11,22,.0) 50%,rgba(5,11,22,.55) 100%)}
-.v2{inset:0;background:rgba(5,11,22,.45);animation:dark .8s 3.4s both}
-.v3{inset:0;background:radial-gradient(ellipse 90% 60% at 50% 45%,rgba(5,11,22,.38),rgba(5,11,22,.78));animation:dark .8s 7.4s both}
+.v2{inset:0;background:rgba(5,11,22,.45);animation:dark .6s 2.3s both}
+.v3{inset:0;background:radial-gradient(ellipse 90% 60% at 50% 45%,rgba(5,11,22,.38),rgba(5,11,22,.78));animation:dark .6s 9.1s both}
 
 .strip{top:150px;left:50%;margin-left:-330px;width:660px;display:flex;height:66px;font-weight:700;letter-spacing:3px;
  text-transform:uppercase;font-size:24px;box-shadow:0 8px 30px rgba(0,0,0,.5);animation:wipe .6s .2s both}
@@ -65,13 +65,13 @@ html,body{width:1080px;height:1920px;background:transparent;overflow:hidden;font
  background:linear-gradient(180deg,#fff 0%,#fff 45%,#c9d6e6 55%,#fff 100%);-webkit-background-clip:text;color:transparent;
  filter:drop-shadow(0 8px 24px rgba(0,0,0,.8))}
 .gold{background:linear-gradient(180deg,#ffe9a8 0%,#f2b21c 45%,#b77a00 58%,#f2b21c 100%);-webkit-background-clip:text;color:transparent}
-.t1{left:0;right:0;top:720px;font-size:190px;animation:inL .7s .6s both,out .5s 3.3s forwards}
-.t2{left:0;right:0;top:885px;font-size:168px;animation:inR .7s 1.0s both,out .5s 3.35s forwards}
+.t1{left:0;right:0;top:720px;font-size:190px;animation:inL .6s .4s both,out .4s 2.2s forwards}
+.t2{left:0;right:0;top:885px;font-size:168px;animation:inR .6s .7s both,out .4s 2.25s forwards}
 .kick{left:0;right:0;top:660px;text-align:center;font-weight:700;letter-spacing:10px;font-size:30px;color:#74b4e8;
- text-transform:uppercase;animation:up .6s .5s both,out .5s 3.3s forwards}
+ text-transform:uppercase;animation:up .5s .3s both,out .4s 2.2s forwards}
 
 .ttl{left:70px;right:70px;top:440px;text-align:center;font-family:BC;font-style:italic;font-weight:800;font-size:92px;
- text-transform:uppercase;line-height:.9;filter:drop-shadow(0 6px 20px rgba(0,0,0,.8));animation:up .6s 3.6s both,fadeout .4s 6.9s forwards}
+ text-transform:uppercase;line-height:.9;filter:drop-shadow(0 6px 20px rgba(0,0,0,.8));animation:up .5s 2.5s both,fadeout .4s 9.0s forwards}
 .sb{left:70px;right:70px;background:linear-gradient(180deg,rgba(10,22,42,.95),rgba(5,12,24,.95));border:1px solid rgba(255,255,255,.16);
  border-radius:8px;overflow:hidden;box-shadow:0 14px 40px rgba(0,0,0,.55)}
 .sb .hd{display:flex;justify-content:space-between;padding:10px 22px;font-weight:700;font-size:24px;letter-spacing:4px;text-transform:uppercase}
@@ -87,21 +87,21 @@ html,body{width:1080px;height:1920px;background:transparent;overflow:hidden;font
 .cab .hd{background:linear-gradient(90deg,#174d94,#1d5cad)} .cab .w .pt{background:#f2b21c;color:#071528}
 .dam .hd{background:linear-gradient(90deg,#8f2a5c,#b8366f)} .dam .w .pt{background:#ff6fa8;color:#16071a}
 .dam .tri{border-left-color:#ff6fa8}
-.s1{top:660px;animation:inL .6s 4.0s both,fadeout .4s 6.9s forwards}
-.s2{top:960px;animation:inR .6s 4.6s both,fadeout .4s 6.9s forwards}
+.s1{top:660px;animation:inL .5s 2.8s both,fadeout .4s 9.0s forwards}
+.s2{top:960px;animation:inR .5s 3.2s both,fadeout .4s 9.0s forwards}
 .dato{left:110px;right:110px;top:1270px;display:flex;align-items:center;gap:22px;background:rgba(7,21,40,.92);
  border-left:8px solid #f2b21c;padding:22px 28px;font-size:34px;font-weight:600;box-shadow:0 10px 30px rgba(0,0,0,.5);
- animation:up .6s 5.4s both,fadeout .4s 6.9s forwards}
+ animation:up .5s 3.8s both,fadeout .4s 9.0s forwards}
 .dato b{font-family:BC;font-style:italic;font-weight:800;font-size:54px;color:#f2b21c;white-space:nowrap}
 
-.logo{left:50%;top:430px;width:330px;height:330px;margin-left:-165px;filter:drop-shadow(0 10px 40px rgba(0,0,0,.7));animation:pop .7s 7.9s both}
-.c1{left:0;right:0;top:810px;font-size:132px;animation:up .6s 8.4s both}
-.c2{left:0;right:0;top:1060px;text-align:center;animation:up .6s 9.0s both}
+.logo{left:50%;top:430px;width:330px;height:330px;margin-left:-165px;filter:drop-shadow(0 10px 40px rgba(0,0,0,.7));animation:pop .6s 9.4s both}
+.c1{left:0;right:0;top:810px;font-size:132px;animation:up .5s 9.8s both}
+.c2{left:0;right:0;top:1060px;text-align:center;animation:up .5s 10.2s both}
 .pill{display:inline-flex;align-items:center;gap:16px;background:rgba(7,21,40,.92);border:1px solid rgba(255,255,255,.25);
  border-radius:60px;padding:20px 44px;font-weight:700;font-size:44px}
 .pill span{color:#f2b21c}
-.c3{left:0;right:0;top:1200px;text-align:center;font-size:28px;letter-spacing:5px;color:rgba(255,255,255,.7);animation:up .6s 9.5s both}
-.cruz{left:50%;top:1300px;margin-left:-60px;width:120px;height:120px;animation:up .8s 9.8s both;opacity:.6}
+.c3{left:0;right:0;top:1200px;text-align:center;font-size:28px;letter-spacing:5px;color:rgba(255,255,255,.7);animation:up .5s 10.5s both}
+.cruz{left:50%;top:1300px;margin-left:-60px;width:120px;height:120px;animation:up .6s 10.7s both;opacity:.6}
 """
 
 
