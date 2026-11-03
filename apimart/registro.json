@@ -1,1 +1,10 @@
-{}
+{
+  "fondo-21-amanecer-cancha": {
+    "estado": "pedido",
+    "task_id": "task_01M6H8W504NTC3CQVKXQ99JCQE",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/fondo-21-amanecer-cancha.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)",
+    "pedido": "2026-11-03T14:56:22-03:00"
+  }
+}
