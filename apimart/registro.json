@@ -110,5 +110,13 @@
     "url": "https://getapib.org/f/images/aiimg_f5519edcf011673eb71f868d634e0bdb-0.jpg",
     "kb": 2563,
     "terminado": "2026-11-03T15:00:14-03:00"
+  },
+  "banco-toma04-publico": {
+    "estado": "pedido",
+    "task_id": "task_01M6HPT1W2F2G87455TXJHK9Y1",
+    "modelo": "veo3.1-fast",
+    "destino": "instagram/banco-tomas/toma04-publico.mp4",
+    "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)",
+    "pedido": "2026-11-03T18:59:54-03:00"
   }
 }
