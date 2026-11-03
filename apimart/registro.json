@@ -1,10 +1,24 @@
 {
   "fondo-21-amanecer-cancha": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6H8W504NTC3CQVKXQ99JCQE",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/fondo-21-amanecer-cancha.png",
     "nota": "Banco de fondos Sur Padel (Nano Banana 2)",
-    "pedido": "2026-11-03T14:56:22-03:00"
+    "pedido": "2026-11-03T14:56:22-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 21,
+    "url": "https://getapib.org/f/images/aiimg_505b891c30364680aa846e2f7de52ced-0.jpg",
+    "kb": 2711,
+    "terminado": "2026-11-03T14:56:51-03:00"
+  },
+  "fondo-22-pelotas-detalle": {
+    "estado": "pedido",
+    "task_id": "task_01M6H8X11F570F5GNRCXW41TK5",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/fondo-22-pelotas-detalle.png",
+    "nota": "Banco de fondos Sur Padel (Nano Banana 2)",
+    "pedido": "2026-11-03T14:56:51-03:00"
   }
 }
