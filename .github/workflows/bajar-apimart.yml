@@ -1,0 +1,35 @@
+name: Bajar APIMart
+
+# Baja al repositorio los videos de APIMart anotados en apimart/pedidos.json
+# (los links vencen en 24-72 hs). Corre cuando cambia ese archivo o a mano.
+on:
+  push:
+    branches: [main]
+    paths: ["apimart/pedidos.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bajar-apimart
+  cancel-in-progress: false
+
+jobs:
+  bajar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bajar pendientes
+        run: python3 apimart/bajar.py
+      - name: Guardar en el repositorio
+        if: always()
+        run: |
+          git config user.name "surpadel-bot"
+          git config user.email "sur.padel.store@gmail.com"
+          git add instagram
+          if git diff --cached --quiet; then echo "nada nuevo"; exit 0; fi
+          git commit -m "APIMart: videos bajados [skip ci]"
+          git pull --rebase origin main
+          git push
