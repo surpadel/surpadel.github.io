@@ -138,5 +138,13 @@
     "url": "https://getapib.org/video/9998206256162472-26ec0826-bbb5-4c8b-a510-fb96b36129ce-video_task_01M6HQ12H1FEANTZ86131H64CS.mp4",
     "kb": 9810,
     "terminado": "2026-11-03T19:10:59-03:00"
+  },
+  "banco-toma06-cancha-mojada": {
+    "estado": "pedido",
+    "task_id": "task_01M6HQGWXN1M0J11VR7R2QC79S",
+    "modelo": "veo3.1-fast",
+    "destino": "instagram/banco-tomas/toma06-cancha-mojada.mp4",
+    "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)",
+    "pedido": "2026-11-03T19:12:22-03:00"
   }
 }
