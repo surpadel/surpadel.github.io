@@ -70,5 +70,77 @@
     "formato": "9:16",
     "destino": "marca/fondos/fondo-28-cesped-macro.png",
     "nota": "Banco de fondos Sur Padel (Nano Banana 2)"
+  },
+  {
+    "id": "banco-toma04-publico",
+    "prompt": "Slow dolly forward over the stands of a night padel arena, blurred crowd silhouettes with phone lights twinkling, spotlights sweeping. Keep the composition of the reference image. Cinematic night padel stadium, electric blue tones, photorealistic, 24fps. No people in focus, no faces, no players, no rackets, no balls, no text, no logos.",
+    "modelo": "veo3.1-fast",
+    "resolucion": "1080p",
+    "formato": "9:16",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/fondo-09-publico.jpg"
+    ],
+    "destino": "instagram/banco-tomas/toma04-publico.mp4",
+    "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)"
+  },
+  {
+    "id": "banco-toma05-focos",
+    "prompt": "Stadium floodlights switching on one by one at night, lens flares blooming, light haze drifting, slow tilt down toward the court. Keep the composition of the reference image. Cinematic night padel stadium, electric blue tones, photorealistic, 24fps. No people in focus, no faces, no players, no rackets, no balls, no text, no logos.",
+    "modelo": "veo3.1-fast",
+    "resolucion": "1080p",
+    "formato": "9:16",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/fondo-05-focos.jpg"
+    ],
+    "destino": "instagram/banco-tomas/toma05-focos.mp4",
+    "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)"
+  },
+  {
+    "id": "banco-toma06-cancha-mojada",
+    "prompt": "Low slow push-in across a wet blue padel court at night, reflections of the floodlights rippling on the surface, light drizzle. Keep the composition of the reference image. Cinematic night padel stadium, electric blue tones, photorealistic, 24fps. No people in focus, no faces, no players, no rackets, no balls, no text, no logos.",
+    "modelo": "veo3.1-fast",
+    "resolucion": "1080p",
+    "formato": "9:16",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/fondo-08-cancha-mojada.jpg"
+    ],
+    "destino": "instagram/banco-tomas/toma06-cancha-mojada.mp4",
+    "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)"
+  },
+  {
+    "id": "banco-toma07-tunel",
+    "prompt": "Smooth steadicam walk out of a dark players tunnel toward a bright blue padel court, light growing at the end, subtle haze. Keep the composition of the reference image. Cinematic night padel stadium, electric blue tones, photorealistic, 24fps. No people in focus, no faces, no players, no rackets, no balls, no text, no logos.",
+    "modelo": "veo3.1-fast",
+    "resolucion": "1080p",
+    "formato": "9:16",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/fondo-10-tunel.jpg"
+    ],
+    "destino": "instagram/banco-tomas/toma07-tunel.mp4",
+    "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)"
+  },
+  {
+    "id": "banco-toma08-confeti",
+    "prompt": "Golden confetti falling slowly in slow motion over an empty blue padel court under bright lights, celebration atmosphere, gentle camera drift. Keep the composition of the reference image. Cinematic night padel stadium, electric blue tones, photorealistic, 24fps. No people in focus, no faces, no players, no rackets, no balls, no text, no logos.",
+    "modelo": "veo3.1-fast",
+    "resolucion": "1080p",
+    "formato": "9:16",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/fondo-14-campeones-confeti.jpg"
+    ],
+    "destino": "instagram/banco-tomas/toma08-confeti.mp4",
+    "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)"
+  },
+  {
+    "id": "banco-toma09-camara-tv",
+    "prompt": "Slow orbit around a broadcast TV camera on the side of a night padel court, red tally light blinking, stadium lights in soft focus. Keep the composition of the reference image. Cinematic night padel stadium, electric blue tones, photorealistic, 24fps. No people in focus, no faces, no players, no rackets, no balls, no text, no logos.",
+    "modelo": "veo3.1-fast",
+    "resolucion": "1080p",
+    "formato": "9:16",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/fondo-20-camara-tv.jpg"
+    ],
+    "destino": "instagram/banco-tomas/toma09-camara-tv.mp4",
+    "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)"
   }
 ]
