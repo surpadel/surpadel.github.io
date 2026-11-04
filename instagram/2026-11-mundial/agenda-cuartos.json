@@ -1,0 +1,6 @@
+{"jornada": "Cuartos de final", "titulo": "Hoy juega <span class=gold>Argentina</span>",
+ "sub": "Cuartos de final · se gana y se sigue",
+ "partidos": [
+  {"rama": "Damas", "tema": "rosa", "rival": "Portugal", "fp": "pt", "hora": "8:00", "nota": "Pista Central"},
+  {"rama": "Caballeros", "tema": "azul", "rival": "Alemania", "fp": "de", "hora": "12:00", "hn": "Hora argentina · puede demorarse", "nota": "Grand Stand 2"}
+ ]}

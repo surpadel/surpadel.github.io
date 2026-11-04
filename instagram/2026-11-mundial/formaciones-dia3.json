@@ -1,0 +1,10 @@
+{"jornada": "Jornada 3", "titulo": "Así formó <span class=gold>Argentina</span>",
+ "bloques": [
+  {"rama": "Caballeros", "tema": "azul", "rival": "Francia", "serie": "2-0",
+   "partidos": [{"g": "Tapia / Libaak", "p": "Joris / Fonteny", "fp": "fr", "s": "5/7 6/3 6/4"},
+                {"g": "Stupaczuk / Chingotto", "p": "Boronad / Robert", "fp": "fr", "s": "6/2 6/1"}]},
+  {"rama": "Damas", "tema": "rosa", "rival": "Francia", "serie": "3-0",
+   "partidos": [{"g": "Brea / Jensen", "p": "Merah / Soubrié", "fp": "fr", "s": "6/0 6/0"},
+                {"g": "Osoro / Fassio", "p": "Mansart / Pothier", "fp": "fr", "s": "6/2 6/2"},
+                {"g": "Riera / Bidahorria", "p": "Godallier / Bahurel", "fp": "fr", "s": "6/1 6/1"}]}
+ ]}
