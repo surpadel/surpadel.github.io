@@ -1,0 +1,6 @@
+{"jornada": "Jornada 3", "titulo": "Hoy juega <span class=gold>Argentina</span>",
+ "sub": "Último partido de la fase de grupos",
+ "partidos": [
+  {"rama": "Damas", "tema": "rosa", "rival": "Francia", "fp": "fr", "hora": "8:00", "nota": "Grand Stand 2"},
+  {"rama": "Caballeros", "tema": "azul", "rival": "Francia", "fp": "fr", "hora": "12:00", "hn": "Hora argentina · puede demorarse", "nota": "Pista 5"}
+ ]}
