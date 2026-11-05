@@ -210,11 +210,25 @@
     "terminado": "2026-11-05T13:42:15-03:00"
   },
   "r2-02-cresta-a-horizontal": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6P9DW2SQVEWJPZC6SQK15WD",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/r2-02-cresta-a-horizontal.png",
     "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)",
-    "pedido": "2026-11-05T13:42:15-03:00"
+    "pedido": "2026-11-05T13:42:15-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 20,
+    "url": "https://getapib.org/f/images/aiimg_69c172b301e9074d8274c6cc959570d9-0.jpg",
+    "kb": 524,
+    "terminado": "2026-11-05T13:42:44-03:00"
+  },
+  "r2-03-wordmark-a-cresta": {
+    "estado": "pedido",
+    "task_id": "task_01M6P9ERAMZJS5GB0Q7NWRX8KG",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/alektor/r2-03-wordmark-a-cresta.png",
+    "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)",
+    "pedido": "2026-11-05T13:42:44-03:00"
   }
 }
