@@ -308,11 +308,25 @@
     "terminado": "2026-11-05T13:46:10-03:00"
   },
   "r2-09-ligadura-ak": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6P9N22AFM5AME8NBSQ0C0V5",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/r2-09-ligadura-ak.png",
     "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)",
-    "pedido": "2026-11-05T13:46:11-03:00"
+    "pedido": "2026-11-05T13:46:11-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 20,
+    "url": "https://getapib.org/f/images/aiimg_e568a9175d22167e178087d94b343e4a-0.jpg",
+    "kb": 1189,
+    "terminado": "2026-11-05T13:46:39-03:00"
+  },
+  "r2-10-a-como-gallo": {
+    "estado": "pedido",
+    "task_id": "task_01M6P9NYBD6RER6RKPXC9REM95",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/alektor/r2-10-a-como-gallo.png",
+    "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)",
+    "pedido": "2026-11-05T13:46:40-03:00"
   }
 }
