@@ -142,5 +142,95 @@
     ],
     "destino": "instagram/banco-tomas/toma09-camara-tv.mp4",
     "nota": "Banco de tomas Sur Padel (OK de Nico 3/11, 6 tomas ~USD 0,84)"
+  },
+  {
+    "id": "r2-01-cresta-a-negativa",
+    "prompt": "Icon: a solid navy letter A whose counter (the inner hole) is cut as a three-point rooster crest in negative space. Wordmark 'ALEKTOR' below in navy. Professional flat vector logo on a pure white background, large and centered, nothing else in the image. Colors: dark navy #0B1F3A and ember red #D7262A only. Clean geometric sans-serif wordmark. Minimal, corporate consultancy brand, crisp edges, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "destino": "marca/fondos/alektor/r2-01-cresta-a-negativa.png",
+    "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)"
+  },
+  {
+    "id": "r2-02-cresta-a-horizontal",
+    "prompt": "Icon: three rising angular red strokes forming a rooster crest that reads as the letter A, placed to the left of the wordmark 'ALEKTOR' in navy, horizontal lockup, small 'SOLUCIONES' letterspaced in gray below the wordmark. Professional flat vector logo on a pure white background, large and centered, nothing else in the image. Colors: dark navy #0B1F3A and ember red #D7262A only. Clean geometric sans-serif wordmark. Minimal, corporate consultancy brand, crisp edges, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "destino": "marca/fondos/alektor/r2-02-cresta-a-horizontal.png",
+    "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)"
+  },
+  {
+    "id": "r2-03-wordmark-a-cresta",
+    "prompt": "Wordmark only: 'ALEKTOR' in bold navy geometric sans-serif where the first letter A is replaced by a red three-point crest shape that still reads as an A. No separate icon. Professional flat vector logo on a pure white background, large and centered, nothing else in the image. Colors: dark navy #0B1F3A and ember red #D7262A only. Clean geometric sans-serif wordmark. Minimal, corporate consultancy brand, crisp edges, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "destino": "marca/fondos/alektor/r2-03-wordmark-a-cresta.png",
+    "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)"
+  },
+  {
+    "id": "r2-04-k-brazo-cresta",
+    "prompt": "Icon: a bold navy letter K whose upper diagonal arm is replaced by a red three-point rooster crest. Wordmark 'ALEKTOR' below in navy. Professional flat vector logo on a pure white background, large and centered, nothing else in the image. Colors: dark navy #0B1F3A and ember red #D7262A only. Clean geometric sans-serif wordmark. Minimal, corporate consultancy brand, crisp edges, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "destino": "marca/fondos/alektor/r2-04-k-brazo-cresta.png",
+    "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)"
+  },
+  {
+    "id": "r2-05-k-sello-circular",
+    "prompt": "Icon: a white letter K with a small red crest on top, inside a solid navy circle badge. Wordmark 'ALEKTOR' to the right in navy, letterspaced. Professional flat vector logo on a pure white background, large and centered, nothing else in the image. Colors: dark navy #0B1F3A and ember red #D7262A only. Clean geometric sans-serif wordmark. Minimal, corporate consultancy brand, crisp edges, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "destino": "marca/fondos/alektor/r2-05-k-sello-circular.png",
+    "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)"
+  },
+  {
+    "id": "r2-06-gallo-linea-derecha",
+    "prompt": "Icon: minimalist rooster head in profile facing right, drawn with one continuous navy line of even thickness, red comb, a single amber dot #E8A33D for the eye. Wordmark 'ALEKTOR' below in navy with 'SOLUTIONS' small and letterspaced. Professional flat vector logo on a pure white background, large and centered, nothing else in the image. Colors: dark navy #0B1F3A and ember red #D7262A only. Clean geometric sans-serif wordmark. Minimal, corporate consultancy brand, crisp edges, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "destino": "marca/fondos/alektor/r2-06-gallo-linea-derecha.png",
+    "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)"
+  },
+  {
+    "id": "r2-07-gallo-linea-cuerpo",
+    "prompt": "Icon: full-body rooster standing alert, drawn as a single continuous geometric navy line with sharp angles, red comb accent. Wordmark 'ALEKTOR' to the right in navy. Professional flat vector logo on a pure white background, large and centered, nothing else in the image. Colors: dark navy #0B1F3A and ember red #D7262A only. Clean geometric sans-serif wordmark. Minimal, corporate consultancy brand, crisp edges, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "destino": "marca/fondos/alektor/r2-07-gallo-linea-cuerpo.png",
+    "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)"
+  },
+  {
+    "id": "r2-08-gallo-cresta-triple-a",
+    "prompt": "Icon: stylized navy rooster head in profile whose comb is three small red letter-A peaks. Wordmark 'ALEKTOR' below in navy. Professional flat vector logo on a pure white background, large and centered, nothing else in the image. Colors: dark navy #0B1F3A and ember red #D7262A only. Clean geometric sans-serif wordmark. Minimal, corporate consultancy brand, crisp edges, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "destino": "marca/fondos/alektor/r2-08-gallo-cresta-triple-a.png",
+    "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)"
+  },
+  {
+    "id": "r2-09-ligadura-ak",
+    "prompt": "Icon: the letters A and K joined as one geometric navy ligature sharing a stem, with a red crest rising from the top of the shared stem. Wordmark 'ALEKTOR' below, letterspaced. Professional flat vector logo on a pure white background, large and centered, nothing else in the image. Colors: dark navy #0B1F3A and ember red #D7262A only. Clean geometric sans-serif wordmark. Minimal, corporate consultancy brand, crisp edges, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "destino": "marca/fondos/alektor/r2-09-ligadura-ak.png",
+    "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)"
+  },
+  {
+    "id": "r2-10-a-como-gallo",
+    "prompt": "Icon: an abstract rooster in profile built only from a navy letter A: the A's apex is the beak, a red crest sits on top, the crossbar becomes the wattle. Wordmark 'ALEKTOR' below in navy. Professional flat vector logo on a pure white background, large and centered, nothing else in the image. Colors: dark navy #0B1F3A and ember red #D7262A only. Clean geometric sans-serif wordmark. Minimal, corporate consultancy brand, crisp edges, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "destino": "marca/fondos/alektor/r2-10-a-como-gallo.png",
+    "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)"
   }
 ]
