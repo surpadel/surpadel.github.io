@@ -322,11 +322,17 @@
     "terminado": "2026-11-05T13:46:39-03:00"
   },
   "r2-10-a-como-gallo": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6P9NYBD6RER6RKPXC9REM95",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/r2-10-a-como-gallo.png",
     "nota": "Logos Alektor ronda 2 (pedido de Nico 5/11, 10 imágenes ~USD 0,14)",
-    "pedido": "2026-11-05T13:46:40-03:00"
+    "pedido": "2026-11-05T13:46:40-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 21,
+    "url": "https://getapib.org/f/images/aiimg_ad481d9849274d0f095f4869ac9ba498-0.jpg",
+    "kb": 1002,
+    "terminado": "2026-11-05T13:47:08-03:00"
   }
 }
