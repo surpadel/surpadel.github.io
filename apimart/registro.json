@@ -434,11 +434,25 @@
     "terminado": "2026-11-05T15:50:42-03:00"
   },
   "r4-02-una-a-trazo-grueso": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6PGS2FRB2JV14W1ZBK8QZ7N",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/r4-02-una-a-trazo-grueso.png",
     "nota": "Logos Alektor ronda 4: mejora del A-gallo en línea (pedido de Nico 5/11, ~USD 0,08)",
-    "pedido": "2026-11-05T15:50:42-03:00"
+    "pedido": "2026-11-05T15:50:42-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 20,
+    "url": "https://getapib.org/f/images/aiimg_8ee677a3416e7f5ba901f24f4fb74a97-0.jpg",
+    "kb": 1066,
+    "terminado": "2026-11-05T15:51:11-03:00"
+  },
+  "r4-03-cola-tres-plumas": {
+    "estado": "pedido",
+    "task_id": "task_01M6PGSZ5T3HSDW4VPBNHZTX1K",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/alektor/r4-03-cola-tres-plumas.png",
+    "nota": "Logos Alektor ronda 4: mejora del A-gallo en línea (pedido de Nico 5/11, ~USD 0,08)",
+    "pedido": "2026-11-05T15:51:12-03:00"
   }
 }
