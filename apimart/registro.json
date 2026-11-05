@@ -574,11 +574,17 @@
     "terminado": "2026-11-05T16:07:37-03:00"
   },
   "r5-06-silueta-dominante": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6PHR1NNPQ9R7WK7DXMF65E2",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/r5-06-silueta-dominante.png",
     "nota": "Logos Alektor ronda 5: silueta del gallo primero, A visible, rojo al centro (pedido de Nico 5/11, ~USD 0,08)",
-    "pedido": "2026-11-05T16:07:37-03:00"
+    "pedido": "2026-11-05T16:07:37-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 20,
+    "url": "https://getapib.org/f/images/aiimg_27365425415c60b04f7358178d3e2acd-0.jpg",
+    "kb": 1164,
+    "terminado": "2026-11-05T16:08:06-03:00"
   }
 }
