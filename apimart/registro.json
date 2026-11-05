@@ -518,11 +518,25 @@
     "terminado": "2026-11-05T16:05:42-03:00"
   },
   "r5-02-ojo-navy": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6PHMHK5P6JV0GG8RZCVDF6J",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/r5-02-ojo-navy.png",
     "nota": "Logos Alektor ronda 5: silueta del gallo primero, A visible, rojo al centro (pedido de Nico 5/11, ~USD 0,08)",
-    "pedido": "2026-11-05T16:05:42-03:00"
+    "pedido": "2026-11-05T16:05:42-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 21,
+    "url": "https://getapib.org/f/images/aiimg_0dba2ac85a12df682a134d82f5013579-0.jpg",
+    "kb": 1104,
+    "terminado": "2026-11-05T16:06:11-03:00"
+  },
+  "r5-03-ojo-blanco-anillo": {
+    "estado": "pedido",
+    "task_id": "task_01M6PHNDFBW9E5QNH3MGVRCKNS",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/alektor/r5-03-ojo-blanco-anillo.png",
+    "nota": "Logos Alektor ronda 5: silueta del gallo primero, A visible, rojo al centro (pedido de Nico 5/11, ~USD 0,08)",
+    "pedido": "2026-11-05T16:06:11-03:00"
   }
 }
