@@ -358,5 +358,77 @@
     ],
     "destino": "marca/fondos/alektor/r4-06-avatar-negativo.png",
     "nota": "Logos Alektor ronda 4: mejora del A-gallo en línea (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "r5-01-ojo-rojo",
+    "prompt": "Redesign the reference logo of a full-body rooster in navy line art that contains a capital letter A. Priority: the rooster silhouette must read first and be strong and elegant (proud upright posture, clear head, beak, chest, back and a full, voluminous arched tail with several layered curved feathers). The capital letter A must still be clearly visible inside the body, formed by the legs and a crossbar, but secondary to the rooster. Keep a solid red #D7262A triangular shape in the center of the A (inside its counter), like the reference. Red comb on top and red wattle under the beak. Clean, consistent navy #0B1F3A strokes, fewer crossing lines than the reference. Eye: a small solid red dot, same red as the comb. Professional flat vector logo on a pure white background, centered, generous margin, nothing else. Wordmark 'ALEKTOR' below in navy geometric sans-serif. Minimal, premium consultancy brand, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/r3-02-a-gallo-trazo.png"
+    ],
+    "destino": "marca/fondos/alektor/r5-01-ojo-rojo.png",
+    "nota": "Logos Alektor ronda 5: silueta del gallo primero, A visible, rojo al centro (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "r5-02-ojo-navy",
+    "prompt": "Redesign the reference logo of a full-body rooster in navy line art that contains a capital letter A. Priority: the rooster silhouette must read first and be strong and elegant (proud upright posture, clear head, beak, chest, back and a full, voluminous arched tail with several layered curved feathers). The capital letter A must still be clearly visible inside the body, formed by the legs and a crossbar, but secondary to the rooster. Keep a solid red #D7262A triangular shape in the center of the A (inside its counter), like the reference. Red comb on top and red wattle under the beak. Clean, consistent navy #0B1F3A strokes, fewer crossing lines than the reference. Eye: a small solid navy dot, so the only reds are comb, wattle and the center triangle. Professional flat vector logo on a pure white background, centered, generous margin, nothing else. Wordmark 'ALEKTOR' below in navy geometric sans-serif. Minimal, premium consultancy brand, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/r3-02-a-gallo-trazo.png"
+    ],
+    "destino": "marca/fondos/alektor/r5-02-ojo-navy.png",
+    "nota": "Logos Alektor ronda 5: silueta del gallo primero, A visible, rojo al centro (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "r5-03-ojo-blanco-anillo",
+    "prompt": "Redesign the reference logo of a full-body rooster in navy line art that contains a capital letter A. Priority: the rooster silhouette must read first and be strong and elegant (proud upright posture, clear head, beak, chest, back and a full, voluminous arched tail with several layered curved feathers). The capital letter A must still be clearly visible inside the body, formed by the legs and a crossbar, but secondary to the rooster. Keep a solid red #D7262A triangular shape in the center of the A (inside its counter), like the reference. Red comb on top and red wattle under the beak. Clean, consistent navy #0B1F3A strokes, fewer crossing lines than the reference. Eye: a small white dot with a thin navy ring. Professional flat vector logo on a pure white background, centered, generous margin, nothing else. Wordmark 'ALEKTOR' below in navy geometric sans-serif. Minimal, premium consultancy brand, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/r3-02-a-gallo-trazo.png"
+    ],
+    "destino": "marca/fondos/alektor/r5-03-ojo-blanco-anillo.png",
+    "nota": "Logos Alektor ronda 5: silueta del gallo primero, A visible, rojo al centro (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "r5-04-cola-maciza",
+    "prompt": "Redesign the reference logo of a full-body rooster in navy line art that contains a capital letter A. Priority: the rooster silhouette must read first and be strong and elegant (proud upright posture, clear head, beak, chest, back and a full, voluminous arched tail with several layered curved feathers). The capital letter A must still be clearly visible inside the body, formed by the legs and a crossbar, but secondary to the rooster. Keep a solid red #D7262A triangular shape in the center of the A (inside its counter), like the reference. Red comb on top and red wattle under the beak. Clean, consistent navy #0B1F3A strokes, fewer crossing lines than the reference. The tail is drawn with thicker, fuller layered feathers giving strong volume; eye is a small red dot. Professional flat vector logo on a pure white background, centered, generous margin, nothing else. Wordmark 'ALEKTOR' below in navy geometric sans-serif. Minimal, premium consultancy brand, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/r3-02-a-gallo-trazo.png"
+    ],
+    "destino": "marca/fondos/alektor/r5-04-cola-maciza.png",
+    "nota": "Logos Alektor ronda 5: silueta del gallo primero, A visible, rojo al centro (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "r5-05-trazo-grueso",
+    "prompt": "Redesign the reference logo of a full-body rooster in navy line art that contains a capital letter A. Priority: the rooster silhouette must read first and be strong and elegant (proud upright posture, clear head, beak, chest, back and a full, voluminous arched tail with several layered curved feathers). The capital letter A must still be clearly visible inside the body, formed by the legs and a crossbar, but secondary to the rooster. Keep a solid red #D7262A triangular shape in the center of the A (inside its counter), like the reference. Red comb on top and red wattle under the beak. Clean, consistent navy #0B1F3A strokes, fewer crossing lines than the reference. Bolder, thicker navy strokes overall for small-size legibility; eye is a small red dot; tail full and voluminous. Professional flat vector logo on a pure white background, centered, generous margin, nothing else. Wordmark 'ALEKTOR' below in navy geometric sans-serif. Minimal, premium consultancy brand, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/r3-02-a-gallo-trazo.png"
+    ],
+    "destino": "marca/fondos/alektor/r5-05-trazo-grueso.png",
+    "nota": "Logos Alektor ronda 5: silueta del gallo primero, A visible, rojo al centro (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "r5-06-silueta-dominante",
+    "prompt": "Redesign the reference logo of a full-body rooster in navy line art that contains a capital letter A. Priority: the rooster silhouette must read first and be strong and elegant (proud upright posture, clear head, beak, chest, back and a full, voluminous arched tail with several layered curved feathers). The capital letter A must still be clearly visible inside the body, formed by the legs and a crossbar, but secondary to the rooster. Keep a solid red #D7262A triangular shape in the center of the A (inside its counter), like the reference. Red comb on top and red wattle under the beak. Clean, consistent navy #0B1F3A strokes, fewer crossing lines than the reference. Make the rooster even more dominant: the A is suggested only by the two legs and the red center triangle with a subtle crossbar; eye is a small red dot; tail large and sweeping. Professional flat vector logo on a pure white background, centered, generous margin, nothing else. Wordmark 'ALEKTOR' below in navy geometric sans-serif. Minimal, premium consultancy brand, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/r3-02-a-gallo-trazo.png"
+    ],
+    "destino": "marca/fondos/alektor/r5-06-silueta-dominante.png",
+    "nota": "Logos Alektor ronda 5: silueta del gallo primero, A visible, rojo al centro (pedido de Nico 5/11, ~USD 0,08)"
   }
 ]
