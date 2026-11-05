@@ -334,5 +334,13 @@
     "url": "https://getapib.org/f/images/aiimg_ad481d9849274d0f095f4869ac9ba498-0.jpg",
     "kb": 1002,
     "terminado": "2026-11-05T13:47:08-03:00"
+  },
+  "r3-01-a-solida-gallo-linea": {
+    "estado": "pedido",
+    "task_id": "task_01M6PG4Z6WRS822XA9DK9H4B84",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/alektor/r3-01-a-solida-gallo-linea.png",
+    "nota": "Logos Alektor ronda 3: fusiones de 1, 6 y 10 (pedido de Nico 5/11, ~USD 0,08)",
+    "pedido": "2026-11-05T15:39:43-03:00"
   }
 }
