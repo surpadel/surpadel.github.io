@@ -1,0 +1,11 @@
+{"jornada": "Cuartos de final", "titulo": "Así formó <span class=gold>Argentina</span>",
+ "bloques": [
+  {"rama": "Caballeros", "tema": "azul", "rival": "Alemania", "serie": "3-0",
+   "partidos": [{"g": "Chingotto / Alfonso", "p": "Reca / Wunner", "fp": "de", "s": "6/1 6/1"},
+                {"g": "Augsburger / Di Nenno", "p": "Lindmeyer / Fitzon", "fp": "de", "s": "6/0 6/4"},
+                {"g": "Stupaczuk / Arce", "p": "Boehnke / Merten", "fp": "de", "s": "6/3 6/0"}]},
+  {"rama": "Damas", "tema": "rosa", "rival": "Portugal", "serie": "3-0",
+   "partidos": [{"g": "Brea / Jensen", "p": "Simas / Santos", "fp": "pt", "s": "6/0 6/0"},
+                {"g": "Osoro / Fassio", "p": "Silva / Santos", "fp": "pt", "s": "6/1 6/3"},
+                {"g": "Riera / Bidahorria", "p": "Batlle / Araujo", "fp": "pt", "s": "6/2 6/0"}]}
+ ]}
