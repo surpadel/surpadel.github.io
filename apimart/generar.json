@@ -286,5 +286,77 @@
     "formato": "1:1",
     "destino": "marca/fondos/alektor/r3-06-avatar-a-gallo.png",
     "nota": "Logos Alektor ronda 3: fusiones de 1, 6 y 10 (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "r4-01-una-a-monolinea",
+    "prompt": "Redesign the reference logo, keeping its idea of a full-body rooster that forms a capital letter A, but fix it: use ONE single letter A only (no second inner A, no crossing double A); the rooster's chest and front line form the left leg of the A, its back and tail line form the right leg, and the crossbar of the A is the wing line. No separate rooster feet and no base line: the A legs are the legs. Monoline drawing: single strokes of perfectly even thickness with rounded ends, never hollow double outlines. Few lines, no crossings except the crossbar. Compact red comb with exactly three rounded points, red wattle attached under the beak, a single amber #E8A33D dot for the eye. Medium stroke weight. Wordmark 'ALEKTOR' below in navy geometric sans-serif. Professional flat vector logo on a pure white background, centered, generous margin, nothing else. Colors: dark navy #0B1F3A, ember red #D7262A, amber #E8A33D accent. Minimal, corporate consultancy brand, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/r3-02-a-gallo-trazo.png"
+    ],
+    "destino": "marca/fondos/alektor/r4-01-una-a-monolinea.png",
+    "nota": "Logos Alektor ronda 4: mejora del A-gallo en línea (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "r4-02-una-a-trazo-grueso",
+    "prompt": "Redesign the reference logo, keeping its idea of a full-body rooster that forms a capital letter A, but fix it: use ONE single letter A only (no second inner A, no crossing double A); the rooster's chest and front line form the left leg of the A, its back and tail line form the right leg, and the crossbar of the A is the wing line. No separate rooster feet and no base line: the A legs are the legs. Monoline drawing: single strokes of perfectly even thickness with rounded ends, never hollow double outlines. Few lines, no crossings except the crossbar. Compact red comb with exactly three rounded points, red wattle attached under the beak, a single amber #E8A33D dot for the eye. Bold, thick stroke weight designed to stay readable at 32 pixels. Wordmark 'ALEKTOR' below in navy geometric sans-serif. Professional flat vector logo on a pure white background, centered, generous margin, nothing else. Colors: dark navy #0B1F3A, ember red #D7262A, amber #E8A33D accent. Minimal, corporate consultancy brand, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/r3-02-a-gallo-trazo.png"
+    ],
+    "destino": "marca/fondos/alektor/r4-02-una-a-trazo-grueso.png",
+    "nota": "Logos Alektor ronda 4: mejora del A-gallo en línea (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "r4-03-cola-tres-plumas",
+    "prompt": "Redesign the reference logo, keeping its idea of a full-body rooster that forms a capital letter A, but fix it: use ONE single letter A only (no second inner A, no crossing double A); the rooster's chest and front line form the left leg of the A, its back and tail line form the right leg, and the crossbar of the A is the wing line. No separate rooster feet and no base line: the A legs are the legs. Monoline drawing: single strokes of perfectly even thickness with rounded ends, never hollow double outlines. Few lines, no crossings except the crossbar. Compact red comb with exactly three rounded points, red wattle attached under the beak, a single amber #E8A33D dot for the eye. The tail is exactly three curved feather strokes rising from the top of the right leg of the A, ends cut at the same angle. Wordmark 'ALEKTOR' below. Professional flat vector logo on a pure white background, centered, generous margin, nothing else. Colors: dark navy #0B1F3A, ember red #D7262A, amber #E8A33D accent. Minimal, corporate consultancy brand, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/r3-02-a-gallo-trazo.png"
+    ],
+    "destino": "marca/fondos/alektor/r4-03-cola-tres-plumas.png",
+    "nota": "Logos Alektor ronda 4: mejora del A-gallo en línea (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "r4-04-compacto-cuadrado",
+    "prompt": "Redesign the reference logo, keeping its idea of a full-body rooster that forms a capital letter A, but fix it: use ONE single letter A only (no second inner A, no crossing double A); the rooster's chest and front line form the left leg of the A, its back and tail line form the right leg, and the crossbar of the A is the wing line. No separate rooster feet and no base line: the A legs are the legs. Monoline drawing: single strokes of perfectly even thickness with rounded ends, never hollow double outlines. Few lines, no crossings except the crossbar. Compact red comb with exactly three rounded points, red wattle attached under the beak, a single amber #E8A33D dot for the eye. Compact, almost square proportions so it fits a round avatar; short tail of two strokes tucked close to the body. Icon only, no wordmark. Professional flat vector logo on a pure white background, centered, generous margin, nothing else. Colors: dark navy #0B1F3A, ember red #D7262A, amber #E8A33D accent. Minimal, corporate consultancy brand, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/r3-02-a-gallo-trazo.png"
+    ],
+    "destino": "marca/fondos/alektor/r4-04-compacto-cuadrado.png",
+    "nota": "Logos Alektor ronda 4: mejora del A-gallo en línea (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "r4-05-una-tinta",
+    "prompt": "Redesign the reference logo, keeping its idea of a full-body rooster that forms a capital letter A, but fix it: use ONE single letter A only (no second inner A, no crossing double A); the rooster's chest and front line form the left leg of the A, its back and tail line form the right leg, and the crossbar of the A is the wing line. No separate rooster feet and no base line: the A legs are the legs. Monoline drawing: single strokes of perfectly even thickness with rounded ends, never hollow double outlines. Few lines, no crossings except the crossbar. Compact red comb with exactly three rounded points, red wattle attached under the beak, a single amber #E8A33D dot for the eye. Single-color version: everything in navy #0B1F3A including comb and wattle, only the eye dot in amber. Wordmark 'ALEKTOR' to the right of the icon, horizontal lockup. Professional flat vector logo on a pure white background, centered, generous margin, nothing else. Colors: dark navy #0B1F3A, ember red #D7262A, amber #E8A33D accent. Minimal, corporate consultancy brand, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/r3-02-a-gallo-trazo.png"
+    ],
+    "destino": "marca/fondos/alektor/r4-05-una-tinta.png",
+    "nota": "Logos Alektor ronda 4: mejora del A-gallo en línea (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "r4-06-avatar-negativo",
+    "prompt": "Redesign the reference logo, keeping its idea of a full-body rooster that forms a capital letter A, but fix it: use ONE single letter A only (no second inner A, no crossing double A); the rooster's chest and front line form the left leg of the A, its back and tail line form the right leg, and the crossbar of the A is the wing line. No separate rooster feet and no base line: the A legs are the legs. Monoline drawing: single strokes of perfectly even thickness with rounded ends, never hollow double outlines. Few lines, no crossings except the crossbar. Compact red comb with exactly three rounded points, red wattle attached under the beak, a single amber #E8A33D dot for the eye. Drawn in white lines on a solid navy #0B1F3A circle, comb and wattle in red, eye in amber. Social media avatar, icon only, no wordmark. Professional flat vector logo on a pure white background, centered, generous margin, nothing else. Colors: dark navy #0B1F3A, ember red #D7262A, amber #E8A33D accent. Minimal, corporate consultancy brand, no gradients, no shadows, no mockups, no extra text, no watermark.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "1:1",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/r3-02-a-gallo-trazo.png"
+    ],
+    "destino": "marca/fondos/alektor/r4-06-avatar-negativo.png",
+    "nota": "Logos Alektor ronda 4: mejora del A-gallo en línea (pedido de Nico 5/11, ~USD 0,08)"
   }
 ]
