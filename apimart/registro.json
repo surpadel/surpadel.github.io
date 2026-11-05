@@ -392,11 +392,25 @@
     "terminado": "2026-11-05T15:41:38-03:00"
   },
   "r3-05-familia-tres": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6PG8FR1DSPYH9ER2W1R3GW6",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/r3-05-familia-tres.png",
     "nota": "Logos Alektor ronda 3: fusiones de 1, 6 y 10 (pedido de Nico 5/11, ~USD 0,08)",
-    "pedido": "2026-11-05T15:41:39-03:00"
+    "pedido": "2026-11-05T15:41:39-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 20,
+    "url": "https://getapib.org/f/images/aiimg_3c1eeac6028322f0f6cf00137afeb245-0.jpg",
+    "kb": 849,
+    "terminado": "2026-11-05T15:42:07-03:00"
+  },
+  "r3-06-avatar-a-gallo": {
+    "estado": "pedido",
+    "task_id": "task_01M6PG9BJQ4XJADW0A6A2YQDT4",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/alektor/r3-06-avatar-a-gallo.png",
+    "nota": "Logos Alektor ronda 3: fusiones de 1, 6 y 10 (pedido de Nico 5/11, ~USD 0,08)",
+    "pedido": "2026-11-05T15:42:07-03:00"
   }
 }
