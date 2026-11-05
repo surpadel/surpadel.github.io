@@ -350,11 +350,25 @@
     "terminado": "2026-11-05T15:40:12-03:00"
   },
   "r3-02-a-gallo-trazo": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6PG5VKC2T5FH5SP39JSMW4J",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/r3-02-a-gallo-trazo.png",
     "nota": "Logos Alektor ronda 3: fusiones de 1, 6 y 10 (pedido de Nico 5/11, ~USD 0,08)",
-    "pedido": "2026-11-05T15:40:13-03:00"
+    "pedido": "2026-11-05T15:40:13-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 21,
+    "url": "https://getapib.org/f/images/aiimg_b299f33ae1c64edbb7b31172cb5803b1-0.jpg",
+    "kb": 1321,
+    "terminado": "2026-11-05T15:40:41-03:00"
+  },
+  "r3-03-a-gallo-solido-ojo": {
+    "estado": "pedido",
+    "task_id": "task_01M6PG6QV25PJ71TEVGSRAPFDG",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/alektor/r3-03-a-gallo-solido-ojo.png",
+    "nota": "Logos Alektor ronda 3: fusiones de 1, 6 y 10 (pedido de Nico 5/11, ~USD 0,08)",
+    "pedido": "2026-11-05T15:40:41-03:00"
   }
 }
