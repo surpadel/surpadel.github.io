@@ -602,11 +602,25 @@
     "terminado": "2026-11-05T21:22:27-03:00"
   },
   "alektor-web-hero-b-veleta": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6Q3RH1CYY8PVGTCVQ86MX2F",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/web/hero-b-veleta.png",
     "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)",
-    "pedido": "2026-11-05T21:22:27-03:00"
+    "pedido": "2026-11-05T21:22:27-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 20,
+    "url": "https://getapib.org/f/images/aiimg_783ad949b05f7c875e7a9ce13d0de933-0.jpg",
+    "kb": 2538,
+    "terminado": "2026-11-05T21:22:55-03:00"
+  },
+  "alektor-web-hero-c-oficina": {
+    "estado": "pedido",
+    "task_id": "task_01M6Q3SCJTYY99D9YRFJ2WBBBX",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/alektor/web/hero-c-oficina.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)",
+    "pedido": "2026-11-05T21:22:55-03:00"
   }
 }
