@@ -541,5 +541,17 @@
     "formato": "16:9",
     "destino": "marca/fondos/alektor/web/hero-a3-sin-camion.png",
     "nota": "Web Alektor v2: hero alternativo sin vehículos (~USD 0,014)"
+  },
+  {
+    "id": "alektor-web-hero-loop",
+    "prompt": "Locked-off tripod shot with an extremely slow, barely perceptible push-in. Blue hour turning into sunrise over a small warehouse in the outskirts of Buenos Aires: the thin red-orange band on the horizon slowly brightens and widens, the navy sky gains a little light, the warm light inside the open loading door stays steady with a subtle flicker, faint reflections shimmer on the wet concrete, power lines sway almost imperceptibly. Calm, quiet, photorealistic, cinematic. No people, no new vehicles, no text, no logos, no camera shake.",
+    "modelo": "veo3.1-fast",
+    "resolucion": "1080p",
+    "formato": "16:9",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/web/hero-a2-limpia.png"
+    ],
+    "destino": "marca/fondos/alektor/web/hero-loop.mp4",
+    "nota": "Web Alektor v2: loop del hero (~USD 0,14)"
   }
 ]
