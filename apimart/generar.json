@@ -553,5 +553,23 @@
     ],
     "destino": "marca/fondos/alektor/web/hero-loop.mp4",
     "nota": "Web Alektor v2: loop del hero (~USD 0,14)"
+  },
+  {
+    "id": "alektor-web-metodo-acta",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens, early morning blue hour light: deep navy shadows and cool steel-blue tones with a single warm red-orange accent from the first light through a window. Calm, serious, trustworthy mood, uncluttered composition, slightly dark exposure. Setting: the administration office of a small industrial business in the outskirts of Buenos Aires, Argentina. Top-down view of a wooden desk: a printed one-page procedure sheet on a clipboard with a few signature lines (all text blurred and unreadable), a pen laid across it, a classic desk phone and a small stack of folders at the edge of the frame, soft window light from the left. No people at all, no faces, no readable text or numbers, no logos, no brand names, no watermarks.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "3:2",
+    "destino": "marca/fondos/alektor/web/metodo-acta.png",
+    "nota": "Web Alektor v2, reemplazos tras revisión (~USD 0,014 c/u)"
+  },
+  {
+    "id": "alektor-web-ia-escritorio-v2",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens, early morning blue hour light: deep navy shadows and cool steel-blue tones with a single warm red-orange accent from the first light through a window. Calm, serious, trustworthy mood, uncluttered composition, slightly dark exposure. Setting: the administration office of a small industrial business in the outskirts of Buenos Aires, Argentina. A closed laptop and a printed one-page usage policy (text blurred and unreadable) on a tidy desk, a mug beside it, the office window behind showing a loading yard and the first red-orange light on the horizon, shallow depth of field. No people at all, no faces, no readable text or numbers, no logos, no brand names, no watermarks.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "3:2",
+    "destino": "marca/fondos/alektor/web/ia-escritorio-v2.png",
+    "nota": "Web Alektor v2, reemplazos tras revisión (~USD 0,014 c/u)"
   }
 ]
