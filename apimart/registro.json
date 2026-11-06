@@ -756,11 +756,17 @@
     "terminado": "2026-11-05T21:29:32-03:00"
   },
   "alektor-web-hero-loop": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6Q46MP1QDY27E38QJX3K86A",
     "modelo": "veo3.1-fast",
     "destino": "marca/fondos/alektor/web/hero-loop.mp4",
     "nota": "Web Alektor v2: loop del hero (~USD 0,14)",
-    "pedido": "2026-11-05T21:30:10-03:00"
+    "pedido": "2026-11-05T21:30:10-03:00",
+    "costo_usd": 0.14,
+    "creditos": 1.4000000000000001,
+    "segundos": 112,
+    "url": "https://getapib.org/f/images/8f2d8029f94ed0ba563daab36ac02f4a.mp4",
+    "kb": 4940,
+    "terminado": "2026-11-05T21:32:16-03:00"
   }
 }
