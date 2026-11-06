@@ -700,11 +700,25 @@
     "terminado": "2026-11-05T21:25:53-03:00"
   },
   "alektor-web-deposito-pasillo": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6Q3YTKXJYWG81X5CPTA82Z7",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/web/deposito-pasillo.png",
     "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)",
-    "pedido": "2026-11-05T21:25:54-03:00"
+    "pedido": "2026-11-05T21:25:54-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 20,
+    "url": "https://getapib.org/f/images/aiimg_a015fd79b46e14872d7a8b7eb46a2a6a-0.jpg",
+    "kb": 3114,
+    "terminado": "2026-11-05T21:26:22-03:00"
+  },
+  "alektor-web-ventana-amanecer": {
+    "estado": "pedido",
+    "task_id": "task_01M6Q3ZP4W20KGH6NE908JTEKP",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/alektor/web/ventana-amanecer.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)",
+    "pedido": "2026-11-05T21:26:22-03:00"
   }
 }
