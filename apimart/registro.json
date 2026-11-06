@@ -768,5 +768,13 @@
     "url": "https://getapib.org/f/images/8f2d8029f94ed0ba563daab36ac02f4a.mp4",
     "kb": 4940,
     "terminado": "2026-11-05T21:32:16-03:00"
+  },
+  "alektor-web-metodo-acta": {
+    "estado": "pedido",
+    "task_id": "task_01M6Q4SA30WPP7443JP96WMTAJ",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/alektor/web/metodo-acta.png",
+    "nota": "Web Alektor v2, reemplazos tras revisión (~USD 0,014 c/u)",
+    "pedido": "2026-11-05T21:40:21-03:00"
   }
 }
