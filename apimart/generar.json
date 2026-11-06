@@ -520,5 +520,26 @@
     "formato": "16:9",
     "destino": "marca/fondos/alektor/web/ventana-amanecer.png",
     "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)"
+  },
+  {
+    "id": "alektor-web-hero-a2-limpia",
+    "prompt": "Edit this photograph keeping exactly the same composition, light, colors and mood: remove every sign, plaque and label from the warehouse wall (plain weathered concrete instead), remove the brand badge from the truck grille and make the license plate blank, keep the trucks plain white and unbranded. Photorealistic, same camera. No people's faces, no readable text or numbers, no logos, no brand names or badges on vehicles, no license plates, no signs on walls, no watermarks.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "16:9",
+    "imagenes": [
+      "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/marca/fondos/alektor/web/hero-a-galpon.png"
+    ],
+    "destino": "marca/fondos/alektor/web/hero-a2-limpia.png",
+    "nota": "Web Alektor v2: hero sin marcas (~USD 0,014)"
+  },
+  {
+    "id": "alektor-web-hero-a3-sin-camion",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens. Blue hour just before sunrise in the outskirts of Buenos Aires, Argentina: wide exterior of a modest corrugated-metal warehouse on the right third, one roll-up loading door half open with warm interior light spilling onto wet concrete, a single empty wooden pallet near the door, power lines, a thin red-orange band of first light on the flat horizon, deep navy sky taking the whole left half of the frame, empty for headline text. Calm, serious, trustworthy mood. No vehicles. No people's faces, no readable text or numbers, no logos, no brand names or badges on vehicles, no license plates, no signs on walls, no watermarks.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "16:9",
+    "destino": "marca/fondos/alektor/web/hero-a3-sin-camion.png",
+    "nota": "Web Alektor v2: hero alternativo sin vehículos (~USD 0,014)"
   }
 ]
