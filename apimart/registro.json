@@ -784,11 +784,17 @@
     "terminado": "2026-11-05T21:40:51-03:00"
   },
   "alektor-web-ia-escritorio-v2": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6Q4T7DH9G53G80HYN82S65Y",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/web/ia-escritorio-v2.png",
     "nota": "Web Alektor v2, reemplazos tras revisión (~USD 0,014 c/u)",
-    "pedido": "2026-11-05T21:40:51-03:00"
+    "pedido": "2026-11-05T21:40:51-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 21,
+    "url": "https://getapib.org/f/images/aiimg_b770edf1146ea84076302eae1feb097e-0.jpg",
+    "kb": 2685,
+    "terminado": "2026-11-05T21:41:20-03:00"
   }
 }
