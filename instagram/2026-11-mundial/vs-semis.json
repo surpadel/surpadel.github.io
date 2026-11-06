@@ -1,0 +1,9 @@
+{"jornada": "Semifinal", "rival": "Italia", "fp": "it", "tema": "azul",
+ "titulo": "Cara a <span class=gold>cara</span>",
+ "sub": "Tres partidos para meterse en la final",
+ "partidos": [
+  {"n": 1, "hora": "12:00 hs", "ar": ["Augsburger", "Di Nenno"], "ri": ["Montiel", "Abbate"]},
+  {"n": 2, "hora": "A continuación", "ar": ["Tapia", "Chingotto"], "ri": ["Patiniotis", "Brambilla"]},
+  {"n": 3, "hora": "A continuación", "ar": ["Alfonso", "Libaak"], "ri": ["Cassetta", "Iacovino"]}
+ ],
+ "aviso": {"a": "Damas", "b": "<b>¡Ya están en la final!</b> 2 a 0 contra Italia con Osoro / Fassio y Brea / Jensen."}}
