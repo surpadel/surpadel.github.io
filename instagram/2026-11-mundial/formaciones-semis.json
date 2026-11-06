@@ -1,0 +1,11 @@
+{"jornada": "Semifinales", "titulo": "Así formó <span class=gold>Argentina</span>",
+ "bloques": [
+  {"rama": "Caballeros", "tema": "azul", "rival": "Italia", "serie": "2-0",
+   "partidos": [{"g": "Di Nenno / Augsburger", "p": "Montiel / Abbate", "fp": "it", "s": "6/1 6/1"},
+                {"g": "Tapia / Chingotto", "p": "Patiniotis / Brambilla", "fp": "it", "s": "6/3 6/2"},
+                {"g": "Alfonso / Libaak", "p": "Cassetta / Iacovino", "fp": "it", "np": true}]},
+  {"rama": "Damas", "tema": "rosa", "rival": "Italia", "serie": "2-0",
+   "partidos": [{"g": "Osoro / Fassio", "p": "Baldi / Sussarello", "fp": "it", "s": "6/2 6/2"},
+                {"g": "Brea / Jensen", "p": "Dal Pozzo / Marchetti", "fp": "it", "s": "6/2 6/3"},
+                {"g": "Riera / Bidahorria", "p": "Orsi / Stellato", "fp": "it", "np": true}]}
+ ]}

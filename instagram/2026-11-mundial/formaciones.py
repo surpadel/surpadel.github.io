@@ -41,6 +41,11 @@ def bandera(cod):
 
 
 def marcador(m, label):
+    if m.get("np"):  # partido no jugado (la serie ya estaba definida)
+        return (f'<div class="sb np"><div class=hd><span>{label}</span><span>No se jugó</span></div>'
+                f'<div class=row><div class=tri></div>{bandera(m.get("fg", "ar"))}<div class=nm>{m["g"]}</div><div class=npx>Serie ya definida</div></div>'
+                f'<div class=row><div class=tri></div>{bandera(m.get("fp", ""))}<div class=nm>{m["p"]}</div><div class=npx></div></div></div>')
+
     def sets(mine):
         out = ""
         for st in m["s"].split():
@@ -71,6 +76,7 @@ def historia(d):
 .foot{{gap:10px}}
 .flag{{position:relative;flex:none;width:44px;height:30px;margin-left:14px;border-radius:3px;box-shadow:0 0 0 1px rgba(255,255,255,.25)}}
 .row .nm{{padding:0 14px}}
+.sb.np{{opacity:.6}} .npx{{margin-left:auto;padding-right:22px;font-size:22px;letter-spacing:2px;text-transform:uppercase;color:#cfe0f3}}
 """
     blks = ""
     for b in d["bloques"]:
