@@ -770,11 +770,25 @@
     "terminado": "2026-11-05T21:32:16-03:00"
   },
   "alektor-web-metodo-acta": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6Q4SA30WPP7443JP96WMTAJ",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/web/metodo-acta.png",
     "nota": "Web Alektor v2, reemplazos tras revisión (~USD 0,014 c/u)",
-    "pedido": "2026-11-05T21:40:21-03:00"
+    "pedido": "2026-11-05T21:40:21-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 21,
+    "url": "https://getapib.org/f/images/aiimg_bab8303160eb095fd744c6e5756853e2-0.jpg",
+    "kb": 2925,
+    "terminado": "2026-11-05T21:40:51-03:00"
+  },
+  "alektor-web-ia-escritorio-v2": {
+    "estado": "pedido",
+    "task_id": "task_01M6Q4T7DH9G53G80HYN82S65Y",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/alektor/web/ia-escritorio-v2.png",
+    "nota": "Web Alektor v2, reemplazos tras revisión (~USD 0,014 c/u)",
+    "pedido": "2026-11-05T21:40:51-03:00"
   }
 }
