@@ -714,11 +714,17 @@
     "terminado": "2026-11-05T21:26:22-03:00"
   },
   "alektor-web-ventana-amanecer": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6Q3ZP4W20KGH6NE908JTEKP",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/web/ventana-amanecer.png",
     "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)",
-    "pedido": "2026-11-05T21:26:22-03:00"
+    "pedido": "2026-11-05T21:26:22-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 20,
+    "url": "https://getapib.org/f/images/aiimg_2a8bd2d2396be9abf85db38f0a85941f-0.jpg",
+    "kb": 2925,
+    "terminado": "2026-11-05T21:26:50-03:00"
   }
 }
