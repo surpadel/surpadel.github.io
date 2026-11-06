@@ -24,7 +24,7 @@
   ],
   "estado": "Publicado",
   "auto": true,
-  "activo": false,
+  "activo": true,
   "alta": "2026-11-01"
  },
  {
@@ -52,7 +52,7 @@
   ],
   "estado": "Publicado",
   "auto": true,
-  "activo": false,
+  "activo": true,
   "alta": "2026-11-01"
  },
  {
