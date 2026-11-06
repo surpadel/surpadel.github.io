@@ -430,5 +430,95 @@
     ],
     "destino": "marca/fondos/alektor/r5-06-silueta-dominante.png",
     "nota": "Logos Alektor ronda 5: silueta del gallo primero, A visible, rojo al centro (pedido de Nico 5/11, ~USD 0,08)"
+  },
+  {
+    "id": "alektor-web-hero-a-galpon",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens, blue hour just before sunrise: deep navy shadows and cool steel-blue tones with a single warm red-orange accent from the first light on the horizon. Calm, serious, trustworthy mood, premium consultancy aesthetic, uncluttered composition. Setting: a small industrial or distribution business in the outskirts of Buenos Aires, Argentina. Wide exterior shot of a modest corrugated-metal warehouse at dawn, one roll-up door half open with warm light spilling out onto wet concrete, a delivery truck parked, power lines, huge sky turning from navy to a thin red-orange band at the horizon. Large calm empty sky area on the left third for headline text. No people's faces, no readable text or numbers, no logos, no brand names, no watermarks, no signage.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "16:9",
+    "destino": "marca/fondos/alektor/web/hero-a-galpon.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)"
+  },
+  {
+    "id": "alektor-web-hero-b-veleta",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens, blue hour just before sunrise: deep navy shadows and cool steel-blue tones with a single warm red-orange accent from the first light on the horizon. Calm, serious, trustworthy mood, premium consultancy aesthetic, uncluttered composition. Setting: a small industrial or distribution business in the outskirts of Buenos Aires, Argentina. Low-angle view of an old iron rooster weathervane on the ridge of a warehouse roof, crisp silhouette against a navy pre-dawn sky with a thin glowing red-orange horizon line, industrial rooftops softly out of focus below. Composition: weathervane on the right third, generous empty sky on the left half for text. No people's faces, no readable text or numbers, no logos, no brand names, no watermarks, no signage.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "16:9",
+    "destino": "marca/fondos/alektor/web/hero-b-veleta.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)"
+  },
+  {
+    "id": "alektor-web-hero-c-oficina",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens, blue hour just before sunrise: deep navy shadows and cool steel-blue tones with a single warm red-orange accent from the first light on the horizon. Calm, serious, trustworthy mood, premium consultancy aesthetic, uncluttered composition. Setting: a small industrial or distribution business in the outskirts of Buenos Aires, Argentina. Interior of the small administration office of the business at dawn: a tidy desk with neatly stacked invoices, a classic desk phone and a closed laptop, a large window behind showing the loading yard and the first red-orange light on the horizon. Dark, quiet, nobody there. Empty darker wall area on the left for text. No people's faces, no readable text or numbers, no logos, no brand names, no watermarks, no signage.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "16:9",
+    "destino": "marca/fondos/alektor/web/hero-c-oficina.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)"
+  },
+  {
+    "id": "alektor-web-hero-d-veleta-amplia",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens, blue hour just before sunrise: deep navy shadows and cool steel-blue tones with a single warm red-orange accent from the first light on the horizon. Calm, serious, trustworthy mood, premium consultancy aesthetic, uncluttered composition. Setting: a small industrial or distribution business in the outskirts of Buenos Aires, Argentina. Wide cinematic view across the roofs of a small industrial park at dawn, a single iron rooster weathervane standing on the nearest roof in silhouette, long thin red-orange horizon glow, navy sky dominating the frame, empty space on the left half for text. No people's faces, no readable text or numbers, no logos, no brand names, no watermarks, no signage.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "16:9",
+    "destino": "marca/fondos/alektor/web/hero-d-veleta-amplia.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)"
+  },
+  {
+    "id": "alektor-web-pagos-telefono",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens, blue hour just before sunrise: deep navy shadows and cool steel-blue tones with a single warm red-orange accent from the first light on the horizon. Calm, serious, trustworthy mood, premium consultancy aesthetic, uncluttered composition. Setting: a small industrial or distribution business in the outskirts of Buenos Aires, Argentina. Close-up of a hand lifting the receiver of a desk phone next to a printed supplier invoice and a pen on a wooden desk, early morning light from a window, shallow depth of field, the invoice details blurred and unreadable. No people's faces, no readable text or numbers, no logos, no brand names, no watermarks, no signage.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "3:2",
+    "destino": "marca/fondos/alektor/web/pagos-telefono.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)"
+  },
+  {
+    "id": "alektor-web-ia-escritorio",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens, blue hour just before sunrise: deep navy shadows and cool steel-blue tones with a single warm red-orange accent from the first light on the horizon. Calm, serious, trustworthy mood, premium consultancy aesthetic, uncluttered composition. Setting: a small industrial or distribution business in the outskirts of Buenos Aires, Argentina. A laptop half open on an office desk at dawn, its screen glow abstract and out of focus, next to a printed one-page policy document with an unreadable signature line and a mug, window light from the side, shallow depth of field. No people's faces, no readable text or numbers, no logos, no brand names, no watermarks, no signage.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "3:2",
+    "destino": "marca/fondos/alektor/web/ia-escritorio.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)"
+  },
+  {
+    "id": "alektor-web-comex-puerto",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens, blue hour just before sunrise: deep navy shadows and cool steel-blue tones with a single warm red-orange accent from the first light on the horizon. Calm, serious, trustworthy mood, premium consultancy aesthetic, uncluttered composition. Setting: a small industrial or distribution business in the outskirts of Buenos Aires, Argentina. Stacked shipping containers and a gantry crane at a river port at dawn, muted navy and steel tones, one container in a deep red tone catching the first light, mist over the water, no visible company names or markings. No people's faces, no readable text or numbers, no logos, no brand names, no watermarks, no signage.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "3:2",
+    "destino": "marca/fondos/alektor/web/comex-puerto.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)"
+  },
+  {
+    "id": "alektor-web-metodo-firma",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens, blue hour just before sunrise: deep navy shadows and cool steel-blue tones with a single warm red-orange accent from the first light on the horizon. Calm, serious, trustworthy mood, premium consultancy aesthetic, uncluttered composition. Setting: a small industrial or distribution business in the outskirts of Buenos Aires, Argentina. Overhead close-up of two hands at a meeting table: one hand signing a short printed document with a pen, the other hand resting next to it, a cup of coffee, morning light, shallow depth of field, document text unreadable. No people's faces, no readable text or numbers, no logos, no brand names, no watermarks, no signage.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "3:2",
+    "destino": "marca/fondos/alektor/web/metodo-firma.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)"
+  },
+  {
+    "id": "alektor-web-deposito-pasillo",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens, blue hour just before sunrise: deep navy shadows and cool steel-blue tones with a single warm red-orange accent from the first light on the horizon. Calm, serious, trustworthy mood, premium consultancy aesthetic, uncluttered composition. Setting: a small industrial or distribution business in the outskirts of Buenos Aires, Argentina. Aisle of a tidy small warehouse with pallet racks and plain cardboard boxes, early morning light entering from a high window cutting through the dust, cool shadows with a warm streak of light on the floor, symmetric composition. No people's faces, no readable text or numbers, no logos, no brand names, no watermarks, no signage.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "3:2",
+    "destino": "marca/fondos/alektor/web/deposito-pasillo.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)"
+  },
+  {
+    "id": "alektor-web-ventana-amanecer",
+    "prompt": "Editorial documentary photograph, photorealistic, natural light, subtle film grain, 35mm lens, blue hour just before sunrise: deep navy shadows and cool steel-blue tones with a single warm red-orange accent from the first light on the horizon. Calm, serious, trustworthy mood, premium consultancy aesthetic, uncluttered composition. Setting: a small industrial or distribution business in the outskirts of Buenos Aires, Argentina. View from inside a dark office through horizontal blinds toward an industrial horizon at first light, thin bars of warm red-orange light falling across a desk, mostly dark navy frame with negative space. No people's faces, no readable text or numbers, no logos, no brand names, no watermarks, no signage.",
+    "modelo": "nano-banana-2",
+    "resolucion": "2K",
+    "formato": "16:9",
+    "destino": "marca/fondos/alektor/web/ventana-amanecer.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)"
   }
 ]
