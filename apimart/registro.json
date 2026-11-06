@@ -658,11 +658,25 @@
     "terminado": "2026-11-05T21:24:28-03:00"
   },
   "alektor-web-ia-escritorio": {
-    "estado": "pedido",
+    "estado": "listo",
     "task_id": "task_01M6Q3W7P0PKK7C2FN5XC32DFG",
     "modelo": "nano-banana-2",
     "destino": "marca/fondos/alektor/web/ia-escritorio.png",
     "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)",
-    "pedido": "2026-11-05T21:24:29-03:00"
+    "pedido": "2026-11-05T21:24:29-03:00",
+    "costo_usd": 0.014,
+    "creditos": 0.14,
+    "segundos": 20,
+    "url": "https://getapib.org/f/images/aiimg_9902e93729203523146b2452263b4d94-0.jpg",
+    "kb": 2899,
+    "terminado": "2026-11-05T21:24:57-03:00"
+  },
+  "alektor-web-comex-puerto": {
+    "estado": "pedido",
+    "task_id": "task_01M6Q3X3CAF91ZBR3JWXQR94CW",
+    "modelo": "nano-banana-2",
+    "destino": "marca/fondos/alektor/web/comex-puerto.png",
+    "nota": "Web Alektor v2, tanda 1 (pedido de Nico 5/11, ~USD 0,014 c/u)",
+    "pedido": "2026-11-05T21:24:57-03:00"
   }
 }
