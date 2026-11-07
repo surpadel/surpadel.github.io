@@ -205,5 +205,22 @@
   "publicada": true,
   "en_buffer": "6ae7f99f05377798e05102c5",
   "modo": "auto"
+ },
+ {
+  "creada": "2026-11-07 13:49",
+  "torneo": "TEO-CLI009-001",
+  "inst": "Hoy",
+  "tipo": "hoy",
+  "clave": "hoy-2026-11-07",
+  "organiza": "",
+  "etiquetas": [
+   "tremendaspadelistas",
+   "juvepa.lp"
+  ],
+  "codigos": {},
+  "archivo": "especiales/hoy-2026-11-07.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/especiales/hoy-2026-11-07.png",
+  "alt": "Hoy se juega: Tremendas 3° La Meca Quilmes · Quilmes; Juvepa. Seguí @surpadelstore para tener todos los resultados al día.",
+  "publicada": false
  }
 ]

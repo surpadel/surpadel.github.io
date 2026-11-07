@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-06 15:22",
+"actualizado": "2026-11-07 13:49",
 "cruces": {},
 "torneo": "TEO-CLI008-001",
 "zonas": {
@@ -45,13 +45,13 @@
 "008001-C4+40-B1": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-07",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Zona",
 "p1": "Altamirano, Carlos Eugenio / Raggio, Alejandro César",
 "p2": "González, Sebastián / González, Nicolás",
-"res": "",
+"res": "2/6 6/4 6/2",
 "sede": "R5",
 "zona": "B"
 },
@@ -71,7 +71,7 @@
 "008001-C4+40-B3": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-07",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:45",
 "inst": "Zona",
@@ -318,13 +318,13 @@
 "008001-C5+40-B3": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-07",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "12:30",
 "inst": "Zona",
 "p1": "López, Claudio Fernando / Vidal Arbeletche, Andrés",
 "p2": "Ramírez, Ariel / Verza, Jorge",
-"res": "",
+"res": "6/4 6/3",
 "sede": "R5",
 "zona": "B"
 },
@@ -383,13 +383,13 @@
 "008001-C5+50-A2": {
 "cat": "Caballeros 5ta +50",
 "dia": "2026-11-07",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:15",
 "inst": "Zona",
 "p1": "Gallego, Luciano / Petre, Fabián",
-"p2": "Bienvenido Silva, Pedro / Frías, Víctor Hugo",
-"res": "",
+"p2": "Frías, Víctor Hugo / Silva, Pedro Bienvenido",
+"res": "6/3 6/4",
 "sede": "R5",
 "zona": "A"
 },
@@ -401,7 +401,7 @@
 "hora": "10:00",
 "inst": "Zona",
 "p1": "",
-"p2": "",
+"p2": "Frías, Víctor Hugo / Silva, Pedro Bienvenido",
 "res": "",
 "sede": "R5",
 "zona": "A"
@@ -414,7 +414,7 @@
 "hora": "10:00",
 "inst": "Zona",
 "p1": "",
-"p2": "",
+"p2": "Gallego, Luciano / Petre, Fabián",
 "res": "",
 "sede": "R5",
 "zona": "A"
@@ -474,13 +474,13 @@
 "008001-C5+50-C1": {
 "cat": "Caballeros 5ta +50",
 "dia": "2026-11-07",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "10:00",
 "inst": "Zona",
 "p1": "Figueroa, Leonardo / Gonzales, Javier",
 "p2": "Bautista, Renee Arnaldo / De Marco, Fabián",
-"res": "",
+"res": "6/2 6/2",
 "sede": "R5",
 "zona": "C"
 },
@@ -513,7 +513,7 @@
 "008001-C6+40-A1": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-07",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:30",
 "inst": "Zona",
@@ -591,13 +591,13 @@
 "008001-C6+40-B3": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-07",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "12:30",
 "inst": "Zona",
 "p1": "Arcidiacono, Sebastián Miguel / Siman, Damián Omar",
 "p2": "Dondo, Daniel / Tranquillini, Diego",
-"res": "",
+"res": "7/5 6/2",
 "sede": "R5",
 "zona": "B"
 },
@@ -695,7 +695,7 @@
 "008001-C6+50-C1": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-07",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:30",
 "inst": "Zona",
@@ -864,13 +864,13 @@
 "008001-C6+50-G2": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-07",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:15",
 "inst": "Zona",
 "p1": "García, Luis Emilio / Palancar, Telmo Cecilio",
 "p2": "Andrés Laube, Fernando / Pinceti, Gustavo",
-"res": "",
+"res": "6/3 6/3",
 "sede": "R5",
 "zona": "G"
 },
