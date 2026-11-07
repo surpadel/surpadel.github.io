@@ -1,0 +1,94 @@
+{
+ "titulo": "Así forma <span class=gold>Argentina</span>",
+ "fp": "es",
+ "sub": "Final del Mundial contra España · damas y caballeros",
+ "ramas": [
+  {
+   "titulo": "Damas",
+   "tema": "rosa",
+   "partidos": [
+    {
+     "g": "Osoro / Fassio",
+     "p": "Sánchez / Ustero"
+    },
+    {
+     "g": "Brea / Jensen",
+     "p": "Josemaría / Triay"
+    },
+    {
+     "g": "Riera / Bidahorria",
+     "p": "González / Fernández"
+    }
+   ]
+  },
+  {
+   "titulo": "Caballeros",
+   "tema": "azul",
+   "partidos": [
+    {
+     "g": "Di Nenno / Augsburger",
+     "p": "Goñi / Lebrón"
+    },
+    {
+     "g": "Tapia / Chingotto",
+     "p": "Navarro / Sanz"
+    },
+    {
+     "g": "Alfonso / Libaak",
+     "p": "Coello / Nieto"
+    }
+   ]
+  }
+ ],
+ "camino": {
+  "titulo": "Así llegó <span class=gold>a la final</span>",
+  "filas": [
+   [
+    "Jornada 1",
+    "au",
+    "3-0",
+    "cl",
+    "3-0",
+    "Australia",
+    "Chile"
+   ],
+   [
+    "Jornada 2",
+    "nl",
+    "3-0",
+    "be",
+    "3-0",
+    "P. Bajos",
+    "Bélgica"
+   ],
+   [
+    "Jornada 3",
+    "fr",
+    "3-0",
+    "fr",
+    "3-0",
+    "Francia",
+    "Francia"
+   ],
+   [
+    "Cuartos",
+    "de",
+    "3-0",
+    "pt",
+    "3-0",
+    "Alemania",
+    "Portugal"
+   ],
+   [
+    "Semis",
+    "it",
+    "2-0",
+    "it",
+    "2-0",
+    "Italia",
+    "Italia"
+   ]
+  ],
+  "dato": "Cinco series, cinco victorias en cada rama: <b>14 de 14</b> partidos ganados antes de la final."
+ }
+}

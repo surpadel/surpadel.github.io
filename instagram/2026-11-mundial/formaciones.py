@@ -30,6 +30,7 @@ BANDERAS = {
     "br": "radial-gradient(circle at 50% 50%,#002776 18%,transparent 19%),linear-gradient(135deg,transparent 30%,#ffdf00 30% 70%,transparent 70%),#009c3b",
     "cl": "linear-gradient(180deg,transparent 50%,#d52b1e 50%),linear-gradient(90deg,#0039a6 35%,#fff 35%)",
     "us": "linear-gradient(90deg,#3c3b6e 40%,transparent 40%) 0 0/100% 54% no-repeat,repeating-linear-gradient(180deg,#b22234 0 7.7%,#fff 7.7% 15.4%)",
+    "au": "linear-gradient(90deg,transparent 22%,#c8102e 22% 28%,transparent 28%) 0 0/50% 50% no-repeat,linear-gradient(180deg,transparent 20%,#c8102e 20% 30%,transparent 30%) 0 0/50% 50% no-repeat,linear-gradient(90deg,transparent 18%,#fff 18% 32%,transparent 32%) 0 0/50% 50% no-repeat,linear-gradient(180deg,transparent 16%,#fff 16% 34%,transparent 34%) 0 0/50% 50% no-repeat,radial-gradient(circle at 75% 25%,#fff 4%,transparent 5%),radial-gradient(circle at 86% 50%,#fff 4%,transparent 5%),radial-gradient(circle at 75% 82%,#fff 4%,transparent 5%),radial-gradient(circle at 64% 52%,#fff 4%,transparent 5%),radial-gradient(circle at 25% 76%,#fff 7%,transparent 8%),#012169",
     "gb": "linear-gradient(90deg,transparent 42%,#c8102e 42% 58%,transparent 58%),linear-gradient(180deg,transparent 38%,#c8102e 38% 62%,transparent 62%),#012169",
 }
 
