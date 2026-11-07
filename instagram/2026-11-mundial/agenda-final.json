@@ -1,0 +1,6 @@
+{"jornada": "La final", "titulo": "Hoy juega <span class=gold>Argentina</span>",
+ "sub": "Final contra España · las dos ramas por la copa",
+ "partidos": [
+  {"rama": "Damas", "tema": "rosa", "rival": "España", "fp": "es", "hora": "8:00", "nota": "Center Court"},
+  {"rama": "Caballeros", "tema": "azul", "rival": "España", "fp": "es", "hora": "12:00", "nota": "Center Court", "hn": "Hora argentina · aprox."}
+ ]}
