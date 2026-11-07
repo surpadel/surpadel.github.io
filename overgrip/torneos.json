@@ -22,7 +22,7 @@
    "Damas 3ra",
    "Damas 4ta"
   ],
-  "estado": "Publicado",
+  "estado": "En Curso",
   "auto": true,
   "activo": true,
   "alta": "2026-11-01"
@@ -50,7 +50,7 @@
    "Caballeros 6ta +40",
    "Caballeros 7ma +40"
   ],
-  "estado": "Publicado",
+  "estado": "En Curso",
   "auto": true,
   "activo": true,
   "alta": "2026-11-01"
@@ -198,5 +198,35 @@
   "auto": true,
   "activo": false,
   "alta": "2026-11-01"
+ },
+ {
+  "id": "TEO-CLI005-002",
+  "corto": "APB Master",
+  "organiza": "apbberazategui",
+  "sedes_ig": [],
+  "nombre": "APB Master 2026",
+  "cuando": "21 y 22 nov 2026",
+  "fechas": [
+   "2026-11-21",
+   "2026-11-22"
+  ],
+  "sede": "EVA · Berazategui",
+  "categorias": [
+   "Caballeros 2da",
+   "Caballeros 4ta",
+   "Caballeros 5ta",
+   "Caballeros 5ta +40",
+   "Caballeros 6ta",
+   "Caballeros 6ta +40",
+   "Caballeros 7ma",
+   "Caballeros 7ma +40",
+   "Damas 5ta",
+   "Damas 6ta",
+   "Damas 7ma"
+  ],
+  "estado": "Inscripción Abierta",
+  "auto": true,
+  "activo": false,
+  "alta": "2026-11-07"
  }
 ]
