@@ -54,9 +54,12 @@ def marcador(m, label):
             v, o = (a, b) if mine else (b, a)
             out += f'<div class="set{" won" if int(v) > int(o) else ""}">{v}</div>'
         return out
+    ganados = sum(int(a) > int(b) for a, b in (st.split("/") for st in m["s"].split()))
+    gana = ganados * 2 > len(m["s"].split())  # ¿ganó la pareja argentina (fila "g")?
+    wa, wb = ("row w", "row") if gana else ("row", "row w")
     return (f'<div class=sb><div class=hd><span>{label}</span><span>Final</span></div>'
-            f'<div class="row w"><div class=tri></div>{bandera(m.get("fg", "ar"))}<div class=nm>{m["g"]}</div>{sets(True)}</div>'
-            f'<div class=row><div class=tri></div>{bandera(m.get("fp", ""))}<div class=nm>{m["p"]}</div>{sets(False)}</div></div>')
+            f'<div class="{wa}"><div class=tri></div>{bandera(m.get("fg", "ar"))}<div class=nm>{m["g"]}</div>{sets(True)}</div>'
+            f'<div class="{wb}"><div class=tri></div>{bandera(m.get("fp", ""))}<div class=nm>{m["p"]}</div>{sets(False)}</div></div>')
 
 
 def historia(d):

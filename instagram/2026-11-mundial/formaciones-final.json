@@ -1,0 +1,11 @@
+{"jornada": "La final", "titulo": "Así formó <span class=gold>Argentina</span>",
+ "bloques": [
+  {"rama": "Caballeros", "tema": "azul", "rival": "España", "serie": "1-2",
+   "partidos": [{"g": "Di Nenno / Augsburger", "p": "Goñi / Lebrón", "fp": "es", "s": "7/5 5/7 2/6"},
+                {"g": "Tapia / Chingotto", "p": "Navarro / Sanz", "fp": "es", "s": "6/1 6/2"},
+                {"g": "Alfonso / Libaak", "p": "Coello / Nieto", "fp": "es", "s": "3/6 2/6"}]},
+  {"rama": "Damas", "tema": "rosa", "rival": "España", "serie": "0-2",
+   "partidos": [{"g": "Osoro / Fassio", "p": "Sánchez / Ustero", "fp": "es", "s": "3/6 3/6"},
+                {"g": "Brea / Jensen", "p": "Josemaría / Triay", "fp": "es", "s": "2/6 7/6 3/6"},
+                {"g": "Riera / Bidahorria", "p": "González / Fernández", "fp": "es", "np": true}]}
+ ]}
