@@ -657,5 +657,24 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI009-001",
+  "hora": "2026-11-08 16:08",
+  "partidos": [
+   {
+    "codigo": "009001-D2-59",
+    "cat": "Damas 2da",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-08",
+    "hora": "14:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Cosentino, Daniela Paula / Moras, Ainara",
+    "p2": "De Giusti, Verónica / Viegas, Carolina",
+    "res": "3/6 7/5 11/7",
+    "gan": 1
+   }
+  ]
  }
 ]

@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-08 15:07",
+"actualizado": "2026-11-08 16:08",
 "cruces": {
 "009001-D2-57": {
 "cat": "Damas 2da",
@@ -28,13 +28,13 @@
 "009001-D2-59": {
 "cat": "Damas 2da",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "14:00",
 "inst": "Cuartos de Final",
 "p1": "Cosentino, Daniela Paula / Moras, Ainara",
 "p2": "De Giusti, Verónica / Viegas, Carolina",
-"res": "",
+"res": "3/6 7/5 11/7",
 "sede": "La Meca Quilmes"
 },
 "009001-D2-60": {
@@ -68,7 +68,7 @@
 "gan": null,
 "hora": "16:30",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Cosentino, Daniela Paula / Moras, Ainara",
 "p2": "Muravchik, María Claudia / Vanina, Ramírez",
 "res": "",
 "sede": "La Meca Quilmes"
