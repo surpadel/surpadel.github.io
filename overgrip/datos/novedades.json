@@ -675,7 +675,8 @@
     "res": "3/6 7/5 11/7",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI009-001",
@@ -707,6 +708,66 @@
     "res": "7/6 5/7 11/8",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI009-001",
+  "hora": "2026-11-08 18:37",
+  "partidos": [
+   {
+    "codigo": "009001-D3-61",
+    "cat": "Damas 3ra",
+    "inst": "Semifinal",
+    "dia": "2026-11-08",
+    "hora": "15:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "López, Sandra / Paolucci, Cintia",
+    "p2": "Maira, Prado / Profitos, Juliana",
+    "res": "6/4 7/5",
+    "gan": 2
+   },
+   {
+    "codigo": "009001-D3-62",
+    "cat": "Damas 3ra",
+    "inst": "Semifinal",
+    "dia": "2026-11-08",
+    "hora": "15:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Ahumada Mussi, Bernardita / Vega, Olivia Valentina",
+    "p2": "Figueredo, Gala / Meyerhoffer, Mariet",
+    "res": "6/1 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "009001-D4-61",
+    "cat": "Damas 4ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-08",
+    "hora": "15:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Álvarez, Paula Daniela / Sánchez, Mariela",
+    "p2": "Assalone, Daniela / Hidalgo, Vanina",
+    "res": "6/3 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "009001-D4-62",
+    "cat": "Damas 4ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-08",
+    "hora": "15:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Fotia, Martina / Núñez, Nicole",
+    "p2": "Amoroso, Victoria / Kodelia, Erika",
+    "res": "3/6 7/6 6/2",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
  }
 ]
