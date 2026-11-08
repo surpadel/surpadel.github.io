@@ -533,5 +533,129 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI009-001",
+  "hora": "2026-11-08 15:07",
+  "partidos": [
+   {
+    "codigo": "009001-D3-57",
+    "cat": "Damas 3ra",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-08",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Davila, Gisela / Zoya, Sabrina",
+    "p2": "López, Sandra / Paolucci, Cintia",
+    "res": "7/6 2/6 11/4",
+    "gan": 2
+   },
+   {
+    "codigo": "009001-D3-58",
+    "cat": "Damas 3ra",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-08",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Maira, Prado / Profitos, Juliana",
+    "p2": "Migueles, Mariela / Sánchez, Silvia Gabriela",
+    "res": "6/7 6/3 13/11",
+    "gan": 1
+   },
+   {
+    "codigo": "009001-D3-59",
+    "cat": "Damas 3ra",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-08",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Davila, Eliana / Matzner, Karina",
+    "p2": "Ahumada Mussi, Bernardita / Vega, Olivia Valentina",
+    "res": "6/3 6/1",
+    "gan": 2
+   },
+   {
+    "codigo": "009001-D3-60",
+    "cat": "Damas 3ra",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-08",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Figueredo, Gala / Meyerhoffer, Mariet",
+    "p2": "Basualdo, María Carolina / Irazu, Camila",
+    "res": "6/2 6/1",
+    "gan": 1
+   },
+   {
+    "codigo": "009001-D4-57",
+    "cat": "Damas 4ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-08",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Álvarez, Paula Daniela / Sánchez, Mariela",
+    "p2": "Álvarez, Mariana / Stagnaro, Mariela",
+    "res": "6/0 6/1",
+    "gan": 1
+   },
+   {
+    "codigo": "009001-D4-58",
+    "cat": "Damas 4ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-08",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Aguilar, Sofía / Briasco, Catalina",
+    "p2": "Assalone, Daniela / Hidalgo, Vanina",
+    "res": "3/6 6/0 11/6",
+    "gan": 2
+   },
+   {
+    "codigo": "009001-D4-59",
+    "cat": "Damas 4ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-08",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Fotia, Martina / Núñez, Nicole",
+    "p2": "Luayza Ramos, Daniela Elizabeth / Monzon, Andrea Paola",
+    "res": "6/3 6/0",
+    "gan": 1
+   },
+   {
+    "codigo": "009001-D4-60",
+    "cat": "Damas 4ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-08",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Amoroso, Victoria / Kodelia, Erika",
+    "p2": "Marchetta, Gabriela / Pose, Carla",
+    "res": "6/4 6/1",
+    "gan": 1
+   },
+   {
+    "codigo": "009001-D2-60",
+    "cat": "Damas 2da",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-08",
+    "hora": "14:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Muravchik, María Claudia / Vanina, Ramírez",
+    "p2": "Granes, Solange / Pistone, Eliana",
+    "res": "6/1 6/1",
+    "gan": 1
+   }
+  ],
+  "dibujada": true
  }
 ]
