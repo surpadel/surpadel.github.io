@@ -290,7 +290,10 @@
   "archivo": "especiales/hoy-2026-11-08.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/especiales/hoy-2026-11-08.png",
   "alt": "Hoy se juega: Tremendas 3° La Meca Quilmes · Quilmes; Juvepa. Seguí @surpadelstore para tener todos los resultados al día.",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6af08424229bf05dafb75b0c",
+  "modo": "auto",
+  "publicada_en": "2026-11-08 11:16"
  },
  {
   "creada": "2026-11-08 11:15",
@@ -306,6 +309,9 @@
   "archivo": "TEO-CLI009-001/llaves.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI009-001/llaves.png",
   "alt": "Ya están las llaves de Tremendas 3°: se juegan desde el domingo 8/11. Mirá tu cruce en app.overgrip.com.ar.",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6af0842d004e4879a7c056af",
+  "modo": "auto",
+  "publicada_en": "2026-11-08 11:16"
  }
 ]
