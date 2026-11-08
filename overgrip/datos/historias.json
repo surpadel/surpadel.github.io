@@ -329,7 +329,10 @@
   "archivo": "TEO-CLI009-001/cuartos-rosa-1108-1508-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI009-001/cuartos-rosa-1108-1508-1.png",
   "alt": "Cuartos: Damas 2da, ganaron Muravchik M. / Vanina R. 6/1 6/1; Damas 3ra, ganaron López S. / Paolucci C. 7/6 2/6 11/4; Damas 3ra, ganaron Maira P. / Profitos J. 6/7 6/3 13/11; Damas 3ra, ganaron Ahumada Mussi B. / Vega O. 6/3 6/1; Damas 3ra, ganaron Figueredo G. / Meyerhoffer M. 6/2 6/1",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6af0babf562f2e6de9d3e518",
+  "modo": "auto",
+  "publicada_en": "2026-11-08 15:09"
  },
  {
   "creada": "2026-11-08 15:08",
@@ -345,6 +348,9 @@
   "archivo": "TEO-CLI009-001/cuartos-rosa-1108-1508-2.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI009-001/cuartos-rosa-1108-1508-2.png",
   "alt": "Cuartos: Damas 4ta, ganaron Álvarez P. / Sánchez M. 6/0 6/1; Damas 4ta, ganaron Assalone D. / Hidalgo V. 3/6 6/0 11/6; Damas 4ta, ganaron Fotia M. / Núñez N. 6/3 6/0; Damas 4ta, ganaron Amoroso V. / Kodelia E. 6/4 6/1",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6af0baca562f2e6de9d3ec15",
+  "modo": "auto",
+  "publicada_en": "2026-11-08 15:09"
  }
 ]
