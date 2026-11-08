@@ -676,5 +676,37 @@
     "gan": 1
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI009-001",
+  "hora": "2026-11-08 16:37",
+  "partidos": [
+   {
+    "codigo": "009001-D2-57",
+    "cat": "Damas 2da",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-08",
+    "hora": "14:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Costa, Valeria / Nicolini, Andrea",
+    "p2": "Castro, Martina / Marceca, Melina",
+    "res": "6/4 4/6 12/10",
+    "gan": 2
+   },
+   {
+    "codigo": "009001-D2-58",
+    "cat": "Damas 2da",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-08",
+    "hora": "14:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Chenlo, Melina / Penillas, Florencia",
+    "p2": "Bedrossian, Agustina / Martínez, Agustina",
+    "res": "7/6 5/7 11/8",
+    "gan": 1
+   }
+  ]
  }
 ]

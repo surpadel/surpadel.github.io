@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-08 16:08",
+"actualizado": "2026-11-08 16:37",
 "cruces": {},
 "torneo": "TEO-CLI008-001",
 "zonas": {
@@ -136,13 +136,13 @@
 "008001-C4+40-D2": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Zona",
 "p1": "Dressl, Gustavo / Villalba, Adolfo",
 "p2": "Pellegrini, Emmanuel / Rondeau, Jorge Alberto",
-"res": "",
+"res": "6/2 7/5",
 "sede": "R5",
 "zona": "D"
 },
@@ -747,13 +747,13 @@
 "008001-C6+50-D2": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Zona",
 "p1": "Aguilera, Gustavo / Ramon, Ernesto Sebastián",
 "p2": "Alfonso, Héctor Omar / Fernández, Jorge",
-"res": "",
+"res": "6/3 6/4",
 "sede": "R5",
 "zona": "D"
 },
@@ -825,13 +825,13 @@
 "008001-C6+50-F2": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Zona",
 "p1": "De Pierris, Gastón / Hernández, Ariel Hernán",
 "p2": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
-"res": "",
+"res": "7/6 6/2",
 "sede": "R5",
 "zona": "F"
 },

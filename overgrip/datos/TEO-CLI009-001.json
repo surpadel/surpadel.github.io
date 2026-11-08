@@ -1,28 +1,28 @@
 {
-"actualizado": "2026-11-08 16:08",
+"actualizado": "2026-11-08 16:37",
 "cruces": {
 "009001-D2-57": {
 "cat": "Damas 2da",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "14:00",
 "inst": "Cuartos de Final",
 "p1": "Costa, Valeria / Nicolini, Andrea",
 "p2": "Castro, Martina / Marceca, Melina",
-"res": "",
+"res": "6/4 4/6 12/10",
 "sede": "La Meca Quilmes"
 },
 "009001-D2-58": {
 "cat": "Damas 2da",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "14:00",
 "inst": "Cuartos de Final",
 "p1": "Chenlo, Melina / Penillas, Florencia",
 "p2": "Bedrossian, Agustina / Martínez, Agustina",
-"res": "",
+"res": "7/6 5/7 11/8",
 "sede": "La Meca Quilmes"
 },
 "009001-D2-59": {
@@ -56,8 +56,8 @@
 "gan": null,
 "hora": "16:30",
 "inst": "Semifinal",
-"p1": "",
-"p2": "",
+"p1": "Castro, Martina / Marceca, Melina",
+"p2": "Chenlo, Melina / Penillas, Florencia",
 "res": "",
 "sede": "La Meca Quilmes"
 },
