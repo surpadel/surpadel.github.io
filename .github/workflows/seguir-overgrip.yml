@@ -1,8 +1,8 @@
 name: Seguir OverGrip
 
 on:
-  schedule:
-    - cron: "7,37 * * * *"   # cada 30 minutos
+  # Lo dispara cada 30 min (:07 y :37) el worker "overgrip-cron" de Cloudflare,
+  # más puntual que el programador de GitHub.
   workflow_dispatch:
     inputs:
       dibujar_ya:
