@@ -366,7 +366,8 @@
   "archivo": "TEO-CLI009-001/cuartos-rosa-1108-1838-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI009-001/cuartos-rosa-1108-1838-1.png",
   "alt": "Cuartos: Damas 2da, ganaron Cosentino D. / Moras A. 3/6 7/5 11/7; Damas 2da, ganaron Castro M. / Marceca M. 6/4 4/6 12/10; Damas 2da, ganaron Chenlo M. / Penillas F. 7/6 5/7 11/8",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  },
  {
   "creada": "2026-11-08 18:38",
@@ -382,6 +383,9 @@
   "archivo": "TEO-CLI009-001/semifinal-rosa-1108-1838-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI009-001/semifinal-rosa-1108-1838-1.png",
   "alt": "Semifinales: Damas 3ra, ganaron Maira P. / Profitos J. 6/4 7/5; Damas 3ra, ganaron Figueredo G. / Meyerhoffer M. 6/1 6/3; Damas 4ta, ganaron Álvarez P. / Sánchez M. 6/3 6/2; Damas 4ta, ganaron Amoroso V. / Kodelia E. 3/6 7/6 6/2",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6af0ebe3004e4879a7e14fa8",
+  "modo": "auto",
+  "publicada_en": "2026-11-08 18:38"
  }
 ]
