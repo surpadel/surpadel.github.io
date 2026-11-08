@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-08 18:37",
+"actualizado": "2026-11-08 19:07",
 "cruces": {
 "009001-D2-57": {
 "cat": "Damas 2da",
@@ -17,12 +17,12 @@
 "cat": "Damas 2da",
 "dia": "2026-11-08",
 "estado": "Finalizado",
-"gan": 1,
+"gan": 2,
 "hora": "14:00",
 "inst": "Cuartos de Final",
 "p1": "Chenlo, Melina / Penillas, Florencia",
 "p2": "Bedrossian, Agustina / Martínez, Agustina",
-"res": "7/6 5/7 11/8",
+"res": "6/7 7/5 11/8",
 "sede": "La Meca Quilmes"
 },
 "009001-D2-59": {
@@ -52,25 +52,25 @@
 "009001-D2-61": {
 "cat": "Damas 2da",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:30",
 "inst": "Semifinal",
 "p1": "Castro, Martina / Marceca, Melina",
-"p2": "Chenlo, Melina / Penillas, Florencia",
-"res": "",
+"p2": "Bedrossian, Agustina / Martínez, Agustina",
+"res": "6/4 6/2",
 "sede": "La Meca Quilmes"
 },
 "009001-D2-62": {
 "cat": "Damas 2da",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:30",
 "inst": "Semifinal",
 "p1": "Cosentino, Daniela Paula / Moras, Ainara",
 "p2": "Muravchik, María Claudia / Vanina, Ramírez",
-"res": "",
+"res": "6/4 6/1",
 "sede": "La Meca Quilmes"
 },
 "009001-D2-64": {
@@ -80,8 +80,8 @@
 "gan": null,
 "hora": "19:30",
 "inst": "Final",
-"p1": "",
-"p2": "",
+"p1": "Bedrossian, Agustina / Martínez, Agustina",
+"p2": "Muravchik, María Claudia / Vanina, Ramírez",
 "res": "",
 "sede": "La Meca Quilmes"
 },

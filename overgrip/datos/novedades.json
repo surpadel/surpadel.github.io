@@ -769,5 +769,37 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI009-001",
+  "hora": "2026-11-08 19:07",
+  "partidos": [
+   {
+    "codigo": "009001-D2-61",
+    "cat": "Damas 2da",
+    "inst": "Semifinal",
+    "dia": "2026-11-08",
+    "hora": "16:30",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Castro, Martina / Marceca, Melina",
+    "p2": "Bedrossian, Agustina / Martínez, Agustina",
+    "res": "6/4 6/2",
+    "gan": 2
+   },
+   {
+    "codigo": "009001-D2-62",
+    "cat": "Damas 2da",
+    "inst": "Semifinal",
+    "dia": "2026-11-08",
+    "hora": "16:30",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Cosentino, Daniela Paula / Moras, Ainara",
+    "p2": "Muravchik, María Claudia / Vanina, Ramírez",
+    "res": "6/4 6/1",
+    "gan": 2
+   }
+  ]
  }
 ]
