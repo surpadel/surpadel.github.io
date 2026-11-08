@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-08 20:07",
+"actualizado": "2026-11-08 20:37",
 "cruces": {},
 "torneo": "TEO-CLI008-001",
 "zonas": {
@@ -760,13 +760,13 @@
 "008001-C6+50-D3": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-08",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:45",
 "inst": "Zona",
 "p1": "Figueroa, Marcelo Martín / García, Gustavo Gabriel",
 "p2": "Alfonso, Héctor Omar / Fernández, Jorge",
-"res": "",
+"res": "7/6 6/2",
 "sede": "R5",
 "zona": "D"
 },
@@ -838,13 +838,13 @@
 "008001-C6+50-F3": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-08",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:45",
 "inst": "Zona",
 "p1": "Abrami, Ricardo / Boscato, Pablo Javier",
 "p2": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
-"res": "",
+"res": "3/6 6/4 6/0",
 "sede": "R5",
 "zona": "F"
 },
