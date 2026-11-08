@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-08 17:37",
+"actualizado": "2026-11-08 18:07",
 "cruces": {},
 "torneo": "TEO-CLI008-001",
 "zonas": {
@@ -84,7 +84,7 @@
 "008001-C4+40-C1": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-08",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:30",
 "inst": "Zona",
@@ -214,7 +214,7 @@
 "008001-C4+40-F2": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-08",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:30",
 "inst": "Zona",
