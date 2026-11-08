@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-08 17:08",
+"actualizado": "2026-11-08 17:37",
 "cruces": {},
 "torneo": "TEO-CLI008-001",
 "zonas": {
@@ -279,13 +279,13 @@
 "008001-C5+40-A4": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "16:15",
 "inst": "Zona",
 "p1": "Lacerra, Martín / Ventura, Nicolás",
 "p2": "Arguello, Daniel / Uriarte, Javier",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "R5",
 "zona": "A"
 },
@@ -669,7 +669,7 @@
 "008001-C6+50-B2": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-08",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:30",
 "inst": "Zona",
