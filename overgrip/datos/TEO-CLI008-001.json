@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-08 13:07",
+"actualizado": "2026-11-08 14:37",
 "cruces": {},
 "torneo": "TEO-CLI008-001",
 "zonas": {
@@ -188,26 +188,26 @@
 "008001-C4+40-E3": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-08",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "12:30",
 "inst": "Zona",
 "p1": "López, Rodrigo Fidel / Pane, Diego",
 "p2": "Barnasthpol, Christian / Cardinali, Matías",
-"res": "",
+"res": "6/2 6/3",
 "sede": "R5",
 "zona": "E"
 },
 "008001-C4+40-F1": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-08",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "12:30",
 "inst": "Zona",
 "p1": "Martiarena, Nicolás / Toloza, Sergio Daniel",
 "p2": "Oliverio, Víctor Hugo / Romero, Guillermo",
-"res": "",
+"res": "6/7 6/2 6/2",
 "sede": "R5",
 "zona": "F"
 },
@@ -500,13 +500,13 @@
 "008001-C5+50-C3": {
 "cat": "Caballeros 5ta +50",
 "dia": "2026-11-08",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "12:30",
 "inst": "Zona",
 "p1": "Bautista, Renee Arnaldo / De Marco, Fabián",
 "p2": "Gural, Esteban Edgardo / Quatrocchi, Luciano",
-"res": "",
+"res": "6/1 6/4",
 "sede": "R5",
 "zona": "C"
 },
