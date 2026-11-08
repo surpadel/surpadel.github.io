@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-08 03:38",
+"actualizado": "2026-11-08 11:15",
 "cruces": {},
 "torneo": "TEO-CLI008-001",
 "zonas": {
@@ -162,13 +162,13 @@
 "008001-C4+40-E1": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-07",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "22:30",
 "inst": "Zona",
 "p1": "Pereyra, Pablo / Pereyra, Jorge",
 "p2": "López, Rodrigo Fidel / Pane, Diego",
-"res": "",
+"res": "6/4 3/6 7/6",
 "sede": "R5",
 "zona": "E"
 },
@@ -240,26 +240,26 @@
 "008001-C5+40-A1": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "10:00",
 "inst": "Zona",
 "p1": "Lacerra, Martín / Ventura, Nicolás",
 "p2": "Ochandorena, Ariel / Travella, Lucas",
-"res": "",
+"res": "6/2 6/1",
 "sede": "R5",
 "zona": "A"
 },
 "008001-C5+40-A2": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-07",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "22:30",
 "inst": "Zona",
 "p1": "Arguello, Daniel / Uriarte, Javier",
 "p2": "Chiodini, Luciano / Hatrick, Patricio",
-"res": "",
+"res": "7/5 6/1",
 "sede": "R5",
 "zona": "A"
 },
@@ -270,8 +270,8 @@
 "gan": null,
 "hora": "16:15",
 "inst": "Zona",
-"p1": "",
-"p2": "",
+"p1": "Ochandorena, Ariel / Travella, Lucas",
+"p2": "Chiodini, Luciano / Hatrick, Patricio",
 "res": "",
 "sede": "R5",
 "zona": "A"
@@ -283,8 +283,8 @@
 "gan": null,
 "hora": "16:15",
 "inst": "Zona",
-"p1": "",
-"p2": "",
+"p1": "Lacerra, Martín / Ventura, Nicolás",
+"p2": "Arguello, Daniel / Uriarte, Javier",
 "res": "",
 "sede": "R5",
 "zona": "A"
@@ -396,7 +396,7 @@
 "008001-C5+50-A3": {
 "cat": "Caballeros 5ta +50",
 "dia": "2026-11-08",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "10:00",
 "inst": "Zona",
@@ -409,7 +409,7 @@
 "008001-C5+50-A4": {
 "cat": "Caballeros 5ta +50",
 "dia": "2026-11-08",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "10:00",
 "inst": "Zona",
@@ -734,7 +734,7 @@
 "008001-C6+50-D1": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-08",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:15",
 "inst": "Zona",
@@ -773,7 +773,7 @@
 "008001-C6+50-E1": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-08",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:15",
 "inst": "Zona",
