@@ -387,5 +387,19 @@
   "en_buffer": "6af0ebe3004e4879a7e14fa8",
   "modo": "auto",
   "publicada_en": "2026-11-08 18:38"
+ },
+ {
+  "creada": "2026-11-08 21:08",
+  "torneo": "TEO-CLI009-001",
+  "inst": "Semifinal",
+  "organiza": "tremendaspadelistas",
+  "codigos": {
+   "009001-D2-61": "6/4 6/2",
+   "009001-D2-62": "6/4 6/1"
+  },
+  "archivo": "TEO-CLI009-001/semifinal-rosa-1108-2108-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI009-001/semifinal-rosa-1108-2108-1.png",
+  "alt": "Semifinales: Damas 2da, ganaron Bedrossian A. / Martínez A. 6/4 6/2; Damas 2da, ganaron Muravchik M. / Vanina R. 6/4 6/1",
+  "publicada": false
  }
 ]
