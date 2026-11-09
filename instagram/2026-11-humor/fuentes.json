@@ -1,0 +1,11 @@
+{
+  "nota": "Reel 'Tipos de compañero' ep. 1. Voz: ElevenLabs Uriel (eleven_v4), 9/11. Clip real: Pexels 34449247 (khezez, licencia Pexels, uso comercial libre). Clips IA: Veo 3.1 Fast por el media-gateway (prueba pedida por Nico el 9/11).",
+  "voz": "https://elevenlabsusercontent.com/database/workspace/616874bc8ff04f49a33e0fd2b53295f7/content_generation/5h45GmiMXXVSaNv4vQyx/LagNxPf2LhNo3leJ5Lt3/content.mp3?Expires=1794261600&KeyName=assets-cdn-key-1&Signature=KtykrMmakjlf9L35ILk5FuIp66w=",
+  "versiones": {
+    "real": {"clips": [{"pexels": "https://www.pexels.com/video/nighttime-padel-match-with-intense-focus-34449247/", "inicio": 0}]},
+    "ia": {"clips": [
+      {"url": "https://media-gateway.nicolas-f-gallo.workers.dev/f/surpadel/reels/2026-11-humor/tuya-ia-t1.mp4", "inicio": 0},
+      {"url": "https://media-gateway.nicolas-f-gallo.workers.dev/f/surpadel/reels/2026-11-humor/tuya-ia-t2.mp4", "inicio": 0}
+    ]}
+  }
+}
