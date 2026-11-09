@@ -427,5 +427,20 @@
   "alt": "Lo mejor de las zonas del domingo 8/11: Caballeros 4ta +40, ganaron Gómez A. / Ledesma P. 2/6 7/6 6/1; Caballeros 5ta +40, ganaron Chiodini L. / Hatrick P. 6/2 7/5; Caballeros 5ta +50, ganaron Conti M. / García N. 6/2 4/6 6/1; Caballeros 6ta +40, ganaron Amado Karas J. / Sapetti G. 6/4 6/3; Caballeros 6ta +50, ganaron Marchini M. / Orellano C. 1/6 7/6 7/6",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-09 00:38",
+  "torneo": "TEO-CLI009-001",
+  "inst": "Final",
+  "organiza": "tremendaspadelistas",
+  "codigos": {
+   "009001-D2-64": "6/3 6/2",
+   "009001-D3-64": "6/4 6/2",
+   "009001-D4-64": "6/4 4/6 6/4"
+  },
+  "archivo": "TEO-CLI009-001/final-rosa-1109-0038-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI009-001/final-rosa-1109-0038-1.png",
+  "alt": "Finales: Damas 2da, ganaron Muravchik M. / Vanina R. 6/3 6/2; Damas 3ra, ganaron Figueredo G. / Meyerhoffer M. 6/4 6/2; Damas 4ta, ganaron Amoroso V. / Kodelia E. 6/4 4/6 6/4",
+  "publicada": false
  }
 ]
