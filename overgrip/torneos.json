@@ -22,9 +22,9 @@
    "Damas 3ra",
    "Damas 4ta"
   ],
-  "estado": "En Curso",
+  "estado": "Finalizado",
   "auto": true,
-  "activo": true,
+  "activo": false,
   "alta": "2026-11-01"
  },
  {
@@ -81,7 +81,7 @@
    "Damas 7ma",
    "Damas 8va"
   ],
-  "estado": "Inscripción Abierta",
+  "estado": "En Programación",
   "auto": true,
   "activo": false,
   "alta": "2026-11-01"
