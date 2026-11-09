@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-08 21:07",
+"actualizado": "2026-11-08 21:37",
 "cruces": {},
 "torneo": "TEO-CLI008-001",
 "zonas": {
@@ -110,7 +110,7 @@
 "008001-C4+40-C3": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-08",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:15",
 "inst": "Zona",
@@ -565,13 +565,13 @@
 "008001-C6+40-B1": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-08",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:00",
 "inst": "Zona",
 "p1": "Amado Karas, Juan Mauricio / Sapetti, Gustavo Daniel",
 "p2": "Arcidiacono, Sebastián Miguel / Siman, Damián Omar",
-"res": "",
+"res": "6/4 6/3",
 "sede": "R5",
 "zona": "B"
 },
