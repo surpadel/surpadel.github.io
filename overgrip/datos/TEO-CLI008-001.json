@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-08 21:37",
+"actualizado": "2026-11-08 22:08",
 "cruces": {},
 "torneo": "TEO-CLI008-001",
 "zonas": {
@@ -149,13 +149,13 @@
 "008001-C4+40-D3": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:00",
 "inst": "Zona",
 "p1": "Gómez, Alberto Martín / Ledesma, Paulo Daniel",
 "p2": "Pellegrini, Emmanuel / Rondeau, Jorge Alberto",
-"res": "",
+"res": "2/6 7/6 6/1",
 "sede": "R5",
 "zona": "D"
 },
@@ -656,13 +656,13 @@
 "008001-C6+50-B1": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-08",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "21:15",
 "inst": "Zona",
 "p1": "Montenegro, Claudio / Padin, Diego",
 "p2": "Di Nenno, Javier / Loureiro, Javier",
-"res": "",
+"res": "6/4 6/4",
 "sede": "R5",
 "zona": "B"
 },

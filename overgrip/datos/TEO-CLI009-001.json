@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-08 21:37",
+"actualizado": "2026-11-08 22:08",
 "cruces": {
 "009001-D2-57": {
 "cat": "Damas 2da",
@@ -160,13 +160,13 @@
 "009001-D3-64": {
 "cat": "Damas 3ra",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:00",
 "inst": "Final",
 "p1": "Prado, Maira / Profitos, Juliana",
 "p2": "Figueredo, Gala / Meyerhoffer, Mariet",
-"res": "",
+"res": "6/4 6/2",
 "sede": "La Meca Quilmes"
 },
 "009001-D4-57": {
@@ -244,13 +244,13 @@
 "009001-D4-64": {
 "cat": "Damas 4ta",
 "dia": "2026-11-08",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:00",
 "inst": "Final",
 "p1": "Álvarez, Paula Daniela / Sánchez, Mariela",
 "p2": "Amoroso, Victoria / Kodelia, Erika",
-"res": "",
+"res": "6/4 4/6 6/4",
 "sede": "La Meca Quilmes"
 }
 },

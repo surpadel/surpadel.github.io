@@ -802,5 +802,37 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI009-001",
+  "hora": "2026-11-08 22:08",
+  "partidos": [
+   {
+    "codigo": "009001-D3-64",
+    "cat": "Damas 3ra",
+    "inst": "Final",
+    "dia": "2026-11-08",
+    "hora": "18:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Prado, Maira / Profitos, Juliana",
+    "p2": "Figueredo, Gala / Meyerhoffer, Mariet",
+    "res": "6/4 6/2",
+    "gan": 2
+   },
+   {
+    "codigo": "009001-D4-64",
+    "cat": "Damas 4ta",
+    "inst": "Final",
+    "dia": "2026-11-08",
+    "hora": "18:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Álvarez, Paula Daniela / Sánchez, Mariela",
+    "p2": "Amoroso, Victoria / Kodelia, Erika",
+    "res": "6/4 4/6 6/4",
+    "gan": 2
+   }
+  ]
  }
 ]
