@@ -404,5 +404,27 @@
   "en_buffer": "6af10f15229bf05dafe22420",
   "modo": "auto",
   "publicada_en": "2026-11-08 21:08"
+ },
+ {
+  "creada": "2026-11-08 23:08",
+  "torneo": "TEO-CLI008-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI008-001-2026-11-08-azul",
+  "organiza": "juvepa.lp",
+  "etiquetas": [
+   "juvepa.lp"
+  ],
+  "codigos": {
+   "008001-C4+40-D3": "2/6 7/6 6/1",
+   "008001-C5+40-A3": "6/2 7/5",
+   "008001-C5+50-A4": "6/2 4/6 6/1",
+   "008001-C6+40-B1": "6/4 6/3",
+   "008001-C6+50-B2": "1/6 7/6 7/6"
+  },
+  "archivo": "TEO-CLI008-001/zonas-2026-11-08-azul.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/zonas-2026-11-08-azul.png",
+  "alt": "Lo mejor de las zonas del domingo 8/11: Caballeros 4ta +40, ganaron Gómez A. / Ledesma P. 2/6 7/6 6/1; Caballeros 5ta +40, ganaron Chiodini L. / Hatrick P. 6/2 7/5; Caballeros 5ta +50, ganaron Conti M. / García N. 6/2 4/6 6/1; Caballeros 6ta +40, ganaron Amado Karas J. / Sapetti G. 6/4 6/3; Caballeros 6ta +50, ganaron Marchini M. / Orellano C. 1/6 7/6 7/6",
+  "publicada": false
  }
 ]

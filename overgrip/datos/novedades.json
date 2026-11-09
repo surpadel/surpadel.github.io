@@ -834,5 +834,24 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI009-001",
+  "hora": "2026-11-08 23:07",
+  "partidos": [
+   {
+    "codigo": "009001-D2-64",
+    "cat": "Damas 2da",
+    "inst": "Final",
+    "dia": "2026-11-08",
+    "hora": "19:30",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Bedrossian, Agustina / Martínez, Agustina",
+    "p2": "Muravchik, María Claudia / Vanina, Ramírez",
+    "res": "6/3 6/2",
+    "gan": 2
+   }
+  ]
  }
 ]
