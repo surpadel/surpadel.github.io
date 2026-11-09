@@ -1,0 +1,57 @@
+name: Armar piezas
+
+# Lo dispara el worker "repo-gateway" de Cloudflare (cola repo-pedidos) después de subir un generador.
+# Corre un script de Python que arma imágenes o reels con código y guarda lo generado en el repo.
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "Generador a correr (dentro de instagram/ o piezas/)"
+        required: true
+      args:
+        description: "Argumentos opcionales"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: armar-piezas
+  cancel-in-progress: false
+
+jobs:
+  armar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Controlar ruta
+        env:
+          SCRIPT: ${{ inputs.script }}
+        run: |
+          case "$SCRIPT" in instagram/*.py|piezas/*.py) ;; *) echo "Ruta no permitida: $SCRIPT"; exit 1;; esac
+          case "$SCRIPT" in *..*) echo "Ruta no permitida"; exit 1;; esac
+          test -f "$SCRIPT"
+      - name: Preparar el dibujante
+        run: |
+          mkdir -p /tmp/f && cd /tmp/f && npm i --silent @fontsource/barlow @fontsource/barlow-condensed
+          pip install -q playwright && python3 -m playwright install --with-deps chromium > /dev/null
+          sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Armar
+        env:
+          FONTS_DIR: /tmp/f/node_modules/@fontsource
+          LOGO_PNG: marca/logo-sur-padel-transparente.png
+          SCRIPT: ${{ inputs.script }}
+          ARGS: ${{ inputs.args }}
+        run: python3 "$SCRIPT" $ARGS
+      - name: Guardar
+        env:
+          SCRIPT: ${{ inputs.script }}
+        run: |
+          git add instagram piezas 2>/dev/null || git add instagram
+          if git diff --cached --quiet; then echo "Nada nuevo"; exit 0; fi
+          git config user.name "surpadel-bot"
+          git config user.email "sur.padel.store@gmail.com"
+          git commit -m "Piezas: $SCRIPT [skip ci]"
+          git pull --rebase -q && git push
