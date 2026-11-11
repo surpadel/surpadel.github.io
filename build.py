@@ -122,6 +122,12 @@ def main() -> None:
     if len(productos) < 50:
         sys.exit("El catálogo vino incompleto; no se actualiza la web.")
 
+    # Pedido de Nico (10/11/2026): no se muestran las "Por encargo".
+    # Quedan solo En stock, Última unidad y En camino.
+    ocultas = sum(1 for p in productos if p["st"] == "e")
+    productos = [p for p in productos if p["st"] != "e"]
+    print(f"Ocultas por encargo: {ocultas}. Quedan: {len(productos)}")
+
     dolar = None
     for i, p in enumerate(productos):
         ficha = leer_ficha(p["slug"])
