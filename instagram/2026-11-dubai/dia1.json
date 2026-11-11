@@ -1,0 +1,15 @@
+{"franja": "Dubái P1", "bajada": "Martes · primera ronda",
+ "titulo": "Arrancó <span class=gold>Dubái</span>",
+ "bloques": [
+  {"rama": "Damas", "tema": "rosa", "resumen": "2 a octavos", "nota": "las Fassio siguen",
+   "partidos": [{"g": "C. Fassio / López", "p": "Caparrós / Pérez", "s": "7/5 6/3"},
+                {"g": "M. Fassio / Virseda", "p": "Collombon / Sharifova", "s": "6/2 7/5"},
+                {"g": "Osoro / Salazar", "p": "Rufo / Iglesias", "s": "3/6 6/2 2/6"},
+                {"g": "Riera / Bidahorria", "p": "Manquillo / Sainz", "s": "6/1 1/6 4/6"}]},
+  {"rama": "Caballeros", "tema": "azul", "resumen": "2 de 3", "nota": "16avos",
+   "partidos": [{"g": "Aguirre / Lijo", "p": "Vilariño / Del Castillo", "s": "6/2 6/2"},
+                {"g": "Domínguez / Sager", "p": "González / Cabeza", "s": "4/6 7/6 6/4"},
+                {"g": "Sánchez / Capra", "p": "Zamora / Sintes", "s": "2/6 4/6"}]}
+ ],
+ "dato": "<b>Camila Fassio</b>, 19 años, juega sus primeros octavos del circuito. Miércoles: debutan Augsburger, Stupaczuk y Di Nenno. <b>Tapia, baja por lesión.</b>",
+ "cred": "Seguí el torneo con <b>@surpadelstore</b>"}
