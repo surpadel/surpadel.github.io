@@ -83,7 +83,7 @@
   ],
   "estado": "Publicado",
   "auto": true,
-  "activo": false,
+  "activo": true,
   "alta": "2026-11-01"
  },
  {
@@ -105,9 +105,9 @@
    "Damas 6ta",
    "Damas 7ma"
   ],
-  "estado": "Inscripción Abierta",
+  "estado": "Publicado",
   "auto": true,
-  "activo": false,
+  "activo": true,
   "alta": "2026-11-01"
  },
  {
@@ -177,13 +177,13 @@
   "organiza": "retroclub.padel",
   "sedes_ig": [],
   "nombre": "Retro Padel",
-  "cuando": "7 al 11 dic 2026",
+  "cuando": "4 al 6, 12 y 13 dic 2026",
   "fechas": [
-   "2026-12-07",
-   "2026-12-08",
-   "2026-12-09",
-   "2026-12-10",
-   "2026-12-11"
+   "2026-12-04",
+   "2026-12-05",
+   "2026-12-06",
+   "2026-12-12",
+   "2026-12-13"
   ],
   "sede": "Club Retro Padel · Los Hornos",
   "categorias": [
