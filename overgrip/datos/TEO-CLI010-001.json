@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 19:08",
+"actualizado": "2026-11-13 19:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -648,13 +648,13 @@
 "010001-D6-B3": {
 "cat": "Damas 6ta",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:00",
 "inst": "Zona",
 "p1": "Arranz, Paula / Novoa, Miriam",
 "p2": "Calvi, Erika / Torales, Mariana",
-"res": "",
+"res": "3/6 6/1 11/3",
 "sede": "Eleven",
 "zona": "B"
 },

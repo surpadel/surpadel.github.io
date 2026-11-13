@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 18:38",
+"actualizado": "2026-11-13 19:38",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -149,13 +149,13 @@
 "011001-C5-D3": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:00",
 "inst": "Zona",
 "p1": "Calvieri, Braian / La Ferrera, Julián",
 "p2": "Blanco, Sergio / Sena, Gabriel",
-"res": "",
+"res": "6/3 6/3",
 "sede": "Real",
 "zona": "D"
 },
@@ -539,7 +539,7 @@
 "011001-C6-F1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:00",
 "inst": "Zona",
