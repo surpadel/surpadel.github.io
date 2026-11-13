@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 19:38",
+"actualizado": "2026-11-13 20:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -453,13 +453,13 @@
 "010001-C6-E3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "García, Luis Emilio / Lamnek, Jorge Luis",
 "p2": "Giardinieri, Emanuel / Llanos Carosella, Matías",
-"res": "",
+"res": "6/4 6/4",
 "sede": "Eleven",
 "zona": "E"
 },
@@ -609,7 +609,7 @@
 "010001-D6-A3": {
 "cat": "Damas 6ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:00",
 "inst": "Zona",
@@ -635,7 +635,7 @@
 "010001-D6-B2": {
 "cat": "Damas 6ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:00",
 "inst": "Zona",

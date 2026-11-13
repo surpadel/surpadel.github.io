@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 19:38",
+"actualizado": "2026-11-13 20:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -97,7 +97,7 @@
 "011001-C5-C2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:00",
 "inst": "Zona",
@@ -617,13 +617,13 @@
 "011001-C6-H1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:00",
 "inst": "Zona",
 "p1": "López, Agustín / Urueña, Guillermo Ezequiel",
 "p2": "Mercado, Joaquín / Vaquero, Lucas",
-"res": "",
+"res": "4/6 7/6 6/2",
 "sede": "Real",
 "zona": "H"
 },
