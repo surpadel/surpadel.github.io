@@ -1,0 +1,73 @@
+{
+ "franja": "Dubái P1",
+ "bajada": "Jueves · octavos",
+ "titulo": "Rumbo a <span class=gold>cuartos</span>",
+ "bloques": [
+  {
+   "rama": "Caballeros",
+   "tema": "azul",
+   "resumen": "6 a cuartos",
+   "nota": "y Campagnolo / Momo",
+   "partidos": [
+    {
+     "g": "Tello / Arce",
+     "p": "Alonso / Goñi",
+     "s": "3/6 6/3 6/2",
+     "et": "Octavos"
+    },
+    {
+     "g": "Augsburger / Lebrón",
+     "p": "Ruiz / López",
+     "s": "6/2 6/4",
+     "et": "Octavos"
+    },
+    {
+     "g": "Stupaczuk / Sanz",
+     "p": "Sanyo / Sánchez",
+     "s": "6/3 6/4",
+     "et": "Octavos"
+    },
+    {
+     "g": "Alfonso / Libaak",
+     "p": "González / García",
+     "s": "6/2 6/3",
+     "et": "Octavos"
+    },
+    {
+     "g": "Abbate / Dal Bianco",
+     "p": "Aragón / Roglán",
+     "s": "7/6 6/3",
+     "et": "Octavos"
+    }
+   ]
+  },
+  {
+   "rama": "Damas",
+   "tema": "rosa",
+   "resumen": "Brea y Jensen siguen",
+   "nota": "cayeron las Fassio",
+   "partidos": [
+    {
+     "g": "Brea / Triay",
+     "p": "Talaván / Saiz",
+     "s": "6/3 6/1",
+     "et": "Octavos"
+    },
+    {
+     "g": "Jensen / Icardo",
+     "p": "Arellano / Kurz",
+     "s": "6/4 6/2",
+     "et": "Octavos"
+    },
+    {
+     "g": "C. Fassio / López",
+     "p": "Rufo / Iglesias",
+     "s": "4/6 6/4 2/6",
+     "et": "Octavos"
+    }
+   ]
+  }
+ ],
+ "dato": "Hace 6 días jugaron <b>juntas</b> la final del Mundial. El viernes, <b>Brea y Jensen</b> se cruzan en cuartos.",
+ "cred": "Seguí el torneo con <b>@surpadelstore</b>"
+}
