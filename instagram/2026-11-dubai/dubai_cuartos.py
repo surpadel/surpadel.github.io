@@ -78,7 +78,7 @@ def cruce(a, b, rosa=False, duelo=False):
 
 def cuartos():
     filas = (cruce("<em>Augsburger</em> / Lebrón", "<em>Tello</em> / <em>Arce</em>", duelo=True)
-             + cruce("<em>Dal Bianco</em> / Abbate", "<em>Campagnolo</em> / Momo", duelo=True)
+             + cruce("<em>Dal Bianco</em> / Abbate", "Campagnolo / Momo")
              + cruce("<em>Stupaczuk</em> / Sanz", "De Pascual / Garrido")
              + cruce("<em>Alfonso</em> / <em>Libaak</em>", "Bautista / Bergamini")
              + cruce("<em>Brea</em> / Triay", "<em>Jensen</em> / Icardo", rosa=True, duelo=True))
@@ -86,7 +86,7 @@ def cuartos():
 <div class=wrap style="padding:64px 80px 50px">
  <div class=strip><div class=a>DUBÁI P1</div><div class=b><span class=live></span>Viernes · cuartos de final</div></div>
  <div class=metal style="font-size:100px;margin-top:34px">Cuartos con<br><span class=gold>sello argentino</span></div>
- <div class=sub style="margin-top:18px">Tres cruces entre argentinos:<br><b>ya hay semifinalistas asegurados</b></div>
+ <div class=sub style="margin-top:18px">Dos cruces entre argentinos:<br><b>ya hay semifinalistas asegurados</b></div>
  <div style="width:100%;display:flex;flex-direction:column;gap:14px;margin-top:30px">{filas}</div>
  <div style="margin-top:auto;display:flex;flex-direction:column;align-items:center;gap:8px">
   <div class=sub style="font-size:28px">Se juegan el viernes · los resultados, acá</div>{BRAND}</div>
