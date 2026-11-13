@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 18:38",
+"actualizado": "2026-11-13 19:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -310,13 +310,13 @@
 "010001-C6-B1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:00",
 "inst": "Zona",
 "p1": "Argüelles, Marcos / Muñoz, Nicolás",
 "p2": "Rodríguez, Fernando / Torres, Maximiliano Ezequiel",
-"res": "",
+"res": "6/2 6/2",
 "sede": "Eleven",
 "zona": "B"
 },
@@ -453,7 +453,7 @@
 "010001-C6-E3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:00",
 "inst": "Zona",
