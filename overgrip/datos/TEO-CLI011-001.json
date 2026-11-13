@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 18:08",
+"actualizado": "2026-11-13 18:38",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -149,7 +149,7 @@
 "011001-C5-D3": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:00",
 "inst": "Zona",
