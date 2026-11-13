@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 08:08",
+"actualizado": "2026-11-13 18:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -617,7 +617,7 @@
 "011001-C6-H1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:00",
 "inst": "Zona",
