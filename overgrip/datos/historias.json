@@ -445,5 +445,21 @@
   "en_buffer": "6af1a9a03c5611da27a79494",
   "modo": "auto",
   "publicada_en": "2026-11-09 08:08"
+ },
+ {
+  "creada": "2026-11-12 22:08",
+  "torneo": "TEO-CLI008-001",
+  "inst": "Llaves",
+  "tipo": "llaves",
+  "clave": "llaves-TEO-CLI008-001",
+  "organiza": "juvepa.lp",
+  "etiquetas": [
+   "juvepa.lp"
+  ],
+  "codigos": {},
+  "archivo": "TEO-CLI008-001/llaves.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/llaves.png",
+  "alt": "Ya están las llaves de Juvepa: se juegan desde el sábado 14/11. Mirá tu cruce en app.overgrip.com.ar.",
+  "publicada": false
  }
 ]
