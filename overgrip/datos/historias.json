@@ -556,5 +556,23 @@
   "en_buffer": "6af7c9b381e1228421db3205",
   "modo": "auto",
   "publicada_en": "2026-11-13 23:38"
+ },
+ {
+  "creada": "2026-11-14 09:08",
+  "torneo": "TEO-CLI008-001",
+  "inst": "Hoy",
+  "tipo": "hoy",
+  "clave": "hoy-2026-11-14",
+  "organiza": "",
+  "etiquetas": [
+   "juvepa.lp",
+   "metropadeloficial",
+   "padelelevenroute"
+  ],
+  "codigos": {},
+  "archivo": "especiales/hoy-2026-11-14.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/especiales/hoy-2026-11-14.png",
+  "alt": "Hoy se juega: Juvepa; Metro Padel; Eleven Route Eleven Route · La Plata. Seguí @surpadelstore para tener todos los resultados al día.",
+  "publicada": false
  }
 ]
