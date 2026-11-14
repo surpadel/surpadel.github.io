@@ -1,0 +1,30 @@
+{
+ "franja": "Dubái P1",
+ "bajada": "Viernes · cuartos",
+ "titulo": "Semis con <span class=gold>acento argentino</span>",
+ "bloques": [
+  {
+   "rama": "Caballeros",
+   "tema": "azul",
+   "resumen": "3 a semis",
+   "nota": "cayó Stupa",
+   "partidos": [
+    {"g": "Augsburger / Lebrón", "p": "Tello / Arce", "s": "6/3 3/6 6/2", "et": "Cuartos"},
+    {"g": "Abbate / Dal Bianco", "p": "González / Campagnolo", "s": "7/6 3/6 6/2", "et": "Cuartos"},
+    {"g": "Alfonso / Libaak", "p": "Bautista / Bergamini", "s": "4/6 6/3 7/6", "et": "Cuartos"},
+    {"g": "Stupaczuk / Sanz", "p": "De Pascual / Garrido", "s": "1/6 5/7", "et": "Cuartos"}
+   ]
+  },
+  {
+   "rama": "Damas",
+   "tema": "rosa",
+   "resumen": "Jensen a semis",
+   "nota": "duelo argentino",
+   "partidos": [
+    {"g": "Jensen / Icardo", "p": "Brea / Triay", "s": "6/3 3/6 6/1", "et": "Cuartos"}
+   ]
+  }
+ ],
+ "dato": "Jensen e Icardo sacaron a las <b>número 1 del mundo</b>. Y en caballeros ya hay <b>argentino asegurado</b> en la final.",
+ "cred": "Sábado, semis · Seguí el torneo con <b>@surpadelstore</b>"
+}
