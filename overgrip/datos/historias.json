@@ -484,5 +484,68 @@
   "en_buffer": "6af6fdf37828e7ae1b0a5151",
   "modo": "auto",
   "publicada_en": "2026-11-13 09:09"
+ },
+ {
+  "creada": "2026-11-13 23:08",
+  "torneo": "TEO-CLI011-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI011-001-2026-11-13-azul",
+  "organiza": "metropadeloficial",
+  "etiquetas": [
+   "metropadeloficial"
+  ],
+  "codigos": {
+   "011001-C5-D3": "6/3 6/3",
+   "011001-C6-H1": "4/6 7/6 6/2",
+   "011001-C6-F1": "4/6 6/4 6/4"
+  },
+  "archivo": "TEO-CLI011-001/zonas-2026-11-13-azul.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/zonas-2026-11-13-azul.png",
+  "alt": "Lo mejor de las zonas del viernes 13/11: Caballeros 5ta, ganaron Calvieri B. / La Ferrera J. 6/3 6/3; Caballeros 6ta, ganaron López A. / Urueña G. 4/6 7/6 6/2; Caballeros 6ta, ganaron Jagiellowicz S. / Soria E. 4/6 6/4 6/4",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-13 23:08",
+  "torneo": "TEO-CLI010-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI010-001-2026-11-13-azul",
+  "organiza": "padelelevenroute",
+  "etiquetas": [
+   "padelelevenroute"
+  ],
+  "codigos": {
+   "010001-C6-B2": "2/6 6/3 11/3",
+   "010001-C6-E3": "6/4 6/4",
+   "010001-C6-B1": "6/2 6/2",
+   "010001-C7-A2": "6/3 6/2",
+   "010001-C7-A3": "6/3 6/0"
+  },
+  "archivo": "TEO-CLI010-001/zonas-2026-11-13-azul.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/zonas-2026-11-13-azul.png",
+  "alt": "Lo mejor de las zonas del viernes 13/11: Caballeros 6ta, ganaron Argüelles M. / Muñoz N. 2/6 6/3 11/3; Caballeros 6ta, ganaron Giardinieri E. / Llanos Carosella M. 6/4 6/4; Caballeros 6ta, ganaron Argüelles M. / Muñoz N. 6/2 6/2; Caballeros 7ma, ganaron Robledo T. / Segovia E. 6/3 6/2; Caballeros 7ma, ganaron Luna G. / Staropoli J. 6/3 6/0",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-13 23:08",
+  "torneo": "TEO-CLI010-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI010-001-2026-11-13-rosa",
+  "organiza": "padelelevenroute",
+  "etiquetas": [
+   "padelelevenroute"
+  ],
+  "codigos": {
+   "010001-D6-B3": "3/6 6/1 11/3",
+   "010001-D6-B2": "6/4 6/3",
+   "010001-D6-A3": "6/1 6/3",
+   "010001-D7-B3": "6/1 6/1"
+  },
+  "archivo": "TEO-CLI010-001/zonas-2026-11-13-rosa.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/zonas-2026-11-13-rosa.png",
+  "alt": "Lo mejor de las zonas del viernes 13/11: Damas 6ta, ganaron Arranz P. / Novoa M. 3/6 6/1 11/3; Damas 6ta, ganaron Corsetti D. / Perretta D. 6/4 6/3; Damas 6ta, ganaron Insaurralde P. / Pihuala M. 6/1 6/3; Damas 7ma, ganaron Dury L. / Gómez Rivero M. 6/1 6/1",
+  "publicada": false
  }
 ]

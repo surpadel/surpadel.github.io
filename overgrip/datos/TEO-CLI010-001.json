@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 22:38",
+"actualizado": "2026-11-13 23:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -336,7 +336,7 @@
 "010001-C6-B3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "23:00",
 "inst": "Zona",
@@ -479,13 +479,13 @@
 "010001-C7-A2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Robledo, Tobías / Segovia, Emir",
 "p2": "Luna, Guillermo / Staropoli, Julián",
-"res": "",
+"res": "6/3 6/2",
 "sede": "Eleven",
 "zona": "A"
 },
