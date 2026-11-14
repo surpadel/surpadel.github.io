@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 12:38",
+"actualizado": "2026-11-14 13:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -752,7 +752,7 @@
 "010001-D7-C2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:00",
 "inst": "Zona",
