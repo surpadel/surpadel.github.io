@@ -1204,5 +1204,24 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-14 20:07",
+  "partidos": [
+   {
+    "codigo": "008001-C5+40-60",
+    "cat": "Caballeros 5ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-14",
+    "hora": "18:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Ochandorena, Ariel / Travella, Lucas",
+    "p2": "López, Claudio Fernando / Vidal Arbeletche, Andrés",
+    "res": "6/2 4/6 6/4",
+    "gan": 1
+   }
+  ]
  }
 ]

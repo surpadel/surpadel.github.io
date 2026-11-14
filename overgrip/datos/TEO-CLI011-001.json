@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 19:37",
+"actualizado": "2026-11-14 20:07",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -19,13 +19,13 @@
 "011001-C5-A2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:30",
 "inst": "Zona",
 "p1": "Arkmel, Miguel / Tymczyszyn, Marco Adrián",
 "p2": "Dauria, Valentino / Hernández, Martín",
-"res": "",
+"res": "7/5 6/2",
 "sede": "El Portal",
 "zona": "A"
 },
@@ -305,7 +305,7 @@
 "011001-C5-H3": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:30",
 "inst": "Zona",
@@ -500,13 +500,13 @@
 "011001-C6-E1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:30",
 "inst": "Zona",
 "p1": "Buenaventura, Alejandro / Robledo, Guillermo",
 "p2": "Artal, Alan / Piñero, Matías",
-"res": "",
+"res": "6/4 6/2",
 "sede": "El Portal",
 "zona": "E"
 },
@@ -773,7 +773,7 @@
 "011001-C7-B3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:45",
 "inst": "Zona",
@@ -786,13 +786,13 @@
 "011001-C7-B4": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Escobar, Mauricio / Meyre, Pablo",
 "p2": "Condo, Luciano / Fernández, Lucas",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "El Portal",
 "zona": "B"
 },
@@ -1100,7 +1100,7 @@
 "dia": "2026-11-15",
 "estado": "Programado",
 "gan": null,
-"hora": "14:45",
+"hora": "16:00",
 "inst": "Zona",
 "p1": "López Muollo, Analia / Polizzotto, María Laura",
 "p2": "Dogil, Victoria / Valarino, Viviana",
@@ -1113,7 +1113,7 @@
 "dia": "2026-11-15",
 "estado": "Programado",
 "gan": null,
-"hora": "16:00",
+"hora": "14:45",
 "inst": "Zona",
 "p1": "Aniceto, Milena / Mandrini, Emilia Lucía",
 "p2": "Bruno, Tatiana / Simonetti, María Sol",
@@ -1137,13 +1137,13 @@
 "011001-D7-B2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "Báez, Sonia / Noguera, Luciana",
 "p2": "Ferrara, Natalia / Tercic, Maia",
-"res": "",
+"res": "6/1 6/4",
 "sede": "EVA",
 "zona": "B"
 },
@@ -1155,7 +1155,7 @@
 "hora": "22:15",
 "inst": "Zona",
 "p1": "",
-"p2": "",
+"p2": "Ferrara, Natalia / Tercic, Maia",
 "res": "",
 "sede": "EVA",
 "zona": "B"
@@ -1168,7 +1168,7 @@
 "hora": "22:15",
 "inst": "Zona",
 "p1": "",
-"p2": "",
+"p2": "Báez, Sonia / Noguera, Luciana",
 "res": "",
 "sede": "EVA",
 "zona": "B"
