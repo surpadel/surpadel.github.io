@@ -1078,7 +1078,8 @@
     "res": "6/4 6/4",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI008-001",
@@ -1110,6 +1111,53 @@
     "res": "6/3 6/3",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-14 18:07",
+  "partidos": [
+   {
+    "codigo": "008001-C5+50-59",
+    "cat": "Caballeros 5ta +50",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-14",
+    "hora": "15:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Bautista, Renee Arnaldo / De Marco, Fabián",
+    "p2": "Frías, Víctor Hugo / Silva, Pedro Bienvenido",
+    "res": "6/2 7/6",
+    "gan": 1
+   },
+   {
+    "codigo": "008001-C5+50-57",
+    "cat": "Caballeros 5ta +50",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-14",
+    "hora": "16:30",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Oliverio, Víctor Hugo / Valaco, Néstor",
+    "p2": "Cortina, Alejandro / Di Lorenzo, Javier Eduardo",
+    "res": "6/3 2/6 6/0",
+    "gan": 1
+   },
+   {
+    "codigo": "008001-C5+50-58",
+    "cat": "Caballeros 5ta +50",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-14",
+    "hora": "16:30",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Canales, Gustavo / Vera, Osvaldo Manuel",
+    "p2": "Gural, Esteban Edgardo / Quatrocchi, Luciano",
+    "res": "6/4 6/3",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
  }
 ]

@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 17:37",
+"actualizado": "2026-11-14 18:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -271,13 +271,13 @@
 "010001-C6-A1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Martínez, Carlos Jorge / Morinigo, Rodrigo",
 "p2": "Arteaga, Thomas / Capra, Nicolás",
-"res": "",
+"res": "6/1 6/0",
 "sede": "Eleven",
 "zona": "A"
 },
@@ -765,7 +765,7 @@
 "010001-D7-C3": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:00",
 "inst": "Zona",

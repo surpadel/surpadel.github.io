@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 17:37",
+"actualizado": "2026-11-14 18:07",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -208,37 +208,37 @@
 "008001-C5+50-57": {
 "cat": "Caballeros 5ta +50",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:30",
 "inst": "Cuartos de Final",
 "p1": "Oliverio, Víctor Hugo / Valaco, Néstor",
 "p2": "Cortina, Alejandro / Di Lorenzo, Javier Eduardo",
-"res": "",
+"res": "6/3 2/6 6/0",
 "sede": "R5"
 },
 "008001-C5+50-58": {
 "cat": "Caballeros 5ta +50",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:30",
 "inst": "Cuartos de Final",
 "p1": "Canales, Gustavo / Vera, Osvaldo Manuel",
 "p2": "Gural, Esteban Edgardo / Quatrocchi, Luciano",
-"res": "",
+"res": "6/4 6/3",
 "sede": "R5"
 },
 "008001-C5+50-59": {
 "cat": "Caballeros 5ta +50",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "15:00",
 "inst": "Cuartos de Final",
 "p1": "Bautista, Renee Arnaldo / De Marco, Fabián",
 "p2": "Frías, Víctor Hugo / Silva, Pedro Bienvenido",
-"res": "",
+"res": "6/2 7/6",
 "sede": "R5"
 },
 "008001-C5+50-60": {
@@ -260,8 +260,8 @@
 "gan": null,
 "hora": "11:30",
 "inst": "Semifinal",
-"p1": "",
-"p2": "",
+"p1": "Oliverio, Víctor Hugo / Valaco, Néstor",
+"p2": "Gural, Esteban Edgardo / Quatrocchi, Luciano",
 "res": "",
 "sede": "R5"
 },
@@ -272,7 +272,7 @@
 "gan": null,
 "hora": "11:30",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Bautista, Renee Arnaldo / De Marco, Fabián",
 "p2": "Ambrosetti, Diego / García, Juan",
 "res": "",
 "sede": "R5"
@@ -292,7 +292,7 @@
 "008001-C6+40-58": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:00",
 "inst": "Cuartos de Final",
@@ -436,7 +436,7 @@
 "008001-C6+50-58": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:00",
 "inst": "Cuartos de Final",
@@ -460,7 +460,7 @@
 "008001-C6+50-60": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:00",
 "inst": "Cuartos de Final",
