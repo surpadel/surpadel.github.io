@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 23:08",
+"actualizado": "2026-11-13 23:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -8,7 +8,7 @@
 "gan": null,
 "hora": "10:00",
 "inst": "Octavos de Final",
-"p1": "",
+"p1": "Bernatene, Oscar / Rodríguez, Juan",
 "p2": "",
 "res": "",
 "sede": "Eleven"
@@ -69,7 +69,7 @@
 "hora": "13:00",
 "inst": "Cuartos de Final",
 "p1": "",
-"p2": "",
+"p2": "Argüelles, Marcos / Muñoz, Nicolás",
 "res": "",
 "sede": "Eleven"
 },
@@ -177,7 +177,7 @@
 "hora": "15:00",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Arranz, Paula / Novoa, Miriam",
 "res": "",
 "sede": "Eleven"
 },
@@ -189,7 +189,7 @@
 "hora": "15:00",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Corsetti, Delfina / Perretta, Daiana",
 "res": "",
 "sede": "Eleven"
 },
@@ -336,13 +336,13 @@
 "010001-C6-B3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "23:00",
 "inst": "Zona",
 "p1": "Rodríguez, Fernando / Torres, Maximiliano Ezequiel",
 "p2": "Bernatene, Oscar / Rodríguez, Juan",
-"res": "",
+"res": "6/3 6/1",
 "sede": "Eleven",
 "zona": "B"
 },
@@ -466,7 +466,7 @@
 "010001-C7-A1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "23:00",
 "inst": "Zona",
@@ -622,13 +622,13 @@
 "010001-D6-B1": {
 "cat": "Damas 6ta",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "22:00",
 "inst": "Zona",
 "p1": "Corsetti, Delfina / Perretta, Daiana",
 "p2": "Arranz, Paula / Novoa, Miriam",
-"res": "",
+"res": "6/1 7/6",
 "sede": "Eleven",
 "zona": "B"
 },
