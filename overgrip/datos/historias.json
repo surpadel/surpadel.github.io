@@ -660,7 +660,8 @@
   "archivo": "TEO-CLI008-001/octavos-azul-1114-1808-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/octavos-azul-1114-1808-1.png",
   "alt": "Octavos: Caballeros 4ta +40, ganaron Pellegrini E. / Rondeau J. 6/4 6/4",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  },
  {
   "creada": "2026-11-14 18:08",
@@ -677,6 +678,7 @@
   "archivo": "TEO-CLI008-001/cuartos-azul-1114-1808-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/cuartos-azul-1114-1808-1.png",
   "alt": "Cuartos: Caballeros 5ta +50, ganaron Ambrosetti D. / García J. 7/5 6/2; Caballeros 5ta +50, ganaron Bautista R. / De Marco F. 6/2 7/6; Caballeros 5ta +50, ganaron Oliverio V. / Valaco N. 6/3 2/6 6/0; Caballeros 5ta +50, ganaron Gural E. / Quatrocchi L. 6/4 6/3; Caballeros 6ta +50, ganaron De Pierris G. / Hernández A. 6/3 6/3",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  }
 ]
