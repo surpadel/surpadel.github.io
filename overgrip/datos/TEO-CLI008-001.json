@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 18:07",
+"actualizado": "2026-11-14 18:37",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -160,7 +160,7 @@
 "008001-C5+40-60": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:00",
 "inst": "Cuartos de Final",
