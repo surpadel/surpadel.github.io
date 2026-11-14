@@ -612,5 +612,35 @@
   "en_buffer": "6af88ea0c5b364e06202cefd",
   "modo": "auto",
   "publicada_en": "2026-11-14 13:38"
+ },
+ {
+  "creada": "2026-11-14 16:08",
+  "torneo": "TEO-CLI008-001",
+  "inst": "Octavos de Final",
+  "organiza": "juvepa.lp",
+  "codigos": {
+   "008001-C4+40-54": "2/6 6/2 6/1",
+   "008001-C4+40-50": "7/5 6/0",
+   "008001-C6+50-55": "6/3 2/6 6/2"
+  },
+  "archivo": "TEO-CLI008-001/octavos-azul-1114-1608-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/octavos-azul-1114-1608-1.png",
+  "alt": "Octavos: Caballeros 4ta +40, ganaron Fernández P. / García A. 2/6 6/2 6/1; Caballeros 4ta +40, ganaron Chijlis G. / López Osornio M. 7/5 6/0; Caballeros 6ta +50, ganaron Casal M. / Pane E. 6/3 2/6 6/2",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-14 16:08",
+  "torneo": "TEO-CLI008-001",
+  "inst": "Octavos de Final",
+  "organiza": "juvepa.lp",
+  "codigos": {
+   "008001-C6+50-50": "6/1 6/0",
+   "008001-C6+50-56": "6/3 6/3",
+   "008001-C6+50-53": "6/7 7/6 7/5"
+  },
+  "archivo": "TEO-CLI008-001/octavos-azul-1114-1608-2.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/octavos-azul-1114-1608-2.png",
+  "alt": "Octavos: Caballeros 6ta +50, ganaron De Pierris G. / Hernández A. 6/1 6/0; Caballeros 6ta +50, ganaron Di Nenno J. / Loureiro J. 6/3 6/3; Caballeros 6ta +50, ganaron Isasi J. / Orona A. 6/7 7/6 7/5",
+  "publicada": false
  }
 ]

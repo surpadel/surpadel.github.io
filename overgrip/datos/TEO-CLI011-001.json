@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 15:07",
+"actualizado": "2026-11-14 16:07",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -461,13 +461,13 @@
 "011001-C6-D1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "14:45",
 "inst": "Zona",
 "p1": "Ammaturo, Marcelo Leonel / Dubini, Emilio",
 "p2": "Cardozo, Mario Abel / Galway, Juan José",
-"res": "",
+"res": "6/3 6/1",
 "sede": "EVA",
 "zona": "D"
 },
@@ -760,7 +760,7 @@
 "011001-C7-B2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:00",
 "inst": "Zona",
@@ -1085,13 +1085,13 @@
 "011001-D7-A2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "14:45",
 "inst": "Zona",
 "p1": "Dogil, Victoria / Valarino, Viviana",
 "p2": "Bruno, Tatiana / Simonetti, María Sol",
-"res": "",
+"res": "6/0 6/1",
 "sede": "EVA",
 "zona": "A"
 },
@@ -1103,7 +1103,7 @@
 "hora": "14:45",
 "inst": "Zona",
 "p1": "",
-"p2": "",
+"p2": "Dogil, Victoria / Valarino, Viviana",
 "res": "",
 "sede": "EVA",
 "zona": "A"
@@ -1116,7 +1116,7 @@
 "hora": "16:00",
 "inst": "Zona",
 "p1": "",
-"p2": "",
+"p2": "Bruno, Tatiana / Simonetti, María Sol",
 "res": "",
 "sede": "EVA",
 "zona": "A"

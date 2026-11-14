@@ -1,16 +1,16 @@
 {
-"actualizado": "2026-11-14 15:37",
+"actualizado": "2026-11-14 16:07",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "15:00",
 "inst": "Octavos de Final",
 "p1": "Chijlis, Germán / López Osornio, Martín",
 "p2": "Martiarena, Nicolás / Toloza, Sergio Daniel",
-"res": "",
+"res": "7/5 6/0",
 "sede": "R5"
 },
 "008001-C4+40-51": {
@@ -57,7 +57,7 @@
 "hora": "19:30",
 "inst": "Cuartos de Final",
 "p1": "Llena Alarcon, Hernán / Marascia, Damián Gustavo",
-"p2": "",
+"p2": "Chijlis, Germán / López Osornio, Martín",
 "res": "",
 "sede": "R5"
 },
@@ -376,13 +376,13 @@
 "008001-C6+50-53": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:30",
 "inst": "Octavos de Final",
 "p1": "Isasi, Juan Manuel / Orona, Alejandro",
 "p2": "Epifani, Andrés / Sole, Rubén",
-"res": "",
+"res": "6/7 7/6 7/5",
 "sede": "R5"
 },
 "008001-C6+50-54": {
@@ -452,7 +452,7 @@
 "gan": null,
 "hora": "20:15",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Isasi, Juan Manuel / Orona, Alejandro",
 "p2": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
 "res": "",
 "sede": "R5"

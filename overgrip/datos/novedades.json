@@ -959,7 +959,8 @@
     "res": "6/3 2/6 6/2",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI008-001",
@@ -978,7 +979,8 @@
     "res": "6/1 6/0",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI008-001",
@@ -1023,6 +1025,40 @@
     "res": "WO 6/0 6/0",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-14 16:07",
+  "partidos": [
+   {
+    "codigo": "008001-C6+50-53",
+    "cat": "Caballeros 6ta +50",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-14",
+    "hora": "13:30",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Isasi, Juan Manuel / Orona, Alejandro",
+    "p2": "Epifani, Andrés / Sole, Rubén",
+    "res": "6/7 7/6 7/5",
+    "gan": 1
+   },
+   {
+    "codigo": "008001-C4+40-50",
+    "cat": "Caballeros 4ta +40",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-14",
+    "hora": "15:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Chijlis, Germán / López Osornio, Martín",
+    "p2": "Martiarena, Nicolás / Toloza, Sergio Daniel",
+    "res": "7/5 6/0",
+    "gan": 1
+   }
+  ],
+  "dibujada": true
  }
 ]
