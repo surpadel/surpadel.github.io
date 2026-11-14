@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 18:37",
+"actualizado": "2026-11-14 19:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -213,7 +213,7 @@
 "hora": "09:00",
 "inst": "Cuartos de Final",
 "p1": "",
-"p2": "",
+"p2": "Paganelli, Victoria / Tellechea, Sonia",
 "res": "",
 "sede": "Eleven"
 },
@@ -224,7 +224,7 @@
 "gan": null,
 "hora": "09:00",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Becerra, Gabriela / Liciaga, María",
 "p2": "",
 "res": "",
 "sede": "Eleven"
@@ -687,7 +687,7 @@
 "010001-D7-A3": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:00",
 "inst": "Zona",
@@ -765,13 +765,13 @@
 "010001-D7-C3": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:00",
 "inst": "Zona",
 "p1": "Paganelli, Victoria / Tellechea, Sonia",
 "p2": "Aristegui, Carolina / Monzón, Alicia",
-"res": "",
+"res": "6/4 6/0",
 "sede": "Eleven",
 "zona": "C"
 }
