@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 14:07",
+"actualizado": "2026-11-14 14:37",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -340,13 +340,13 @@
 "008001-C6+50-50": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:30",
 "inst": "Octavos de Final",
 "p1": "De Pierris, Gastón / Hernández, Ariel Hernán",
 "p2": "Andrés Laube, Fernando / Pinceti, Gustavo",
-"res": "",
+"res": "6/1 6/0",
 "sede": "R5"
 },
 "008001-C6+50-51": {
@@ -429,7 +429,7 @@
 "hora": "16:30",
 "inst": "Cuartos de Final",
 "p1": "Monzon, Miguel Eduardo / Sosa, Fernando Fabián",
-"p2": "",
+"p2": "De Pierris, Gastón / Hernández, Ariel Hernán",
 "res": "",
 "sede": "R5"
 },

@@ -960,5 +960,24 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-14 14:37",
+  "partidos": [
+   {
+    "codigo": "008001-C6+50-50",
+    "cat": "Caballeros 6ta +50",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-14",
+    "hora": "13:30",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "De Pierris, Gastón / Hernández, Ariel Hernán",
+    "p2": "Andrés Laube, Fernando / Pinceti, Gustavo",
+    "res": "6/1 6/0",
+    "gan": 1
+   }
+  ]
  }
 ]

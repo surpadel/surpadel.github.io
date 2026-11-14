@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 14:07",
+"actualizado": "2026-11-14 14:37",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -284,7 +284,7 @@
 "010001-C6-A2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "14:00",
 "inst": "Zona",
@@ -752,13 +752,13 @@
 "010001-D7-C2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:00",
 "inst": "Zona",
 "p1": "Becerra, Gabriela / Liciaga, María",
 "p2": "Aristegui, Carolina / Monzón, Alicia",
-"res": "",
+"res": "6/2 6/3",
 "sede": "Eleven",
 "zona": "C"
 },
