@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 20:08",
+"actualizado": "2026-11-13 21:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -180,7 +180,7 @@
 "hora": "14:45",
 "inst": "Zona",
 "p1": "Godoy, Emanuel / Godoy, Tobias",
-"p2": "Díaz, Joaquín / Suplente, Jugador",
+"p2": "Daquila, César / Montes de Oca, Matías",
 "res": "",
 "sede": "EVA",
 "zona": "E"
@@ -193,7 +193,7 @@
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Schmerkin, Leonardo / Scoglio, Julián",
-"p2": "Díaz, Joaquín / Suplente, Jugador",
+"p2": "Daquila, César / Montes de Oca, Matías",
 "res": "",
 "sede": "El Portal",
 "zona": "E"
@@ -318,7 +318,7 @@
 "011001-C6-A1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:00",
 "inst": "Zona",
@@ -526,7 +526,7 @@
 "011001-C6-E3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:00",
 "inst": "Zona",
@@ -539,13 +539,13 @@
 "011001-C6-F1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "Duarte Fernández, Marcos Damián / Moral, Laurencio",
 "p2": "Jagiellowicz, Santiago / Soria, Ezequiel Sergio",
-"res": "",
+"res": "4/6 6/4 6/4",
 "sede": "Real",
 "zona": "F"
 },

@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 20:08",
+"actualizado": "2026-11-13 21:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -323,7 +323,7 @@
 "010001-C6-B2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
@@ -492,7 +492,7 @@
 "010001-C7-A3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:00",
 "inst": "Zona",
@@ -609,13 +609,13 @@
 "010001-D6-A3": {
 "cat": "Damas 6ta",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:00",
 "inst": "Zona",
 "p1": "Insaurralde, Patricia / Pihuala, María",
 "p2": "Clua D'Alessandro, María / Niz, Miriam Marisa",
-"res": "",
+"res": "6/1 6/3",
 "sede": "Eleven",
 "zona": "A"
 },
@@ -635,13 +635,13 @@
 "010001-D6-B2": {
 "cat": "Damas 6ta",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:00",
 "inst": "Zona",
 "p1": "Corsetti, Delfina / Perretta, Daiana",
 "p2": "Calvi, Erika / Torales, Mariana",
-"res": "",
+"res": "6/4 6/3",
 "sede": "Eleven",
 "zona": "B"
 },
