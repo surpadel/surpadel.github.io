@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 21:38",
+"actualizado": "2026-11-13 22:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -492,13 +492,13 @@
 "010001-C7-A3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "Boticario, Martín / Silva, Thomas Lucas",
 "p2": "Luna, Guillermo / Staropoli, Julián",
-"res": "",
+"res": "6/3 6/0",
 "sede": "Eleven",
 "zona": "A"
 },
