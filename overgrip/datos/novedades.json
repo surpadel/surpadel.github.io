@@ -1159,5 +1159,50 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-14 19:37",
+  "partidos": [
+   {
+    "codigo": "008001-C6+40-58",
+    "cat": "Caballeros 6ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-14",
+    "hora": "18:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Acuña, Gastón / Foppiani, Gustavo",
+    "p2": "Amado Karas, Juan Mauricio / Sapetti, Gustavo Daniel",
+    "res": "6/3 3/6 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "008001-C6+50-58",
+    "cat": "Caballeros 6ta +50",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-14",
+    "hora": "18:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Armenti, Luis Antonio / Pantuso, Marcelo",
+    "p2": "Figueroa, Marcelo Martín / García, Gustavo Gabriel",
+    "res": "6/4 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "008001-C6+50-60",
+    "cat": "Caballeros 6ta +50",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-14",
+    "hora": "18:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Casal, Mariano Ariel / Pane, Esteban",
+    "p2": "Di Nenno, Javier / Loureiro, Javier",
+    "res": "6/4 6/2",
+    "gan": 2
+   }
+  ]
  }
 ]

@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 18:37",
+"actualizado": "2026-11-14 19:37",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -52,7 +52,7 @@
 "008001-C4+40-57": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:30",
 "inst": "Cuartos de Final",
@@ -88,7 +88,7 @@
 "008001-C4+40-60": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:30",
 "inst": "Cuartos de Final",
@@ -292,13 +292,13 @@
 "008001-C6+40-58": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:00",
 "inst": "Cuartos de Final",
 "p1": "Acuña, Gastón / Foppiani, Gustavo",
 "p2": "Amado Karas, Juan Mauricio / Sapetti, Gustavo Daniel",
-"res": "",
+"res": "6/3 3/6 6/2",
 "sede": "R5"
 },
 "008001-C6+40-61": {
@@ -309,7 +309,7 @@
 "hora": "13:00",
 "inst": "Semifinal",
 "p1": "Bussain, Roberto / Ybarra, Gastón",
-"p2": "",
+"p2": "Acuña, Gastón / Foppiani, Gustavo",
 "res": "",
 "sede": "R5"
 },
@@ -436,13 +436,13 @@
 "008001-C6+50-58": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:00",
 "inst": "Cuartos de Final",
 "p1": "Armenti, Luis Antonio / Pantuso, Marcelo",
 "p2": "Figueroa, Marcelo Martín / García, Gustavo Gabriel",
-"res": "",
+"res": "6/4 6/2",
 "sede": "R5"
 },
 "008001-C6+50-59": {
@@ -460,13 +460,13 @@
 "008001-C6+50-60": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:00",
 "inst": "Cuartos de Final",
 "p1": "Casal, Mariano Ariel / Pane, Esteban",
 "p2": "Di Nenno, Javier / Loureiro, Javier",
-"res": "",
+"res": "6/4 6/2",
 "sede": "R5"
 },
 "008001-C6+50-61": {
@@ -477,7 +477,7 @@
 "hora": "11:30",
 "inst": "Semifinal",
 "p1": "De Pierris, Gastón / Hernández, Ariel Hernán",
-"p2": "",
+"p2": "Armenti, Luis Antonio / Pantuso, Marcelo",
 "res": "",
 "sede": "R5"
 },
@@ -489,7 +489,7 @@
 "hora": "11:30",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Di Nenno, Javier / Loureiro, Javier",
 "res": "",
 "sede": "R5"
 },
