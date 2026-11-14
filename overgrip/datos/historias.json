@@ -696,6 +696,7 @@
   "archivo": "TEO-CLI008-001/cuartos-azul-1114-2038-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/cuartos-azul-1114-2038-1.png",
   "alt": "Cuartos: Caballeros 4ta +40, ganaron Chijlis G. / López Osornio M. 6/1 6/1; Caballeros 5ta +40, ganaron Ochandorena A. / Travella L. 6/2 4/6 6/4; Caballeros 6ta +40, ganaron Acuña G. / Foppiani G. 6/3 3/6 6/2; Caballeros 6ta +50, ganaron Armenti L. / Pantuso M. 6/4 6/2; Caballeros 6ta +50, ganaron Di Nenno J. / Loureiro J. 6/4 6/2",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  }
 ]
