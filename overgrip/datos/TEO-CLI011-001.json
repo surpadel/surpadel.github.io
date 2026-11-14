@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 17:07",
+"actualizado": "2026-11-14 17:37",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -110,7 +110,7 @@
 "011001-C5-C3": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:15",
 "inst": "Zona",
@@ -422,13 +422,13 @@
 "011001-C6-C1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Oña, Leonardo / Sánchez, Matías Nahuel",
 "p2": "Conde Meira, Matías / Salvatierra, Marcelo",
-"res": "",
+"res": "6/1 6/4",
 "sede": "EVA",
 "zona": "C"
 },
@@ -656,13 +656,13 @@
 "011001-C6-I1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Dermisache, Nahuel / Díaz, Patricio",
 "p2": "Cabello, Ramiro / Pérez, Leonardo",
-"res": "",
+"res": "6/4 6/2",
 "sede": "Real",
 "zona": "I"
 },
@@ -695,7 +695,7 @@
 "011001-C7-A1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:15",
 "inst": "Zona",

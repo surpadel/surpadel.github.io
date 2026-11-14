@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 17:07",
+"actualizado": "2026-11-14 17:37",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -271,7 +271,7 @@
 "010001-C6-A1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:00",
 "inst": "Zona",
@@ -362,7 +362,7 @@
 "010001-C6-C2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:00",
 "inst": "Zona",
@@ -531,26 +531,26 @@
 "010001-C7-B3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Zona",
 "p1": "Bavio, Emanuel / Fernández, Emanuel",
 "p2": "Cabezas, Leonel / Zmolnig, Juan Bautista",
-"res": "",
+"res": "6/2 6/3",
 "sede": "Eleven",
 "zona": "B"
 },
 "010001-C7-C1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "15:00",
 "inst": "Zona",
 "p1": "Maidana, Enzo / Olmo, Ezequiel Darío",
 "p2": "Baccarini, Nicolás / Barainca, Amilcar",
-"res": "",
+"res": "6/4 6/0",
 "sede": "Eleven",
 "zona": "C"
 },

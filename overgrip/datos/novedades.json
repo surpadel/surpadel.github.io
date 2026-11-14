@@ -1079,5 +1079,37 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-14 17:37",
+  "partidos": [
+   {
+    "codigo": "008001-C5+50-60",
+    "cat": "Caballeros 5ta +50",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-14",
+    "hora": "16:30",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Conti, Maximiliano Gastón / García, Norberto Fernando",
+    "p2": "Ambrosetti, Diego / García, Juan",
+    "res": "7/5 6/2",
+    "gan": 2
+   },
+   {
+    "codigo": "008001-C6+50-57",
+    "cat": "Caballeros 6ta +50",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-14",
+    "hora": "16:30",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Monzon, Miguel Eduardo / Sosa, Fernando Fabián",
+    "p2": "De Pierris, Gastón / Hernández, Ariel Hernán",
+    "res": "6/3 6/3",
+    "gan": 2
+   }
+  ]
  }
 ]
