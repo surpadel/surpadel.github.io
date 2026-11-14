@@ -873,7 +873,8 @@
     "res": "4/6 6/2 6/4",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI008-001",
@@ -892,6 +893,53 @@
     "res": "6/3 6/7 7/6",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-14 13:37",
+  "partidos": [
+   {
+    "codigo": "008001-C5+40-58",
+    "cat": "Caballeros 5ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-14",
+    "hora": "12:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Sartori, Rodrigo / Soria, Gustavo",
+    "p2": "Apecena, Fernando Óscar / Mercado, Mauricio Napoleón",
+    "res": "6/3 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "008001-C5+40-59",
+    "cat": "Caballeros 5ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-14",
+    "hora": "12:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Erceg, Gustavo / Ríos, Luis Abel Nicolás",
+    "p2": "Arguello, Daniel / Uriarte, Javier",
+    "res": "6/2 7/5",
+    "gan": 1
+   },
+   {
+    "codigo": "008001-C6+50-52",
+    "cat": "Caballeros 6ta +50",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-14",
+    "hora": "12:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Marchini, Martín / Orellano, Carlos",
+    "p2": "Figueroa, Marcelo Martín / García, Gustavo Gabriel",
+    "res": "6/3 6/4",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
  }
 ]

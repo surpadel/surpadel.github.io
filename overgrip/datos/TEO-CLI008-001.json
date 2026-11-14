@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 13:08",
+"actualizado": "2026-11-14 13:37",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -136,25 +136,25 @@
 "008001-C5+40-58": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "12:00",
 "inst": "Cuartos de Final",
 "p1": "Sartori, Rodrigo / Soria, Gustavo",
 "p2": "Apecena, Fernando Óscar / Mercado, Mauricio Napoleón",
-"res": "",
+"res": "6/3 6/4",
 "sede": "R5"
 },
 "008001-C5+40-59": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "12:00",
 "inst": "Cuartos de Final",
 "p1": "Erceg, Gustavo / Ríos, Luis Abel Nicolás",
 "p2": "Arguello, Daniel / Uriarte, Javier",
-"res": "",
+"res": "6/2 7/5",
 "sede": "R5"
 },
 "008001-C5+40-60": {
@@ -177,7 +177,7 @@
 "hora": "10:00",
 "inst": "Semifinal",
 "p1": "Chiodini, Luciano / Hatrick, Patricio",
-"p2": "",
+"p2": "Apecena, Fernando Óscar / Mercado, Mauricio Napoleón",
 "res": "",
 "sede": "R5"
 },
@@ -188,7 +188,7 @@
 "gan": null,
 "hora": "10:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Erceg, Gustavo / Ríos, Luis Abel Nicolás",
 "p2": "",
 "res": "",
 "sede": "R5"
@@ -340,7 +340,7 @@
 "008001-C6+50-50": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:30",
 "inst": "Octavos de Final",
@@ -364,19 +364,19 @@
 "008001-C6+50-52": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "12:00",
 "inst": "Octavos de Final",
 "p1": "Marchini, Martín / Orellano, Carlos",
 "p2": "Figueroa, Marcelo Martín / García, Gustavo Gabriel",
-"res": "",
+"res": "6/3 6/4",
 "sede": "R5"
 },
 "008001-C6+50-53": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:30",
 "inst": "Octavos de Final",
@@ -441,7 +441,7 @@
 "hora": "18:00",
 "inst": "Cuartos de Final",
 "p1": "Armenti, Luis Antonio / Pantuso, Marcelo",
-"p2": "",
+"p2": "Figueroa, Marcelo Martín / García, Gustavo Gabriel",
 "res": "",
 "sede": "R5"
 },
