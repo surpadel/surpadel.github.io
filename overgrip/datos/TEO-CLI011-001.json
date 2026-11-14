@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 21:38",
+"actualizado": "2026-11-13 22:38",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -180,7 +180,7 @@
 "hora": "14:45",
 "inst": "Zona",
 "p1": "Godoy, Emanuel / Godoy, Tobias",
-"p2": "Daquila, César / Suplente, Jugador",
+"p2": "Daquila, César / Robledo, Benicio",
 "res": "",
 "sede": "EVA",
 "zona": "E"
@@ -193,7 +193,7 @@
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Schmerkin, Leonardo / Scoglio, Julián",
-"p2": "Daquila, César / Suplente, Jugador",
+"p2": "Daquila, César / Robledo, Benicio",
 "res": "",
 "sede": "El Portal",
 "zona": "E"
@@ -279,7 +279,7 @@
 "011001-C5-H1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
@@ -383,7 +383,7 @@
 "011001-C6-B2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
@@ -578,7 +578,7 @@
 "011001-C6-G1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "22:00",
 "inst": "Zona",

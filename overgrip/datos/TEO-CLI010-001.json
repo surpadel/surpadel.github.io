@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 22:08",
+"actualizado": "2026-11-13 22:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -323,13 +323,13 @@
 "010001-C6-B2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Argüelles, Marcos / Muñoz, Nicolás",
 "p2": "Bernatene, Oscar / Rodríguez, Juan",
-"res": "",
+"res": "2/6 6/3 11/3",
 "sede": "Eleven",
 "zona": "B"
 },
@@ -479,7 +479,7 @@
 "010001-C7-A2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
@@ -622,7 +622,7 @@
 "010001-D6-B1": {
 "cat": "Damas 6ta",
 "dia": "2026-11-13",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "22:00",
 "inst": "Zona",
@@ -726,13 +726,13 @@
 "010001-D7-B3": {
 "cat": "Damas 7ma",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "22:00",
 "inst": "Zona",
 "p1": "Dury, Lucía / Gómez Rivero, María Laura",
 "p2": "Piñero, Lorena / Ponce de Leon, Noelia",
-"res": "",
+"res": "6/1 6/1",
 "sede": "Eleven",
 "zona": "B"
 },
