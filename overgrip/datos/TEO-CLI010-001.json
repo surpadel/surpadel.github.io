@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 11:08",
+"actualizado": "2026-11-14 11:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -414,13 +414,13 @@
 "010001-C6-D3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Zona",
 "p1": "Agüero, Gustavo / Blanco, Oscar Gabriel",
 "p2": "Martínez, Andrés / Vega, Gustavo",
-"res": "",
+"res": "4/6 6/4 11/5",
 "sede": "Eleven",
 "zona": "D"
 },
@@ -440,13 +440,13 @@
 "010001-C6-E2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "10:00",
 "inst": "Zona",
 "p1": "Irazu, Camila / Somma, Diego Alejandro",
-"p2": "Giardinieri, Emanuel / Llanos Carosella, Matías",
-"res": "",
+"p2": "Giardinieri, Carlos Emanuel / Llanos Carosella, Matías",
+"res": "6/4 6/2",
 "sede": "Eleven",
 "zona": "E"
 },
@@ -458,7 +458,7 @@
 "hora": "19:00",
 "inst": "Zona",
 "p1": "García, Luis Emilio / Lamnek, Jorge Luis",
-"p2": "Giardinieri, Emanuel / Llanos Carosella, Matías",
+"p2": "Giardinieri, Carlos Emanuel / Llanos Carosella, Matías",
 "res": "6/4 6/4",
 "sede": "Eleven",
 "zona": "E"
@@ -570,7 +570,7 @@
 "010001-C7-C3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:00",
 "inst": "Zona",
@@ -739,7 +739,7 @@
 "010001-D7-C1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:00",
 "inst": "Zona",
