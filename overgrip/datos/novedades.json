@@ -874,5 +874,24 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-14 12:38",
+  "partidos": [
+   {
+    "codigo": "008001-C6+50-51",
+    "cat": "Caballeros 6ta +50",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-14",
+    "hora": "10:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Armenti, Luis Antonio / Pantuso, Marcelo",
+    "p2": "Pagano, Abel Americo / Scorcelli, Guillermo Marcelo",
+    "res": "6/3 6/7 7/6",
+    "gan": 1
+   }
+  ]
  }
 ]

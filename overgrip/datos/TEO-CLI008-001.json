@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 12:08",
+"actualizado": "2026-11-14 12:38",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -136,7 +136,7 @@
 "008001-C5+40-58": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:00",
 "inst": "Cuartos de Final",
@@ -352,19 +352,19 @@
 "008001-C6+50-51": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Octavos de Final",
 "p1": "Armenti, Luis Antonio / Pantuso, Marcelo",
 "p2": "Pagano, Abel Americo / Scorcelli, Guillermo Marcelo",
-"res": "",
+"res": "6/3 6/7 7/6",
 "sede": "R5"
 },
 "008001-C6+50-52": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:00",
 "inst": "Octavos de Final",
@@ -440,7 +440,7 @@
 "gan": null,
 "hora": "18:00",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Armenti, Luis Antonio / Pantuso, Marcelo",
 "p2": "",
 "res": "",
 "sede": "R5"

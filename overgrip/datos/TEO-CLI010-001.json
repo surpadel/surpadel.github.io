@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 12:08",
+"actualizado": "2026-11-14 12:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -505,7 +505,7 @@
 "010001-C7-B1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:00",
 "inst": "Zona",
@@ -570,13 +570,13 @@
 "010001-C7-C3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:00",
 "inst": "Zona",
 "p1": "Baccarini, Nicolás / Barainca, Amilcar",
 "p2": "Di Tada, Nicolás / González, David Alberto",
-"res": "",
+"res": "1/6 6/2 11/9",
 "sede": "Eleven",
 "zona": "C"
 },
