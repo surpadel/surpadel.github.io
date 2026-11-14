@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 16:38",
+"actualizado": "2026-11-14 17:07",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -375,13 +375,13 @@
 "010001-C6-C3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "14:00",
 "inst": "Zona",
 "p1": "Antonio, Ariel / Paragorio, Ezequiel",
 "p2": "Albariño, Rodrigo / Morales, Máximo",
-"res": "",
+"res": "6/7 6/4 11/5",
 "sede": "Eleven",
 "zona": "C"
 },
@@ -544,7 +544,7 @@
 "010001-C7-C1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "15:00",
 "inst": "Zona",
