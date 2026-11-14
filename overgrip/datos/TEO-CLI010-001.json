@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 11:38",
+"actualizado": "2026-11-14 12:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -20,7 +20,7 @@
 "gan": null,
 "hora": "10:00",
 "inst": "Octavos de Final",
-"p1": "",
+"p1": "Martínez, Andrés / Vega, Gustavo",
 "p2": "",
 "res": "",
 "sede": "Eleven"
@@ -45,7 +45,7 @@
 "hora": "12:00",
 "inst": "Cuartos de Final",
 "p1": "",
-"p2": "",
+"p2": "Agüero, Gustavo / Blanco, Oscar Gabriel",
 "res": "",
 "sede": "Eleven"
 },
@@ -388,26 +388,26 @@
 "010001-C6-D1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "13:00",
 "inst": "Zona",
 "p1": "Marsochini, Wencelao / Nuñez, Eduardo",
 "p2": "Agüero, Gustavo / Blanco, Oscar Gabriel",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "Eleven",
 "zona": "D"
 },
 "010001-C6-D2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "12:00",
 "inst": "Zona",
 "p1": "Marsochini, Wencelao / Nuñez, Eduardo",
 "p2": "Martínez, Andrés / Vega, Gustavo",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "Eleven",
 "zona": "D"
 },
@@ -739,13 +739,13 @@
 "010001-D7-C1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:00",
 "inst": "Zona",
 "p1": "Becerra, Gabriela / Liciaga, María",
 "p2": "Paganelli, Victoria / Tellechea, Sonia",
-"res": "",
+"res": "6/2 6/4",
 "sede": "Eleven",
 "zona": "C"
 },

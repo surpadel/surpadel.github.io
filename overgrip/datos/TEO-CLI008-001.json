@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 10:08",
+"actualizado": "2026-11-14 12:08",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -148,7 +148,7 @@
 "008001-C5+40-59": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:00",
 "inst": "Cuartos de Final",
@@ -388,13 +388,13 @@
 "008001-C6+50-54": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "10:00",
 "inst": "Octavos de Final",
 "p1": "Alfonso, Héctor Omar / Fernández, Jorge",
 "p2": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
-"res": "",
+"res": "4/6 6/2 6/4",
 "sede": "R5"
 },
 "008001-C6+50-55": {
@@ -453,7 +453,7 @@
 "hora": "20:15",
 "inst": "Cuartos de Final",
 "p1": "",
-"p2": "",
+"p2": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
 "res": "",
 "sede": "R5"
 },

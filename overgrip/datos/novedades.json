@@ -855,5 +855,24 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-14 12:08",
+  "partidos": [
+   {
+    "codigo": "008001-C6+50-54",
+    "cat": "Caballeros 6ta +50",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-14",
+    "hora": "10:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Alfonso, Héctor Omar / Fernández, Jorge",
+    "p2": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
+    "res": "4/6 6/2 6/4",
+    "gan": 2
+   }
+  ]
  }
 ]
