@@ -1,0 +1,17 @@
+{
+  "rama": "dam",
+  "torneo": "Tremendas 3° Edición",
+  "sub": "La Meca · Quilmes",
+  "organiza": "tremendaspadelistas",
+  "titulo": ["Las", "campeonas"],
+  "cabecera": ["Así se", "coronaron"],
+  "partidos": [
+    {"cat": "Damas 2da", "ganan": "Bedrossian / Martínez", "pierden": "Muravchik / Ramírez", "sets": [[6,3],[6,2]]},
+    {"cat": "Damas 3ra", "ganan": "Figueredo / Meyerhoffer", "pierden": "Prado / Profitos", "sets": [[6,4],[6,2]]},
+    {"cat": "Damas 4ta", "ganan": "Amoroso / Kodelia", "pierden": "Álvarez / Sánchez", "sets": [[6,4],[4,6],[6,4]]}
+  ],
+  "dato": {"etiqueta": "Casi se quedan en cuartos", "numero": "11-8",
+           "texto": "Las campeonas de 2da salvaron los cuartos en el <em>super tie-break</em>, después de perder el primer set"},
+  "cierre": ["Pádel de acá,", "al día"],
+  "fondos": ["instagram/banco-tomas/toma10-club-barrio.mp4", "marca/fondos/fondo-29-tinglado-barrio.png", "marca/fondos/fondo-31-banco-club.png"]
+}
