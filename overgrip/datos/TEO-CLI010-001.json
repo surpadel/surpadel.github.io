@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 13:08",
+"actualizado": "2026-11-14 14:07",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -505,13 +505,13 @@
 "010001-C7-B1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "12:00",
 "inst": "Zona",
 "p1": "Pérez, Damián Ariel / Resa, Sebastián Ariel",
 "p2": "Bavio, Emanuel / Fernández, Emanuel",
-"res": "",
+"res": "6/4 5/7 11/3",
 "sede": "Eleven",
 "zona": "B"
 },
@@ -674,7 +674,7 @@
 "010001-D7-A2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "14:30",
 "inst": "Zona",

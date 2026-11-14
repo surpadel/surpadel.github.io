@@ -941,5 +941,24 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-14 14:07",
+  "partidos": [
+   {
+    "codigo": "008001-C6+50-55",
+    "cat": "Caballeros 6ta +50",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-14",
+    "hora": "12:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "García, Luis Emilio / Palancar, Telmo Cecilio",
+    "p2": "Casal, Mariano Ariel / Pane, Esteban",
+    "res": "6/3 2/6 6/2",
+    "gan": 2
+   }
+  ]
  }
 ]
