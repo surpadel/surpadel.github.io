@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 14:37",
+"actualizado": "2026-11-14 15:37",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -16,31 +16,31 @@
 "008001-C4+40-51": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "15:00",
 "inst": "Octavos de Final",
 "p1": "Barnasthpol, Christian / Cardinali, Matías",
 "p2": "Catullo, Sergio Gabriel / Tocci, Roberto",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "R5"
 },
 "008001-C4+40-54": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:30",
 "inst": "Octavos de Final",
 "p1": "Antognini, Ezequiel Matías / Salomon, Joaquín",
 "p2": "Fernández, Pablo Oscar / García, Amalio José",
-"res": "",
+"res": "2/6 6/2 6/1",
 "sede": "R5"
 },
 "008001-C4+40-55": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "15:00",
 "inst": "Octavos de Final",
@@ -68,7 +68,7 @@
 "gan": null,
 "hora": "19:30",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Catullo, Sergio Gabriel / Tocci, Roberto",
 "p2": "Gómez, Alberto Martín / Ledesma, Paulo Daniel",
 "res": "",
 "sede": "R5"
@@ -81,7 +81,7 @@
 "hora": "19:30",
 "inst": "Cuartos de Final",
 "p1": "Carra, Jerónimo / Ramos, Darío Eduardo",
-"p2": "",
+"p2": "Fernández, Pablo Oscar / García, Amalio José",
 "res": "",
 "sede": "R5"
 },
@@ -412,13 +412,13 @@
 "008001-C6+50-56": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:30",
 "inst": "Octavos de Final",
 "p1": "Daguerre, Marcos / Grancelli, Adrián",
 "p2": "Di Nenno, Javier / Loureiro, Javier",
-"res": "",
+"res": "6/3 6/3",
 "sede": "R5"
 },
 "008001-C6+50-57": {
@@ -465,7 +465,7 @@
 "hora": "18:00",
 "inst": "Cuartos de Final",
 "p1": "Casal, Mariano Ariel / Pane, Esteban",
-"p2": "",
+"p2": "Di Nenno, Javier / Loureiro, Javier",
 "res": "",
 "sede": "R5"
 },

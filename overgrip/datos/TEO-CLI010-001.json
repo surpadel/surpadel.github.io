@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 14:37",
+"actualizado": "2026-11-14 15:37",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -284,13 +284,13 @@
 "010001-C6-A2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "14:00",
 "inst": "Zona",
 "p1": "Martínez, Carlos Jorge / Morinigo, Rodrigo",
 "p2": "Álvarez, Nahuel / López, Ilan",
-"res": "",
+"res": "6/1 6/3",
 "sede": "Eleven",
 "zona": "A"
 },
@@ -375,7 +375,7 @@
 "010001-C6-C3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "14:00",
 "inst": "Zona",
@@ -427,7 +427,7 @@
 "010001-C6-E1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:00",
 "inst": "Zona",
@@ -674,13 +674,13 @@
 "010001-D7-A2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "14:30",
 "inst": "Zona",
 "p1": "Borro, Candela / González, Virginia",
 "p2": "De Luca, Andrea / Mesa, Gabriela",
-"res": "",
+"res": "6/3 3/6 11/9",
 "sede": "Eleven",
 "zona": "A"
 },
