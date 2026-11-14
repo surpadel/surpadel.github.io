@@ -1203,7 +1203,8 @@
     "res": "6/4 6/2",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI008-001",
@@ -1222,6 +1223,27 @@
     "res": "6/2 4/6 6/4",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-14 20:37",
+  "partidos": [
+   {
+    "codigo": "008001-C4+40-57",
+    "cat": "Caballeros 4ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-14",
+    "hora": "19:30",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Llena Alarcon, Hernán / Marascia, Damián Gustavo",
+    "p2": "Chijlis, Germán / López Osornio, Martín",
+    "res": "6/1 6/1",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
  }
 ]

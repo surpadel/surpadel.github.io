@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 20:07",
+"actualizado": "2026-11-14 20:37",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -52,13 +52,13 @@
 "008001-C4+40-57": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:30",
 "inst": "Cuartos de Final",
 "p1": "Llena Alarcon, Hernán / Marascia, Damián Gustavo",
 "p2": "Chijlis, Germán / López Osornio, Martín",
-"res": "",
+"res": "6/1 6/1",
 "sede": "R5"
 },
 "008001-C4+40-58": {
@@ -104,7 +104,7 @@
 "gan": null,
 "hora": "13:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Chijlis, Germán / López Osornio, Martín",
 "p2": "",
 "res": "",
 "sede": "R5"
@@ -448,7 +448,7 @@
 "008001-C6+50-59": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:15",
 "inst": "Cuartos de Final",

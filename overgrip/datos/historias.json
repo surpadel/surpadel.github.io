@@ -680,5 +680,22 @@
   "alt": "Cuartos: Caballeros 5ta +50, ganaron Ambrosetti D. / García J. 7/5 6/2; Caballeros 5ta +50, ganaron Bautista R. / De Marco F. 6/2 7/6; Caballeros 5ta +50, ganaron Oliverio V. / Valaco N. 6/3 2/6 6/0; Caballeros 5ta +50, ganaron Gural E. / Quatrocchi L. 6/4 6/3; Caballeros 6ta +50, ganaron De Pierris G. / Hernández A. 6/3 6/3",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-14 20:38",
+  "torneo": "TEO-CLI008-001",
+  "inst": "Cuartos de Final",
+  "organiza": "juvepa.lp",
+  "codigos": {
+   "008001-C4+40-57": "6/1 6/1",
+   "008001-C5+40-60": "6/2 4/6 6/4",
+   "008001-C6+40-58": "6/3 3/6 6/2",
+   "008001-C6+50-58": "6/4 6/2",
+   "008001-C6+50-60": "6/4 6/2"
+  },
+  "archivo": "TEO-CLI008-001/cuartos-azul-1114-2038-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/cuartos-azul-1114-2038-1.png",
+  "alt": "Cuartos: Caballeros 4ta +40, ganaron Chijlis G. / López Osornio M. 6/1 6/1; Caballeros 5ta +40, ganaron Ochandorena A. / Travella L. 6/2 4/6 6/4; Caballeros 6ta +40, ganaron Acuña G. / Foppiani G. 6/3 3/6 6/2; Caballeros 6ta +50, ganaron Armenti L. / Pantuso M. 6/4 6/2; Caballeros 6ta +50, ganaron Di Nenno J. / Loureiro J. 6/4 6/2",
+  "publicada": false
  }
 ]

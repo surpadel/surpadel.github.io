@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 20:07",
+"actualizado": "2026-11-14 20:37",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -669,7 +669,7 @@
 "011001-C6-I2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:45",
 "inst": "Zona",
@@ -708,13 +708,13 @@
 "011001-C7-A2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:30",
 "inst": "Zona",
 "p1": "Bianchi, Fernando / Giannotti, Luciano",
 "p2": "Bocchieri, Matias / Mangione, Braian",
-"res": "",
+"res": "6/2 3/6 6/0",
 "sede": "Real",
 "zona": "A"
 },
@@ -726,7 +726,7 @@
 "hora": "22:15",
 "inst": "Zona",
 "p1": "Ahumada, Thiago / Sandoval, Mateo",
-"p2": "",
+"p2": "Bocchieri, Matias / Mangione, Braian",
 "res": "",
 "sede": "Real",
 "zona": "A"
@@ -739,7 +739,7 @@
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Ordonez, Matías / Si Filippo, Sebastian",
-"p2": "",
+"p2": "Bianchi, Fernando / Giannotti, Luciano",
 "res": "",
 "sede": "Real",
 "zona": "A"
@@ -773,13 +773,13 @@
 "011001-C7-B3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Marazzato, Franco Ariel / Méndez, Dylan",
 "p2": "Corrales, Matías Lautaro / Corrales, Mariano Nahuel",
-"res": "",
+"res": "6/2 6/3",
 "sede": "El Portal",
 "zona": "B"
 },
@@ -1124,13 +1124,13 @@
 "011001-D7-B1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:15",
 "inst": "Zona",
 "p1": "López, Elizabeth / Walsh, Araceli",
 "p2": "Garcia, Victoria / Mereles, Daiana",
-"res": "",
+"res": "6/1 6/2",
 "sede": "EVA",
 "zona": "B"
 },
@@ -1154,7 +1154,7 @@
 "gan": null,
 "hora": "22:15",
 "inst": "Zona",
-"p1": "",
+"p1": "López, Elizabeth / Walsh, Araceli",
 "p2": "Ferrara, Natalia / Tercic, Maia",
 "res": "",
 "sede": "EVA",
@@ -1167,7 +1167,7 @@
 "gan": null,
 "hora": "22:15",
 "inst": "Zona",
-"p1": "",
+"p1": "Garcia, Victoria / Mereles, Daiana",
 "p2": "Báez, Sonia / Noguera, Luciana",
 "res": "",
 "sede": "EVA",
