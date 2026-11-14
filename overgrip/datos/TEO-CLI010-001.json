@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 00:08",
+"actualizado": "2026-11-14 08:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -129,7 +129,7 @@
 "hora": "14:00",
 "inst": "Cuartos de Final",
 "p1": "",
-"p2": "",
+"p2": "Luna, Guillermo / Staropoli, Julián",
 "res": "",
 "sede": "Eleven"
 },
@@ -140,7 +140,7 @@
 "gan": null,
 "hora": "16:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Robledo, Tobías / Segovia, Emir",
 "p2": "",
 "res": "",
 "sede": "Eleven"
@@ -466,13 +466,13 @@
 "010001-C7-A1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "23:00",
 "inst": "Zona",
 "p1": "Robledo, Tobías / Segovia, Emir",
 "p2": "Boticario, Martín / Silva, Thomas Lucas",
-"res": "",
+"res": "6/4 6/2",
 "sede": "Eleven",
 "zona": "A"
 },

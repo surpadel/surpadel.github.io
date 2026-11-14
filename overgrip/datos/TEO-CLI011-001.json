@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 00:08",
+"actualizado": "2026-11-14 08:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -578,13 +578,13 @@
 "011001-C6-G1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "22:00",
 "inst": "Zona",
 "p1": "Fons, Pablo Alberto / Roura, Ignacio Daniel",
 "p2": "Espindola, Javier Alejandro / Paz, Mariano",
-"res": "",
+"res": "4/6 6/4 7/5",
 "sede": "Real",
 "zona": "G"
 },
@@ -851,13 +851,13 @@
 "011001-C7-D2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "22:00",
 "inst": "Zona",
 "p1": "Méndez, Diego Mariano / Miranda, Matias Leonardo",
 "p2": "Bengler, Fernando / Knorr, Mario",
-"res": "",
+"res": "6/1 6/2",
 "sede": "Real",
 "zona": "D"
 },
@@ -916,13 +916,13 @@
 "011001-C7-F1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-13",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "23:00",
 "inst": "Zona",
 "p1": "Casciana, Matias / Sosa, Mauro Ezequiel",
 "p2": "Di Marco, Gian Franco / Garcia, Federico",
-"res": "",
+"res": "7/6 3/6 6/4",
 "sede": "Real",
 "zona": "F"
 },
@@ -1046,13 +1046,13 @@
 "011001-C7-I2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-13",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "23:00",
 "inst": "Zona",
 "p1": "Jaime, Facundo / Jamardo, Agustín",
 "p2": "Aramburu, Alejandro / Lisio, Leandro",
-"res": "",
+"res": "7/6 6/3",
 "sede": "Real",
 "zona": "I"
 },
