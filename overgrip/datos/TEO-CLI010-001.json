@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-13 23:38",
+"actualizado": "2026-11-14 00:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -176,7 +176,7 @@
 "gan": null,
 "hora": "15:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Insaurralde, Patricia / Pihuala, María",
 "p2": "Arranz, Paula / Novoa, Miriam",
 "res": "",
 "sede": "Eleven"
@@ -188,7 +188,7 @@
 "gan": null,
 "hora": "15:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Clua D'Alessandro, María / Niz, Miriam Marisa",
 "p2": "Corsetti, Delfina / Perretta, Daiana",
 "res": "",
 "sede": "Eleven"
@@ -583,26 +583,26 @@
 "010001-D6-A1": {
 "cat": "Damas 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Faccia, Paula / García, Florencia",
 "p2": "Insaurralde, Patricia / Pihuala, María",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "Eleven",
 "zona": "A"
 },
 "010001-D6-A2": {
 "cat": "Damas 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "Faccia, Paula / García, Florencia",
 "p2": "Clua D'Alessandro, María / Niz, Miriam Marisa",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "Eleven",
 "zona": "A"
 },
