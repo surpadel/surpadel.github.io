@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 16:07",
+"actualizado": "2026-11-14 16:37",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -40,13 +40,13 @@
 "008001-C4+40-55": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Octavos de Final",
 "p1": "Pereyra, Pablo / Pereyra, Jorge",
 "p2": "Pellegrini, Emmanuel / Rondeau, Jorge Alberto",
-"res": "",
+"res": "6/4 6/4",
 "sede": "R5"
 },
 "008001-C4+40-57": {
@@ -92,7 +92,7 @@
 "gan": null,
 "hora": "19:30",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Pellegrini, Emmanuel / Rondeau, Jorge Alberto",
 "p2": "Altamirano, Carlos Eugenio / Raggio, Alejandro César",
 "res": "",
 "sede": "R5"
@@ -424,7 +424,7 @@
 "008001-C6+50-57": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:30",
 "inst": "Cuartos de Final",

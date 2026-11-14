@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 15:37",
+"actualizado": "2026-11-14 16:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -44,7 +44,7 @@
 "gan": null,
 "hora": "12:00",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Giardinieri, Carlos Emanuel / Llanos Carosella, Matías",
 "p2": "Agüero, Gustavo / Blanco, Oscar Gabriel",
 "res": "",
 "sede": "Eleven"
@@ -57,7 +57,7 @@
 "hora": "12:00",
 "inst": "Cuartos de Final",
 "p1": "",
-"p2": "",
+"p2": "Irazu, Camila / Somma, Diego Alejandro",
 "res": "",
 "sede": "Eleven"
 },
@@ -427,13 +427,13 @@
 "010001-C6-E1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "12:00",
 "inst": "Zona",
 "p1": "Irazu, Camila / Somma, Diego Alejandro",
 "p2": "García, Luis Emilio / Lamnek, Jorge Luis",
-"res": "",
+"res": "6/3 7/6",
 "sede": "Eleven",
 "zona": "E"
 },
@@ -531,7 +531,7 @@
 "010001-C7-B3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "15:00",
 "inst": "Zona",

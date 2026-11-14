@@ -1060,5 +1060,24 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-14 16:37",
+  "partidos": [
+   {
+    "codigo": "008001-C4+40-55",
+    "cat": "Caballeros 4ta +40",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-14",
+    "hora": "15:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Pereyra, Pablo / Pereyra, Jorge",
+    "p2": "Pellegrini, Emmanuel / Rondeau, Jorge Alberto",
+    "res": "6/4 6/4",
+    "gan": 2
+   }
+  ]
  }
 ]
