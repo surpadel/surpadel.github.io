@@ -1,0 +1,43 @@
+{
+ "franja": "Dubái P1",
+ "bajada": "Sábado · semis",
+ "titulo": "Final con <span class=gold>tres argentinos</span>",
+ "bloques": [
+  {
+   "rama": "Caballeros",
+   "tema": "azul",
+   "resumen": "final asegurada",
+   "nota": "sin ceder sets",
+   "partidos": [
+    {
+     "g": "Alfonso / Libaak",
+     "p": "De Pascual / Garrido",
+     "s": "6/1 6/4",
+     "et": "Semis"
+    },
+    {
+     "g": "Augsburger / Lebrón",
+     "p": "Abbate / Dal Bianco",
+     "s": "6/4 6/2",
+     "et": "Semis"
+    }
+   ]
+  },
+  {
+   "rama": "Damas",
+   "tema": "rosa",
+   "resumen": "hasta acá",
+   "nota": "gran semana",
+   "partidos": [
+    {
+     "g": "Jensen / Icardo",
+     "p": "Fernández / Calvo",
+     "s": "3/6 1/6",
+     "et": "Semis"
+    }
+   ]
+  }
+ ],
+ "dato": "Domingo de revancha: <b>Alfonso y Libaak</b> les ganaron a Augsburger y Lebrón los <b>dos últimos cruces</b>, en Madrid y en Kuwait (4-6 7-5 6-1).",
+ "cred": "Domingo, final · Seguí el torneo con <b>@surpadelstore</b>"
+}
