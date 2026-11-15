@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 12:38",
+"actualizado": "2026-11-15 13:08",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -268,13 +268,13 @@
 "008001-C5+50-62": {
 "cat": "Caballeros 5ta +50",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:30",
 "inst": "Semifinal",
 "p1": "Bautista, Renee Arnaldo / De Marco, Fabián",
 "p2": "Ambrosetti, Diego / García, Juan",
-"res": "",
+"res": "6/4 6/3",
 "sede": "R5"
 },
 "008001-C5+50-64": {
@@ -285,7 +285,7 @@
 "hora": "16:00",
 "inst": "Final",
 "p1": "",
-"p2": "",
+"p2": "Ambrosetti, Diego / García, Juan",
 "res": "",
 "sede": "R5"
 },

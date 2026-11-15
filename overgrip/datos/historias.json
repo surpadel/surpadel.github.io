@@ -893,5 +893,46 @@
   "en_buffer": "6af9c400e86a5789a617789c",
   "modo": "auto",
   "publicada_en": "2026-11-15 11:38"
+ },
+ {
+  "creada": "2026-11-15 13:08",
+  "torneo": "TEO-CLI010-001",
+  "inst": "Cuartos de Final",
+  "organiza": "padelelevenroute",
+  "codigos": {
+   "010001-C6-60": "6/0 6/3"
+  },
+  "archivo": "TEO-CLI010-001/cuartos-azul-1115-1308-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/cuartos-azul-1115-1308-1.png",
+  "alt": "Cuartos: Caballeros 6ta, ganaron Argüelles M. / Muñoz N. 6/0 6/3",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-15 13:08",
+  "torneo": "TEO-CLI008-001",
+  "inst": "Semifinal",
+  "organiza": "juvepa.lp",
+  "codigos": {
+   "008001-C5+40-62": "4/6 6/2 7/6",
+   "008001-C5+50-62": "6/4 6/3"
+  },
+  "archivo": "TEO-CLI008-001/semifinal-azul-1115-1308-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/semifinal-azul-1115-1308-1.png",
+  "alt": "Semifinales: Caballeros 5ta +40, ganaron Erceg G. / Ríos L. 4/6 6/2 7/6; Caballeros 5ta +50, ganaron Ambrosetti D. / García J. 6/4 6/3",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-15 13:08",
+  "torneo": "TEO-CLI010-001",
+  "inst": "Semifinal",
+  "organiza": "padelelevenroute",
+  "codigos": {
+   "010001-D7-62": "6/3 7/6",
+   "010001-D7-61": "6/3 6/1"
+  },
+  "archivo": "TEO-CLI010-001/semifinal-rosa-1115-1308-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/semifinal-rosa-1115-1308-1.png",
+  "alt": "Semifinales: Damas 7ma, ganaron De Luca A. / Mesa G. 6/3 7/6; Damas 7ma, ganaron Borro C. / González V. 6/3 6/1",
+  "publicada": false
  }
 ]
