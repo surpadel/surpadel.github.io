@@ -730,7 +730,8 @@
   "archivo": "TEO-CLI008-001/cuartos-azul-1114-2308-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/cuartos-azul-1114-2308-1.png",
   "alt": "Cuartos: Caballeros 4ta +40, ganaron Gómez A. / Ledesma P. 7/5 6/2; Caballeros 4ta +40, ganaron Pellegrini E. / Rondeau J. 6/2 6/3; Caballeros 4ta +40, ganaron Carra J. / Ramos D. 7/5 3/6 6/4; Caballeros 6ta +50, ganaron Gutiérrez M. / Quinteros M. 6/4 6/1",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  },
  {
   "creada": "2026-11-14 23:08",
@@ -752,7 +753,8 @@
   "archivo": "TEO-CLI011-001/zonas-2026-11-14-azul.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/zonas-2026-11-14-azul.png",
   "alt": "Lo mejor de las zonas del sábado 14/11: Caballeros 5ta, ganaron Picotto M. / Thomas R. 6/7 6/3 6/4; Caballeros 6ta, ganaron Muriel J. / Peralta B. 6/3 0/6 7/5; Caballeros 7ma, ganaron Miño M. / Morales A. 7/6 5/7 7/6; Caballeros 7ma, ganaron Ahumada T. / Sandoval M. 7/6 3/6 6/3; Caballeros 7ma, ganaron Delaguila N. / Galanti P. 6/3 4/6 7/6",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  },
  {
   "creada": "2026-11-14 23:08",
@@ -773,7 +775,8 @@
   "archivo": "TEO-CLI011-001/zonas-2026-11-14-rosa.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/zonas-2026-11-14-rosa.png",
   "alt": "Lo mejor de las zonas del sábado 14/11: Damas 7ma, ganaron Orellana M. / Orellana M. 0/6 7/5 6/1; Damas 7ma, ganaron Ferrara N. / Tercic M. 6/1 6/4; Damas 7ma, ganaron López Muollo A. / Polizzotto M. 6/2 6/2; Damas 7ma, ganaron López E. / Walsh A. 6/1 6/2",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  },
  {
   "creada": "2026-11-14 23:08",
@@ -795,7 +798,8 @@
   "archivo": "TEO-CLI010-001/zonas-2026-11-14-azul.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/zonas-2026-11-14-azul.png",
   "alt": "Lo mejor de las zonas del sábado 14/11: Caballeros 6ta, ganaron Antonio A. / Paragorio E. 6/7 6/4 11/5; Caballeros 6ta, ganaron Antonio A. / Paragorio E. 3/6 7/5 11/6; Caballeros 6ta, ganaron Agüero G. / Blanco O. 4/6 6/4 11/5; Caballeros 7ma, ganaron Di Tada N. / González D. 1/6 6/2 11/9; Caballeros 7ma, ganaron Pérez D. / Resa S. 6/4 5/7 11/3",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  },
  {
   "creada": "2026-11-14 23:08",
@@ -816,6 +820,7 @@
   "archivo": "TEO-CLI010-001/zonas-2026-11-14-rosa.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/zonas-2026-11-14-rosa.png",
   "alt": "Lo mejor de las zonas del sábado 14/11: Damas 7ma, ganaron Borro C. / González V. 6/3 3/6 11/9; Damas 7ma, ganaron Biondi V. / Guazzaroni C. 7/6 7/6; Damas 7ma, ganaron Dury L. / Gómez Rivero M. 7/6 6/2; Damas 7ma, ganaron Becerra G. / Liciaga M. 6/2 6/4",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  }
 ]
