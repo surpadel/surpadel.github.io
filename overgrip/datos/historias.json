@@ -1020,7 +1020,10 @@
   "archivo": "TEO-CLI008-001/semifinal-azul-1115-1738-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/semifinal-azul-1115-1738-1.png",
   "alt": "Semifinales: Caballeros 4ta +40, ganaron Carra J. / Ramos D. 4/6 6/2 6/4",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6afa186706e1675856a40cd1",
+  "modo": "auto",
+  "publicada_en": "2026-11-15 17:38"
  },
  {
   "creada": "2026-11-15 17:38",
@@ -1060,6 +1063,9 @@
   "archivo": "TEO-CLI008-001/final-azul-1115-1738-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/final-azul-1115-1738-1.png",
   "alt": "Finales: Caballeros 5ta +50, ganaron Ambrosetti D. / García J. 7/6 6/2",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6afa185edaa378ad688f5e55",
+  "modo": "auto",
+  "publicada_en": "2026-11-15 17:38"
  }
 ]
