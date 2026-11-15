@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 15:08",
+"actualizado": "2026-11-15 15:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -112,25 +112,25 @@
 "010001-C7-58": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "14:00",
 "inst": "Cuartos de Final",
 "p1": "Cabezas, Leonel / Zmolnig, Juan Bautista",
 "p2": "Di Tada, Nicolás / González, David Alberto",
-"res": "",
+"res": "6/2 6/4",
 "sede": "Eleven"
 },
 "010001-C7-59": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "14:00",
 "inst": "Cuartos de Final",
 "p1": "Maidana, Enzo / Olmo, Ezequiel Darío",
 "p2": "Luna, Guillermo / Staropoli, Julián",
-"res": "",
+"res": "6/3 7/5",
 "sede": "Eleven"
 },
 "010001-C7-61": {
@@ -141,7 +141,7 @@
 "hora": "16:00",
 "inst": "Semifinal",
 "p1": "Robledo, Tobías Santino / Segovia, Emir Andrés",
-"p2": "",
+"p2": "Di Tada, Nicolás / González, David Alberto",
 "res": "",
 "sede": "Eleven"
 },
@@ -152,7 +152,7 @@
 "gan": null,
 "hora": "16:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Maidana, Enzo / Olmo, Ezequiel Darío",
 "p2": "Pérez, Damián Ariel / Resa, Sebastián Ariel",
 "res": "",
 "sede": "Eleven"
@@ -184,7 +184,7 @@
 "010001-D6-62": {
 "cat": "Damas 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "15:00",
 "inst": "Semifinal",
