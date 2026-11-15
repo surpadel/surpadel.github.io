@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 21:38",
+"actualizado": "2026-11-14 22:37",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -212,7 +212,7 @@
 "gan": null,
 "hora": "09:00",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Biondi, Valentina / Guazzaroni, Cecilia",
 "p2": "Paganelli, Victoria / Tellechea, Sonia",
 "res": "",
 "sede": "Eleven"
@@ -225,7 +225,7 @@
 "hora": "09:00",
 "inst": "Cuartos de Final",
 "p1": "Becerra, Gabriela / Liciaga, María",
-"p2": "",
+"p2": "De Luca, Andrea / Mesa, Gabriela",
 "res": "",
 "sede": "Eleven"
 },
@@ -236,7 +236,7 @@
 "gan": null,
 "hora": "11:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Borro, Candela / González, Virginia",
 "p2": "",
 "res": "",
 "sede": "Eleven"
@@ -249,7 +249,7 @@
 "hora": "11:00",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Dury, Lucía / Gómez Rivero, María Laura",
 "res": "",
 "sede": "Eleven"
 },
@@ -661,13 +661,13 @@
 "010001-D7-A1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:00",
 "inst": "Zona",
 "p1": "Borro, Candela / González, Virginia",
 "p2": "Palacios, Natalia / Semino, Silvina",
-"res": "",
+"res": "6/2 6/3",
 "sede": "Eleven",
 "zona": "A"
 },
@@ -713,13 +713,13 @@
 "010001-D7-B2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:00",
 "inst": "Zona",
 "p1": "Biondi, Valentina / Guazzaroni, Cecilia",
 "p2": "Piñero, Lorena / Ponce de Leon, Noelia",
-"res": "",
+"res": "7/6 7/6",
 "sede": "Eleven",
 "zona": "B"
 },

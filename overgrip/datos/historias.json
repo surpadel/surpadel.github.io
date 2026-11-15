@@ -698,5 +698,21 @@
   "alt": "Cuartos: Caballeros 4ta +40, ganaron Chijlis G. / López Osornio M. 6/1 6/1; Caballeros 5ta +40, ganaron Ochandorena A. / Travella L. 6/2 4/6 6/4; Caballeros 6ta +40, ganaron Acuña G. / Foppiani G. 6/3 3/6 6/2; Caballeros 6ta +50, ganaron Armenti L. / Pantuso M. 6/4 6/2; Caballeros 6ta +50, ganaron Di Nenno J. / Loureiro J. 6/4 6/2",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-14 22:38",
+  "torneo": "TEO-CLI010-001",
+  "inst": "Llaves",
+  "tipo": "llaves",
+  "clave": "llaves-TEO-CLI010-001",
+  "organiza": "padelelevenroute",
+  "etiquetas": [
+   "padelelevenroute"
+  ],
+  "codigos": {},
+  "archivo": "TEO-CLI010-001/llaves.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/llaves.png",
+  "alt": "Ya están las llaves de Eleven Route: se juegan desde el domingo 15/11. Mirá tu cruce en app.overgrip.com.ar.",
+  "publicada": false
  }
 ]

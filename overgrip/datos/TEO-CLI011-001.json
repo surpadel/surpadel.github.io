@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 22:07",
+"actualizado": "2026-11-14 22:37",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -84,7 +84,7 @@
 "011001-C5-C1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "22:15",
 "inst": "Zona",
@@ -266,7 +266,7 @@
 "011001-C5-G3": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
@@ -305,13 +305,13 @@
 "011001-C5-H3": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:30",
 "inst": "Zona",
 "p1": "Carlasare, Ignacio / Iñiguez, Imanol",
 "p2": "Dacunti, Leonardo / Foresi, Diego",
-"res": "",
+"res": "6/4 6/4",
 "sede": "Real",
 "zona": "H"
 },
@@ -474,13 +474,13 @@
 "011001-C6-D2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Ammaturo, Marcelo Leonel / Dubini, Emilio",
 "p2": "Garay, Diego / Gómez, Agustín",
-"res": "",
+"res": "6/2 6/4",
 "sede": "EVA",
 "zona": "D"
 },
@@ -604,7 +604,7 @@
 "011001-C6-G3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "22:15",
 "inst": "Zona",
@@ -669,13 +669,13 @@
 "011001-C6-I2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Dermisache, Nahuel / Díaz, Patricio",
 "p2": "Cámara, Thiago Sebastián / López, Franco",
-"res": "",
+"res": "6/2 6/3",
 "sede": "Real",
 "zona": "I"
 },
@@ -864,13 +864,13 @@
 "011001-C7-D3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Di Maio, Agustín / Sokol, Pablo",
 "p2": "Bengler, Fernando / Knorr, Mario",
-"res": "",
+"res": "6/4 6/3",
 "sede": "Real",
 "zona": "D"
 },
@@ -903,13 +903,13 @@
 "011001-C7-E3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Miño, Mateo / Morales, Alexis",
 "p2": "Riffel, Nahuel Ángel / Santoro, Diego José Emilio",
-"res": "",
+"res": "7/6 5/7 7/6",
 "sede": "EVA",
 "zona": "E"
 },
@@ -981,7 +981,7 @@
 "011001-C7-G3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
