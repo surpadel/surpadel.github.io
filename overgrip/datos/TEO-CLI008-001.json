@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 11:38",
+"actualizado": "2026-11-15 12:38",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -184,13 +184,13 @@
 "008001-C5+40-62": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Semifinal",
 "p1": "Erceg, Gustavo / Ríos, Luis Abel Nicolás",
 "p2": "Ochandorena, Ariel / Travella, Lucas",
-"res": "",
+"res": "4/6 6/2 7/6",
 "sede": "R5"
 },
 "008001-C5+40-64": {
@@ -201,7 +201,7 @@
 "hora": "17:30",
 "inst": "Final",
 "p1": "Chiodini, Luciano / Hatrick, Patricio",
-"p2": "",
+"p2": "Erceg, Gustavo / Ríos, Luis Abel Nicolás",
 "res": "",
 "sede": "R5"
 },
@@ -472,7 +472,7 @@
 "008001-C6+50-61": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:30",
 "inst": "Semifinal",
@@ -484,7 +484,7 @@
 "008001-C6+50-62": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:30",
 "inst": "Semifinal",
