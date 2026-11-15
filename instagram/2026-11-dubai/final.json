@@ -1,0 +1,27 @@
+{
+ "franja": "Dubái P1",
+ "bajada": "Domingo · final",
+ "titulo": "Augsburger, <span class=gold>campeón en Dubái</span>",
+ "bloques": [
+  {
+   "rama": "Caballeros",
+   "tema": "azul",
+   "resumen": "final argentina",
+   "nota": "tres sets",
+   "partidos": [
+    {"g": "Augsburger / Lebrón", "p": "Alfonso / Libaak", "s": "7/6 5/7 6/3", "et": "Final"}
+   ]
+  },
+  {
+   "rama": "Damas",
+   "tema": "rosa",
+   "resumen": "las campeonas",
+   "nota": "último P1",
+   "partidos": [
+    {"g": "Fernández / Calvo", "p": "Josemaría / González", "s": "7/5 6/1", "et": "Final"}
+   ]
+  }
+ ],
+ "dato": "<b>Segundo título del año</b> para Augsburger y Lebrón. Alfonso y Libaak, en su <b>primera final juntos</b>, les sacaron un set y se fueron ovacionados.",
+ "cred": "Próximo: Mexico Major, desde el 23/11 · Seguí el circuito con <b>@surpadelstore</b>"
+}
