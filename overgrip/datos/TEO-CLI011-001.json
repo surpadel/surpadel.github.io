@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 18:08",
+"actualizado": "2026-11-15 18:38",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -331,13 +331,13 @@
 "011001-C6-A2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:15",
 "inst": "Zona",
 "p1": "Bonaffini, Esteban / Jose, Isaias",
 "p2": "Cappelletti, Cristian / Martínez, Fernando",
-"res": "",
+"res": "6/4 6/3",
 "sede": "EVA",
 "zona": "A"
 },
@@ -349,7 +349,7 @@
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Almiron, Agustín / Felitte, Damián",
-"p2": "",
+"p2": "Cappelletti, Cristian / Martínez, Fernando",
 "res": "",
 "sede": "Real",
 "zona": "A"
@@ -362,7 +362,7 @@
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Ayala, Ezequiel / Mollar Vigh, Patricio",
-"p2": "",
+"p2": "Bonaffini, Esteban / Jose, Isaias",
 "res": "",
 "sede": "Real",
 "zona": "A"
@@ -799,13 +799,13 @@
 "011001-C7-C1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:15",
 "inst": "Zona",
 "p1": "Bussolo, Federico Rodolfo / Maydana, Leandro Ezequiel",
 "p2": "Lecce, Carlos / Vilanova, Sergio Rolando",
-"res": "",
+"res": "6/0 6/1",
 "sede": "EVA",
 "zona": "C"
 },
@@ -877,7 +877,7 @@
 "011001-C7-E1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:30",
 "inst": "Zona",

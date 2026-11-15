@@ -1073,5 +1073,21 @@
   "en_buffer": "6afa185edaa378ad688f5e55",
   "modo": "auto",
   "publicada_en": "2026-11-15 17:38"
+ },
+ {
+  "creada": "2026-11-15 18:38",
+  "torneo": "TEO-CLI010-001",
+  "inst": "Semifinal",
+  "organiza": "padelelevenroute",
+  "codigos": {
+   "010001-C6-61": "6/1 6/2",
+   "010001-C6-62": "6/2 4/6 11/9",
+   "010001-C7-61": "6/3 6/2"
+  },
+  "archivo": "TEO-CLI010-001/semifinal-azul-1115-1838-1.png",
+  "grupo": "TEO-CLI010-001|Semifinal|azul|2026-11-15",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/semifinal-azul-1115-1838-1.png",
+  "alt": "Semifinales: Caballeros 6ta, ganaron Albariño R. / Morales M. 6/1 6/2; Caballeros 6ta, ganaron Irazu C. / Somma D. 6/2 4/6 11/9; Caballeros 7ma, ganaron Robledo T. / Segovia E. 6/3 6/2",
+  "publicada": false
  }
 ]

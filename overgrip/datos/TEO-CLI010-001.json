@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 18:08",
+"actualizado": "2026-11-15 18:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -76,25 +76,25 @@
 "010001-C6-61": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:00",
 "inst": "Semifinal",
 "p1": "Albariño, Rodrigo / Morales, Máximo",
 "p2": "Agüero, Gustavo / Blanco, Oscar Gabriel",
-"res": "",
+"res": "6/1 6/2",
 "sede": "Eleven"
 },
 "010001-C6-62": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:00",
 "inst": "Semifinal",
 "p1": "Irazu, Camila / Somma, Diego Alejandro",
 "p2": "Argüelles, Marcos / Muñoz, Nicolás",
-"res": "",
+"res": "6/2 4/6 11/9",
 "sede": "Eleven"
 },
 "010001-C6-64": {
@@ -104,8 +104,8 @@
 "gan": null,
 "hora": "19:00",
 "inst": "Final",
-"p1": "",
-"p2": "",
+"p1": "Albariño, Rodrigo / Morales, Máximo",
+"p2": "Irazu, Camila / Somma, Diego Alejandro",
 "res": "",
 "sede": "Eleven"
 },
@@ -196,7 +196,7 @@
 "010001-D6-64": {
 "cat": "Damas 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:00",
 "inst": "Final",
