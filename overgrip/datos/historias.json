@@ -713,6 +713,7 @@
   "archivo": "TEO-CLI010-001/llaves.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/llaves.png",
   "alt": "Ya están las llaves de Eleven Route: se juegan desde el domingo 15/11. Mirá tu cruce en app.overgrip.com.ar.",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  }
 ]
