@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 20:08",
+"actualizado": "2026-11-15 20:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -256,13 +256,13 @@
 "010001-D7-64": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:00",
 "inst": "Final",
 "p1": "Borro, Candela / González, Virginia",
 "p2": "De Luca, Andrea / Mesa, Gabriela",
-"res": "",
+"res": "7/6 6/2",
 "sede": "Eleven"
 }
 },

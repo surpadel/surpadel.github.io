@@ -1112,5 +1112,20 @@
   "en_buffer": "6afa349bff465c57dab862cb",
   "modo": "auto",
   "publicada_en": "2026-11-15 19:39"
+ },
+ {
+  "creada": "2026-11-15 20:38",
+  "torneo": "TEO-CLI010-001",
+  "inst": "Final",
+  "organiza": "padelelevenroute",
+  "codigos": {
+   "010001-D6-64": "7/6 6/2",
+   "010001-D7-64": "7/6 6/2"
+  },
+  "archivo": "TEO-CLI010-001/final-rosa-1115-2038-1.png",
+  "grupo": "TEO-CLI010-001|Final|rosa|2026-11-15",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/final-rosa-1115-2038-1.png",
+  "alt": "Finales: Damas 6ta, ganaron Corsetti D. / Perretta D. 7/6 6/2; Damas 7ma, ganaron De Luca A. / Mesa G. 7/6 6/2",
+  "publicada": false
  }
 ]
