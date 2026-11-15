@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 11:38",
+"actualizado": "2026-11-15 12:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -64,13 +64,13 @@
 "010001-C6-60": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "12:00",
 "inst": "Cuartos de Final",
 "p1": "Arteaga, Thomas / Capra, Nicolás",
 "p2": "Argüelles, Marcos / Muñoz, Nicolás",
-"res": "",
+"res": "6/0 6/3",
 "sede": "Eleven"
 },
 "010001-C6-61": {
@@ -93,7 +93,7 @@
 "hora": "17:00",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Argüelles, Marcos / Muñoz, Nicolás",
 "res": "",
 "sede": "Eleven"
 },
@@ -232,7 +232,7 @@
 "010001-D7-61": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:00",
 "inst": "Semifinal",

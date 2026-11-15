@@ -1404,5 +1404,24 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI010-001",
+  "hora": "2026-11-15 12:08",
+  "partidos": [
+   {
+    "codigo": "010001-C6-60",
+    "cat": "Caballeros 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-15",
+    "hora": "12:00",
+    "sede": "Eleven",
+    "estado": "Finalizado",
+    "p1": "Arteaga, Thomas / Capra, Nicolás",
+    "p2": "Argüelles, Marcos / Muñoz, Nicolás",
+    "res": "6/0 6/3",
+    "gan": 2
+   }
+  ]
  }
 ]
