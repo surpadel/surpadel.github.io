@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 19:38",
+"actualizado": "2026-11-15 20:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -162,7 +162,7 @@
 "011001-C5-E1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:45",
 "inst": "Zona",
@@ -240,7 +240,7 @@
 "011001-C5-G1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:45",
 "inst": "Zona",
@@ -513,7 +513,7 @@
 "011001-C6-E2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:45",
 "inst": "Zona",
@@ -682,13 +682,13 @@
 "011001-C6-I3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:30",
 "inst": "Zona",
 "p1": "Cabello, Ramiro / Pérez, Leonardo",
 "p2": "Cámara, Thiago Sebastián / López, Franco",
-"res": "",
+"res": "6/3 0/6 6/4",
 "sede": "EVA",
 "zona": "I"
 },
@@ -1189,13 +1189,13 @@
 "011001-D7-C2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:30",
 "inst": "Zona",
 "p1": "Barraza, Camila / Ferraro, Chiara",
 "p2": "Mordasewicz, Romina Noelia / Santarelli, Vanina Analia",
-"res": "",
+"res": "6/4 4/6 6/2",
 "sede": "EVA",
 "zona": "C"
 },

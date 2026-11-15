@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 18:38",
+"actualizado": "2026-11-15 20:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -196,13 +196,13 @@
 "010001-D6-64": {
 "cat": "Damas 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:00",
 "inst": "Final",
 "p1": "Arranz, Paula / Novoa, Miriam",
 "p2": "Corsetti, Delfina / Perretta, Daiana",
-"res": "",
+"res": "7/6 6/2",
 "sede": "Eleven"
 },
 "010001-D7-58": {
