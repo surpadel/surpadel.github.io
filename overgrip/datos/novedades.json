@@ -1523,5 +1523,37 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-15 14:08",
+  "partidos": [
+   {
+    "codigo": "008001-C5+50-61",
+    "cat": "Caballeros 5ta +50",
+    "inst": "Semifinal",
+    "dia": "2026-11-15",
+    "hora": "11:30",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Oliverio, Víctor Hugo / Valaco, Néstor",
+    "p2": "Gural, Esteban Edgardo / Quatrocchi, Luciano",
+    "res": "6/1 5/7 7/6",
+    "gan": 2
+   },
+   {
+    "codigo": "008001-C6+50-62",
+    "cat": "Caballeros 6ta +50",
+    "inst": "Semifinal",
+    "dia": "2026-11-15",
+    "hora": "11:30",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
+    "p2": "Di Nenno, Javier / Loureiro, Javier",
+    "res": "6/2 7/5",
+    "gan": 1
+   }
+  ]
  }
 ]

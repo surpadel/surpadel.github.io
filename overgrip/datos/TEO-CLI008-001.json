@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 13:08",
+"actualizado": "2026-11-15 14:08",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -100,7 +100,7 @@
 "008001-C4+40-61": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:00",
 "inst": "Semifinal",
@@ -256,13 +256,13 @@
 "008001-C5+50-61": {
 "cat": "Caballeros 5ta +50",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:30",
 "inst": "Semifinal",
 "p1": "Oliverio, Víctor Hugo / Valaco, Néstor",
 "p2": "Gural, Esteban Edgardo / Quatrocchi, Luciano",
-"res": "",
+"res": "6/1 5/7 7/6",
 "sede": "R5"
 },
 "008001-C5+50-62": {
@@ -284,7 +284,7 @@
 "gan": null,
 "hora": "16:00",
 "inst": "Final",
-"p1": "",
+"p1": "Gural, Esteban Edgardo / Quatrocchi, Luciano",
 "p2": "Ambrosetti, Diego / García, Juan",
 "res": "",
 "sede": "R5"
@@ -304,7 +304,7 @@
 "008001-C6+40-61": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:00",
 "inst": "Semifinal",
@@ -316,7 +316,7 @@
 "008001-C6+40-62": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:00",
 "inst": "Semifinal",
@@ -484,13 +484,13 @@
 "008001-C6+50-62": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:30",
 "inst": "Semifinal",
 "p1": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
 "p2": "Di Nenno, Javier / Loureiro, Javier",
-"res": "",
+"res": "6/2 7/5",
 "sede": "R5"
 },
 "008001-C6+50-64": {
@@ -501,7 +501,7 @@
 "hora": "16:00",
 "inst": "Final",
 "p1": "",
-"p2": "",
+"p2": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
 "res": "",
 "sede": "R5"
 }
