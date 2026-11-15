@@ -954,7 +954,8 @@
   "archivo": "TEO-CLI010-001/cuartos-azul-1115-1438-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/cuartos-azul-1115-1438-1.png",
   "alt": "Cuartos: Caballeros 6ta, ganaron Irazu C. / Somma D. 6/1 6/4; Caballeros 6ta, ganaron Agüero G. / Blanco O. 6/4 4/6 11/8",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  },
  {
   "creada": "2026-11-15 14:38",
@@ -969,6 +970,9 @@
   "archivo": "TEO-CLI008-001/semifinal-azul-1115-1438-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/semifinal-azul-1115-1438-1.png",
   "alt": "Semifinales: Caballeros 5ta +50, ganaron Gural E. / Quatrocchi L. 6/1 5/7 7/6; Caballeros 6ta +50, ganaron Gutiérrez M. / Quinteros M. 6/2 7/5; Caballeros 6ta +50, ganaron Armenti L. / Pantuso M. 3/6 6/4 6/3",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6af9ee434f0276ab94519669",
+  "modo": "auto",
+  "publicada_en": "2026-11-15 14:39"
  }
 ]
