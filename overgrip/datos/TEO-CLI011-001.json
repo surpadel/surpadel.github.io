@@ -1,18 +1,18 @@
 {
-"actualizado": "2026-11-15 18:38",
+"actualizado": "2026-11-15 19:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
 "011001-C5-A1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Arkmel, Miguel / Tymczyszyn, Marco Adrián",
 "p2": "Corbalan, Leonardo / Padovani, Marcos",
-"res": "",
+"res": "6/3 6/4",
 "sede": "Real",
 "zona": "A"
 },
@@ -58,7 +58,7 @@
 "011001-C5-B2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:30",
 "inst": "Zona",
@@ -214,7 +214,7 @@
 "011001-C5-F2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:30",
 "inst": "Zona",
@@ -292,7 +292,7 @@
 "011001-C5-H2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:30",
 "inst": "Zona",
@@ -409,13 +409,13 @@
 "011001-C6-B4": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "22:15",
 "inst": "Zona",
 "p1": "Acosta, Osvaldo Ezequiel / Bazze, Agustín",
 "p2": "Cepeda, Carlos / Duarte, Genaro",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "Real",
 "zona": "B"
 },
@@ -682,7 +682,7 @@
 "011001-C6-I3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:30",
 "inst": "Zona",
@@ -1059,13 +1059,13 @@
 "011001-C7-I3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:15",
 "inst": "Zona",
 "p1": "Poblete, Damian / Tortonesi, Danilo",
 "p2": "Aramburu, Alejandro / Lisio, Leandro",
-"res": "",
+"res": "6/2 6/4",
 "sede": "Real",
 "zona": "I"
 },
@@ -1189,7 +1189,7 @@
 "011001-D7-C2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:30",
 "inst": "Zona",
@@ -1241,13 +1241,13 @@
 "011001-D7-D3": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:15",
 "inst": "Zona",
 "p1": "Orellana, Micaela / Orellana, Melany Milagros",
 "p2": "Martino, Morena / Valdomar, Victoria",
-"res": "",
+"res": "6/0 6/2",
 "sede": "Real",
 "zona": "D"
 }
