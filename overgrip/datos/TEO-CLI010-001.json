@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 23:07",
+"actualizado": "2026-11-14 23:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -116,7 +116,7 @@
 "gan": null,
 "hora": "14:00",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Cabezas, Leonel / Zmolnig, Juan Bautista",
 "p2": "Di Tada, Nicolás / González, David Alberto",
 "res": "",
 "sede": "Eleven"
@@ -153,7 +153,7 @@
 "hora": "16:00",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Pérez, Damián Ariel / Resa, Sebastián Ariel",
 "res": "",
 "sede": "Eleven"
 },
@@ -518,13 +518,13 @@
 "010001-C7-B2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Pérez, Damián Ariel / Resa, Sebastián Ariel",
 "p2": "Cabezas, Leonel / Zmolnig, Juan Bautista",
-"res": "",
+"res": "6/2 6/3",
 "sede": "Eleven",
 "zona": "B"
 },
