@@ -65,6 +65,10 @@ def clase(h):
 
 
 def prioridad(h):
+    # Resto suelto de un grupo que ya salió (partido demorado): va al final de la
+    # cola y solo sale si queda lugar en el tope del día (pedido de Nico, 15/11).
+    if h.get("suelta") and h.get("inst") not in SIEMPRE:
+        return 10
     return PRIORIDAD.get(clase(h), 9)
 SILENCIO = ((0, 30), (8, 0))  # de 00:30 a 08:00 no se publica
 ESPERA_MAX = timedelta(hours=3)  # reintentos de una historia con problemas
@@ -125,7 +129,8 @@ def reencolar(h, ahora):
         nov_path = DATOS / "novedades.json"
         nov = leer(nov_path, [])
         nov.append({"torneo": h["torneo"], "hora": ahora.strftime("%Y-%m-%d %H:%M"), "partidos": partidos})
-        nov_path.write_text(json.dumps(nov[-50:], ensure_ascii=False, indent=1))
+        from seguir import recortar
+        nov_path.write_text(json.dumps(recortar(nov), ensure_ascii=False, indent=1))
     return len(partidos)
 
 

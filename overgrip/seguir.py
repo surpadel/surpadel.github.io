@@ -73,6 +73,14 @@ def compactar(p):
     }
 
 
+def recortar(lista, n=50):
+    """Guarda todas las tandas sin dibujar (se acumulan hasta completar el grupo)
+    y solo las últimas n ya dibujadas."""
+    dibujadas = [i for i, t in enumerate(lista) if t.get("dibujada")]
+    fuera = set(dibujadas[:-n]) if len(dibujadas) > n else set()
+    return [t for i, t in enumerate(lista) if i not in fuera]
+
+
 def seguir(torneo):
     partidos = extraer_partidos(bajar(torneo))
     cruces = {
@@ -107,7 +115,7 @@ def seguir(torneo):
         nov = CARPETA / "novedades.json"
         lista = json.loads(nov.read_text()) if nov.exists() else []
         lista.append({"torneo": torneo, "hora": ahora, "partidos": nuevos})
-        nov.write_text(json.dumps(lista[-50:], ensure_ascii=False, indent=1))
+        nov.write_text(json.dumps(recortar(lista), ensure_ascii=False, indent=1))
     print(f"{torneo}: {len(partidos)} partidos, {len(zonas)} de zona, {len(cruces)} cruces, "
           f"{len(nuevos)} terminados nuevos" + (" (punto de partida)" if primera else ""))
     return len(nuevos)

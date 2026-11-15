@@ -1,9 +1,17 @@
 """Arma las historias de Instagram con los resultados nuevos de OverGrip.
 
-Lee overgrip/datos/novedades.json (lo escribe seguir.py), junta los partidos
-terminados que todavía no tienen imagen y, cuando conviene (4 o más partidos,
-o el más viejo espera hace más de 120 minutos), dibuja historias estilo
-"circuito pro" agrupadas por instancia y por rama (caballeros azul, damas rosa).
+Lee overgrip/datos/novedades.json (lo escribe seguir.py) y junta los partidos
+terminados que todavía no tienen imagen en grupos: mismo torneo, misma
+instancia, misma rama (caballeros azul, damas rosa) y mismo día. Nunca mezcla
+torneos ni instancias.
+
+Un grupo se dibuja recién cuando terminaron todos sus partidos (pedido de Nico,
+15/11/2026: no tirar un resultado suelto y después otros tres). Excepción: si lo
+único que falta son partidos "aparte" (demorados: pasaron 2h30 de su hora sin
+resultado; o lejanos: programados 2 horas o más después de los ya terminados),
+sale lo terminado. Los lejanos forman su propia tanda más tarde (prioridad
+normal); los demorados, cuando aparecen, van en una historia "suelta" que va
+última en la cola y solo sale si queda lugar en el tope del día.
 Las deja en instagram/overgrip/<torneo>/ y las anota en overgrip/datos/historias.json
 como pendientes de publicar.
 
@@ -28,9 +36,12 @@ CONF = RAIZ / "overgrip" / "torneos.json"
 SALIDA = RAIZ / "instagram" / "overgrip"
 RAW = "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/"
 ARG = timezone(timedelta(hours=-3))
-MAX_POR_HISTORIA = 5
-MINIMO = 5  # junta más partidos por historia (pedido de Nico, 3/11: no saturar)
-ESPERA = timedelta(minutes=120)
+MAX_POR_HISTORIA = 6  # entran 6 marcadores cómodos (probado 15/11)
+DEMORA = timedelta(hours=4)  # pasó su hora + 4 h sin resultado: demorado
+# (OverGrip suele cargar los resultados entre 1 y 3,5 horas después de la hora del partido)
+LEJOS = timedelta(minutes=120)  # programado 2 h o más después de los ya terminados: va aparte
+ESPERA_MAX = timedelta(hours=6)  # red de seguridad: ningún resultado espera más que esto
+TERMINADOS = {"Finalizado", "WO"}
 
 # instancia -> (rótulo de la franja, título, fondo azul, fondo rosa)
 INSTANCIAS = {
@@ -56,35 +67,82 @@ def corto(pareja):
     return " / ".join(out)
 
 
+def dibujable(p):
+    return p["estado"] == "Finalizado" and p["res"] and p["inst"] in INSTANCIAS
+
+
 def pendientes(nov):
-    """Partidos terminados sin imagen (no WO), con la hora en que se detectaron."""
+    """Partidos terminados sin imagen (no WO), con la tanda en que se detectaron."""
     out = []
     for tanda in nov:
         if tanda.get("dibujada"):
             continue
+        hechos = set(tanda.get("hechos", []))
         for p in tanda["partidos"]:
-            if p["estado"] == "Finalizado" and p["res"] and p["inst"] in INSTANCIAS:
+            if dibujable(p) and p.get("codigo") not in hechos:
                 out.append((tanda, p))
     return out
 
 
-def conviene(lista, forzar=False):
-    if not lista:
-        return False
-    if forzar or len(lista) >= MINIMO:
-        return True
-    viejo = min(datetime.strptime(t["hora"], "%Y-%m-%d %H:%M").replace(tzinfo=ARG) for t, _ in lista)
-    return datetime.now(ARG) - viejo >= ESPERA
+def rama(p):
+    return "rosa" if (p.get("cat") or "").startswith("Damas") else "azul"
 
 
-def armar_trabajos(lista, conf):
+def inicio(p):
+    try:
+        return datetime.strptime(f'{p["dia"]} {p["hora"]}', "%Y-%m-%d %H:%M").replace(tzinfo=ARG)
+    except (KeyError, TypeError, ValueError):
+        return None
+
+
+def grupos_listos(lista, ahora, forzar=False):
+    """Agrupa por (torneo, instancia, rama, día) y devuelve solo los grupos listos.
+
+    Devuelve {clave: (partidos, códigos de los demorados que quedan afuera)}.
+    Listo = no queda ningún partido del grupo sin terminar en OverGrip, o los
+    que quedan están "aparte" (demorados o lejanos), o el resultado más viejo
+    ya esperó ESPERA_MAX, o se pidió --ya."""
     grupos = {}
     for tanda, p in lista:
-        rama = "rosa" if p["cat"].startswith("Damas") else "azul"
-        grupos.setdefault((tanda["torneo"], p["inst"], rama), []).append(p)
+        clave = (tanda["torneo"], p["inst"], rama(p), p.get("dia") or "")
+        grupos.setdefault(clave, []).append((tanda, p))
+    cruces_de = {}
+    listos = {}
+    for clave, items in grupos.items():
+        torneo, inst, ram, dia = clave
+        if torneo not in cruces_de:
+            cruces_de[torneo] = leer(DATOS / f"{torneo}.json", {}).get("cruces", {})
+        ya = {p.get("codigo") for _, p in items}
+        faltan_cod = [(cod, c) for cod, c in cruces_de[torneo].items()
+                      if cod not in ya and c.get("inst") == inst and rama(c) == ram
+                      and (c.get("dia") or "") == dia and c.get("estado") not in TERMINADOS]
+        faltan = [c for _, c in faltan_cod]
+        horas = [h for h in (inicio(p) for _, p in items) if h]
+        ultima = max(horas) if horas else None
+
+        def demorado(c):
+            h = inicio(c)
+            return h is not None and ahora >= h + DEMORA
+
+        def lejano(c):
+            h = inicio(c)
+            return h is not None and ultima is not None and h >= ultima + LEJOS
+
+        viejo = min(datetime.strptime(t["hora"], "%Y-%m-%d %H:%M").replace(tzinfo=ARG) for t, _ in items)
+        if forzar or all(demorado(c) or lejano(c) for c in faltan) or ahora - viejo >= ESPERA_MAX:
+            listos[clave] = ([p for _, p in items], sorted(cod for cod, c in faltan_cod if demorado(c)))
+        else:
+            print(f"Espera {torneo} {inst} {ram} {dia}: {len(items)} listos, faltan {len(faltan)}",
+                  file=sys.stderr)  # a stderr: --hay solo debe imprimir true/false
+    return listos
+
+
+def armar_trabajos(listos, conf, hist):
+    demorados = {c for h in hist for c in h.get("demorados", [])}
     sello = datetime.now(ARG).strftime("%m%d-%H%M")
     trabajos = []
-    for (torneo, inst, rama), ps in sorted(grupos.items(), key=lambda g: (ORDEN.index(g[0][1]), g[0][2])):
+    for (torneo, inst, rama, dia), (ps, afuera) in sorted(listos.items(), key=lambda g: (ORDEN.index(g[0][1]), g[0][2])):
+        grupo = f"{torneo}|{inst}|{rama}|{dia}"
         ps.sort(key=lambda p: p["cat"])
         rot, titulo, f_azul, f_rosa = INSTANCIAS[inst]
         if inst == "Final" and rama == "rosa":
@@ -109,6 +167,10 @@ def armar_trabajos(lista, conf):
                     for p in tramo
                 ],
                 "inst": inst,
+                "grupo": grupo,
+                "demorados": afuera if n == 0 else [],  # quedaron afuera por demorados
+                # trae un partido que quedó afuera por demorado: va última en la cola
+                "suelta": any(p.get("codigo") in demorados for p in tramo),
                 "codigos": {p["codigo"]: p["res"] for p in tramo if p.get("codigo")},
                 "archivo": f"{torneo}/{slug}.png",
                 "alt": f"{rot}: " + "; ".join(f"{p['cat']}, ganaron {corto(p['p1'] if p['gan'] == 1 else p['p2'])} {p['res']}" for p in tramo),
@@ -165,7 +227,8 @@ def main():
     forzar = "--ya" in sys.argv
     ahora = datetime.now(ARG)
     extra = especiales.trabajos(conf_lista, hist, ahora)
-    hay = conviene(lista, forzar)
+    listos = grupos_listos(lista, ahora, forzar)
+    hay = bool(listos)
     if "--hay" in sys.argv:
         print("true" if hay or extra else "false")
         return
@@ -173,13 +236,15 @@ def main():
         print("Nada para dibujar todavía")
         return
     conf = {t["id"]: t for t in conf_lista}
-    trabajos = armar_trabajos(lista, conf) if hay else []
+    trabajos = armar_trabajos(listos, conf, hist) if hay else []
     dibujar(trabajos)
     especiales.dibujar(extra, SALIDA)
     sello = ahora.strftime("%Y-%m-%d %H:%M")
     for d in trabajos:
         hist.append({"creada": sello, "torneo": d["torneo"], "inst": d["inst"],
                      "organiza": d["organiza"], "codigos": d["codigos"], "archivo": d["archivo"],
+                     "grupo": d["grupo"], **({"suelta": True} if d["suelta"] else {}),
+                     **({"demorados": d["demorados"]} if d["demorados"] else {}),
                      "url": RAW + "instagram/overgrip/" + d["archivo"], "alt": d["alt"][:1000],
                      "publicada": False})
     for d in extra:
@@ -191,8 +256,16 @@ def main():
                      "publicada": False})
     HIST.write_text(json.dumps(hist[-300:], ensure_ascii=False, indent=1))
     if hay:
+        hechos = {p["codigo"] for ps, _ in listos.values() for p in ps if p.get("codigo")}
         for tanda in nov:
-            tanda["dibujada"] = True
+            if tanda.get("dibujada"):
+                continue
+            marcados = set(tanda.get("hechos", [])) | {p["codigo"] for p in tanda["partidos"] if p.get("codigo") in hechos}
+            if marcados:
+                tanda["hechos"] = sorted(marcados)
+            if all(p.get("codigo") in marcados or not dibujable(p) for p in tanda["partidos"]):
+                tanda["dibujada"] = True
+                tanda.pop("hechos", None)
         NOV.write_text(json.dumps(nov, ensure_ascii=False, indent=1))
 
 
