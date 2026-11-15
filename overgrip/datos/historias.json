@@ -988,7 +988,8 @@
   "archivo": "TEO-CLI010-001/cuartos-azul-1115-1538-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/cuartos-azul-1115-1538-1.png",
   "alt": "Cuartos: Caballeros 6ta, ganaron Albariño R. / Morales M. 7/5 6/4; Caballeros 7ma, ganaron Di Tada N. / González D. 6/2 6/4; Caballeros 7ma, ganaron Maidana E. / Olmo E. 6/3 7/5",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  },
  {
   "creada": "2026-11-15 15:38",
@@ -1003,6 +1004,9 @@
   "archivo": "TEO-CLI008-001/semifinal-azul-1115-1538-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/semifinal-azul-1115-1538-1.png",
   "alt": "Semifinales: Caballeros 4ta +40, ganaron Gómez A. / Ledesma P. 6/4 6/3; Caballeros 6ta +40, ganaron Bussain R. / Ybarra G. 6/1 6/2; Caballeros 6ta +40, ganaron Barrios D. / Gómez A. 6/4 6/4",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6af9fc41ee359588b5463c74",
+  "modo": "auto",
+  "publicada_en": "2026-11-15 15:38"
  }
 ]
