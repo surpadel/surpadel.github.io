@@ -1,10 +1,10 @@
 {
-"actualizado": "2026-11-15 09:38",
+"actualizado": "2026-11-15 10:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "10:00",
 "inst": "Octavos de Final",
@@ -16,13 +16,13 @@
 "010001-C6-55": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "10:00",
 "inst": "Octavos de Final",
 "p1": "Martínez, Andrés / Vega, Gustavo",
 "p2": "Arteaga, Thomas / Capra, Nicolás",
-"res": "",
+"res": "6/0 6/0",
 "sede": "Eleven"
 },
 "010001-C6-57": {
@@ -68,7 +68,7 @@
 "gan": null,
 "hora": "12:00",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Arteaga, Thomas / Capra, Nicolás",
 "p2": "Argüelles, Marcos / Muñoz, Nicolás",
 "res": "",
 "sede": "Eleven"
@@ -220,13 +220,13 @@
 "010001-D7-59": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "09:00",
 "inst": "Cuartos de Final",
 "p1": "Becerra, Gabriela / Liciaga, María",
 "p2": "De Luca, Andrea / Mesa, Gabriela",
-"res": "",
+"res": "6/4 6/1",
 "sede": "Eleven"
 },
 "010001-D7-61": {
@@ -248,7 +248,7 @@
 "gan": null,
 "hora": "11:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "De Luca, Andrea / Mesa, Gabriela",
 "p2": "Dury, Lucía / Gómez Rivero, María Laura",
 "res": "",
 "sede": "Eleven"
