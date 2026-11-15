@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 21:38",
+"actualizado": "2026-11-14 22:07",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -201,13 +201,13 @@
 "011001-C5-F1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Picotto, Mauro / Thomas, Rivarola",
 "p2": "Cosentino, Daniela Paula / Lagoria, César",
-"res": "",
+"res": "6/7 6/3 6/4",
 "sede": "EVA",
 "zona": "F"
 },
@@ -734,7 +734,7 @@
 "011001-C7-A4": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
