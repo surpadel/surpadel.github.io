@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 00:08",
+"actualizado": "2026-11-15 08:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -448,13 +448,13 @@
 "011001-C6-C3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "23:30",
 "inst": "Zona",
 "p1": "Conde Meira, Matías / Salvatierra, Marcelo",
 "p2": "Bernal, Julián / Oviedo, Nicolás Gastón",
-"res": "",
+"res": "6/0 6/2",
 "sede": "EVA",
 "zona": "C"
 },
@@ -565,13 +565,13 @@
 "011001-C6-F3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "23:30",
 "inst": "Zona",
 "p1": "Jagiellowicz, Santiago / Soria, Ezequiel Sergio",
 "p2": "Muriel, Jorge / Peralta, Brian",
-"res": "",
+"res": "6/1 7/6",
 "sede": "EVA",
 "zona": "F"
 },
@@ -721,13 +721,13 @@
 "011001-C7-A3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "22:15",
 "inst": "Zona",
 "p1": "Ahumada, Thiago / Sandoval, Mateo",
 "p2": "Bocchieri, Matias / Mangione, Braian",
-"res": "",
+"res": "5/7 6/2 6/0",
 "sede": "Real",
 "zona": "A"
 },
@@ -890,13 +890,13 @@
 "011001-C7-E2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "22:15",
 "inst": "Zona",
 "p1": "La Rosa, Leandro Gabriel / Moreno, Juan Camilo",
 "p2": "Riffel, Nahuel Ángel / Santoro, Diego José Emilio",
-"res": "",
+"res": "6/4 3/6 7/5",
 "sede": "EVA",
 "zona": "E"
 },
@@ -1163,13 +1163,13 @@
 "011001-D7-B4": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "22:15",
 "inst": "Zona",
 "p1": "Garcia, Victoria / Mereles, Daiana",
 "p2": "Báez, Sonia / Noguera, Luciana",
-"res": "",
+"res": "6/1 5/7 7/5",
 "sede": "EVA",
 "zona": "B"
 },
