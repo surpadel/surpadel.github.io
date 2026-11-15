@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 17:38",
+"actualizado": "2026-11-15 18:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -955,13 +955,13 @@
 "011001-C7-G1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 1,
 "hora": "17:15",
 "inst": "Zona",
 "p1": "Achar, Rodrigo / Casarero, Jonathan",
 "p2": "Chinchilla, Nahuel / Estanga, Pablo",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "EVA",
 "zona": "G"
 },
@@ -1098,13 +1098,13 @@
 "011001-D7-A3": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "López Muollo, Analia / Polizzotto, María Laura",
 "p2": "Dogil, Victoria / Valarino, Viviana",
-"res": "",
+"res": "6/2 7/5",
 "sede": "EVA",
 "zona": "A"
 },

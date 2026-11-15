@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 17:38",
+"actualizado": "2026-11-15 18:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -76,7 +76,7 @@
 "010001-C6-61": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:00",
 "inst": "Semifinal",
@@ -136,13 +136,13 @@
 "010001-C7-61": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:00",
 "inst": "Semifinal",
 "p1": "Robledo, Tobías Santino / Segovia, Emir Andrés",
 "p2": "Di Tada, Nicolás / González, David Alberto",
-"res": "",
+"res": "6/3 6/2",
 "sede": "Eleven"
 },
 "010001-C7-62": {
@@ -164,7 +164,7 @@
 "gan": null,
 "hora": "19:00",
 "inst": "Final",
-"p1": "",
+"p1": "Robledo, Tobías Santino / Segovia, Emir Andrés",
 "p2": "Maidana, Enzo / Olmo, Ezequiel Darío",
 "res": "",
 "sede": "Eleven"

@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 17:38",
+"actualizado": "2026-11-15 18:08",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -124,7 +124,7 @@
 "008001-C4+40-64": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:30",
 "inst": "Final",
@@ -196,7 +196,7 @@
 "008001-C5+40-64": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:30",
 "inst": "Final",
@@ -496,13 +496,13 @@
 "008001-C6+50-64": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:00",
 "inst": "Final",
 "p1": "Armenti, Luis Antonio / Pantuso, Marcelo",
 "p2": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
-"res": "",
+"res": "4/6 6/2 6/1",
 "sede": "R5"
 }
 },
