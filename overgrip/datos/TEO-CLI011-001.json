@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 20:37",
+"actualizado": "2026-11-14 21:07",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -123,13 +123,13 @@
 "011001-C5-D1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Jara, Alejandro Anibal / Montes, Tobias Alexander",
 "p2": "Calvieri, Braian / La Ferrera, Julián",
-"res": "",
+"res": "6/1 5/7 6/4",
 "sede": "Real",
 "zona": "D"
 },
@@ -201,7 +201,7 @@
 "011001-C5-F1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:45",
 "inst": "Zona",
@@ -435,13 +435,13 @@
 "011001-C6-C2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Oña, Leonardo / Sánchez, Matías Nahuel",
 "p2": "Bernal, Julián / Oviedo, Nicolás Gastón",
-"res": "",
+"res": "6/4 6/1",
 "sede": "EVA",
 "zona": "C"
 },
@@ -864,7 +864,7 @@
 "011001-C7-D3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:45",
 "inst": "Zona",
@@ -903,7 +903,7 @@
 "011001-C7-E3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:45",
 "inst": "Zona",
@@ -1215,13 +1215,13 @@
 "011001-D7-D1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:15",
 "inst": "Zona",
 "p1": "Ali, Yessica / Toledo, Cintia",
 "p2": "Orellana, Micaela / Orellana, Melany Milagros",
-"res": "",
+"res": "0/6 7/5 6/1",
 "sede": "Real",
 "zona": "D"
 },

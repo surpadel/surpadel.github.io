@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 20:07",
+"actualizado": "2026-11-14 21:07",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -21,7 +21,7 @@
 "hora": "10:00",
 "inst": "Octavos de Final",
 "p1": "Martínez, Andrés / Vega, Gustavo",
-"p2": "",
+"p2": "Arteaga, Thomas / Capra, Nicolás",
 "res": "",
 "sede": "Eleven"
 },
@@ -32,7 +32,7 @@
 "gan": null,
 "hora": "13:00",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Álvarez, Nahuel / López, Ilan",
 "p2": "",
 "res": "",
 "sede": "Eleven"
@@ -297,13 +297,13 @@
 "010001-C6-A3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "Arteaga, Thomas / Capra, Nicolás",
 "p2": "Álvarez, Nahuel / López, Ilan",
-"res": "",
+"res": "6/3 6/2",
 "sede": "Eleven",
 "zona": "A"
 },
@@ -713,7 +713,7 @@
 "010001-D7-B2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:00",
 "inst": "Zona",

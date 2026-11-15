@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 20:37",
+"actualizado": "2026-11-14 21:07",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -64,13 +64,13 @@
 "008001-C4+40-58": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:30",
 "inst": "Cuartos de Final",
 "p1": "Catullo, Sergio Gabriel / Tocci, Roberto",
 "p2": "Gómez, Alberto Martín / Ledesma, Paulo Daniel",
-"res": "",
+"res": "7/5 6/2",
 "sede": "R5"
 },
 "008001-C4+40-59": {
@@ -88,13 +88,13 @@
 "008001-C4+40-60": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:30",
 "inst": "Cuartos de Final",
 "p1": "Pellegrini, Emmanuel / Rondeau, Jorge Alberto",
 "p2": "Altamirano, Carlos Eugenio / Raggio, Alejandro César",
-"res": "",
+"res": "6/2 6/3",
 "sede": "R5"
 },
 "008001-C4+40-61": {
@@ -105,7 +105,7 @@
 "hora": "13:00",
 "inst": "Semifinal",
 "p1": "Chijlis, Germán / López Osornio, Martín",
-"p2": "",
+"p2": "Gómez, Alberto Martín / Ledesma, Paulo Daniel",
 "res": "",
 "sede": "R5"
 },
@@ -117,7 +117,7 @@
 "hora": "13:00",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Pellegrini, Emmanuel / Rondeau, Jorge Alberto",
 "res": "",
 "sede": "R5"
 },
