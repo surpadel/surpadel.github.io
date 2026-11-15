@@ -1276,7 +1276,8 @@
     "res": "6/2 6/3",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI008-001",
@@ -1308,6 +1309,7 @@
     "res": "6/4 6/1",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  }
 ]

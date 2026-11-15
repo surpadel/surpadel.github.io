@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 22:37",
+"actualizado": "2026-11-14 23:07",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -117,7 +117,7 @@
 "hora": "14:00",
 "inst": "Cuartos de Final",
 "p1": "",
-"p2": "",
+"p2": "Di Tada, Nicolás / González, David Alberto",
 "res": "",
 "sede": "Eleven"
 },
@@ -128,7 +128,7 @@
 "gan": null,
 "hora": "14:00",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Maidana, Enzo / Olmo, Ezequiel Darío",
 "p2": "Luna, Guillermo / Staropoli, Julián",
 "res": "",
 "sede": "Eleven"
@@ -557,13 +557,13 @@
 "010001-C7-C2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Maidana, Enzo / Olmo, Ezequiel Darío",
 "p2": "Di Tada, Nicolás / González, David Alberto",
-"res": "",
+"res": "6/0 6/0",
 "sede": "Eleven",
 "zona": "C"
 },
