@@ -843,5 +843,46 @@
   "en_buffer": "6af9a0e9b9a106584ca79583",
   "modo": "auto",
   "publicada_en": "2026-11-15 09:09"
+ },
+ {
+  "creada": "2026-11-15 11:38",
+  "torneo": "TEO-CLI010-001",
+  "inst": "Octavos de Final",
+  "organiza": "padelelevenroute",
+  "codigos": {
+   "010001-C6-55": "6/0 6/0",
+   "010001-C6-50": "7/6 6/4"
+  },
+  "archivo": "TEO-CLI010-001/octavos-azul-1115-1138-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/octavos-azul-1115-1138-1.png",
+  "alt": "Octavos: Caballeros 6ta, ganaron Arteaga T. / Capra N. 6/0 6/0; Caballeros 6ta, ganaron Albariño R. / Morales M. 7/6 6/4",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-15 11:38",
+  "torneo": "TEO-CLI010-001",
+  "inst": "Cuartos de Final",
+  "organiza": "padelelevenroute",
+  "codigos": {
+   "010001-D7-59": "6/4 6/1",
+   "010001-D7-58": "7/5 7/6"
+  },
+  "archivo": "TEO-CLI010-001/cuartos-rosa-1115-1138-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/cuartos-rosa-1115-1138-1.png",
+  "alt": "Cuartos: Damas 7ma, ganaron De Luca A. / Mesa G. 6/4 6/1; Damas 7ma, ganaron Biondi V. / Guazzaroni C. 7/5 7/6",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-15 11:38",
+  "torneo": "TEO-CLI008-001",
+  "inst": "Semifinal",
+  "organiza": "juvepa.lp",
+  "codigos": {
+   "008001-C5+40-61": "6/0 6/2"
+  },
+  "archivo": "TEO-CLI008-001/semifinal-azul-1115-1138-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/semifinal-azul-1115-1138-1.png",
+  "alt": "Semifinales: Caballeros 5ta +40, ganaron Chiodini L. / Hatrick P. 6/0 6/2",
+  "publicada": false
  }
 ]

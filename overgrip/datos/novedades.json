@@ -1342,7 +1342,8 @@
     "res": "6/0 6/0",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI008-001",
@@ -1361,7 +1362,8 @@
     "res": "6/0 6/2",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI010-001",
@@ -1380,6 +1382,27 @@
     "res": "7/5 7/6",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI010-001",
+  "hora": "2026-11-15 11:38",
+  "partidos": [
+   {
+    "codigo": "010001-C6-50",
+    "cat": "Caballeros 6ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-15",
+    "hora": "10:00",
+    "sede": "Eleven",
+    "estado": "Finalizado",
+    "p1": "Bernatene, Oscar / Rodríguez, Juan",
+    "p2": "Albariño, Rodrigo / Morales, Máximo",
+    "res": "7/6 6/4",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
  }
 ]
