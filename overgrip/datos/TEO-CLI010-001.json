@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 10:08",
+"actualizado": "2026-11-15 11:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -208,13 +208,13 @@
 "010001-D7-58": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "09:00",
 "inst": "Cuartos de Final",
 "p1": "Biondi, Valentina / Guazzaroni, Cecilia",
 "p2": "Paganelli, Victoria / Tellechea, Sonia",
-"res": "",
+"res": "7/5 7/6",
 "sede": "Eleven"
 },
 "010001-D7-59": {
@@ -237,7 +237,7 @@
 "hora": "11:00",
 "inst": "Semifinal",
 "p1": "Borro, Candela / González, Virginia",
-"p2": "",
+"p2": "Biondi, Valentina / Guazzaroni, Cecilia",
 "res": "",
 "sede": "Eleven"
 },

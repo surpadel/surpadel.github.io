@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 10:38",
+"actualizado": "2026-11-15 11:08",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -172,13 +172,13 @@
 "008001-C5+40-61": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Semifinal",
 "p1": "Chiodini, Luciano / Hatrick, Patricio",
 "p2": "Apecena, Fernando Óscar / Mercado, Mauricio Napoleón",
-"res": "",
+"res": "6/0 6/2",
 "sede": "R5"
 },
 "008001-C5+40-62": {
@@ -200,7 +200,7 @@
 "gan": null,
 "hora": "17:30",
 "inst": "Final",
-"p1": "",
+"p1": "Chiodini, Luciano / Hatrick, Patricio",
 "p2": "",
 "res": "",
 "sede": "R5"
