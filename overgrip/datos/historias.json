@@ -941,5 +941,34 @@
   "en_buffer": "6af9d930e86a5789a61f2e38",
   "modo": "auto",
   "publicada_en": "2026-11-15 13:09"
+ },
+ {
+  "creada": "2026-11-15 14:38",
+  "torneo": "TEO-CLI010-001",
+  "inst": "Cuartos de Final",
+  "organiza": "padelelevenroute",
+  "codigos": {
+   "010001-C6-59": "6/1 6/4",
+   "010001-C6-58": "6/4 4/6 11/8"
+  },
+  "archivo": "TEO-CLI010-001/cuartos-azul-1115-1438-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/cuartos-azul-1115-1438-1.png",
+  "alt": "Cuartos: Caballeros 6ta, ganaron Irazu C. / Somma D. 6/1 6/4; Caballeros 6ta, ganaron Agüero G. / Blanco O. 6/4 4/6 11/8",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-15 14:38",
+  "torneo": "TEO-CLI008-001",
+  "inst": "Semifinal",
+  "organiza": "juvepa.lp",
+  "codigos": {
+   "008001-C5+50-61": "6/1 5/7 7/6",
+   "008001-C6+50-62": "6/2 7/5",
+   "008001-C6+50-61": "3/6 6/4 6/3"
+  },
+  "archivo": "TEO-CLI008-001/semifinal-azul-1115-1438-1.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/semifinal-azul-1115-1438-1.png",
+  "alt": "Semifinales: Caballeros 5ta +50, ganaron Gural E. / Quatrocchi L. 6/1 5/7 7/6; Caballeros 6ta +50, ganaron Gutiérrez M. / Quinteros M. 6/2 7/5; Caballeros 6ta +50, ganaron Armenti L. / Pantuso M. 3/6 6/4 6/3",
+  "publicada": false
  }
 ]

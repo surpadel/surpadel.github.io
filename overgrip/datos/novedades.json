@@ -1522,7 +1522,8 @@
     "res": "6/1 6/4",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI008-001",
@@ -1554,6 +1555,47 @@
     "res": "6/2 7/5",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-15 14:38",
+  "partidos": [
+   {
+    "codigo": "008001-C6+50-61",
+    "cat": "Caballeros 6ta +50",
+    "inst": "Semifinal",
+    "dia": "2026-11-15",
+    "hora": "11:30",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "De Pierris, Gastón / Hernández, Ariel Hernán",
+    "p2": "Armenti, Luis Antonio / Pantuso, Marcelo",
+    "res": "3/6 6/4 6/3",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI010-001",
+  "hora": "2026-11-15 14:38",
+  "partidos": [
+   {
+    "codigo": "010001-C6-58",
+    "cat": "Caballeros 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-15",
+    "hora": "13:00",
+    "sede": "Eleven",
+    "estado": "Finalizado",
+    "p1": "Giardinieri, Carlos Emanuel / Llanos Carosella, Matías",
+    "p2": "Agüero, Gustavo / Blanco, Oscar Gabriel",
+    "res": "6/4 4/6 11/8",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
  }
 ]

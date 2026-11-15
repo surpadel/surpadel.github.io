@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 14:08",
+"actualizado": "2026-11-15 14:38",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -472,13 +472,13 @@
 "008001-C6+50-61": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:30",
 "inst": "Semifinal",
 "p1": "De Pierris, Gastón / Hernández, Ariel Hernán",
 "p2": "Armenti, Luis Antonio / Pantuso, Marcelo",
-"res": "",
+"res": "3/6 6/4 6/3",
 "sede": "R5"
 },
 "008001-C6+50-62": {
@@ -500,7 +500,7 @@
 "gan": null,
 "hora": "16:00",
 "inst": "Final",
-"p1": "",
+"p1": "Armenti, Luis Antonio / Pantuso, Marcelo",
 "p2": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
 "res": "",
 "sede": "R5"
