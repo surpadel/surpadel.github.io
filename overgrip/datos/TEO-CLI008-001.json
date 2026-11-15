@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 21:07",
+"actualizado": "2026-11-14 21:38",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -76,13 +76,13 @@
 "008001-C4+40-59": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:30",
 "inst": "Cuartos de Final",
 "p1": "Carra, Jerónimo / Ramos, Darío Eduardo",
 "p2": "Fernández, Pablo Oscar / García, Amalio José",
-"res": "",
+"res": "7/5 3/6 6/4",
 "sede": "R5"
 },
 "008001-C4+40-60": {
@@ -116,7 +116,7 @@
 "gan": null,
 "hora": "13:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Carra, Jerónimo / Ramos, Darío Eduardo",
 "p2": "Pellegrini, Emmanuel / Rondeau, Jorge Alberto",
 "res": "",
 "sede": "R5"
@@ -448,13 +448,13 @@
 "008001-C6+50-59": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "20:15",
 "inst": "Cuartos de Final",
 "p1": "Isasi, Juan Manuel / Orona, Alejandro",
 "p2": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
-"res": "",
+"res": "6/4 6/1",
 "sede": "R5"
 },
 "008001-C6+50-60": {
@@ -488,7 +488,7 @@
 "gan": null,
 "hora": "11:30",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
 "p2": "Di Nenno, Javier / Loureiro, Javier",
 "res": "",
 "sede": "R5"

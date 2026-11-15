@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 21:07",
+"actualizado": "2026-11-14 21:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -9,7 +9,7 @@
 "hora": "10:00",
 "inst": "Octavos de Final",
 "p1": "Bernatene, Oscar / Rodríguez, Juan",
-"p2": "",
+"p2": "Albariño, Rodrigo / Morales, Máximo",
 "res": "",
 "sede": "Eleven"
 },
@@ -56,7 +56,7 @@
 "gan": null,
 "hora": "12:00",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Antonio, Ariel / Paragorio, Ezequiel",
 "p2": "Irazu, Camila / Somma, Diego Alejandro",
 "res": "",
 "sede": "Eleven"
@@ -349,13 +349,13 @@
 "010001-C6-C1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "Garcia, Pablo / Landini, Dante",
 "p2": "Antonio, Ariel / Paragorio, Ezequiel",
-"res": "",
+"res": "3/6 7/5 11/6",
 "sede": "Eleven",
 "zona": "C"
 },
@@ -661,7 +661,7 @@
 "010001-D7-A1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-14",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:00",
 "inst": "Zona",
