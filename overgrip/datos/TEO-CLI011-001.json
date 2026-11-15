@@ -1,12 +1,12 @@
 {
-"actualizado": "2026-11-15 16:08",
+"actualizado": "2026-11-15 16:38",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
 "011001-C5-A1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:00",
 "inst": "Zona",
@@ -136,7 +136,7 @@
 "011001-C5-D2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:00",
 "inst": "Zona",
@@ -175,13 +175,13 @@
 "011001-C5-E2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "14:45",
 "inst": "Zona",
 "p1": "Godoy, Emanuel / Godoy, Tobias",
 "p2": "Daquila, César / Robledo, Benicio",
-"res": "",
+"res": "6/2 3/6 6/4",
 "sede": "EVA",
 "zona": "E"
 },
@@ -838,7 +838,7 @@
 "011001-C7-D1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:00",
 "inst": "Zona",
@@ -929,7 +929,7 @@
 "011001-C7-F2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:00",
 "inst": "Zona",

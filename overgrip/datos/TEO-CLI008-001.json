@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 16:08",
+"actualizado": "2026-11-15 16:38",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -112,13 +112,13 @@
 "008001-C4+40-62": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:00",
 "inst": "Semifinal",
 "p1": "Carra, Jerónimo / Ramos, Darío Eduardo",
 "p2": "Pellegrini, Emmanuel / Rondeau, Jorge Alberto",
-"res": "",
+"res": "4/6 6/2 6/4",
 "sede": "R5"
 },
 "008001-C4+40-64": {
@@ -129,7 +129,7 @@
 "hora": "17:30",
 "inst": "Final",
 "p1": "Gómez, Alberto Martín / Ledesma, Paulo Daniel",
-"p2": "",
+"p2": "Carra, Jerónimo / Ramos, Darío Eduardo",
 "res": "",
 "sede": "R5"
 },
@@ -496,7 +496,7 @@
 "008001-C6+50-64": {
 "cat": "Caballeros 6ta +50",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:00",
 "inst": "Final",

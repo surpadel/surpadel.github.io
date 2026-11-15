@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 15:38",
+"actualizado": "2026-11-15 16:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -148,7 +148,7 @@
 "010001-C7-62": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:00",
 "inst": "Semifinal",
@@ -184,13 +184,13 @@
 "010001-D6-62": {
 "cat": "Damas 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Semifinal",
 "p1": "Clua D'Alessandro, María / Niz, Miriam Marisa",
 "p2": "Corsetti, Delfina / Perretta, Daiana",
-"res": "",
+"res": "6/1 6/2",
 "sede": "Eleven"
 },
 "010001-D6-64": {
@@ -201,7 +201,7 @@
 "hora": "18:00",
 "inst": "Final",
 "p1": "",
-"p2": "",
+"p2": "Corsetti, Delfina / Perretta, Daiana",
 "res": "",
 "sede": "Eleven"
 },
