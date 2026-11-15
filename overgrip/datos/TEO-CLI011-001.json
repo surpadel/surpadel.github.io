@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 19:08",
+"actualizado": "2026-11-15 19:38",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -877,13 +877,13 @@
 "011001-C7-E1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:30",
 "inst": "Zona",
 "p1": "La Rosa, Leandro Gabriel / Moreno, Juan Camilo",
 "p2": "Miño, Mateo / Morales, Alexis",
-"res": "",
+"res": "6/0 6/3",
 "sede": "Real",
 "zona": "E"
 },
