@@ -870,7 +870,10 @@
   "archivo": "TEO-CLI010-001/cuartos-rosa-1115-1138-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/cuartos-rosa-1115-1138-1.png",
   "alt": "Cuartos: Damas 7ma, ganaron De Luca A. / Mesa G. 6/4 6/1; Damas 7ma, ganaron Biondi V. / Guazzaroni C. 7/5 7/6",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6af9c40976c23bf1c786c356",
+  "modo": "auto",
+  "publicada_en": "2026-11-15 11:38"
  },
  {
   "creada": "2026-11-15 11:38",
@@ -883,6 +886,9 @@
   "archivo": "TEO-CLI008-001/semifinal-azul-1115-1138-1.png",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI008-001/semifinal-azul-1115-1138-1.png",
   "alt": "Semifinales: Caballeros 5ta +40, ganaron Chiodini L. / Hatrick P. 6/0 6/2",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6af9c400e86a5789a617789c",
+  "modo": "auto",
+  "publicada_en": "2026-11-15 11:38"
  }
 ]
