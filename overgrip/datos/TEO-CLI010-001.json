@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 14:38",
+"actualizado": "2026-11-15 15:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -28,13 +28,13 @@
 "010001-C6-57": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:00",
 "inst": "Cuartos de Final",
 "p1": "Álvarez, Nahuel / López, Ilan",
 "p2": "Albariño, Rodrigo / Morales, Máximo",
-"res": "",
+"res": "7/5 6/4",
 "sede": "Eleven"
 },
 "010001-C6-58": {
@@ -80,7 +80,7 @@
 "gan": null,
 "hora": "17:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Albariño, Rodrigo / Morales, Máximo",
 "p2": "Agüero, Gustavo / Blanco, Oscar Gabriel",
 "res": "",
 "sede": "Eleven"

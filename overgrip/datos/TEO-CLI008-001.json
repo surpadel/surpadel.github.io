@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 14:38",
+"actualizado": "2026-11-15 15:08",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -100,19 +100,19 @@
 "008001-C4+40-61": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:00",
 "inst": "Semifinal",
 "p1": "Chijlis, Germán / López Osornio, Martín",
 "p2": "Gómez, Alberto Martín / Ledesma, Paulo Daniel",
-"res": "",
+"res": "6/4 6/3",
 "sede": "R5"
 },
 "008001-C4+40-62": {
 "cat": "Caballeros 4ta +40",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:00",
 "inst": "Semifinal",
@@ -128,7 +128,7 @@
 "gan": null,
 "hora": "17:30",
 "inst": "Final",
-"p1": "",
+"p1": "Gómez, Alberto Martín / Ledesma, Paulo Daniel",
 "p2": "",
 "res": "",
 "sede": "R5"
@@ -304,25 +304,25 @@
 "008001-C6+40-61": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:00",
 "inst": "Semifinal",
 "p1": "Bussain, Roberto / Ybarra, Gastón",
 "p2": "Acuña, Gastón / Foppiani, Gustavo",
-"res": "",
+"res": "6/1 6/2",
 "sede": "R5"
 },
 "008001-C6+40-62": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:00",
 "inst": "Semifinal",
 "p1": "Barrios, Diego / Gómez, Adrián",
 "p2": "Dondo, Daniel / Tranquillini, Diego",
-"res": "",
+"res": "6/4 6/4",
 "sede": "R5"
 },
 "008001-C6+40-64": {
@@ -332,8 +332,8 @@
 "gan": null,
 "hora": "17:30",
 "inst": "Final",
-"p1": "",
-"p2": "",
+"p1": "Bussain, Roberto / Ybarra, Gastón",
+"p2": "Barrios, Diego / Gómez, Adrián",
 "res": "",
 "sede": "R5"
 },

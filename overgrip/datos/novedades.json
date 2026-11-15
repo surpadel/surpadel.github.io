@@ -1597,5 +1597,69 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-15 15:08",
+  "partidos": [
+   {
+    "codigo": "008001-C4+40-61",
+    "cat": "Caballeros 4ta +40",
+    "inst": "Semifinal",
+    "dia": "2026-11-15",
+    "hora": "13:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Chijlis, Germán / López Osornio, Martín",
+    "p2": "Gómez, Alberto Martín / Ledesma, Paulo Daniel",
+    "res": "6/4 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "008001-C6+40-61",
+    "cat": "Caballeros 6ta +40",
+    "inst": "Semifinal",
+    "dia": "2026-11-15",
+    "hora": "13:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Bussain, Roberto / Ybarra, Gastón",
+    "p2": "Acuña, Gastón / Foppiani, Gustavo",
+    "res": "6/1 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "008001-C6+40-62",
+    "cat": "Caballeros 6ta +40",
+    "inst": "Semifinal",
+    "dia": "2026-11-15",
+    "hora": "13:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Barrios, Diego / Gómez, Adrián",
+    "p2": "Dondo, Daniel / Tranquillini, Diego",
+    "res": "6/4 6/4",
+    "gan": 1
+   }
+  ]
+ },
+ {
+  "torneo": "TEO-CLI010-001",
+  "hora": "2026-11-15 15:08",
+  "partidos": [
+   {
+    "codigo": "010001-C6-57",
+    "cat": "Caballeros 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-15",
+    "hora": "13:00",
+    "sede": "Eleven",
+    "estado": "Finalizado",
+    "p1": "Álvarez, Nahuel / López, Ilan",
+    "p2": "Albariño, Rodrigo / Morales, Máximo",
+    "res": "7/5 6/4",
+    "gan": 2
+   }
+  ]
  }
 ]
