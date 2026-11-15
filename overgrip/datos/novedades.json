@@ -1714,7 +1714,8 @@
     "res": "4/6 6/2 6/4",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI010-001",
@@ -1733,7 +1734,8 @@
     "res": "6/1 6/2",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI010-001",
@@ -1752,6 +1754,47 @@
     "res": "6/1 6/4",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI008-001",
+  "hora": "2026-11-15 17:38",
+  "partidos": [
+   {
+    "codigo": "008001-C5+50-64",
+    "cat": "Caballeros 5ta +50",
+    "inst": "Final",
+    "dia": "2026-11-15",
+    "hora": "16:00",
+    "sede": "R5",
+    "estado": "Finalizado",
+    "p1": "Gural, Esteban Edgardo / Quatrocchi, Luciano",
+    "p2": "Ambrosetti, Diego / García, Juan",
+    "res": "7/6 6/2",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI010-001",
+  "hora": "2026-11-15 17:38",
+  "partidos": [
+   {
+    "codigo": "010001-C7-62",
+    "cat": "Caballeros 7ma",
+    "inst": "Semifinal",
+    "dia": "2026-11-15",
+    "hora": "16:00",
+    "sede": "Eleven",
+    "estado": "Finalizado",
+    "p1": "Maidana, Enzo / Olmo, Ezequiel Darío",
+    "p2": "Pérez, Damián Ariel / Resa, Sebastián Ariel",
+    "res": "6/1 7/5",
+    "gan": 1
+   }
+  ],
+  "dibujada": true
  }
 ]

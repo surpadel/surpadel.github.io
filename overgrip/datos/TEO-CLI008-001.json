@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 16:38",
+"actualizado": "2026-11-15 17:38",
 "cruces": {
 "008001-C4+40-50": {
 "cat": "Caballeros 4ta +40",
@@ -280,13 +280,13 @@
 "008001-C5+50-64": {
 "cat": "Caballeros 5ta +50",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:00",
 "inst": "Final",
 "p1": "Gural, Esteban Edgardo / Quatrocchi, Luciano",
 "p2": "Ambrosetti, Diego / García, Juan",
-"res": "",
+"res": "7/6 6/2",
 "sede": "R5"
 },
 "008001-C6+40-58": {

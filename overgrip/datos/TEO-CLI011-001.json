@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 17:08",
+"actualizado": "2026-11-15 17:38",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -331,7 +331,7 @@
 "011001-C6-A2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:15",
 "inst": "Zona",
@@ -370,13 +370,13 @@
 "011001-C6-B1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 1,
 "hora": "17:15",
 "inst": "Zona",
 "p1": "Novello, Santiago / Rodríguez, Leonardo",
 "p2": "Acosta, Osvaldo Ezequiel / Bazze, Agustín",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "Real",
 "zona": "B"
 },
@@ -400,7 +400,7 @@
 "gan": null,
 "hora": "22:15",
 "inst": "Zona",
-"p1": "",
+"p1": "Novello, Santiago / Rodríguez, Leonardo",
 "p2": "Maldonado, Matías Damián / Parra, Nicolás",
 "res": "",
 "sede": "Real",
@@ -413,7 +413,7 @@
 "gan": null,
 "hora": "22:15",
 "inst": "Zona",
-"p1": "",
+"p1": "Acosta, Osvaldo Ezequiel / Bazze, Agustín",
 "p2": "Cepeda, Carlos / Duarte, Genaro",
 "res": "",
 "sede": "Real",
@@ -799,7 +799,7 @@
 "011001-C7-C1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:15",
 "inst": "Zona",
@@ -929,13 +929,13 @@
 "011001-C7-F2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Casciana, Matias / Sosa, Mauro Ezequiel",
 "p2": "Bresciani, Gabriel / Iglesias, Lautaro",
-"res": "",
+"res": "6/4 6/2",
 "sede": "EVA",
 "zona": "F"
 },
@@ -994,13 +994,13 @@
 "011001-C7-H1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Livoi, Brian Nahuel / Melia, Luciano",
 "p2": "Delaguila, Nicolás Daniel / Galanti, Patricio",
-"res": "",
+"res": "6/2 6/4",
 "sede": "EVA",
 "zona": "H"
 },
@@ -1059,7 +1059,7 @@
 "011001-C7-I3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:15",
 "inst": "Zona",
@@ -1241,7 +1241,7 @@
 "011001-D7-D3": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:15",
 "inst": "Zona",

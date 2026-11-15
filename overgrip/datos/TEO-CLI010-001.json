@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 17:08",
+"actualizado": "2026-11-15 17:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -88,7 +88,7 @@
 "010001-C6-62": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:00",
 "inst": "Semifinal",
@@ -148,13 +148,13 @@
 "010001-C7-62": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:00",
 "inst": "Semifinal",
 "p1": "Maidana, Enzo / Olmo, Ezequiel Darío",
 "p2": "Pérez, Damián Ariel / Resa, Sebastián Ariel",
-"res": "",
+"res": "6/1 7/5",
 "sede": "Eleven"
 },
 "010001-C7-64": {
@@ -165,7 +165,7 @@
 "hora": "19:00",
 "inst": "Final",
 "p1": "",
-"p2": "",
+"p2": "Maidana, Enzo / Olmo, Ezequiel Darío",
 "res": "",
 "sede": "Eleven"
 },
