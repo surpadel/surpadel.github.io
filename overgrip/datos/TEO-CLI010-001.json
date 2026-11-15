@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 23:38",
+"actualizado": "2026-11-15 09:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -208,7 +208,7 @@
 "010001-D7-58": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "09:00",
 "inst": "Cuartos de Final",
@@ -220,7 +220,7 @@
 "010001-D7-59": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "09:00",
 "inst": "Cuartos de Final",
