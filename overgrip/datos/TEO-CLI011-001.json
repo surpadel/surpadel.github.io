@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-14 23:38",
+"actualizado": "2026-11-15 00:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -32,13 +32,13 @@
 "011001-C5-A3": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-14",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "22:15",
 "inst": "Zona",
 "p1": "Corbalan, Leonardo / Padovani, Marcos",
 "p2": "Dauria, Valentino / Hernández, Martín",
-"res": "",
+"res": "6/2 6/2",
 "sede": "Real",
 "zona": "A"
 },
