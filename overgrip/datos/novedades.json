@@ -1504,5 +1504,24 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI010-001",
+  "hora": "2026-11-15 13:38",
+  "partidos": [
+   {
+    "codigo": "010001-C6-59",
+    "cat": "Caballeros 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-15",
+    "hora": "12:00",
+    "sede": "Eleven",
+    "estado": "Finalizado",
+    "p1": "Antonio, Ariel / Paragorio, Ezequiel",
+    "p2": "Irazu, Camila / Somma, Diego Alejandro",
+    "res": "6/1 6/4",
+    "gan": 2
+   }
+  ]
  }
 ]

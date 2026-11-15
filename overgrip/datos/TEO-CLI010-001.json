@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 13:08",
+"actualizado": "2026-11-15 13:38",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -52,13 +52,13 @@
 "010001-C6-59": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "12:00",
 "inst": "Cuartos de Final",
 "p1": "Antonio, Ariel / Paragorio, Ezequiel",
 "p2": "Irazu, Camila / Somma, Diego Alejandro",
-"res": "",
+"res": "6/1 6/4",
 "sede": "Eleven"
 },
 "010001-C6-60": {
@@ -92,7 +92,7 @@
 "gan": null,
 "hora": "17:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Irazu, Camila / Somma, Diego Alejandro",
 "p2": "Argüelles, Marcos / Muñoz, Nicolás",
 "res": "",
 "sede": "Eleven"
