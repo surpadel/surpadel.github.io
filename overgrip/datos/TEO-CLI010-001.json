@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 16:38",
+"actualizado": "2026-11-15 17:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -172,13 +172,13 @@
 "010001-D6-61": {
 "cat": "Damas 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Semifinal",
 "p1": "Insaurralde, Patricia / Pihuala, María",
 "p2": "Arranz, Paula / Novoa, Miriam",
-"res": "",
+"res": "6/1 6/4",
 "sede": "Eleven"
 },
 "010001-D6-62": {
@@ -200,7 +200,7 @@
 "gan": null,
 "hora": "18:00",
 "inst": "Final",
-"p1": "",
+"p1": "Arranz, Paula / Novoa, Miriam",
 "p2": "Corsetti, Delfina / Perretta, Daiana",
 "res": "",
 "sede": "Eleven"

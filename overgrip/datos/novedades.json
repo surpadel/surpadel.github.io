@@ -1734,5 +1734,24 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI010-001",
+  "hora": "2026-11-15 17:08",
+  "partidos": [
+   {
+    "codigo": "010001-D6-61",
+    "cat": "Damas 6ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-15",
+    "hora": "15:00",
+    "sede": "Eleven",
+    "estado": "Finalizado",
+    "p1": "Insaurralde, Patricia / Pihuala, María",
+    "p2": "Arranz, Paula / Novoa, Miriam",
+    "res": "6/1 6/4",
+    "gan": 2
+   }
+  ]
  }
 ]

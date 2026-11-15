@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 16:38",
+"actualizado": "2026-11-15 17:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -136,13 +136,13 @@
 "011001-C5-D2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Jara, Alejandro Anibal / Montes, Tobias Alexander",
 "p2": "Blanco, Sergio / Sena, Gabriel",
-"res": "",
+"res": "6/1 6/2",
 "sede": "Real",
 "zona": "D"
 },
@@ -838,13 +838,13 @@
 "011001-C7-D1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Méndez, Diego Mariano / Miranda, Matias Leonardo",
 "p2": "Di Maio, Agustín / Sokol, Pablo",
-"res": "",
+"res": "6/1 6/2",
 "sede": "Real",
 "zona": "D"
 },
@@ -994,7 +994,7 @@
 "011001-C7-H1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:00",
 "inst": "Zona",
@@ -1111,13 +1111,13 @@
 "011001-D7-A4": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "14:45",
 "inst": "Zona",
 "p1": "Aniceto, Milena / Mandrini, Emilia Lucía",
 "p2": "Bruno, Tatiana / Simonetti, María Sol",
-"res": "",
+"res": "7/6 3/6 6/3",
 "sede": "EVA",
 "zona": "A"
 },
