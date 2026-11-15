@@ -822,5 +822,23 @@
   "alt": "Lo mejor de las zonas del sábado 14/11: Damas 7ma, ganaron Borro C. / González V. 6/3 3/6 11/9; Damas 7ma, ganaron Biondi V. / Guazzaroni C. 7/6 7/6; Damas 7ma, ganaron Dury L. / Gómez Rivero M. 7/6 6/2; Damas 7ma, ganaron Becerra G. / Liciaga M. 6/2 6/4",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-15 09:08",
+  "torneo": "TEO-CLI008-001",
+  "inst": "Hoy",
+  "tipo": "hoy",
+  "clave": "hoy-2026-11-15",
+  "organiza": "",
+  "etiquetas": [
+   "juvepa.lp",
+   "metropadeloficial",
+   "padelelevenroute"
+  ],
+  "codigos": {},
+  "archivo": "especiales/hoy-2026-11-15.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/especiales/hoy-2026-11-15.png",
+  "alt": "Hoy se juega: Juvepa; Metro Padel; Eleven Route Eleven Route · La Plata. Seguí @surpadelstore para tener todos los resultados al día.",
+  "publicada": false
  }
 ]
