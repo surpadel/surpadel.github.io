@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 23:08",
+"actualizado": "2026-11-15 23:38",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -45,13 +45,13 @@
 "011001-C5-B1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Aguilar, Gabriel Gastón / Rojos, Cristian",
 "p2": "Barrientos Achar, Brian Ariel / Díaz, Hernán",
-"res": "",
+"res": "3/6 6/3 6/3",
 "sede": "EVA",
 "zona": "B"
 },
@@ -825,13 +825,13 @@
 "011001-C7-C3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "22:15",
 "inst": "Zona",
 "p1": "Lecce, Carlos / Vilanova, Sergio Rolando",
 "p2": "Arbarzua, Carlos / Fernández, Walter",
-"res": "",
+"res": "6/2 6/2",
 "sede": "EVA",
 "zona": "C"
 },
@@ -942,13 +942,13 @@
 "011001-C7-F3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "22:15",
 "inst": "Zona",
 "p1": "Di Marco, Gian Franco / Garcia, Federico",
 "p2": "Bresciani, Gabriel / Iglesias, Lautaro",
-"res": "",
+"res": "6/4 4/6 6/1",
 "sede": "EVA",
 "zona": "F"
 },
