@@ -35,6 +35,17 @@ def franja(nombre):
     return f' style="font-size:{fs}px;max-width:720px;white-space:normal;line-height:1.05"'
 
 
+FUENTES = {
+    "overgrip": ("app.overgrip.com.ar", "Resultados <b>@overgripapp</b>", "OverGrip"),
+    "sportlevel": ("sportlevel.ar", "Resultados en <b>SportLevel</b>", "SportLevel"),
+}
+
+
+def fuente(c):
+    """Sitio, crédito y nombre del sistema de resultados del torneo (OverGrip o SportLevel)."""
+    return FUENTES.get((c or {}).get("fuente") or "overgrip", FUENTES["overgrip"])
+
+
 def tamano_nombre(nombre):
     n = len(nombre)
     return 66 if n <= 16 else 54 if n <= 26 else 44 if n <= 40 else 36
@@ -91,7 +102,8 @@ def trabajos(conf, hist, ahora):
             hay_cruce = any(x["dia"] == hoy.isoformat() for x in d.get("cruces", {}).values())
             fase = "Fase de zonas" if hay_zona else ("Se definen las llaves" if hay_cruce else "")
             items.append({"corto": c.get("corto", "Torneo"), "sede": c.get("sede", ""),
-                          "organiza": c.get("organiza", ""), "fase": fase})
+                          "organiza": c.get("organiza", ""), "fase": fase,
+                          "fuente": c.get("fuente") or "overgrip"})
         solo_damas = all(cat.startswith("Damas") for c in jugando for cat in c.get("categorias", ["x"]))
         etiquetas = [c["organiza"] for c in jugando if c.get("organiza")][:4]
         out.append({"tipo": "hoy", "clave": clave, "torneo": jugando[0]["id"], "inst": "Hoy",
@@ -138,6 +150,7 @@ def trabajos(conf, hist, ahora):
                 elegidos.sort(key=lambda p: p["cat"])
                 out.append({
                     "tipo": "zona", "clave": clave, "torneo": c["id"], "inst": "Zonas", "tema": rama,
+                    "fuente": c.get("fuente") or "overgrip",
                     "corto": c.get("corto", "Torneo"), "organiza": c.get("organiza", ""),
                     "strip": f"Zonas · {DIAS[dd.weekday()]}" + (" · Damas" if rama == "rosa" else ""),
                     "partidos": [{"tag": f"{p['cat']} · Zona {p.get('zona', '')}".strip(" ·"),
@@ -171,12 +184,13 @@ def trabajos(conf, hist, ahora):
                 dam = [k.replace("Damas ", "") for k in sorted(por_cat) if k.startswith("Damas")]
                 out.append({
                     "tipo": "llaves", "clave": clave, "torneo": c["id"], "inst": "Llaves", "tema": "azul",
+                    "fuente": c.get("fuente") or "overgrip",
                     "corto": c.get("corto", "Torneo"), "organiza": c.get("organiza", ""),
                     "caballeros": cab, "damas": dam, "desde": dia_texto(desde) if desde else "",
                     "archivo": f"{c['id']}/llaves.png",
                     "alt": f"Ya están las llaves de {c.get('corto', 'el torneo')}"
                            + (f": se juegan desde el {dia_texto(desde)}" if desde else "")
-                           + ". Mirá tu cruce en app.overgrip.com.ar.",
+                           + f". Mirá tu cruce en {fuente(c)[0]}.",
                 })
     return out
 
@@ -210,6 +224,7 @@ def _html(d, gen, premier):
     if d["tema"] == "rosa":
         css += ".gold{background:linear-gradient(180deg,#ffe0ee 0%,#ff6fa8 45%,#c23a78 58%,#ff8fbd 100%);-webkit-background-clip:text}"
     org = f'Torneo <b>@{d["organiza"]}</b> · ' if d.get("organiza") else ""
+    sitio, cred, sistema = fuente(d)
     seguinos = '<div class=brand>SEGUÍ @SURPADELSTORE · TODOS LOS TORNEOS AL DÍA</div>'
     logo = f'<img class=logo style="margin-top:46px" src="data:image/png;base64,{gen.LOGO}">'
 
@@ -226,29 +241,30 @@ def _html(d, gen, premier):
                 '<div class=cta><div class=k>Resultados al día</div>'
                 '<div class=h>Seguí a <b>@surpadelstore</b></div>'
                 '<div class=p>Te contamos cada cruce, cada final y los campeones de los torneos de la zona.</div></div>'
-                '<div class=foot style="margin-top:34px"><div class=live><span class=dot></span>En vivo en app.overgrip.com.ar</div>'
-                '<div class=cred>Resultados <b>@overgripapp</b></div>'
+                '<div class=foot style="margin-top:34px"><div class=live><span class=dot></span>En vivo en '
+                + " y ".join(dict.fromkeys(FUENTES[i.get("fuente", "overgrip")][0] for i in d["items"])) + '</div>'
+                '<div class=cred>' + " · ".join(dict.fromkeys(FUENTES[i.get("fuente", "overgrip")][1] for i in d["items"])) + '</div>'
                 '<div class=brand>@SURPADELSTORE · SURPADEL.COM.AR</div></div>')
     elif d["tipo"] == "zona":
         cards = "".join(premier.scoreboard(m, m["tag"]) for m in d["partidos"])
         body = (f'<div class=strip><div class=a{franja(d["corto"])}>{d["corto"]}</div><div class=b>{d["strip"]}</div></div>{logo}'
                 f'<div class=metal style="font-size:112px;margin-top:22px">Lo mejor de<br>las <span class=gold>zonas</span></div>'
                 f'<div class=list>{cards}</div>'
-                '<div class=foot><div class=live><span class=dot></span>Todas las zonas en app.overgrip.com.ar</div>'
-                f'<div class=cred>{org}Resultados <b>@overgripapp</b></div>{seguinos}</div>')
+                f'<div class=foot><div class=live><span class=dot></span>Todas las zonas en {sitio}</div>'
+                f'<div class=cred>{org}{cred}</div>{seguinos}</div>')
     else:  # llaves
         blk = ""
         for rama, cats, cls in (("Caballeros", d["caballeros"], ""), ("Damas", d["damas"], " rosa")):
             if cats:
                 blk += (f'<div class="sb{cls}"><div class=hd><span>{rama}</span><span>Llaves listas</span></div>'
                         '<div class=cats>' + "".join(f"<span>{x}</span>" for x in cats) + "</div></div>")
-        desde = f'<div class=lead>Se juegan desde el <b>{d["desde"]}</b>.<br>Mirá tu cruce y tu horario en OverGrip.</div>' if d["desde"] else \
-            '<div class=lead>Mirá tu cruce y tu horario en OverGrip.</div>'
+        desde = f'<div class=lead>Se juegan desde el <b>{d["desde"]}</b>.<br>Mirá tu cruce y tu horario en {sistema}.</div>' if d["desde"] else \
+            f'<div class=lead>Mirá tu cruce y tu horario en {sistema}.</div>'
         body = (f'<div class=strip><div class=a{franja(d["corto"])}>{d["corto"]}</div><div class=b>Llaves</div></div>{logo}'
                 f'<div class=metal style="font-size:124px;margin-top:22px">Ya están<br>las <span class=gold>llaves</span></div>'
                 f'{desde}<div class=list>{blk}</div>'
-                '<div class=foot><div class=live><span class=dot></span>Cruces y horarios en app.overgrip.com.ar</div>'
-                f'<div class=cred>{org}Resultados <b>@overgripapp</b></div>{seguinos}</div>')
+                f'<div class=foot><div class=live><span class=dot></span>Cruces y horarios en {sitio}</div>'
+                f'<div class=cred>{org}{cred}</div>{seguinos}</div>')
     return (f"<html><head><meta charset=utf-8><style>{css}</style></head>"
             f"<body>{premier.deco(t)}<div class=wrap>{body}</div></body></html>")
 

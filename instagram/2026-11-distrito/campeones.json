@@ -1,0 +1,15 @@
+{
+ "azul": {"partidos": [
+  {"tag": "Caballeros 3ra", "g": "Maldonado B. / Zevola M.", "p": "Ligorria G. / Acosta D.", "s": "6/3 6/4"},
+  {"tag": "Caballeros 5ta", "g": "Moreno Lezana J. / Cipollone S.", "p": "Antille S. / Vidal P.", "s": "6/0 6/1"},
+  {"tag": "Caballeros 6ta", "g": "D'Amico L. / Becker P.", "p": "Gomez E. / Garcia P.", "s": "6/4 6/4"},
+  {"tag": "Caballeros 7ma", "g": "Demontis S. / Tanjal M.", "p": "Loto Á. / Nardelli J.", "s": "6/3 2/6 6/3"}
+ ]},
+ "rosa": {"partidos": [
+  {"tag": "Damas 2da", "g": "Suarez B. / Perez Serrano V.", "p": "Pistone E. / Amarillo S.", "s": "6/2 4/6 6/0"},
+  {"tag": "Damas 4ta", "g": "Catalini A. / Pinto P.", "p": "Medialdea R. / Repetti V.", "s": "6/7 6/0 6/4"},
+  {"tag": "Damas 5ta", "g": "Abramowicz E. / Lastra E.", "p": "Veron P. / Jaime A.", "s": "6/0 6/2"},
+  {"tag": "Damas 6ta", "g": "Ciochini L. / Gonzalez J.", "p": "Di Martino R. / Jaime Y.", "s": "6/3 7/6"},
+  {"tag": "Damas 7ma", "g": "Cornejo H. / Julian M.", "p": "Maggi J. / Jauregui A.", "s": "7/5 6/2"}
+ ]}
+}

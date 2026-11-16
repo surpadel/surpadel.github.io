@@ -230,5 +230,64 @@
   "auto": true,
   "activo": false,
   "alta": "2026-11-07"
+ },
+ {
+  "id": "SL-distrito-padel-center-open-3",
+  "fuente": "sportlevel",
+  "slug": "distrito-padel-center-open/distrito-padel-center-open-3",
+  "corto": "Distrito Open 3",
+  "organiza": "distritopadelcenteropen",
+  "sedes_ig": [
+   "distrito.padel.center"
+  ],
+  "nombre": "Distrito Padel Center Open 3",
+  "cuando": "6, 7, 8, 14 y 15 nov 2026",
+  "fechas": [
+   "2026-11-06",
+   "2026-11-07",
+   "2026-11-08",
+   "2026-11-14",
+   "2026-11-15"
+  ],
+  "sede": "Distrito Padel Center · La Plata",
+  "categorias": [
+   "Caballeros 2da",
+   "Caballeros 3ra",
+   "Caballeros 4ta",
+   "Caballeros 5ta",
+   "Caballeros 6ta",
+   "Caballeros 7ma",
+   "Damas 2da",
+   "Damas 4ta",
+   "Damas 5ta",
+   "Damas 6ta",
+   "Damas 7ma"
+  ],
+  "estado": "En Curso",
+  "activo": false,
+  "alta": "2026-11-15",
+  "nota": "Se sumó el día de las finales: los campeones se publicaron a mano con vista previa (Nico, 15/11)."
+ },
+ {
+  "id": "SL-grand-master-alpha-padel-2026",
+  "fuente": "sportlevel",
+  "slug": "alpha-padel/grand-master-alpha-padel-2026",
+  "corto": "Grand Master ALPHA",
+  "organiza": "alphapadel_ok",
+  "sedes_ig": [
+   "distrito.padel.center"
+  ],
+  "nombre": "Grand Master ALPHA Padel 2026",
+  "cuando": "5 y 6 dic 2026",
+  "fechas": [
+   "2026-12-05",
+   "2026-12-06"
+  ],
+  "sede": "Distrito Padel Center · La Plata",
+  "categorias": [],
+  "estado": "Inscripción abierta",
+  "auto": true,
+  "activo": false,
+  "alta": "2026-11-15"
  }
 ]

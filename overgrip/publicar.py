@@ -136,7 +136,8 @@ def reencolar(h, ahora):
 
 def entrada(h, modo):
     """Arma el input de createPost. modo: auto | recordatorio | borrador."""
-    cuentas = list(dict.fromkeys((h.get("etiquetas") or ([h["organiza"]] if h.get("organiza") else [])) + [OVERGRIP]))
+    sistema = [] if str(h.get("torneo", "")).startswith("SL-") else [OVERGRIP]  # SportLevel no tiene Instagram
+    cuentas = list(dict.fromkeys((h.get("etiquetas") or ([h["organiza"]] if h.get("organiza") else [])) + sistema))
     etiquetas = [{"handle": u, "x": 0.5, "y": round(0.84 + 0.03 * i, 2)} for i, u in enumerate(cuentas[-5:])]
     imagen = {"url": h["url"], "metadata": {"altText": h.get("alt") or "Resultados del torneo",
                                             "userTags": etiquetas}}

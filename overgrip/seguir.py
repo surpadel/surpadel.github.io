@@ -1,5 +1,8 @@
 """Seguimiento de torneos de OverGrip (parte pública) para Sur Padel.
 
+Los torneos con "fuente": "sportlevel" se leen de SportLevel (ver sportlevel.py)
+y quedan en el mismo formato.
+
 Un solo pedido por torneo: la página de partidos pedida con el encabezado
 "RSC: 1" devuelve todos los partidos de todas las categorías en JSON.
 Se guardan los cruces (16avos en adelante) y los partidos de zona en formato
@@ -81,18 +84,24 @@ def recortar(lista, n=50):
     return [t for i, t in enumerate(lista) if i not in fuera]
 
 
-def seguir(torneo):
-    partidos = extraer_partidos(bajar(torneo))
-    cruces = {
-        p["codigoCompleto"]: compactar(p)
-        for p in partidos
-        if p.get("instancia") != "Zona"
-    }
-    zonas = {
-        p["codigoCompleto"]: compactar(p)
-        for p in partidos
-        if p.get("instancia") == "Zona"
-    }
+def seguir(torneo, info=None):
+    info = info or {}
+    if info.get("fuente") == "sportlevel":  # Distrito Padel Center, ALPHA Padel...
+        import sportlevel
+        cruces, zonas = sportlevel.partidos(info["slug"])
+        partidos = [*cruces, *zonas]
+    else:
+        partidos = extraer_partidos(bajar(torneo))
+        cruces = {
+            p["codigoCompleto"]: compactar(p)
+            for p in partidos
+            if p.get("instancia") != "Zona"
+        }
+        zonas = {
+            p["codigoCompleto"]: compactar(p)
+            for p in partidos
+            if p.get("instancia") == "Zona"
+        }
     archivo = CARPETA / f"{torneo}.json"
     primera = not archivo.exists()
     antes = {} if primera else json.loads(archivo.read_text())
@@ -123,9 +132,11 @@ def seguir(torneo):
 
 if __name__ == "__main__":
     CARPETA.mkdir(parents=True, exist_ok=True)
+    sys.path.insert(0, str(Path(__file__).parent))
     conf = json.loads((Path(__file__).parent / "torneos.json").read_text())
+    por_id = {x["id"]: x for x in conf}
     for t in sys.argv[1:] or [x["id"] for x in conf if x.get("activo")]:
         try:
-            seguir(t)
+            seguir(t, por_id.get(t))
         except Exception as e:  # un torneo sin fixture todavía no frena a los demás
             print(f"{t}: sin datos por ahora ({e})")

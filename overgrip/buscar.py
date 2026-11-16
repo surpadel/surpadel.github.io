@@ -11,6 +11,8 @@ Una vez por día (proceso "Buscar torneos OverGrip"):
   ("activo": true) desde el día anterior a la primera fecha hasta 2 días
   después de la última (o hasta que OverGrip los marque Finalizado).
   Los torneos cargados a mano (sin "auto") no se tocan.
+- También busca los torneos de la zona en SportLevel (sportlevel.py) y los
+  prende y apaga con la misma regla.
 - Avisa en el issue de avisos (llega por mail): torneos nuevos, los que
   arrancan y los que no tienen Instagram del organizador.
 
@@ -182,10 +184,18 @@ def main():
         avisos.append(f"- 🆕 **{t['nombre']}** ({t['cuando']}) · franja «{nuevo['corto']}» · {ig}\n"
                       f"  {SITIO}/torneos/{tid}")
 
+    # SportLevel (Distrito Padel Center, ALPHA Padel...): si falla, sigue OverGrip igual
+    try:
+        sys.path.insert(0, str(Path(__file__).parent))
+        import sportlevel
+        avisos += sportlevel.buscar(conf, hoy)
+    except Exception as e:
+        print(f"SportLevel sin datos por ahora ({e})")
+
     for c in conf:
         if not c.get("auto"):
             continue
-        if not c.get("organiza") and c.get("activo") is not None:
+        if not c.get("organiza") and c.get("activo") is not None and c.get("fuente") != "sportlevel":
             org, sedes = buscar_instagram(c["id"])  # reintenta cada día hasta encontrarlo
             if org:
                 c["organiza"], c["sedes_ig"] = org, sedes

@@ -157,6 +157,7 @@ def armar_trabajos(listos, conf, hist):
                 "torneo": torneo,
                 "corto": info.get("corto", "Torneo"),
                 "organiza": info.get("organiza", ""),
+                "fuente": info.get("fuente") or "overgrip",
                 "tema": rama,
                 "fondo": f"../../marca/fondos/{f_rosa if rama == 'rosa' else f_azul}",
                 "strip": rot + (" · Damas" if rama == "rosa" else ""),
@@ -192,8 +193,9 @@ def dibujar(trabajos):
         if d["tema"] == "rosa":
             css += ".gold{background:linear-gradient(180deg,#ffe0ee 0%,#ff6fa8 45%,#c23a78 58%,#ff8fbd 100%);-webkit-background-clip:text}"
         org = f'Torneo <b>@{d["organiza"]}</b> · ' if d["organiza"] else ""
-        foot = ('<div class=foot><div class=live><span class=dot></span>Seguilo en vivo en app.overgrip.com.ar</div>'
-                f'<div class=cred>{org}Resultados <b>@overgripapp</b></div>'
+        sitio, cred, _ = especiales.fuente(d)
+        foot = (f'<div class=foot><div class=live><span class=dot></span>Seguilo en vivo en {sitio}</div>'
+                f'<div class=cred>{org}{cred}</div>'
                 '<div class=brand>@SURPADELSTORE · SURPADEL.COM.AR</div></div>')
         cards = "".join(premier.scoreboard(m, m["tag"]) for m in d["partidos"])
         body = (f'<div class=strip><div class=a{especiales.franja(d["corto"])}>{d["corto"]}</div><div class=b>{d["strip"]}</div></div>'
