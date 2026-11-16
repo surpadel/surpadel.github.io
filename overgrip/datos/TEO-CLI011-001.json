@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 21:38",
+"actualizado": "2026-11-15 22:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -45,7 +45,7 @@
 "011001-C5-B1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
@@ -58,13 +58,13 @@
 "011001-C5-B2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:30",
 "inst": "Zona",
 "p1": "Aguilar, Gabriel Gastón / Rojos, Cristian",
 "p2": "Romano, Franco Martín / Romano, Claudio Paul",
-"res": "",
+"res": "6/2 1/6 7/6",
 "sede": "EVA",
 "zona": "B"
 },
@@ -162,13 +162,13 @@
 "011001-C5-E1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Godoy, Emanuel / Godoy, Tobias",
 "p2": "Schmerkin, Leonardo / Scoglio, Julián",
-"res": "",
+"res": "4/6 7/5 7/6",
 "sede": "EVA",
 "zona": "E"
 },
@@ -968,7 +968,7 @@
 "011001-C7-G2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
@@ -1007,13 +1007,13 @@
 "011001-C7-H2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Livoi, Brian Nahuel / Melia, Luciano",
 "p2": "Babuin, Juan Ignacio / Dupont, Leandro",
-"res": "",
+"res": "7/6 7/6",
 "sede": "EVA",
 "zona": "H"
 },
@@ -1228,7 +1228,7 @@
 "011001-D7-D2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "22:15",
 "inst": "Zona",
