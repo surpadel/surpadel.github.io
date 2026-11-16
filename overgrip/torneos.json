@@ -3,7 +3,13 @@
   "id": "TEO-CLI006-001",
   "corto": "JPQ 4°",
   "organiza": "jpqpadelquilmes",
-  "activo": false
+  "activo": false,
+  "fondos": {
+   "azul": "fondo-18-terraza-ciudad.jpg",
+   "rosa": "fondo-27-rosa-neon.png",
+   "final_azul": "fondo-14-campeones-confeti.jpg",
+   "final_rosa": "fondo-43-final-rosa-fuegos.jpg"
+  }
  },
  {
   "id": "TEO-CLI009-001",
@@ -25,7 +31,13 @@
   "estado": "Finalizado",
   "auto": true,
   "activo": false,
-  "alta": "2026-11-01"
+  "alta": "2026-11-01",
+  "fondos": {
+   "azul": "fondo-12-club-canchas.jpg",
+   "rosa": "fondo-16-rosa-red.jpg",
+   "final_azul": "fondo-40-final-azul-fuegos.jpg",
+   "final_rosa": "fondo-43-final-rosa-fuegos.jpg"
+  }
  },
  {
   "id": "TEO-CLI008-001",
@@ -53,7 +65,13 @@
   "estado": "En Curso",
   "auto": true,
   "activo": true,
-  "alta": "2026-11-01"
+  "alta": "2026-11-01",
+  "fondos": {
+   "azul": "fondo-12-club-canchas.jpg",
+   "rosa": "fondo-33-rosa-tribuna.jpg",
+   "final_azul": "fondo-41-final-azul-spot.jpg",
+   "final_rosa": "fondo-44-final-rosa-spot.jpg"
+  }
  },
  {
   "id": "TEO-CLI011-001",
@@ -84,7 +102,13 @@
   "estado": "En Curso",
   "auto": true,
   "activo": true,
-  "alta": "2026-11-01"
+  "alta": "2026-11-01",
+  "fondos": {
+   "azul": "fondo-04-cenital.jpg",
+   "rosa": "fondo-16-rosa-red.jpg",
+   "final_azul": "fondo-40-final-azul-fuegos.jpg",
+   "final_rosa": "fondo-43-final-rosa-fuegos.jpg"
+  }
  },
  {
   "id": "TEO-CLI010-001",
@@ -108,7 +132,13 @@
   "estado": "En Curso",
   "auto": true,
   "activo": true,
-  "alta": "2026-11-01"
+  "alta": "2026-11-01",
+  "fondos": {
+   "azul": "fondo-09-publico.jpg",
+   "rosa": "fondo-34-rosa-cenital.jpg",
+   "final_azul": "fondo-14-campeones-confeti.jpg",
+   "final_rosa": "fondo-42-final-rosa-confeti.jpg"
+  }
  },
  {
   "id": "TEO-CLI015-001",
@@ -143,7 +173,13 @@
   "estado": "Inscripción Abierta",
   "auto": true,
   "activo": false,
-  "alta": "2026-11-01"
+  "alta": "2026-11-01",
+  "fondos": {
+   "azul": "fondo-08-cancha-mojada.jpg",
+   "rosa": "fondo-15-rosa-arena.jpg",
+   "final_azul": "fondo-39-final-azul-podio.jpg",
+   "final_rosa": "fondo-42-final-rosa-confeti.jpg"
+  }
  },
  {
   "id": "TEO-CLI013-001",
@@ -171,7 +207,13 @@
   "estado": "Inscripción Abierta",
   "auto": true,
   "activo": false,
-  "alta": "2026-11-01"
+  "alta": "2026-11-01",
+  "fondos": {
+   "azul": "fondo-13-reflejos.jpg",
+   "rosa": "fondo-33-rosa-tribuna.jpg",
+   "final_azul": "fondo-40-final-azul-fuegos.jpg",
+   "final_rosa": "fondo-43-final-rosa-fuegos.jpg"
+  }
  },
  {
   "id": "TEO-CLI012-001",
@@ -199,7 +241,13 @@
   "estado": "Inscripción Abierta",
   "auto": true,
   "activo": false,
-  "alta": "2026-11-01"
+  "alta": "2026-11-01",
+  "fondos": {
+   "azul": "fondo-25-club-industrial.png",
+   "rosa": "fondo-15-rosa-arena.jpg",
+   "final_azul": "fondo-39-final-azul-podio.jpg",
+   "final_rosa": "fondo-42-final-rosa-confeti.jpg"
+  }
  },
  {
   "id": "TEO-CLI005-002",
@@ -229,7 +277,13 @@
   "estado": "Inscripción Abierta",
   "auto": true,
   "activo": false,
-  "alta": "2026-11-07"
+  "alta": "2026-11-07",
+  "fondos": {
+   "azul": "fondo-02-red-arena.jpg",
+   "rosa": "fondo-33-rosa-tribuna.jpg",
+   "final_azul": "fondo-41-final-azul-spot.jpg",
+   "final_rosa": "fondo-44-final-rosa-spot.jpg"
+  }
  },
  {
   "id": "SL-distrito-padel-center-open-3",
@@ -266,7 +320,13 @@
   "estado": "En Curso",
   "activo": false,
   "alta": "2026-11-15",
-  "nota": "Se sumó el día de las finales: los campeones se publicaron a mano con vista previa (Nico, 15/11)."
+  "nota": "Se sumó el día de las finales: los campeones se publicaron a mano con vista previa (Nico, 15/11).",
+  "fondos": {
+   "azul": "fondo-01-arena-tribuna.jpg",
+   "rosa": "fondo-15-rosa-arena.jpg",
+   "final_azul": "fondo-39-final-azul-podio.jpg",
+   "final_rosa": "fondo-42-final-rosa-confeti.jpg"
+  }
  },
  {
   "id": "SL-grand-master-alpha-padel-2026",
@@ -288,6 +348,12 @@
   "estado": "Inscripción abierta",
   "auto": true,
   "activo": false,
-  "alta": "2026-11-15"
+  "alta": "2026-11-15",
+  "fondos": {
+   "azul": "fondo-10-tunel.jpg",
+   "rosa": "fondo-16-rosa-red.jpg",
+   "final_azul": "fondo-41-final-azul-spot.jpg",
+   "final_rosa": "fondo-44-final-rosa-spot.jpg"
+  }
  }
 ]

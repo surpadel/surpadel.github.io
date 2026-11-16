@@ -28,6 +28,9 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+import identidad  # noqa: E402
+
 RAIZ = Path(__file__).resolve().parent.parent
 DATOS = RAIZ / "overgrip" / "datos"
 NOV = DATOS / "novedades.json"
@@ -159,7 +162,8 @@ def armar_trabajos(listos, conf, hist):
                 "organiza": info.get("organiza", ""),
                 "fuente": info.get("fuente") or "overgrip",
                 "tema": rama,
-                "fondo": f"../../marca/fondos/{f_rosa if rama == 'rosa' else f_azul}",
+                # cada torneo tiene su fondo (identidad), igual en todas sus instancias
+                "fondo": f"../../marca/fondos/{identidad.fondo(info, rama, final=(inst == 'Final'))}",
                 "strip": rot + (" · Damas" if rama == "rosa" else ""),
                 "titulo": titulo,
                 "partidos": [
@@ -188,7 +192,7 @@ def dibujar(trabajos):
     def html(d):
         t = gen.THEMES[d["tema"]]
         css = premier.base_css(t, 1080, 1920, d["fondo"]) + (
-            ".wrap{padding:150px 70px 230px}"
+            ".wrap{padding:140px 70px 230px}"
             ".list{width:100%;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px;padding:40px 0 60px}")
         if d["tema"] == "rosa":
             css += ".gold{background:linear-gradient(180deg,#ffe0ee 0%,#ff6fa8 45%,#c23a78 58%,#ff8fbd 100%);-webkit-background-clip:text}"
@@ -198,10 +202,9 @@ def dibujar(trabajos):
                 f'<div class=cred>{org}{cred}</div>'
                 '<div class=brand>@SURPADELSTORE · SURPADEL.COM.AR</div></div>')
         cards = "".join(premier.scoreboard(m, m["tag"]) for m in d["partidos"])
-        body = (f'<div class=strip><div class=a{especiales.franja(d["corto"])}>{d["corto"]}</div><div class=b>{d["strip"]}</div></div>'
-                f'<img class=logo style="margin-top:46px" src="data:image/png;base64,{gen.LOGO}">'
-                f'<div class=metal style="font-size:124px;margin-top:22px">{d["titulo"]}</div>'
-                f'<div class=list>{cards}</div>{foot}')
+        body = (premier.cabecera(t, d["corto"], d["strip"], d["titulo"], gen.LOGO,
+                                 compacto=len(d["partidos"]) >= 6)
+                + f'<div class=list>{cards}</div>{foot}')
         return (f"<html><head><meta charset=utf-8><style>{css}</style></head>"
                 f"<body>{premier.deco(t)}<div class=wrap>{body}</div></body></html>")
 

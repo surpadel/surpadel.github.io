@@ -18,6 +18,9 @@ import sys
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+import identidad  # noqa: E402
+
 RAIZ = Path(__file__).resolve().parent.parent
 DATOS = RAIZ / "overgrip" / "datos"
 DIAS = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
@@ -150,6 +153,7 @@ def trabajos(conf, hist, ahora):
                 elegidos.sort(key=lambda p: p["cat"])
                 out.append({
                     "tipo": "zona", "clave": clave, "torneo": c["id"], "inst": "Zonas", "tema": rama,
+                    "fondo": identidad.fondo(c, rama),
                     "fuente": c.get("fuente") or "overgrip",
                     "corto": c.get("corto", "Torneo"), "organiza": c.get("organiza", ""),
                     "strip": f"Zonas · {DIAS[dd.weekday()]}" + (" · Damas" if rama == "rosa" else ""),
@@ -184,6 +188,7 @@ def trabajos(conf, hist, ahora):
                 dam = [k.replace("Damas ", "") for k in sorted(por_cat) if k.startswith("Damas")]
                 out.append({
                     "tipo": "llaves", "clave": clave, "torneo": c["id"], "inst": "Llaves", "tema": "azul",
+                    "fondo": identidad.fondo(c, "azul"),
                     "fuente": c.get("fuente") or "overgrip",
                     "corto": c.get("corto", "Torneo"), "organiza": c.get("organiza", ""),
                     "caballeros": cab, "damas": dam, "desde": dia_texto(desde) if desde else "",
@@ -202,7 +207,7 @@ def _html(d, gen, premier):
     fondos = {("hoy", "azul"): "fondo-09-publico.jpg", ("hoy", "rosa"): "fondo-15-rosa-arena.jpg",
               ("zona", "azul"): "fondo-12-club-canchas.jpg", ("zona", "rosa"): "fondo-17-rosa-cesped.jpg",
               ("llaves", "azul"): "fondo-10-tunel.jpg"}
-    fondo = "../../marca/fondos/" + fondos[(d["tipo"], d["tema"])]
+    fondo = "../../marca/fondos/" + (d.get("fondo") or fondos[(d["tipo"], d["tema"])])
     css = premier.base_css(t, 1080, 1920, fondo) + f"""
 .wrap{{padding:150px 70px 230px}}
 .list{{width:100%;flex:1;display:flex;flex-direction:column;justify-content:center;gap:18px;padding:36px 0 50px}}
@@ -247,8 +252,7 @@ def _html(d, gen, premier):
                 '<div class=brand>@SURPADELSTORE · SURPADEL.COM.AR</div></div>')
     elif d["tipo"] == "zona":
         cards = "".join(premier.scoreboard(m, m["tag"]) for m in d["partidos"])
-        body = (f'<div class=strip><div class=a{franja(d["corto"])}>{d["corto"]}</div><div class=b>{d["strip"]}</div></div>{logo}'
-                f'<div class=metal style="font-size:112px;margin-top:22px">Lo mejor de<br>las <span class=gold>zonas</span></div>'
+        body = (premier.cabecera(t, d["corto"], d["strip"], 'Lo mejor de las <span class=gold>zonas</span>', gen.LOGO, 70) +
                 f'<div class=list>{cards}</div>'
                 f'<div class=foot><div class=live><span class=dot></span>Todas las zonas en {sitio}</div>'
                 f'<div class=cred>{org}{cred}</div>{seguinos}</div>')
@@ -260,8 +264,7 @@ def _html(d, gen, premier):
                         '<div class=cats>' + "".join(f"<span>{x}</span>" for x in cats) + "</div></div>")
         desde = f'<div class=lead>Se juegan desde el <b>{d["desde"]}</b>.<br>Mirá tu cruce y tu horario en {sistema}.</div>' if d["desde"] else \
             f'<div class=lead>Mirá tu cruce y tu horario en {sistema}.</div>'
-        body = (f'<div class=strip><div class=a{franja(d["corto"])}>{d["corto"]}</div><div class=b>Llaves</div></div>{logo}'
-                f'<div class=metal style="font-size:124px;margin-top:22px">Ya están<br>las <span class=gold>llaves</span></div>'
+        body = (premier.cabecera(t, d["corto"], "Llaves", 'Ya están las <span class=gold>llaves</span>', gen.LOGO) +
                 f'{desde}<div class=list>{blk}</div>'
                 f'<div class=foot><div class=live><span class=dot></span>Cruces y horarios en {sitio}</div>'
                 f'<div class=cred>{org}{cred}</div>{seguinos}</div>')

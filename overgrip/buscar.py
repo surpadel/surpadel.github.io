@@ -218,6 +218,11 @@ def main():
             avisos.append(f"- ⏹️ Terminó el seguimiento de **{c['nombre']}**")
         c["activo"] = activo
 
+    # identidad: cada torneo nuevo recibe su fondo propio (el menos usado entre los vigentes)
+    sys.path.insert(0, str(Path(__file__).parent))
+    import identidad
+    identidad.asignar(conf, hoy)
+
     if prueba:
         print(json.dumps(conf, ensure_ascii=False, indent=1))
         print("\n".join(avisos))

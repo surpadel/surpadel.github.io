@@ -52,6 +52,25 @@ FOOT = ('<div class=foot><div class=live><span class=dot></span>Seguilo en vivo 
         '<div class=cred>Torneo <b>@jpqpadelquilmes</b> · Resultados <b>@overgripapp</b></div>'
         '<div class=brand>@SURPADELSTORE · SURPADEL.COM.AR</div></div>')
 
+def tam_torneo(nombre):
+    """Tamaño del nombre del torneo: lo más grande que entra en una línea."""
+    n = len(nombre)
+    return 156 if n <= 8 else 132 if n <= 11 else 112 if n <= 14 else 96 if n <= 17 else 82 if n <= 21 else 68
+
+
+def cabecera(t, corto, etiqueta, titulo, logo, tam_titulo=78, compacto=False):
+    """Escudo, nombre del torneo bien grande, etiqueta (instancia) y título dorado.
+    compacto: para historias con 6 marcadores, así el pie no baja a la zona de respuesta."""
+    tam, lg = tam_torneo(corto), 96
+    if compacto:
+        tam, lg, tam_titulo = int(tam * .8), 76, int(tam_titulo * .85)
+    return (f'<img class=logo style="width:{lg}px;height:{lg}px" src="data:image/png;base64,{logo}">'
+            f'<div class=metal style="font-size:{tam}px;margin-top:12px;max-width:950px;'
+            f'padding:0 10px 6px">{corto}</div>'
+            f'<div style="width:220px;height:4px;margin-top:14px;background:linear-gradient(90deg,transparent,{t["hot"]},transparent)"></div>'
+            f'<div class=kick style="margin-top:16px">{etiqueta}</div>'
+            f'<div class=metal style="font-size:{tam_titulo}px;margin-top:6px">{titulo}</div>')
+
 def scoreboard(m, label):
     def sets(sc, mine):
         out = ""
