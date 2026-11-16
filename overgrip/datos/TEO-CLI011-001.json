@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 22:38",
+"actualizado": "2026-11-15 23:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -825,7 +825,7 @@
 "011001-C7-C3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "22:15",
 "inst": "Zona",
@@ -968,13 +968,13 @@
 "011001-C7-G2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Achar, Rodrigo / Casarero, Jonathan",
 "p2": "Durante, Ariel / Oldani, Cristian",
-"res": "",
+"res": "6/2 6/4",
 "sede": "EVA",
 "zona": "G"
 },

@@ -1148,5 +1148,48 @@
   "en_buffer": "6afa5eddd7e5fee63892e827",
   "modo": "auto",
   "publicada_en": "2026-11-15 22:39"
+ },
+ {
+  "creada": "2026-11-15 23:09",
+  "torneo": "TEO-CLI011-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI011-001-2026-11-15-azul",
+  "organiza": "metropadeloficial",
+  "etiquetas": [
+   "metropadeloficial"
+  ],
+  "codigos": {
+   "011001-C5-B2": "6/2 1/6 7/6",
+   "011001-C5-E1": "4/6 7/5 7/6",
+   "011001-C5-H2": "6/2 6/7 6/4",
+   "011001-C6-I3": "6/3 0/6 6/4",
+   "011001-C7-H2": "7/6 7/6"
+  },
+  "archivo": "TEO-CLI011-001/zonas-2026-11-15-azul.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/zonas-2026-11-15-azul.png",
+  "alt": "Lo mejor de las zonas del domingo 15/11: Caballeros 5ta, ganaron Romano F. / Romano C. 6/2 1/6 7/6; Caballeros 5ta, ganaron Godoy E. / Godoy T. 4/6 7/5 7/6; Caballeros 5ta, ganaron Alegre S. / Robledo Á. 6/2 6/7 6/4; Caballeros 6ta, ganaron Cabello R. / Pérez L. 6/3 0/6 6/4; Caballeros 7ma, ganaron Livoi B. / Melia L. 7/6 7/6",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-15 23:09",
+  "torneo": "TEO-CLI011-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI011-001-2026-11-15-rosa",
+  "organiza": "metropadeloficial",
+  "etiquetas": [
+   "metropadeloficial"
+  ],
+  "codigos": {
+   "011001-D7-A4": "7/6 3/6 6/3",
+   "011001-D7-C2": "6/4 4/6 6/2",
+   "011001-D7-C3": "6/4 6/4",
+   "011001-D7-A3": "6/2 7/5"
+  },
+  "archivo": "TEO-CLI011-001/zonas-2026-11-15-rosa.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/zonas-2026-11-15-rosa.png",
+  "alt": "Lo mejor de las zonas del domingo 15/11: Damas 7ma, ganaron Bruno T. / Simonetti M. 7/6 3/6 6/3; Damas 7ma, ganaron Barraza C. / Ferraro C. 6/4 4/6 6/2; Damas 7ma, ganaron Mayer S. / Miksa S. 6/4 6/4; Damas 7ma, ganaron López Muollo A. / Polizzotto M. 6/2 7/5",
+  "publicada": false
  }
 ]
