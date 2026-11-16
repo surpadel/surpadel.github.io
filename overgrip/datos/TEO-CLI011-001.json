@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-16 00:08",
+"actualizado": "2026-11-16 08:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -344,26 +344,26 @@
 "011001-C6-A3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Almiron, Agustín / Felitte, Damián",
 "p2": "Cappelletti, Cristian / Martínez, Fernando",
-"res": "",
+"res": "6/3 4/6 7/5",
 "sede": "Real",
 "zona": "A"
 },
 "011001-C6-A4": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Ayala, Ezequiel / Mollar Vigh, Patricio",
 "p2": "Bonaffini, Esteban / Jose, Isaias",
-"res": "",
+"res": "6/1 5/7 6/4",
 "sede": "Real",
 "zona": "A"
 },
@@ -591,13 +591,13 @@
 "011001-C6-G2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Fons, Pablo Alberto / Roura, Ignacio Daniel",
 "p2": "Casas, Luis / Escobar, Martín",
-"res": "",
+"res": "6/2 6/2",
 "sede": "Real",
 "zona": "G"
 },
