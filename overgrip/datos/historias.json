@@ -1130,5 +1130,20 @@
   "en_buffer": "6afa42a5a869c35e5ba4028a",
   "modo": "auto",
   "publicada_en": "2026-11-15 20:39"
+ },
+ {
+  "creada": "2026-11-15 22:39",
+  "torneo": "TEO-CLI010-001",
+  "inst": "Final",
+  "organiza": "padelelevenroute",
+  "codigos": {
+   "010001-C6-64": "6/3 1/6 11/9",
+   "010001-C7-64": "7/5 6/0"
+  },
+  "archivo": "TEO-CLI010-001/final-azul-1115-2239-1.png",
+  "grupo": "TEO-CLI010-001|Final|azul|2026-11-15",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI010-001/final-azul-1115-2239-1.png",
+  "alt": "Finales: Caballeros 6ta, ganaron Albariño R. / Morales M. 6/3 1/6 11/9; Caballeros 7ma, ganaron Maidana E. / Olmo E. 7/5 6/0",
+  "publicada": false
  }
 ]

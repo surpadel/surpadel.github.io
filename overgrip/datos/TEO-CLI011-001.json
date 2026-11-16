@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 22:08",
+"actualizado": "2026-11-15 22:38",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -396,7 +396,7 @@
 "011001-C6-B3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "22:15",
 "inst": "Zona",
@@ -942,7 +942,7 @@
 "011001-C7-F3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "22:15",
 "inst": "Zona",
@@ -1176,13 +1176,13 @@
 "011001-D7-C1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Barraza, Camila / Ferraro, Chiara",
 "p2": "Mayer, Stefania / Miksa, Sofia",
-"res": "",
+"res": "6/3 6/3",
 "sede": "EVA",
 "zona": "C"
 },

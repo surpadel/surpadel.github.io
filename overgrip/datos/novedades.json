@@ -1445,6 +1445,27 @@
     "res": "7/5 6/0",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI010-001",
+  "hora": "2026-11-15 22:38",
+  "partidos": [
+   {
+    "codigo": "010001-C6-64",
+    "cat": "Caballeros 6ta",
+    "inst": "Final",
+    "dia": "2026-11-15",
+    "hora": "19:00",
+    "sede": "Eleven",
+    "estado": "Finalizado",
+    "p1": "Albariño, Rodrigo / Morales, Máximo",
+    "p2": "Irazu, Camila / Somma, Diego Alejandro",
+    "res": "6/3 1/6 11/9",
+    "gan": 1
+   }
+  ],
+  "dibujada": true
  }
 ]
