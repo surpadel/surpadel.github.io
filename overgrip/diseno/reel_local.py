@@ -126,6 +126,11 @@ html,body{{width:1080px;height:1920px;background:transparent;overflow:hidden;fon
 .fila.l .ti b{{background-color:#d5dbe3;color:rgba(7,21,40,.5)}}
 .fila.l .ti b.w{{background-color:#0b1d36;color:#fff}}
 
+/* planillas compactas: 4 o 5 finales en pantalla */
+.pl.c{{padding:44px 24px 14px 24px}} .pl.c .fila{{height:62px}} .pl.c .fila .nm{{font-size:44px}}
+.pl.c .fila.l .nm{{font-size:38px}} .pl.c .ti{{width:58px;height:58px;margin-left:8px}} .pl.c .ti b{{font-size:42px}}
+.pl.c .tab{{font-size:32px;top:-16px;padding:4px 20px 2px}} .pl.c .est{{font-size:34px;width:34px}}
+
 /* rama propia por planilla (torneos mixtos): sobrescribe el acento */
 """ + "".join(f"""
 .pl.r-{r} .tab{{background:{a};color:{t}}} .pl.r-{r} .ti b.w{{background-color:{a};color:{t}}}
@@ -174,8 +179,9 @@ def sello(ac):
             f'{cruz(ac, 1.15)}<circle cx="100" cy="100" r="0"/></svg></div>')
 
 
-def planilla(i, p, t0):
-    top = 600 + i * 300
+def planilla(i, p, t0, n=3):
+    top, paso = {4: (560, 235), 5: (520, 205)}.get(n, (600, 300))
+    top += i * paso
     r = (-1.6, 1.2, -0.8, 1.4)[i % 4]
     d0 = t0 + .25
     fil = ""
@@ -187,7 +193,7 @@ def planilla(i, p, t0):
             tiles += f'<div class=ti><b class="{"w" if w else ""}" style="--d:{d0 + .12 * j + .06 * k:.2f}s">{v}</b></div>'
         fil += (f'<div class="fila {"" if gana else "l"}"><div class=est>★</div>'
                 f'<div class=nm><span style="--d:{d0 + .5:.2f}s">{pareja}</span></div>{tiles}</div>')
-    rama = f' r-{p["rama"]}' if p.get("rama") else ""
+    rama = (f' r-{p["rama"]}' if p.get("rama") else "") + (" c" if n > 3 else "")
     return (f'<div class="a pl{rama}" style="top:{top}px;--r:{r}deg;--r0:{r*4}deg;'
             f'animation:slap .45s {t0}s both,cut .2s {T_DATO}s forwards">'
             f'<div class=tab>{p["cat"]}</div><div class=pin></div>{fil}</div>')
@@ -195,11 +201,16 @@ def planilla(i, p, t0):
 
 def body(s):
     ac = PAL[s["rama"]][0]
-    cards = "".join(planilla(i, p, T_CARDS + .2 + .35 * i) for i, p in enumerate(s["partidos"][:3]))
+    ps = s["partidos"][:5]
+    cards = "".join(planilla(i, p, T_CARDS + .2 + .3 * i, len(ps)) for i, p in enumerate(ps))
     bars = "".join(f'<div class="a bar {c}" style="animation-delay:{t}s"></div>'
                    for t in (T_CARDS - .2, T_DATO - .2, T_CIERRE - .2) for c in ("b1",)) + \
            "".join(f'<div class="a bar b2" style="animation-delay:{t + .08}s"></div>' for t in (T_CARDS - .2, T_DATO - .2, T_CIERRE - .2))
-    d = s["dato"]
+    d = s.get("dato")
+    cab_top = ' style="top:340px"' if len(ps) == 5 else (' style="top:380px"' if len(ps) == 4 else "")
+    dato = (f'<div class="a cinta dk">{d["etiqueta"]}</div>'
+            f'<div class="a dn"><span class=o>{d["numero"]}</span></div>'
+            f'<div class="a dt">{d["texto"]}</div>') if d else ""
     return (
         '<div class="a v1"></div><div class="a v2"></div><div class="a v3"></div>'
         + sello(ac)
@@ -207,11 +218,9 @@ def body(s):
         + f'<div class="a cinta c-sub">{s["sub"]}</div>'
         + f'<div class="a tit h1">{s["titulo"][0]}</div>'
         + f'<div class="a tit h2"><span class=o>{s["titulo"][1]}</span></div>'
-        + f'<div class="a tit cab">{s["cabecera"][0]} <span class=o>{s["cabecera"][1]}</span></div>'
+        + f'<div class="a tit cab"{cab_top}>{s["cabecera"][0]} <span class=o>{s["cabecera"][1]}</span></div>'
         + cards
-        + f'<div class="a cinta dk">{d["etiqueta"]}</div>'
-        + f'<div class="a dn"><span class=o>{d["numero"]}</span></div>'
-        + f'<div class="a dt">{d["texto"]}</div>'
+        + dato
         + f'<img class="a logo" src="data:image/png;base64,{LOGO}">'
         + f'<div class="a tit f1">{s["cierre"][0]}<br><span class=o>{s["cierre"][1]}</span></div>'
         + '<div class="a f2"><div class=pill>Seguí a <span>@surpadelstore</span></div></div>'
@@ -262,8 +271,17 @@ def montar(s, carpeta, salida):
                     "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(salida)], check=True)
 
 
+def sin_dato(s):
+    """Sin "dato" en el spec (pedido de Nico, 15/11: solo resultados): las planillas
+    quedan hasta el cierre y el fondo cambia recién ahí."""
+    global T_DATO
+    if not s.get("dato"):
+        T_DATO = T_CIERRE
+
+
 if __name__ == "__main__":
     spec = json.loads(pathlib.Path(sys.argv[1]).read_text())
+    sin_dato(spec)
     with tempfile.TemporaryDirectory() as tmp:
         cuadros(spec, tmp)
         montar(spec, tmp, pathlib.Path(sys.argv[2]).resolve())

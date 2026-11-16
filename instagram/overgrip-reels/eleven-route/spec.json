@@ -1,17 +1,93 @@
 {
-  "rama": "cab",
-  "torneo": "Torneo Eleven Route",
-  "sub": "Eleven Route · La Plata",
-  "organiza": "padelelevenroute",
-  "titulo": ["Los", "campeones"],
-  "cabecera": ["Así se", "coronaron"],
-  "partidos": [
-    {"cat": "Caballeros 6ta", "rama": "cab", "ganan": "Albariño / Morales", "pierden": "Irazu / Somma", "sets": [[6,3],[1,6],[11,9]]},
-    {"cat": "Caballeros 7ma", "rama": "cab", "ganan": "Maidana / Olmo", "pierden": "Robledo / Segovia", "sets": [[7,5],[6,0]]},
-    {"cat": "Damas 6ta", "rama": "dam", "ganan": "Corsetti / Perretta", "pierden": "Arranz / Novoa", "sets": [[7,6],[6,2]]}
-  ],
-  "dato": {"etiqueta": "Final al límite", "numero": "11-9",
-           "texto": "La final de 6ta caballeros se definió en el <em>super tie-break</em> después de un 1-6 en el segundo set"},
-  "cierre": ["Pádel de acá,", "al día"],
-  "fondos": ["instagram/banco-tomas/toma10-club-barrio.mp4", "marca/fondos/fondo-29-tinglado-barrio.png", "marca/fondos/fondo-31-banco-club.png"]
+ "rama": "cab",
+ "torneo": "Torneo Eleven Route",
+ "sub": "Eleven Route · La Plata",
+ "organiza": "padelelevenroute",
+ "titulo": [
+  "Los",
+  "campeones"
+ ],
+ "cabecera": [
+  "Así se",
+  "coronaron"
+ ],
+ "partidos": [
+  {
+   "cat": "Caballeros 6ta",
+   "rama": "cab",
+   "ganan": "Albariño / Morales",
+   "pierden": "Irazu / Somma",
+   "sets": [
+    [
+     6,
+     3
+    ],
+    [
+     1,
+     6
+    ],
+    [
+     11,
+     9
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 7ma",
+   "rama": "cab",
+   "ganan": "Maidana / Olmo",
+   "pierden": "Robledo / Segovia",
+   "sets": [
+    [
+     7,
+     5
+    ],
+    [
+     6,
+     0
+    ]
+   ]
+  },
+  {
+   "cat": "Damas 6ta",
+   "rama": "dam",
+   "ganan": "Corsetti / Perretta",
+   "pierden": "Arranz / Novoa",
+   "sets": [
+    [
+     7,
+     6
+    ],
+    [
+     6,
+     2
+    ]
+   ]
+  },
+  {
+   "cat": "Damas 7ma",
+   "rama": "dam",
+   "ganan": "De Luca / Mesa",
+   "pierden": "Borro / González",
+   "sets": [
+    [
+     7,
+     6
+    ],
+    [
+     6,
+     2
+    ]
+   ]
+  }
+ ],
+ "cierre": [
+  "Pádel de acá,",
+  "al día"
+ ],
+ "fondos": [
+  "instagram/banco-tomas/toma10-club-barrio.mp4",
+  "marca/fondos/fondo-29-tinglado-barrio.png",
+  "marca/fondos/fondo-31-banco-club.png"
+ ]
 }

@@ -1,17 +1,108 @@
 {
-  "rama": "cab",
-  "torneo": "Juvepa",
-  "sub": "Torneo Malvinas Argentinas",
-  "organiza": "juvepa.lp",
-  "titulo": ["Los", "campeones"],
-  "cabecera": ["Así se", "coronaron"],
-  "partidos": [
-    {"cat": "Caballeros 4ta +40", "ganan": "Gómez / Ledesma", "pierden": "Carra / Ramos", "sets": [[6,2],[7,6]]},
-    {"cat": "Caballeros 5ta +40", "ganan": "Erceg / Ríos", "pierden": "Chiodini / Hatrick", "sets": [[6,2],[6,3]]},
-    {"cat": "Caballeros 5ta +50", "ganan": "Ambrosetti / García", "pierden": "Gural / Quatrocchi", "sets": [[7,6],[6,2]]}
-  ],
-  "dato": {"etiqueta": "La vuelta de 6ta +40", "numero": "6-0",
-           "texto": "Bussain / Ybarra perdieron el primer set de la final y la dieron vuelta con un <em>6-0</em> en el tercero"},
-  "cierre": ["Pádel de acá,", "al día"],
-  "fondos": ["instagram/banco-tomas/toma11-tinglado.mp4", "marca/fondos/fondo-30-club-barrio-noche.png", "marca/fondos/fondo-32-entrada-club.png"]
+ "rama": "cab",
+ "torneo": "Juvepa",
+ "sub": "Torneo Malvinas Argentinas",
+ "organiza": "juvepa.lp",
+ "titulo": [
+  "Los",
+  "campeones"
+ ],
+ "cabecera": [
+  "Así se",
+  "coronaron"
+ ],
+ "partidos": [
+  {
+   "cat": "Caballeros 4ta +40",
+   "ganan": "Gómez / Ledesma",
+   "pierden": "Carra / Ramos",
+   "sets": [
+    [
+     6,
+     2
+    ],
+    [
+     7,
+     6
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 5ta +40",
+   "ganan": "Erceg / Ríos",
+   "pierden": "Chiodini / Hatrick",
+   "sets": [
+    [
+     6,
+     2
+    ],
+    [
+     6,
+     3
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 5ta +50",
+   "ganan": "Ambrosetti / García",
+   "pierden": "Gural / Quatrocchi",
+   "sets": [
+    [
+     7,
+     6
+    ],
+    [
+     6,
+     2
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 6ta +40",
+   "ganan": "Bussain / Ybarra",
+   "pierden": "Barrios / Gómez",
+   "sets": [
+    [
+     2,
+     6
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     6,
+     0
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 6ta +50",
+   "ganan": "Gutiérrez / Quinteros",
+   "pierden": "Armenti / Pantuso",
+   "sets": [
+    [
+     4,
+     6
+    ],
+    [
+     6,
+     2
+    ],
+    [
+     6,
+     1
+    ]
+   ]
+  }
+ ],
+ "cierre": [
+  "Pádel de acá,",
+  "al día"
+ ],
+ "fondos": [
+  "instagram/banco-tomas/toma11-tinglado.mp4",
+  "marca/fondos/fondo-30-club-barrio-noche.png",
+  "marca/fondos/fondo-32-entrada-club.png"
+ ]
 }
