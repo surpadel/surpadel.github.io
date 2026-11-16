@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 20:38",
+"actualizado": "2026-11-15 21:08",
 "cruces": {
 "010001-C6-50": {
 "cat": "Caballeros 6ta",
@@ -160,13 +160,13 @@
 "010001-C7-64": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:00",
 "inst": "Final",
 "p1": "Robledo, Tobías Santino / Segovia, Emir Andrés",
 "p2": "Maidana, Enzo / Olmo, Ezequiel Darío",
-"res": "",
+"res": "7/5 6/0",
 "sede": "Eleven"
 },
 "010001-D6-61": {

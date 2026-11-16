@@ -1,136 +1,5 @@
 [
  {
-  "torneo": "TEO-CLI006-001",
-  "hora": "2026-11-01 21:32",
-  "partidos": [
-   {
-    "codigo": "006001-C2-13",
-    "cat": "Caballeros 2da",
-    "inst": "Semifinal",
-    "dia": "2026-11-01",
-    "hora": "18:00",
-    "sede": "Real",
-    "estado": "Finalizado",
-    "p1": "Covucci, Leandro / Vélez, Matías",
-    "p2": "Duarte, Benjamín / Lagana, Mariano",
-    "res": "7/6 3/6 6/2",
-    "gan": 1
-   },
-   {
-    "codigo": "006001-C4-62",
-    "cat": "Caballeros 4ta",
-    "inst": "Semifinal",
-    "dia": "2026-11-01",
-    "hora": "18:00",
-    "sede": "Real",
-    "estado": "Finalizado",
-    "p1": "Reynoso, Julio Leandro / Sacarelo, Nicolás",
-    "p2": "Lorefice, Fernando Adrián / Reartes, Franco Javier",
-    "res": "3/6 7/5 7/5",
-    "gan": 1
-   },
-   {
-    "codigo": "006001-C6-64",
-    "cat": "Caballeros 6ta",
-    "inst": "Final",
-    "dia": "2026-11-01",
-    "hora": "19:00",
-    "sede": "El Portal",
-    "estado": "Finalizado",
-    "p1": "Aguilar, Gabriel Gastón / Isasi, Juan Cruz",
-    "p2": "Conde Meira, Matías / Salvatierra, Marcelo",
-    "res": "6/1 7/6",
-    "gan": 1
-   },
-   {
-    "codigo": "006001-C6+35-64",
-    "cat": "Caballeros 6ta +35",
-    "inst": "Final",
-    "dia": "2026-11-01",
-    "hora": "19:00",
-    "sede": "El Portal",
-    "estado": "Finalizado",
-    "p1": "Montejo, Leandro / Remorino, Nahuel",
-    "p2": "Peter, Daniel / Torres, Maxi",
-    "res": "2/6 6/1 6/3",
-    "gan": 2
-   },
-   {
-    "codigo": "006001-C5+40-64",
-    "cat": "Caballeros 5ta +40",
-    "inst": "Final",
-    "dia": "2026-11-01",
-    "hora": "19:30",
-    "sede": "Real",
-    "estado": "Finalizado",
-    "p1": "Ferreiro, Christian / Ruiz, Diego",
-    "p2": "Castillo, Jorge / Marcote, Sebastián",
-    "res": "6/4 7/5",
-    "gan": 2
-   },
-   {
-    "codigo": "006001-C7-64",
-    "cat": "Caballeros 7ma",
-    "inst": "Final",
-    "dia": "2026-11-01",
-    "hora": "19:30",
-    "sede": "Real",
-    "estado": "Finalizado",
-    "p1": "Bonaffini, Esteban / Jose, Isaias",
-    "p2": "Borras, Cristian Walter / Roberts, Kevin",
-    "res": "2/6 6/1 7/6",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI006-001",
-  "hora": "2026-11-01 23:17",
-  "partidos": [
-   {
-    "codigo": "006001-C3-64",
-    "cat": "Caballeros 3ra",
-    "inst": "Final",
-    "dia": "2026-11-01",
-    "hora": "20:30",
-    "sede": "El Portal",
-    "estado": "Finalizado",
-    "p1": "Cattaneo, Matías / Huenchuquir, Nahuel",
-    "p2": "Medina, Pablo Augusto / Moran, Leandro",
-    "res": "7/5 1/6 6/3",
-    "gan": 1
-   },
-   {
-    "codigo": "006001-C5-64",
-    "cat": "Caballeros 5ta",
-    "inst": "Final",
-    "dia": "2026-11-01",
-    "hora": "20:30",
-    "sede": "El Portal",
-    "estado": "Finalizado",
-    "p1": "Aristimuño, Gastón / Cavazzoni, Joaquín",
-    "p2": "Garcia Perales, Lucio / Herrera, Juan Cruz",
-    "res": "6/4 6/2",
-    "gan": 1
-   },
-   {
-    "codigo": "006001-C2-14",
-    "cat": "Caballeros 2da",
-    "inst": "Final",
-    "dia": "2026-11-01",
-    "hora": "21:00",
-    "sede": "Real",
-    "estado": "Finalizado",
-    "p1": "Guattini, Lautaro / Ruiz, Fernando",
-    "p2": "Covucci, Leandro / Vélez, Matías",
-    "res": "7/5 6/1",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
   "torneo": "TEO-CLI009-001",
   "hora": "2026-11-08 15:07",
   "partidos": [
@@ -1558,5 +1427,24 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI010-001",
+  "hora": "2026-11-15 21:08",
+  "partidos": [
+   {
+    "codigo": "010001-C7-64",
+    "cat": "Caballeros 7ma",
+    "inst": "Final",
+    "dia": "2026-11-15",
+    "hora": "19:00",
+    "sede": "Eleven",
+    "estado": "Finalizado",
+    "p1": "Robledo, Tobías Santino / Segovia, Emir Andrés",
+    "p2": "Maidana, Enzo / Olmo, Ezequiel Darío",
+    "res": "7/5 6/0",
+    "gan": 2
+   }
+  ]
  }
 ]

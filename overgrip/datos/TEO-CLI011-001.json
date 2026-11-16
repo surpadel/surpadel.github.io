@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 20:38",
+"actualizado": "2026-11-15 21:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -240,13 +240,13 @@
 "011001-C5-G1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Palacios, Nazareno / Ponce, César",
 "p2": "Mori, Franco / Rodríguez, Federico",
-"res": "",
+"res": "6/3 6/2",
 "sede": "Real",
 "zona": "G"
 },
@@ -591,7 +591,7 @@
 "011001-C6-G2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
