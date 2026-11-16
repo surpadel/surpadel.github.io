@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 23:38",
+"actualizado": "2026-11-16 00:08",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -396,13 +396,13 @@
 "011001-C6-B3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "22:15",
 "inst": "Zona",
 "p1": "Novello, Santiago / Rodríguez, Leonardo",
 "p2": "Maldonado, Matías Damián / Parra, Nicolás",
-"res": "",
+"res": "6/4 3/6 6/1",
 "sede": "Real",
 "zona": "B"
 },
@@ -1033,13 +1033,13 @@
 "011001-C7-I1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Jaime, Facundo / Jamardo, Agustín",
 "p2": "Poblete, Damian / Tortonesi, Danilo",
-"res": "",
+"res": "4/6 6/2 6/1",
 "sede": "Real",
 "zona": "I"
 },
@@ -1228,13 +1228,13 @@
 "011001-D7-D2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "22:15",
 "inst": "Zona",
 "p1": "Ali, Yessica / Toledo, Cintia",
 "p2": "Martino, Morena / Valdomar, Victoria",
-"res": "",
+"res": "6/2 6/7 6/1",
 "sede": "Real",
 "zona": "D"
 },
