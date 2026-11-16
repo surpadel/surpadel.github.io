@@ -209,7 +209,7 @@ def body(s):
         + f'<img class="a logo" src="data:image/png;base64,{LOGO}">'
         + f'<div class="a tit f1">{s["cierre"][0]}<br><span class=o>{s["cierre"][1]}</span></div>'
         + '<div class="a f2"><div class=pill>Seguí a <span>@surpadelstore</span></div></div>'
-        + f'<div class="a f3">Resultados @overgripapp · Torneo @{s["organiza"]}</div>'
+        + f'<div class="a f3">{"Resultados en SportLevel" if s.get("fuente") == "sportlevel" else "Resultados @overgripapp"} · Torneo @{s["organiza"]}</div>'
         + bars
     )
 
