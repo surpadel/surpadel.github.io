@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-15 21:08",
+"actualizado": "2026-11-15 21:38",
 "cruces": {},
 "torneo": "TEO-CLI011-001",
 "zonas": {
@@ -344,7 +344,7 @@
 "011001-C6-A3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
@@ -357,7 +357,7 @@
 "011001-C6-A4": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
@@ -487,13 +487,13 @@
 "011001-C6-D3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Cardozo, Mario Abel / Galway, Juan José",
 "p2": "Garay, Diego / Gómez, Agustín",
-"res": "",
+"res": "6/4 6/1",
 "sede": "EVA",
 "zona": "D"
 },
@@ -513,13 +513,13 @@
 "011001-C6-E2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-15",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:45",
 "inst": "Zona",
 "p1": "Buenaventura, Alejandro / Robledo, Guillermo",
 "p2": "Daureli, Maximiliano / Vera, Carlos Andrés",
-"res": "",
+"res": "5/7 6/2 6/4",
 "sede": "Real",
 "zona": "E"
 },
@@ -1176,7 +1176,7 @@
 "011001-D7-C1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-15",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "21:00",
 "inst": "Zona",
