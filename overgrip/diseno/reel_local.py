@@ -126,6 +126,11 @@ html,body{{width:1080px;height:1920px;background:transparent;overflow:hidden;fon
 .fila.l .ti b{{background-color:#d5dbe3;color:rgba(7,21,40,.5)}}
 .fila.l .ti b.w{{background-color:#0b1d36;color:#fff}}
 
+/* rama propia por planilla (torneos mixtos): sobrescribe el acento */
+""" + "".join(f"""
+.pl.r-{r} .tab{{background:{a};color:{t}}} .pl.r-{r} .ti b.w{{background-color:{a};color:{t}}}
+.pl.r-{r} .fila .nm span{{background-image:linear-gradient({a},{a})}} .pl.r-{r} .fila.l .nm span{{background:none}}
+.pl.r-{r} .fila.l .ti b.w{{background-color:#0b1d36;color:#fff}}""" for r, (a, a2, t) in PAL.items()) + f"""
 /* dato */
 .dk{{left:70px;top:520px;--r:-3deg;font-size:36px;animation:tape .3s {T_DATO+.15}s both,cut .2s {T_CIERRE}s forwards}}
 .dn{{left:0;right:0;top:640px;text-align:center;font-family:BC;font-weight:900;font-size:330px;line-height:.8;
@@ -182,7 +187,8 @@ def planilla(i, p, t0):
             tiles += f'<div class=ti><b class="{"w" if w else ""}" style="--d:{d0 + .12 * j + .06 * k:.2f}s">{v}</b></div>'
         fil += (f'<div class="fila {"" if gana else "l"}"><div class=est>★</div>'
                 f'<div class=nm><span style="--d:{d0 + .5:.2f}s">{pareja}</span></div>{tiles}</div>')
-    return (f'<div class="a pl" style="top:{top}px;--r:{r}deg;--r0:{r*4}deg;'
+    rama = f' r-{p["rama"]}' if p.get("rama") else ""
+    return (f'<div class="a pl{rama}" style="top:{top}px;--r:{r}deg;--r0:{r*4}deg;'
             f'animation:slap .45s {t0}s both,cut .2s {T_DATO}s forwards">'
             f'<div class=tab>{p["cat"]}</div><div class=pin></div>{fil}</div>')
 

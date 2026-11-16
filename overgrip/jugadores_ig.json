@@ -1,0 +1,10 @@
+{
+  "_nota": "Usuarios de Instagram de jugadores de torneos locales, confirmados (nombre exacto + señal de pádel). Clave: nombre como figura en OverGrip. Ver claude/reels-torneos-locales.md.",
+  "jugadores": {
+    "Kodelia, Erika": {"ig": "erikakodelia", "fuente": "búsqueda TinyFish; posteos de clubes la nombran campeona con Victoria Amoroso", "fecha": "2026-11-14"},
+    "Meyerhoffer, Mariet": {"ig": "marietmeyerhoffer", "fuente": "búsqueda TinyFish; nombre exacto", "fecha": "2026-11-14"}
+  },
+  "sin_encontrar": {
+    "2026-11-15": ["Erceg, Gustavo", "Ambrosetti, Diego", "Bussain, Roberto", "Albariño, Rodrigo", "Corsetti, Delfina", "Perretta, Daiana", "Hatrick, Patricio"]
+  }
+}
