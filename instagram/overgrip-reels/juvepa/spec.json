@@ -14,8 +14,8 @@
  "partidos": [
   {
    "cat": "Caballeros 4ta +40",
-   "ganan": "Gómez / Ledesma",
-   "pierden": "Carra / Ramos",
+   "ganan": "Carra / Ramos",
+   "pierden": "Gómez / Ledesma",
    "sets": [
     [
      6,
