@@ -62,9 +62,9 @@
    "Caballeros 6ta +40",
    "Caballeros 7ma +40"
   ],
-  "estado": "En Curso",
+  "estado": "Finalizado",
   "auto": true,
-  "activo": true,
+  "activo": false,
   "alta": "2026-11-01",
   "fondos": {
    "azul": "fondo-12-club-canchas.jpg",
@@ -129,9 +129,9 @@
    "Damas 6ta",
    "Damas 7ma"
   ],
-  "estado": "En Curso",
+  "estado": "Finalizado",
   "auto": true,
-  "activo": true,
+  "activo": false,
   "alta": "2026-11-01",
   "fondos": {
    "azul": "fondo-09-publico.jpg",
