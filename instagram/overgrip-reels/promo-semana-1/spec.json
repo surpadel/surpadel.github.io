@@ -1,0 +1,121 @@
+{
+  "cinta": [
+    "Este finde",
+    "Zona sur · 20 al 23 de nov"
+  ],
+  "titulo": [
+    "Se juega",
+    "en el sur"
+  ],
+  "cabecera": [
+    "Los torneos",
+    "del finde"
+  ],
+  "torneos": [
+    {
+      "nombre": "Metro Padel",
+      "dias": [
+        [
+          "SÁB",
+          21
+        ],
+        [
+          "DOM",
+          22
+        ],
+        [
+          "LUN",
+          23
+        ]
+      ],
+      "organiza": "metropadeloficial",
+      "linea": ""
+    },
+    {
+      "nombre": "Animal 81",
+      "dias": [
+        [
+          "VIE",
+          20
+        ],
+        [
+          "SÁB",
+          21
+        ],
+        [
+          "DOM",
+          22
+        ],
+        [
+          "LUN",
+          23
+        ]
+      ],
+      "organiza": "boulevard_81",
+      "linea": ""
+    },
+    {
+      "nombre": "APB Master",
+      "dias": [
+        [
+          "SÁB",
+          21
+        ],
+        [
+          "DOM",
+          22
+        ]
+      ],
+      "organiza": "apbberazategui",
+      "linea": "Berazategui"
+    }
+  ],
+  "dato": {
+    "etiqueta": "Te lo contamos",
+    "numero": "Al toque",
+    "texto": "Cada resultado, <em>partido a partido</em>, en nuestras historias"
+  },
+  "cierre": [
+    "Pádel de acá,",
+    "al día"
+  ],
+  "subs": [
+    [
+      0.4,
+      2.0,
+      "Este finde se pone picante"
+    ],
+    [
+      2.0,
+      3.4,
+      "el pádel de zona sur"
+    ],
+    [
+      3.68,
+      5.4,
+      "Metro Padel, Animal 81"
+    ],
+    [
+      5.4,
+      7.35,
+      "y el APB Master de Berazategui"
+    ],
+    [
+      7.61,
+      9.36,
+      "Te contamos cada resultado al toque"
+    ],
+    [
+      9.6,
+      12.4,
+      "Seguí a Sur Padel y no te pierdas nada"
+    ]
+  ],
+  "voz": "instagram/overgrip-reels/promo-semana-1/voz-agustin.mp3",
+  "voz_desde": 0.4,
+  "fondos": [
+    "instagram/banco-tomas/toma13-entrada-club.mp4",
+    "marca/fondos/fondo-30-club-barrio-noche.png",
+    "marca/fondos/fondo-31-banco-club.png"
+  ]
+}
