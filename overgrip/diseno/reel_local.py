@@ -179,7 +179,8 @@ def sello(ac):
             f'{cruz(ac, 1.15)}<circle cx="100" cy="100" r="0"/></svg></div>')
 
 
-def planilla(i, p, t0, n=3):
+def planilla(i, p, t0, n=3, fin=None):
+    fin = T_DATO if fin is None else fin
     top, paso = {4: (560, 235), 5: (520, 205), 6: (470, 188)}.get(n, (600, 300))
     top += i * paso
     r = (-1.6, 1.2, -0.8, 1.4)[i % 4]
@@ -195,14 +196,23 @@ def planilla(i, p, t0, n=3):
                 f'<div class=nm><span style="--d:{d0 + .5:.2f}s">{pareja}</span></div>{tiles}</div>')
     rama = (f' r-{p["rama"]}' if p.get("rama") else "") + (" c" if n > 3 else "")
     return (f'<div class="a pl{rama}" style="top:{top}px;--r:{r}deg;--r0:{r*4}deg;'
-            f'animation:slap .45s {t0}s both,cut .2s {T_DATO}s forwards">'
+            f'animation:slap .45s {t0}s both,cut .2s {fin}s forwards">'
             f'<div class=tab>{p["cat"]}</div><div class=pin></div>{fil}</div>')
 
 
 def body(s):
     ac = PAL[s["rama"]][0]
     ps = s["partidos"][:6]
-    cards = "".join(planilla(i, p, T_CARDS + .2 + .3 * i, len(ps)) for i, p in enumerate(ps))
+    pags = s.get("paginas")  # varias tandas de planillas (ej. caballeros y después damas)
+    if pags:
+        span = (T_DATO - T_CARDS) / len(pags)
+        cards = ""
+        for k, pg in enumerate(pags):
+            t0, fin = T_CARDS + k * span, T_CARDS + (k + 1) * span
+            cards += "".join(planilla(i, p, t0 + .2 + .3 * i, len(pg), fin) for i, p in enumerate(pg))
+        ps = max(pags, key=len)
+    else:
+        cards = "".join(planilla(i, p, T_CARDS + .2 + .3 * i, len(ps)) for i, p in enumerate(ps))
     bars = "".join(f'<div class="a bar {c}" style="animation-delay:{t}s"></div>'
                    for t in (T_CARDS - .2, T_DATO - .2, T_CIERRE - .2) for c in ("b1",)) + \
            "".join(f'<div class="a bar b2" style="animation-delay:{t + .08}s"></div>' for t in (T_CARDS - .2, T_DATO - .2, T_CIERRE - .2))
@@ -274,7 +284,10 @@ def montar(s, carpeta, salida):
 def sin_dato(s):
     """Sin "dato" en el spec (pedido de Nico, 15/11: solo resultados): las planillas
     quedan hasta el cierre y el fondo cambia recién ahí."""
-    global T_DATO
+    global T_DATO, T_CIERRE, DUR
+    if s.get("paginas"):  # unos 7 s por tanda de planillas
+        T_CIERRE = T_CARDS + 7 * len(s["paginas"])
+        DUR = T_CIERRE + 2.9
     if not s.get("dato"):
         T_DATO = T_CIERRE
 
