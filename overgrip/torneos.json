@@ -355,5 +355,46 @@
    "final_azul": "fondo-41-final-azul-spot.jpg",
    "final_rosa": "fondo-44-final-rosa-spot.jpg"
   }
+ },
+ {
+  "id": "TEO-CLI006-002",
+  "corto": "Master JPQ",
+  "organiza": "jpqpadelquilmes",
+  "sedes_ig": [],
+  "nombre": "Master JPQ 2026",
+  "cuando": "28 y 29 nov 2026",
+  "fechas": [
+   "2026-11-28",
+   "2026-11-29"
+  ],
+  "sede": "",
+  "categorias": [
+   "Caballeros 2da",
+   "Caballeros 3ra",
+   "Caballeros 4ta",
+   "Caballeros 5ta",
+   "Caballeros 5ta +40",
+   "Caballeros 6ta",
+   "Caballeros 6ta +35",
+   "Caballeros 6ta +45",
+   "Caballeros 7ma",
+   "Caballeros 7ma +40",
+   "Damas 2da",
+   "Damas 3ra",
+   "Damas 4ta",
+   "Damas 5ta",
+   "Damas 6ta",
+   "Damas 7ma"
+  ],
+  "estado": "En Programación",
+  "auto": true,
+  "activo": false,
+  "alta": "2026-11-17",
+  "fondos": {
+   "azul": "fondo-01-arena-tribuna.jpg",
+   "rosa": "fondo-33-rosa-tribuna.jpg",
+   "final_azul": "fondo-40-final-azul-fuegos.jpg",
+   "final_rosa": "fondo-44-final-rosa-spot.jpg"
+  }
  }
 ]
