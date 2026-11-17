@@ -76,16 +76,31 @@ def estado(s: str) -> str:
     return "e"
 
 
+def usd(valor: str) -> float:
+    """'219' -> 219.0, '1.259' -> 1259.0, '99,50' -> 99.5"""
+    if re.search(r"[.,]\d{2}$", valor):
+        return float(re.sub(r"[.,]", "", valor[:-3]) + "." + valor[-2:])
+    return float(re.sub(r"[.,]", "", valor))
+
+
 def leer_catalogo() -> list[dict]:
-    pagina = re.sub(r"<!--.*?-->", "", get(BASE + "/"), flags=re.S)
+    # 17/11/2026: el proveedor rediseñó su web. El listado completo está en /catalogo
+    # y cada tarjeta dice "<estado> <nombre> U$D <costo> $<pesos> ARS Ver producto".
+    pagina = re.sub(r"<!--.*?-->", "", get(BASE + "/catalogo"), flags=re.S)
+    inicios = list(re.finditer(
+        r'<a[^>]*aria-label="Ver ([^"]+)"[^>]*href="[^"]*/catalogo/([a-z0-9-]+)"', pagina))
     productos, vistos = [], set()
-    for slug, interior in re.findall(r'<a[^>]+href="[^"]*/catalogo/([a-z0-9-]+)"[^>]*>(.*?)</a>', pagina, flags=re.S):
-        t = texto(interior)
-        m = re.match(r"^(.+?)\s+[—–-]\s+USD\s+([\d.,]+)\s+\((.+)\)$", t)
-        if not m or slug in vistos:
+    for i, m in enumerate(inicios):
+        slug = m.group(2)
+        fin = inicios[i + 1].start() if i + 1 < len(inicios) else m.start() + 5000
+        t = texto(pagina[m.start():fin])
+        pm = re.search(r"U\$D\s*([\d.,]+)", t)
+        if not pm or slug in vistos:
             continue
         vistos.add(slug)
-        nombre, costo, st = m.group(1), float(m.group(2).replace(",", "")), m.group(3)
+        nombre = re.sub(r"\s+", " ", html.unescape(m.group(1))).strip()
+        st = t[:t.find(nombre)] if nombre in t else t[:pm.start()]
+        costo = usd(pm.group(1))
         marca, _, modelo = nombre.partition(" ")
         if marca == "Generic":
             marca = "Otras"
