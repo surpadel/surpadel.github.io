@@ -1,0 +1,128 @@
+{
+ "torneo": "Distrito Padel Center Open 3",
+ "sub": "Distrito Padel Center · La Plata",
+ "organiza": "distritopadelcenteropen",
+ "fuente": "sportlevel",
+ "cabecera": [
+  "Así se",
+  "coronaron"
+ ],
+ "cierre": [
+  "Pádel de acá,",
+  "al día"
+ ],
+ "rama": "cab",
+ "titulo": [
+  "Los",
+  "campeones"
+ ],
+ "partidos": [
+  {
+   "cat": "Caballeros 2da",
+   "ganan": "Villarreal / Coria",
+   "pierden": "Lagana / Velez",
+   "sets": [
+    [
+     6,
+     3
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     6,
+     2
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 3ra",
+   "ganan": "Maldonado / Zevola",
+   "pierden": "Ligorria / Acosta",
+   "sets": [
+    [
+     6,
+     3
+    ],
+    [
+     6,
+     4
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 4ta",
+   "ganan": "Rescinito / Sarchi",
+   "pierden": "Klier / Carriola",
+   "sets": [
+    [
+     2,
+     6
+    ],
+    [
+     6,
+     3
+    ],
+    [
+     6,
+     3
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 5ta",
+   "ganan": "Moreno Lezana / Cipollone",
+   "pierden": "Antille / Vidal",
+   "sets": [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     1
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 6ta",
+   "ganan": "D'Amico / Becker",
+   "pierden": "Gómez / García",
+   "sets": [
+    [
+     6,
+     4
+    ],
+    [
+     6,
+     4
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 7ma",
+   "ganan": "Demontis / Tanjal",
+   "pierden": "Loto / Nardelli",
+   "sets": [
+    [
+     6,
+     3
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     6,
+     3
+    ]
+   ]
+  }
+ ],
+ "fondos": [
+  "instagram/banco-tomas/toma12-banco-mate.mp4",
+  "marca/fondos/fondo-29-tinglado-barrio.png",
+  "marca/fondos/fondo-32-entrada-club.png"
+ ]
+}

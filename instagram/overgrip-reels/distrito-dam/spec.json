@@ -1,0 +1,109 @@
+{
+ "torneo": "Distrito Padel Center Open 3",
+ "sub": "Distrito Padel Center · La Plata",
+ "organiza": "distritopadelcenteropen",
+ "fuente": "sportlevel",
+ "cabecera": [
+  "Así se",
+  "coronaron"
+ ],
+ "cierre": [
+  "Pádel de acá,",
+  "al día"
+ ],
+ "rama": "dam",
+ "titulo": [
+  "Las",
+  "campeonas"
+ ],
+ "partidos": [
+  {
+   "cat": "Damas 2da",
+   "ganan": "Suarez / Perez Serrano",
+   "pierden": "Pistone / Amarillo",
+   "sets": [
+    [
+     6,
+     2
+    ],
+    [
+     4,
+     6
+    ],
+    [
+     6,
+     0
+    ]
+   ]
+  },
+  {
+   "cat": "Damas 4ta",
+   "ganan": "Catalini / Pinto",
+   "pierden": "Medialdea / Repetti",
+   "sets": [
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     4
+    ]
+   ]
+  },
+  {
+   "cat": "Damas 5ta",
+   "ganan": "Abramowicz / Lastra",
+   "pierden": "Veron / Jaime",
+   "sets": [
+    [
+     6,
+     0
+    ],
+    [
+     6,
+     2
+    ]
+   ]
+  },
+  {
+   "cat": "Damas 6ta",
+   "ganan": "Ciochini / Gonzalez",
+   "pierden": "Di Martino / Jaime",
+   "sets": [
+    [
+     6,
+     3
+    ],
+    [
+     7,
+     6
+    ]
+   ]
+  },
+  {
+   "cat": "Damas 7ma",
+   "ganan": "Cornejo / Julian",
+   "pierden": "Maggi / Jauregui",
+   "sets": [
+    [
+     7,
+     5
+    ],
+    [
+     6,
+     2
+    ]
+   ]
+  }
+ ],
+ "fondos": [
+  "instagram/banco-tomas/toma13-entrada-club.mp4",
+  "marca/fondos/fondo-30-club-barrio-noche.png",
+  "marca/fondos/fondo-31-banco-club.png"
+ ]
+}

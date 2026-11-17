@@ -180,7 +180,7 @@ def sello(ac):
 
 
 def planilla(i, p, t0, n=3):
-    top, paso = {4: (560, 235), 5: (520, 205)}.get(n, (600, 300))
+    top, paso = {4: (560, 235), 5: (520, 205), 6: (470, 188)}.get(n, (600, 300))
     top += i * paso
     r = (-1.6, 1.2, -0.8, 1.4)[i % 4]
     d0 = t0 + .25
@@ -201,13 +201,13 @@ def planilla(i, p, t0, n=3):
 
 def body(s):
     ac = PAL[s["rama"]][0]
-    ps = s["partidos"][:5]
+    ps = s["partidos"][:6]
     cards = "".join(planilla(i, p, T_CARDS + .2 + .3 * i, len(ps)) for i, p in enumerate(ps))
     bars = "".join(f'<div class="a bar {c}" style="animation-delay:{t}s"></div>'
                    for t in (T_CARDS - .2, T_DATO - .2, T_CIERRE - .2) for c in ("b1",)) + \
            "".join(f'<div class="a bar b2" style="animation-delay:{t + .08}s"></div>' for t in (T_CARDS - .2, T_DATO - .2, T_CIERRE - .2))
     d = s.get("dato")
-    cab_top = ' style="top:340px"' if len(ps) == 5 else (' style="top:380px"' if len(ps) == 4 else "")
+    cab_top = ' style="top:290px"' if len(ps) == 6 else ' style="top:340px"' if len(ps) == 5 else (' style="top:380px"' if len(ps) == 4 else "")
     dato = (f'<div class="a cinta dk">{d["etiqueta"]}</div>'
             f'<div class="a dn"><span class=o>{d["numero"]}</span></div>'
             f'<div class="a dt">{d["texto"]}</div>') if d else ""
