@@ -170,9 +170,9 @@
    "Damas 6ta",
    "Damas 7ma"
   ],
-  "estado": "Inscripción Abierta",
+  "estado": "En Programación",
   "auto": true,
-  "activo": false,
+  "activo": true,
   "alta": "2026-11-01",
   "fondos": {
    "azul": "fondo-08-cancha-mojada.jpg",
@@ -274,7 +274,7 @@
    "Damas 6ta",
    "Damas 7ma"
   ],
-  "estado": "Inscripción Abierta",
+  "estado": "En Programación",
   "auto": true,
   "activo": false,
   "alta": "2026-11-07",
