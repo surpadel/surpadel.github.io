@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-20 18:08",
+"actualizado": "2026-11-20 18:38",
 "cruces": {},
 "torneo": "TEO-CLI015-001",
 "zonas": {
@@ -512,15 +512,15 @@
 },
 "015001-C5-A1": {
 "cat": "Caballeros 5ta",
-"dia": "2026-11-22",
+"dia": null,
 "estado": "Programado",
 "gan": null,
-"hora": "14:30",
+"hora": null,
 "inst": "Zona",
 "p1": "Suplente, Jugador / Troncoso Sánchez, Juan Ignacio",
 "p2": "Pérez, Cristian Hernán / Pozzi, Franco",
 "res": "",
-"sede": "Estación Norte",
+"sede": null,
 "zona": "A"
 },
 "015001-C5-A2": {
