@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-20 08:38",
+"actualizado": "2026-11-20 09:09",
 "cruces": {},
 "torneo": "TEO-CLI015-001",
 "zonas": {
@@ -481,7 +481,7 @@
 "p1": "H. Martínez, Gastón / Ocampo, Rodrigo",
 "p2": "Cabrera, Martina / González, Gerónimo",
 "res": "",
-"sede": "Boulevard 81",
+"sede": "Estación Norte",
 "zona": "F"
 },
 "015001-C4-F2": {
@@ -489,7 +489,7 @@
 "dia": "2026-11-21",
 "estado": "Programado",
 "gan": null,
-"hora": "16:00",
+"hora": "17:30",
 "inst": "Zona",
 "p1": "H. Martínez, Gastón / Ocampo, Rodrigo",
 "p2": "Cardinali, Matías / Sendra, Sebastián",
@@ -499,7 +499,7 @@
 },
 "015001-C4-F3": {
 "cat": "Caballeros 4ta",
-"dia": "2026-11-21",
+"dia": "2026-11-22",
 "estado": "Programado",
 "gan": null,
 "hora": "10:00",
@@ -684,7 +684,7 @@
 "dia": "2026-11-21",
 "estado": "Programado",
 "gan": null,
-"hora": "17:30",
+"hora": "16:00",
 "inst": "Zona",
 "p1": "Andrada, Alejandro / Escola, Alexander",
 "p2": "Bulazio, Mario / Pereyra, Sebastián",
@@ -1243,7 +1243,7 @@
 "dia": "2026-11-22",
 "estado": "Programado",
 "gan": null,
-"hora": "13:00",
+"hora": "11:30",
 "inst": "Zona",
 "p1": "Abramowicz, Delfina / Gómez Sabbatini, Camila",
 "p2": "Martínez Carretero, Mariángeles Noelia / Toledo, Andrea Marisa",
@@ -1659,7 +1659,7 @@
 "dia": "2026-11-21",
 "estado": "Programado",
 "gan": null,
-"hora": "16:00",
+"hora": "17:30",
 "inst": "Zona",
 "p1": "Hernández, Betina / Liciaga, María",
 "p2": "Brown, Cecilia / Mercerat, Lorena",

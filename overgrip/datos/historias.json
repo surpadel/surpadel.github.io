@@ -1193,5 +1193,37 @@
   "alt": "Lo mejor de las zonas del domingo 15/11: Damas 7ma, ganaron Bruno T. / Simonetti M. 7/6 3/6 6/3; Damas 7ma, ganaron Barraza C. / Ferraro C. 6/4 4/6 6/2; Damas 7ma, ganaron Mayer S. / Miksa S. 6/4 6/4; Damas 7ma, ganaron López Muollo A. / Polizzotto M. 6/2 7/5",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-20 09:09",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Hoy",
+  "tipo": "hoy",
+  "clave": "hoy-2026-11-20",
+  "organiza": "",
+  "etiquetas": [
+   "boulevard_81"
+  ],
+  "codigos": {},
+  "archivo": "especiales/hoy-2026-11-20.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/especiales/hoy-2026-11-20.png",
+  "alt": "Hoy se juega: Animal 81. Seguí @surpadelstore para tener todos los resultados al día.",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-20 09:09",
+  "torneo": "TEO-CLI011-001",
+  "inst": "Llaves",
+  "tipo": "llaves",
+  "clave": "llaves-TEO-CLI011-001",
+  "organiza": "metropadeloficial",
+  "etiquetas": [
+   "metropadeloficial"
+  ],
+  "codigos": {},
+  "archivo": "TEO-CLI011-001/llaves.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/llaves.png",
+  "alt": "Ya están las llaves de Metro Padel: se juegan desde el domingo 22/11. Mirá tu cruce en app.overgrip.com.ar.",
+  "publicada": false
  }
 ]
