@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-20 11:09",
+"actualizado": "2026-11-20 11:38",
 "cruces": {},
 "torneo": "TEO-CLI015-001",
 "zonas": {
@@ -996,10 +996,10 @@
 "dia": "2026-11-21",
 "estado": "Programado",
 "gan": null,
-"hora": "13:00",
+"hora": "14:00",
 "inst": "Zona",
 "p1": "Nicasio Odo, María Sol / Sosa, José",
-"p2": "Mardikian, Federico / Suplente, Jugador",
+"p2": "Gómez, Leandro / Mardikian, Federico",
 "res": "",
 "sede": "Estación Norte",
 "zona": "C"
@@ -1012,7 +1012,7 @@
 "hora": "10:00",
 "inst": "Zona",
 "p1": "Ruiz, Santiago / Varveri, Luciano José",
-"p2": "Mardikian, Federico / Suplente, Jugador",
+"p2": "Gómez, Leandro / Mardikian, Federico",
 "res": "",
 "sede": "Estación Norte",
 "zona": "C"
