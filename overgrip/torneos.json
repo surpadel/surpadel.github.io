@@ -170,7 +170,7 @@
    "Damas 6ta",
    "Damas 7ma"
   ],
-  "estado": "En Programación",
+  "estado": "En Curso",
   "auto": true,
   "activo": true,
   "alta": "2026-11-01",
@@ -276,7 +276,7 @@
   ],
   "estado": "En Programación",
   "auto": true,
-  "activo": false,
+  "activo": true,
   "alta": "2026-11-07",
   "fondos": {
    "azul": "fondo-02-red-arena.jpg",
