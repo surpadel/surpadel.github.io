@@ -1231,5 +1231,21 @@
   "en_buffer": "6b0038b68f4d50958cbffc62",
   "modo": "auto",
   "publicada_en": "2026-11-20 09:10"
+ },
+ {
+  "creada": "2026-11-20 16:09",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Llaves",
+  "tipo": "llaves",
+  "clave": "llaves-TEO-CLI005-002",
+  "organiza": "apbberazategui",
+  "etiquetas": [
+   "apbberazategui"
+  ],
+  "codigos": {},
+  "archivo": "TEO-CLI005-002/llaves.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/llaves.png",
+  "alt": "Ya están las llaves de APB Master: se juegan desde el sábado 21/11. Mirá tu cruce en app.overgrip.com.ar.",
+  "publicada": false
  }
 ]
