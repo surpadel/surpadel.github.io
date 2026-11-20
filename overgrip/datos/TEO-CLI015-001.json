@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-20 10:38",
+"actualizado": "2026-11-20 11:09",
 "cruces": {},
 "torneo": "TEO-CLI015-001",
 "zonas": {
@@ -356,15 +356,15 @@
 },
 "015001-C4-C1": {
 "cat": "Caballeros 4ta",
-"dia": "2026-11-22",
+"dia": null,
 "estado": "Programado",
 "gan": null,
-"hora": "14:30",
+"hora": null,
 "inst": "Zona",
 "p1": "Chijlis, Germán / Piñero, Sebastián",
 "p2": "Esposito, Juan Pablo / Perdomo, Lucas",
 "res": "",
-"sede": "Estación Norte",
+"sede": null,
 "zona": "C"
 },
 "015001-C4-C2": {
@@ -1539,15 +1539,15 @@
 },
 "015001-D6-D2": {
 "cat": "Damas 6ta",
-"dia": "2026-11-23",
+"dia": null,
 "estado": "Programado",
 "gan": null,
-"hora": "17:00",
+"hora": null,
 "inst": "Zona",
 "p1": "Castelli, Macarena / Raffetto, Verónica",
 "p2": "Luna, Andrea / Vattiato, Gabriela",
 "res": "",
-"sede": "Boulevard 81",
+"sede": null,
 "zona": "D"
 },
 "015001-D6-D3": {
