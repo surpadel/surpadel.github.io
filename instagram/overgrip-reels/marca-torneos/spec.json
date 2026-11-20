@@ -1,0 +1,11 @@
+{
+  "pantallas": [
+    {"toma": "instagram/banco-tomas/toma07-tunel.mp4", "dur": 5.4, "l1": "¿Jugás torneos", "l2": "en <g>zona sur</g>?"},
+    {"toma": "instagram/banco-tomas/toma05-focos.mp4", "dur": 5.4, "l1": "Te contamos", "l2": "los <g>resultados</g>"},
+    {"toma": "instagram/2026-11-mundial/reel/toma3-red-hq.mp4", "dur": 5.4, "l1": "Partido a partido,", "l2": "<g>el mismo día</g>"},
+    {"toma": "instagram/banco-tomas/toma04-publico.mp4", "dur": 5.4, "l1": "Zonas, llaves", "l2": "y <g>campeones</g>"},
+    {"toma": "instagram/banco-tomas/toma06-cancha-mojada.mp4", "dur": 5.4, "l1": "Zona sur", "l2": "y <g>La Plata</g>"},
+    {"toma": "instagram/2026-11-mundial/reel/toma2-estadio-hq.mp4", "dur": 5.6}
+  ],
+  "cierre": {"l1": "Pádel de acá,", "l2": "al día", "pill": "Seguí a @surpadelstore"}
+}
