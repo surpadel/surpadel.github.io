@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-20 00:08",
+"actualizado": "2026-11-20 08:38",
 "cruces": {},
 "torneo": "TEO-CLI015-001",
 "zonas": {
@@ -931,7 +931,7 @@
 "dia": "2026-11-22",
 "estado": "Programado",
 "gan": null,
-"hora": "10:00",
+"hora": "11:30",
 "inst": "Zona",
 "p1": "Ali, Ahmed / Massey, Federico",
 "p2": "Marelli, Juan / Marquez Girat, Patricio",
@@ -1313,7 +1313,7 @@
 "p1": "Montone, Milagros / Reboredo, Martina",
 "p2": "García, Marta / Martínez, Andrea Verónica",
 "res": "",
-"sede": "Estación Norte",
+"sede": "Boulevard 81",
 "zona": "E"
 },
 "015001-D5-E2": {
@@ -1326,7 +1326,7 @@
 "p1": "Montone, Milagros / Reboredo, Martina",
 "p2": "Corsetti, Delfina / Pérez, Silvana Paola",
 "res": "",
-"sede": "Estación Norte",
+"sede": "Boulevard 81",
 "zona": "E"
 },
 "015001-D5-E3": {
@@ -1339,7 +1339,7 @@
 "p1": "García, Marta / Martínez, Andrea Verónica",
 "p2": "Corsetti, Delfina / Pérez, Silvana Paola",
 "res": "",
-"sede": "Estación Norte",
+"sede": "Boulevard 81",
 "zona": "E"
 },
 "015001-D5-F1": {
