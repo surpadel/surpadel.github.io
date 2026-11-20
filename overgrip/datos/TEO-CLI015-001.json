@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-20 12:08",
+"actualizado": "2026-11-20 14:08",
 "cruces": {},
 "torneo": "TEO-CLI015-001",
 "zonas": {
@@ -941,10 +941,10 @@
 },
 "015001-C7-B1": {
 "cat": "Caballeros 7ma",
-"dia": "2026-11-22",
+"dia": "2026-11-21",
 "estado": "Programado",
 "gan": null,
-"hora": "19:00",
+"hora": "22:00",
 "inst": "Zona",
 "p1": "Herrera, Mariano / Herrera, Valentín",
 "p2": "Di Totto, Vanesa / Jaime, Ludmila Azul",
@@ -954,10 +954,10 @@
 },
 "015001-C7-B2": {
 "cat": "Caballeros 7ma",
-"dia": "2026-11-21",
+"dia": "2026-11-22",
 "estado": "Programado",
 "gan": null,
-"hora": "22:00",
+"hora": "19:00",
 "inst": "Zona",
 "p1": "Herrera, Mariano / Herrera, Valentín",
 "p2": "Percara, Leandro / Volpicello, Lautaro",
