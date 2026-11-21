@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-20 22:08",
+"actualizado": "2026-11-21 08:08",
 "cruces": {},
 "torneo": "TEO-CLI015-001",
 "zonas": {
@@ -110,13 +110,13 @@
 "015001-C2-C3": {
 "cat": "Caballeros 2da",
 "dia": "2026-11-20",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Hachicho, Santino / Prieto, Matías",
 "p2": "Rechiutti, Alejandro / Tocho, Diego",
-"res": "",
+"res": "6/4 1/6 6/1",
 "sede": "Boulevard 81",
 "zona": "C"
 },
@@ -188,13 +188,13 @@
 "015001-C3-B2": {
 "cat": "Caballeros 3ra",
 "dia": "2026-11-20",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Correa, Patricio / Samaniego, Tobías",
 "p2": "Garcia, Faustino / Mercado, Bautista",
-"res": "",
+"res": "7/5 6/3",
 "sede": "Boulevard 81",
 "zona": "B"
 },
@@ -206,7 +206,7 @@
 "hora": "13:00",
 "inst": "Zona",
 "p1": "Barrameda, Leonardo Gabriel / Casanovas, Juan Pablo",
-"p2": "",
+"p2": "Garcia, Faustino / Mercado, Bautista",
 "res": "",
 "sede": "Boulevard 81",
 "zona": "B"
@@ -219,7 +219,7 @@
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Dondo, Benjamín / Mugavero, Eric Yael",
-"p2": "",
+"p2": "Correa, Patricio / Samaniego, Tobías",
 "res": "",
 "sede": "Boulevard 81",
 "zona": "B"
