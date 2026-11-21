@@ -1411,7 +1411,8 @@
   "grupo": "TEO-CLI005-002|Cuartos de Final|rosa|2026-11-21",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/cuartos-rosa-1121-1938-1.png",
   "alt": "Cuartos: Damas 5ta, ganaron Pastorella M. / Yeza S. 6/4 6/1; Damas 5ta, ganaron Chapuis J. / Velázquez C. 6/4 6/1; Damas 6ta, ganaron Alcaraz A. / Giorcelli M. 6/0 6/1; Damas 6ta, ganaron Guerra L. / Ruiz Díaz L. 6/1 6/2",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  },
  {
   "creada": "2026-11-21 19:38",
@@ -1427,6 +1428,7 @@
   "grupo": "TEO-CLI005-002|Cuartos de Final|rosa|2026-11-21",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/cuartos-rosa-1121-1938-2.png",
   "alt": "Cuartos: Damas 7ma, ganaron Ceballos E. / Mutti Salort T. 2/6 6/4 7/5; Damas 7ma, ganaron Lloveras K. / Piccinini M. 6/0 6/4; Damas 7ma, ganaron Bosnach G. / Drab R. 6/2 4/6 7/6",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  }
 ]
