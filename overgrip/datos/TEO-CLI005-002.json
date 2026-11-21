@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 18:08",
+"actualizado": "2026-11-21 18:38",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -184,7 +184,7 @@
 "005002-C5-2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:30",
 "inst": "Cuartos de Final",
@@ -712,13 +712,13 @@
 "005002-D7-4": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:15",
 "inst": "Cuartos de Final",
 "p1": "Loskin, Magali / Micelotta, Guadalupe",
 "p2": "Lloveras, Karen / Piccinini, Macarena",
-"res": "",
+"res": "6/0 6/4",
 "sede": "GM"
 },
 "005002-D7-5": {
@@ -741,7 +741,7 @@
 "hora": "20:00",
 "inst": "Semifinal",
 "p1": "Ceballos, Emma / Mutti Salort, Trinidad",
-"p2": "",
+"p2": "Lloveras, Karen / Piccinini, Macarena",
 "res": "",
 "sede": "EVA"
 },

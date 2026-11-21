@@ -1595,5 +1595,24 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-21 18:38",
+  "partidos": [
+   {
+    "codigo": "005002-D7-4",
+    "cat": "Damas 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "16:15",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "Loskin, Magali / Micelotta, Guadalupe",
+    "p2": "Lloveras, Karen / Piccinini, Macarena",
+    "res": "6/0 6/4",
+    "gan": 2
+   }
+  ]
  }
 ]
