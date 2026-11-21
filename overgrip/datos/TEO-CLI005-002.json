@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 11:08",
+"actualizado": "2026-11-21 11:38",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -124,7 +124,7 @@
 "005002-C5+40-4": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:15",
 "inst": "Cuartos de Final",
@@ -196,7 +196,7 @@
 "005002-C5-3": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:15",
 "inst": "Cuartos de Final",
@@ -280,25 +280,25 @@
 "005002-C6+40-3": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "11:15",
 "inst": "Cuartos de Final",
 "p1": "Kirchhoff, Damián / Nieto, Fernando",
 "p2": "Kowal, Ramiro / Larrea, Rodrigo",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "EVA"
 },
 "005002-C6+40-4": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Cuartos de Final",
 "p1": "Bermúdez, Pablo / Cabral, Ariel",
 "p2": "Carballo, Carlos / Lucidi, Juan Manuel",
-"res": "",
+"res": "6/3 6/4",
 "sede": "GM"
 },
 "005002-C6+40-5": {
@@ -320,8 +320,8 @@
 "gan": null,
 "hora": "15:00",
 "inst": "Semifinal",
-"p1": "",
-"p2": "",
+"p1": "Kowal, Ramiro / Larrea, Rodrigo",
+"p2": "Bermúdez, Pablo / Cabral, Ariel",
 "res": "",
 "sede": "EVA"
 },
@@ -340,7 +340,7 @@
 "005002-C6-1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:15",
 "inst": "Cuartos de Final",
@@ -352,7 +352,7 @@
 "005002-C6-2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:15",
 "inst": "Cuartos de Final",
@@ -448,7 +448,7 @@
 "005002-C7-3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:15",
 "inst": "Cuartos de Final",
@@ -460,13 +460,13 @@
 "005002-C7-4": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "10:00",
 "inst": "Cuartos de Final",
 "p1": "Sanabria, Néstor José / Vergara, Christian",
 "p2": "Jara, Jonatan / Medina, Lucas",
-"res": "",
+"res": "6/2 6/2",
 "sede": "EVA"
 },
 "005002-C7-5": {
@@ -489,7 +489,7 @@
 "hora": "15:00",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Jara, Jonatan / Medina, Lucas",
 "res": "",
 "sede": "EVA"
 },
@@ -508,13 +508,13 @@
 "005002-D5-1": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Cuartos de Final",
 "p1": "Flores, María Belén / Segura, Mirta",
 "p2": "Luna, Keila / Martin, Karina Lorena",
-"res": "",
+"res": "3/6 6/1 6/1",
 "sede": "EVA"
 },
 "005002-D5-2": {
@@ -560,7 +560,7 @@
 "gan": null,
 "hora": "13:45",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Flores, María Belén / Segura, Mirta",
 "p2": "Binetti, Milena Anabela / Movia, María Belen",
 "res": "",
 "sede": "EVA"
@@ -604,13 +604,13 @@
 "005002-D6-2": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Cuartos de Final",
 "p1": "García Pereira, Daniela / Natasha, Krassevich",
 "p2": "Cejas, Karina / Lozada, Karina",
-"res": "",
+"res": "6/1 6/4",
 "sede": "GM"
 },
 "005002-D6-3": {
@@ -645,7 +645,7 @@
 "hora": "18:45",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "García Pereira, Daniela / Natasha, Krassevich",
 "res": "",
 "sede": "GM"
 },

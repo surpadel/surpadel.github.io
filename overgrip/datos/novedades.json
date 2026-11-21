@@ -1341,7 +1341,8 @@
     "res": "WO 6/0 6/0",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI005-002",
@@ -1360,6 +1361,81 @@
     "res": "6/0 6/0",
     "gan": 1
    }
+  ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-21 11:38",
+  "partidos": [
+   {
+    "codigo": "005002-C6+40-4",
+    "cat": "Caballeros 6ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "10:00",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "Bermúdez, Pablo / Cabral, Ariel",
+    "p2": "Carballo, Carlos / Lucidi, Juan Manuel",
+    "res": "6/3 6/4",
+    "gan": 1
+   },
+   {
+    "codigo": "005002-C7-4",
+    "cat": "Caballeros 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "10:00",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Sanabria, Néstor José / Vergara, Christian",
+    "p2": "Jara, Jonatan / Medina, Lucas",
+    "res": "6/2 6/2",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-D5-1",
+    "cat": "Damas 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "10:00",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Flores, María Belén / Segura, Mirta",
+    "p2": "Luna, Keila / Martin, Karina Lorena",
+    "res": "3/6 6/1 6/1",
+    "gan": 1
+   },
+   {
+    "codigo": "005002-D6-2",
+    "cat": "Damas 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "10:00",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "García Pereira, Daniela / Natasha, Krassevich",
+    "p2": "Cejas, Karina / Lozada, Karina",
+    "res": "6/1 6/4",
+    "gan": 1
+   },
+   {
+    "codigo": "005002-C6+40-3",
+    "cat": "Caballeros 6ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "11:15",
+    "sede": "EVA",
+    "estado": "WO",
+    "p1": "Kirchhoff, Damián / Nieto, Fernando",
+    "p2": "Kowal, Ramiro / Larrea, Rodrigo",
+    "res": "WO 6/0 6/0",
+    "gan": 2
+   }
+  ],
+  "hechos": [
+   "005002-D5-1",
+   "005002-D6-2"
   ]
  }
 ]
