@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 17:39",
+"actualizado": "2026-11-21 18:08",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -616,7 +616,7 @@
 "005002-D6-3": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:30",
 "inst": "Cuartos de Final",
@@ -700,13 +700,13 @@
 "005002-D7-3": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:15",
 "inst": "Cuartos de Final",
 "p1": "Amadio, Andrea / Flores, María Elisa",
 "p2": "Ceballos, Emma / Mutti Salort, Trinidad",
-"res": "",
+"res": "2/6 6/4 7/5",
 "sede": "GM"
 },
 "005002-D7-4": {
@@ -740,7 +740,7 @@
 "gan": null,
 "hora": "20:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Ceballos, Emma / Mutti Salort, Trinidad",
 "p2": "",
 "res": "",
 "sede": "EVA"

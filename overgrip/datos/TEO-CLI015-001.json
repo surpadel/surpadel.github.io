@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 17:39",
+"actualizado": "2026-11-21 18:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -424,13 +424,13 @@
 "015001-C4-A2": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Antognini, Ezequiel Matías / Salomon, Joaquín",
 "p2": "García, Amalio José / Techera, Renzo",
-"res": "",
+"res": "6/2 2/6 6/3",
 "sede": "Estación Norte",
 "zona": "A"
 },
@@ -442,7 +442,7 @@
 "hora": "19:00",
 "inst": "Zona",
 "p1": "",
-"p2": "",
+"p2": "García, Amalio José / Techera, Renzo",
 "res": "",
 "sede": "Estación Norte",
 "zona": "A"
@@ -455,7 +455,7 @@
 "hora": "19:00",
 "inst": "Zona",
 "p1": "",
-"p2": "",
+"p2": "Antognini, Ezequiel Matías / Salomon, Joaquín",
 "res": "",
 "sede": "Estación Norte",
 "zona": "A"
@@ -827,13 +827,13 @@
 "015001-C6+45-A2": {
 "cat": "Caballeros 6ta +45",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Andrada, Alejandro / Escola, Alexander",
 "p2": "Bulazio, Mario / Pereyra, Sebastián",
-"res": "",
+"res": "6/2 6/3",
 "sede": "Estación Norte",
 "zona": "A"
 },
@@ -845,7 +845,7 @@
 "hora": "16:00",
 "inst": "Zona",
 "p1": "",
-"p2": "",
+"p2": "Andrada, Alejandro / Escola, Alexander",
 "res": "",
 "sede": "Estación Norte",
 "zona": "A"
@@ -858,7 +858,7 @@
 "hora": "16:00",
 "inst": "Zona",
 "p1": "",
-"p2": "",
+"p2": "Bulazio, Mario / Pereyra, Sebastián",
 "res": "",
 "sede": "Estación Norte",
 "zona": "A"
@@ -1555,13 +1555,13 @@
 "015001-D6-A3": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Ruggieri, Avril / Sardón, Clarisa",
 "p2": "Petringa, María Eva / Sosa Cedrez, Yanela",
-"res": "",
+"res": "6/3 6/2",
 "sede": "Estación Norte",
 "zona": "A"
 },
