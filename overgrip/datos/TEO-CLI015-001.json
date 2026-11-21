@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-20 18:38",
+"actualizado": "2026-11-20 21:08",
 "cruces": {},
 "torneo": "TEO-CLI015-001",
 "zonas": {
@@ -817,7 +817,7 @@
 "hora": "11:30",
 "inst": "Zona",
 "p1": "Montuellie, Mauro / Santilli, Juan Manuel",
-"p2": "García, Sebastián / Marandino, Fabián",
+"p2": "Curiggiano, Flavio / Curiggiano, Roman",
 "res": "",
 "sede": "Boulevard 81",
 "zona": "A"
@@ -1035,7 +1035,7 @@
 "dia": "2026-11-21",
 "estado": "Programado",
 "gan": null,
-"hora": "19:00",
+"hora": "17:00",
 "inst": "Zona",
 "p1": "Barrios, Lian Dustyn / Pérez, Valentín",
 "p2": "Rueda, Matías Ezequiel / Soto, Lucas",
@@ -1633,7 +1633,7 @@
 "dia": "2026-11-21",
 "estado": "Programado",
 "gan": null,
-"hora": "14:30",
+"hora": "15:00",
 "inst": "Zona",
 "p1": "Piñero, Lorena / Ponce de Leon, Noelia",
 "p2": "Grioni, Rocío / Picardo, María Mercedes",
