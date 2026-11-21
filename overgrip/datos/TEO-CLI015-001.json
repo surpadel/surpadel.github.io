@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 14:08",
+"actualizado": "2026-11-21 14:39",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -619,13 +619,13 @@
 "015001-C4-F1": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:00",
 "inst": "Zona",
 "p1": "H. Martínez, Gastón / Ocampo, Rodrigo",
 "p2": "Cabrera, Martina / González, Gerónimo",
-"res": "",
+"res": "6/2 2/6 6/1",
 "sede": "Estación Norte",
 "zona": "F"
 },
@@ -1542,13 +1542,13 @@
 "015001-D6-A2": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:00",
 "inst": "Zona",
 "p1": "Cornejo, Hebe / Martins, Daiana",
 "p2": "Petringa, María Eva / Sosa Cedrez, Yanela",
-"res": "",
+"res": "6/4 7/5",
 "sede": "Estación Norte",
 "zona": "A"
 },
@@ -1560,7 +1560,7 @@
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Ruggieri, Avril / Sardón, Clarisa",
-"p2": "",
+"p2": "Petringa, María Eva / Sosa Cedrez, Yanela",
 "res": "",
 "sede": "Estación Norte",
 "zona": "A"
@@ -1573,7 +1573,7 @@
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Barrios, Natalia / Niz, Miriam Marisa",
-"p2": "",
+"p2": "Cornejo, Hebe / Martins, Daiana",
 "res": "",
 "sede": "Estación Norte",
 "zona": "A"
