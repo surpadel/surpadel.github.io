@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 15:38",
+"actualizado": "2026-11-21 16:08",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -16,7 +16,7 @@
 "005002-C4-2": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "15:00",
 "inst": "Cuartos de Final",
@@ -28,13 +28,13 @@
 "005002-C4-3": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:45",
 "inst": "Cuartos de Final",
 "p1": "Bravo, Iván Alexis / Pérez, Cristian Fernando",
 "p2": "Saurel, Javier / Venditti, Carlos",
-"res": "",
+"res": "7/5 2/6 6/2",
 "sede": "GM"
 },
 "005002-C4-4": {
@@ -68,7 +68,7 @@
 "gan": null,
 "hora": "17:30",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Bravo, Iván Alexis / Pérez, Cristian Fernando",
 "p2": "",
 "res": "",
 "sede": "EVA"
@@ -364,13 +364,13 @@
 "005002-C6-3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Cuartos de Final",
 "p1": "Biondo, Lucas / Trapani, Israel",
 "p2": "Bravo, David / Guerrero, Julián Alejandro",
-"res": "",
+"res": "6/2 6/3",
 "sede": "GM"
 },
 "005002-C6-4": {
@@ -404,7 +404,7 @@
 "gan": null,
 "hora": "18:45",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Bravo, David / Guerrero, Julián Alejandro",
 "p2": "",
 "res": "",
 "sede": "EVA"

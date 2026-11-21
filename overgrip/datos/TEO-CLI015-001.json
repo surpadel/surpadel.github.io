@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 15:38",
+"actualizado": "2026-11-21 16:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -372,13 +372,13 @@
 "015001-C3-C1": {
 "cat": "Caballeros 3ra",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 1,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Ibarra, Agustín / Márquez, Manuel",
 "p2": "Cardinali, Sebastián / Miño, Lucas Nicolás",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "Estación Norte",
 "zona": "C"
 },
@@ -931,13 +931,13 @@
 "015001-C6+45-C3": {
 "cat": "Caballeros 6ta +45",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "14:30",
 "inst": "Zona",
 "p1": "Dondo, Daniel / Marchini, Martín",
 "p2": "Monzon, Miguel Eduardo / Sosa, Fernando Fabián",
-"res": "",
+"res": "7/6 6/2",
 "sede": "Estación Norte",
 "zona": "C"
 },
@@ -1438,13 +1438,13 @@
 "015001-D5-D3": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "14:30",
 "inst": "Zona",
 "p1": "González, Emilia / Silva, Mia Agustina",
 "p2": "Asens, Sofía Agustina / Stofalo, Mariela",
-"res": "",
+"res": "6/4 4/6 6/4",
 "sede": "Estación Norte",
 "zona": "D"
 },

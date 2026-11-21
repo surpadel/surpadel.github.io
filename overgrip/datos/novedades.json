@@ -1632,5 +1632,37 @@
   "hechos": [
    "005002-D5-5"
   ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-21 16:08",
+  "partidos": [
+   {
+    "codigo": "005002-C4-3",
+    "cat": "Caballeros 4ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "13:45",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "Bravo, Iván Alexis / Pérez, Cristian Fernando",
+    "p2": "Saurel, Javier / Venditti, Carlos",
+    "res": "7/5 2/6 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "005002-C6-3",
+    "cat": "Caballeros 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "15:00",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "Biondo, Lucas / Trapani, Israel",
+    "p2": "Bravo, David / Guerrero, Julián Alejandro",
+    "res": "6/2 6/3",
+    "gan": 2
+   }
+  ]
  }
 ]
