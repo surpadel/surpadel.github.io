@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 19:38",
+"actualizado": "2026-11-21 20:08",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -616,13 +616,13 @@
 "005002-D6-3": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:30",
 "inst": "Cuartos de Final",
 "p1": "Scattularo, Agustina / Tunich, Florencia Belen",
 "p2": "Elisseche, Alejandra / Varela, Fiorella",
-"res": "",
+"res": "4/6 7/5 6/4",
 "sede": "GM"
 },
 "005002-D6-4": {
@@ -640,7 +640,7 @@
 "005002-D6-5": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:45",
 "inst": "Semifinal",
@@ -656,7 +656,7 @@
 "gan": null,
 "hora": "21:15",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Scattularo, Agustina / Tunich, Florencia Belen",
 "p2": "Alcaraz, Azul Anabella / Giorcelli, Mailen",
 "res": "",
 "sede": "EVA"
