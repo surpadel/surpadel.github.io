@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 14:39",
+"actualizado": "2026-11-21 15:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -164,13 +164,13 @@
 "015001-C2-A2": {
 "cat": "Caballeros 2da",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:00",
 "inst": "Zona",
 "p1": "Montesi, Sebastián / Ocampo, Facundo",
 "p2": "Di Gregori, Marcos / Grabiel, Galo Nahuel",
-"res": "",
+"res": "4/6 6/4 6/3",
 "sede": "Estación Norte",
 "zona": "A"
 },
