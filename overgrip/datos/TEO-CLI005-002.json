@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 16:38",
+"actualizado": "2026-11-21 17:09",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -16,13 +16,13 @@
 "005002-C4-2": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Cuartos de Final",
 "p1": "Ferraro, Maximiliano / Forza, Gustavo",
 "p2": "Martínez, Agustín / Pacheco, Ignacio",
-"res": "",
+"res": "6/1 6/4",
 "sede": "GM"
 },
 "005002-C4-3": {
@@ -40,13 +40,13 @@
 "005002-C4-4": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:45",
 "inst": "Cuartos de Final",
 "p1": "López, Jesús Antonio / Zamorano, Cristian",
 "p2": "Lorefice, Fernando Adrián / Reynoso, Julio Leandro",
-"res": "",
+"res": "3/6 6/1 6/3",
 "sede": "EVA"
 },
 "005002-C4-5": {
@@ -57,7 +57,7 @@
 "hora": "20:00",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Martínez, Agustín / Pacheco, Ignacio",
 "res": "",
 "sede": "EVA"
 },
@@ -69,7 +69,7 @@
 "hora": "17:30",
 "inst": "Semifinal",
 "p1": "Bravo, Iván Alexis / Pérez, Cristian Fernando",
-"p2": "",
+"p2": "Lorefice, Fernando Adrián / Reynoso, Julio Leandro",
 "res": "",
 "sede": "EVA"
 },
@@ -484,13 +484,13 @@
 "005002-C7-6": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "15:00",
 "inst": "Semifinal",
 "p1": "Benítez Sánchez, Hernán / Morbidoni, Damián",
 "p2": "Jara, Jonatan / Medina, Lucas",
-"res": "",
+"res": "6/3 6/3",
 "sede": "EVA"
 },
 "005002-C7-7": {
@@ -501,7 +501,7 @@
 "hora": "17:30",
 "inst": "Final",
 "p1": "",
-"p2": "",
+"p2": "Benítez Sánchez, Hernán / Morbidoni, Damián",
 "res": "",
 "sede": "EVA"
 },
@@ -676,7 +676,7 @@
 "005002-D7-1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:15",
 "inst": "Cuartos de Final",

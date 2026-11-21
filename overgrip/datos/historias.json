@@ -1331,5 +1331,62 @@
   "en_buffer": "6b01e55ad5eabfb8cc51e427",
   "modo": "auto",
   "publicada_en": "2026-11-21 15:39"
+ },
+ {
+  "creada": "2026-11-21 17:09",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Cuartos de Final",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-C4-3": "7/5 2/6 6/2",
+   "005002-C4-4": "3/6 6/1 6/3",
+   "005002-C4-2": "6/1 6/4",
+   "005002-C5-3": "6/1 7/6",
+   "005002-C5-4": "6/2 3/6 6/2",
+   "005002-C5+40-1": "6/0 6/0"
+  },
+  "archivo": "TEO-CLI005-002/cuartos-azul-1121-1709-1.png",
+  "grupo": "TEO-CLI005-002|Cuartos de Final|azul|2026-11-21",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/cuartos-azul-1121-1709-1.png",
+  "alt": "Cuartos: Caballeros 4ta, ganaron Bravo I. / Pérez C. 7/5 2/6 6/2; Caballeros 4ta, ganaron Lorefice F. / Reynoso J. 3/6 6/1 6/3; Caballeros 4ta, ganaron Martínez A. / Pacheco I. 6/1 6/4; Caballeros 5ta, ganaron Cavazzoni J. / Montes de Oca M. 6/1 7/6; Caballeros 5ta, ganaron Moya B. / Segovia A. 6/2 3/6 6/2; Caballeros 5ta +40, ganaron Acosta A. / Silva D. 6/0 6/0",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-21 17:09",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Cuartos de Final",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-C5+40-4": "6/3 6/4",
+   "005002-C5+40-3": "6/2 6/2",
+   "005002-C5+40-2": "6/2 6/3",
+   "005002-C6-1": "2/6 6/2 6/2",
+   "005002-C6-2": "6/0 6/1",
+   "005002-C6-3": "6/2 6/3"
+  },
+  "archivo": "TEO-CLI005-002/cuartos-azul-1121-1709-2.png",
+  "grupo": "TEO-CLI005-002|Cuartos de Final|azul|2026-11-21",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/cuartos-azul-1121-1709-2.png",
+  "alt": "Cuartos: Caballeros 5ta +40, ganaron Duette E. / Quintana J. 6/3 6/4; Caballeros 5ta +40, ganaron Macaudier E. / Rocha J. 6/2 6/2; Caballeros 5ta +40, ganaron Buono J. / Nicotera J. 6/2 6/3; Caballeros 6ta, ganaron Calello A. / Gutiérrez M. 2/6 6/2 6/2; Caballeros 6ta, ganaron Rodríguez F. / San Pedro E. 6/0 6/1; Caballeros 6ta, ganaron Bravo D. / Guerrero J. 6/2 6/3",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-21 17:09",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Cuartos de Final",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-C6+40-4": "6/3 6/4",
+   "005002-C6+40-2": "7/5 6/2",
+   "005002-C6+40-1": "6/2 3/6 7/6",
+   "005002-C7-4": "6/2 6/2",
+   "005002-C7-3": "6/0 4/6 6/1",
+   "005002-C7-2": "6/3 4/6 6/2"
+  },
+  "archivo": "TEO-CLI005-002/cuartos-azul-1121-1709-3.png",
+  "grupo": "TEO-CLI005-002|Cuartos de Final|azul|2026-11-21",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/cuartos-azul-1121-1709-3.png",
+  "alt": "Cuartos: Caballeros 6ta +40, ganaron Bermúdez P. / Cabral A. 6/3 6/4; Caballeros 6ta +40, ganaron Epifani P. / Nelson C. 7/5 6/2; Caballeros 6ta +40, ganaron Dell Orto R. / Ledesma C. 6/2 3/6 7/6; Caballeros 7ma, ganaron Jara J. / Medina L. 6/2 6/2; Caballeros 7ma, ganaron Benítez Sánchez H. / Morbidoni D. 6/0 4/6 6/1; Caballeros 7ma, ganaron Capitina G. / Rojas C. 6/3 4/6 6/2",
+  "publicada": false
  }
 ]
