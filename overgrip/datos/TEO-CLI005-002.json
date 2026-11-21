@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 20:08",
+"actualizado": "2026-11-21 20:38",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -148,7 +148,7 @@
 "005002-C5+40-6": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:45",
 "inst": "Semifinal",
@@ -688,13 +688,13 @@
 "005002-D7-2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:30",
 "inst": "Cuartos de Final",
 "p1": "Banegas, Guadalupe / Waczynski, Brenda",
 "p2": "Bogado, Florencia / Rodríguez, Julieta",
-"res": "",
+"res": "6/4 7/5",
 "sede": "GM"
 },
 "005002-D7-3": {
@@ -729,7 +729,7 @@
 "hora": "21:15",
 "inst": "Semifinal",
 "p1": "Bosnach, Gisela / Drab, Rocío",
-"p2": "",
+"p2": "Banegas, Guadalupe / Waczynski, Brenda",
 "res": "",
 "sede": "EVA"
 },

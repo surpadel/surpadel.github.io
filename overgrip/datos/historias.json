@@ -1430,5 +1430,20 @@
   "alt": "Cuartos: Damas 7ma, ganaron Ceballos E. / Mutti Salort T. 2/6 6/4 7/5; Damas 7ma, ganaron Lloveras K. / Piccinini M. 6/0 6/4; Damas 7ma, ganaron Bosnach G. / Drab R. 6/2 4/6 7/6",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-21 20:39",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Cuartos de Final",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-D6-3": "4/6 7/5 6/4",
+   "005002-D7-2": "6/4 7/5"
+  },
+  "archivo": "TEO-CLI005-002/cuartos-rosa-1121-2039-1.png",
+  "grupo": "TEO-CLI005-002|Cuartos de Final|rosa|2026-11-21",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/cuartos-rosa-1121-2039-1.png",
+  "alt": "Cuartos: Damas 6ta, ganaron Scattularo A. / Tunich F. 4/6 7/5 6/4; Damas 7ma, ganaron Banegas G. / Waczynski B. 6/4 7/5",
+  "publicada": false
  }
 ]
