@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 11:38",
+"actualizado": "2026-11-21 12:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1126,13 +1126,13 @@
 "015001-C7-C1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Zona",
 "p1": "Nicasio Odo, María Sol / Sosa, José",
 "p2": "Ruiz, Santiago / Varveri, Luciano José",
-"res": "",
+"res": "3/6 7/6 7/6",
 "sede": "Estación Norte",
 "zona": "C"
 },
