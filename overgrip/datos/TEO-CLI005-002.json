@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-20 16:09",
+"actualizado": "2026-11-21 10:38",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -88,7 +88,7 @@
 "005002-C5+40-1": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "10:00",
 "inst": "Cuartos de Final",
@@ -292,7 +292,7 @@
 "005002-C6+40-4": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "10:00",
 "inst": "Cuartos de Final",
@@ -460,7 +460,7 @@
 "005002-C7-4": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "10:00",
 "inst": "Cuartos de Final",
@@ -508,7 +508,7 @@
 "005002-D5-1": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "10:00",
 "inst": "Cuartos de Final",
@@ -520,13 +520,13 @@
 "005002-D5-2": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "10:00",
 "inst": "Cuartos de Final",
 "p1": "Cardozo, Roxana / Román, Lara Daniela",
 "p2": "Binetti, Milena Anabela / Movia, María Belen",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "GM"
 },
 "005002-D5-3": {
@@ -561,7 +561,7 @@
 "hora": "13:45",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Binetti, Milena Anabela / Movia, María Belen",
 "res": "",
 "sede": "EVA"
 },
@@ -604,7 +604,7 @@
 "005002-D6-2": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "10:00",
 "inst": "Cuartos de Final",
