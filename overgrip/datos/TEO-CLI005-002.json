@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 12:38",
+"actualizado": "2026-11-21 13:08",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -112,7 +112,7 @@
 "005002-C5+40-3": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:30",
 "inst": "Cuartos de Final",
@@ -196,13 +196,13 @@
 "005002-C5-3": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:15",
 "inst": "Cuartos de Final",
 "p1": "Cavazzoni, Joaquín / Montes de Oca, Matías",
 "p2": "Gauna, Brian / Ortiz, Juan",
-"res": "",
+"res": "6/1 7/6",
 "sede": "EVA"
 },
 "005002-C5-4": {
@@ -236,7 +236,7 @@
 "gan": null,
 "hora": "17:30",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Cavazzoni, Joaquín / Montes de Oca, Matías",
 "p2": "",
 "res": "",
 "sede": "EVA"
@@ -256,7 +256,7 @@
 "005002-C6+40-1": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:30",
 "inst": "Cuartos de Final",
@@ -268,7 +268,7 @@
 "005002-C6+40-2": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:30",
 "inst": "Cuartos de Final",
@@ -340,25 +340,25 @@
 "005002-C6-1": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:15",
 "inst": "Cuartos de Final",
 "p1": "Calello, Adrián / Gutiérrez, Martín",
 "p2": "Dello Iacono, Bruno Abel / Reynoso, Marcos David",
-"res": "",
+"res": "2/6 6/2 6/2",
 "sede": "GM"
 },
 "005002-C6-2": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:15",
 "inst": "Cuartos de Final",
 "p1": "Cabezal, Cristian / Figueredo, Leonardo",
 "p2": "Rodríguez, Federico / San Pedro, Emanuel Oscar",
-"res": "",
+"res": "6/0 6/1",
 "sede": "EVA"
 },
 "005002-C6-3": {
@@ -392,8 +392,8 @@
 "gan": null,
 "hora": "16:15",
 "inst": "Semifinal",
-"p1": "",
-"p2": "",
+"p1": "Calello, Adrián / Gutiérrez, Martín",
+"p2": "Rodríguez, Federico / San Pedro, Emanuel Oscar",
 "res": "",
 "sede": "EVA"
 },
@@ -448,13 +448,13 @@
 "005002-C7-3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:15",
 "inst": "Cuartos de Final",
 "p1": "Benítez Sánchez, Hernán / Morbidoni, Damián",
 "p2": "Atencio, Emmanuel / Trapani, Samuel",
-"res": "",
+"res": "6/0 4/6 6/1",
 "sede": "GM"
 },
 "005002-C7-4": {
@@ -488,7 +488,7 @@
 "gan": null,
 "hora": "15:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Benítez Sánchez, Hernán / Morbidoni, Damián",
 "p2": "Jara, Jonatan / Medina, Lucas",
 "res": "",
 "sede": "EVA"
@@ -592,7 +592,7 @@
 "005002-D6-1": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:30",
 "inst": "Cuartos de Final",
@@ -628,7 +628,7 @@
 "005002-D6-4": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:30",
 "inst": "Cuartos de Final",

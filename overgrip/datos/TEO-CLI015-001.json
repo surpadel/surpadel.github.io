@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 12:38",
+"actualizado": "2026-11-21 13:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1139,13 +1139,13 @@
 "015001-C7-C2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "14:00",
 "inst": "Zona",
 "p1": "Nicasio Odo, María Sol / Sosa, José",
 "p2": "Gómez, Leandro / Mardikian, Federico",
-"res": "",
+"res": "3/6 7/6 7/6",
 "sede": "Estación Norte",
 "zona": "C"
 },
@@ -1412,13 +1412,13 @@
 "015001-D5-D1": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:30",
 "inst": "Zona",
 "p1": "Domínguez, María Eugenia / Romano, Patricia Gladys",
 "p2": "González, Emilia / Silva, Mia Agustina",
-"res": "",
+"res": "6/1 4/6 6/0",
 "sede": "Estación Norte",
 "zona": "D"
 },
@@ -1671,15 +1671,15 @@
 },
 "015001-D6-D1": {
 "cat": "Damas 6ta",
-"dia": "2026-11-23",
+"dia": null,
 "estado": "Programado",
 "gan": null,
-"hora": "15:00",
+"hora": null,
 "inst": "Zona",
 "p1": "Castelli, Macarena / Raffetto, Verónica",
 "p2": "Raffino, Carla / Ravainera, Estefanía",
 "res": "",
-"sede": "Boulevard 81",
+"sede": null,
 "zona": "D"
 },
 "015001-D6-D2": {
@@ -1697,15 +1697,15 @@
 },
 "015001-D6-D3": {
 "cat": "Damas 6ta",
-"dia": null,
+"dia": "2026-11-23",
 "estado": "Programado",
 "gan": null,
-"hora": null,
+"hora": "16:00",
 "inst": "Zona",
 "p1": "Raffino, Carla / Ravainera, Estefanía",
 "p2": "Luna, Andrea / Vattiato, Gabriela",
 "res": "",
-"sede": null,
+"sede": "Boulevard 81",
 "zona": "D"
 },
 "015001-D7-A1": {
