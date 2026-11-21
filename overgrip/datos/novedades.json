@@ -1545,5 +1545,92 @@
     "gan": 1
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-21 15:38",
+  "partidos": [
+   {
+    "codigo": "005002-C5+40-3",
+    "cat": "Caballeros 5ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "12:30",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Lastra, Flavio Alberto / Nicotera, Ángel",
+    "p2": "Macaudier, Esteban / Rocha, Juan",
+    "res": "6/2 6/2",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-C6+40-1",
+    "cat": "Caballeros 6ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "12:30",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Dell Orto, Raúl Enrique / Ledesma, Cristian Horacio",
+    "p2": "Tejeda, Adrián / Vallejos, Pedro Osvaldo",
+    "res": "6/2 3/6 7/6",
+    "gan": 1
+   },
+   {
+    "codigo": "005002-C5-4",
+    "cat": "Caballeros 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "13:45",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "Harttmann, Maximiliano / Hernández, Martín",
+    "p2": "Moya, Bruno / Segovia, Agustín",
+    "res": "6/2 3/6 6/2",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-C5+40-2",
+    "cat": "Caballeros 5ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "13:45",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "Buono, Juan José / Nicotera, José",
+    "p2": "Blasioli, Martín Nicolás / Traverso, Leonardo",
+    "res": "6/2 6/3",
+    "gan": 1
+   },
+   {
+    "codigo": "005002-D5-3",
+    "cat": "Damas 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "13:45",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Pastorella, María Laura / Yeza, Silvana Valeria",
+    "p2": "Carabajal, Carolina / Romero Mansilla, Carolina",
+    "res": "6/4 6/1",
+    "gan": 1
+   },
+   {
+    "codigo": "005002-D5-5",
+    "cat": "Damas 5ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-21",
+    "hora": "13:45",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Flores, María Belén / Segura, Mirta",
+    "p2": "Binetti, Milena Anabela / Movia, María Belen",
+    "res": "6/7 6/3 6/1",
+    "gan": 2
+   }
+  ],
+  "hechos": [
+   "005002-D5-5"
+  ]
  }
 ]

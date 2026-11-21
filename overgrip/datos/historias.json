@@ -1314,5 +1314,19 @@
   "en_buffer": "6b01ad278bd84d5966f6356d",
   "modo": "auto",
   "publicada_en": "2026-11-21 11:39"
+ },
+ {
+  "creada": "2026-11-21 15:38",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Semifinal",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-D5-5": "6/7 6/3 6/1"
+  },
+  "archivo": "TEO-CLI005-002/semifinal-rosa-1121-1538-1.png",
+  "grupo": "TEO-CLI005-002|Semifinal|rosa|2026-11-21",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/semifinal-rosa-1121-1538-1.png",
+  "alt": "Semifinales: Damas 5ta, ganaron Binetti M. / Movia M. 6/7 6/3 6/1",
+  "publicada": false
  }
 ]

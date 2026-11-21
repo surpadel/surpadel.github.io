@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 14:39",
+"actualizado": "2026-11-21 15:38",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -100,25 +100,25 @@
 "005002-C5+40-2": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:45",
 "inst": "Cuartos de Final",
 "p1": "Buono, Juan José / Nicotera, José",
 "p2": "Blasioli, Martín Nicolás / Traverso, Leonardo",
-"res": "",
+"res": "6/2 6/3",
 "sede": "GM"
 },
 "005002-C5+40-3": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "12:30",
 "inst": "Cuartos de Final",
 "p1": "Lastra, Flavio Alberto / Nicotera, Ángel",
 "p2": "Macaudier, Esteban / Rocha, Juan",
-"res": "",
+"res": "6/2 6/2",
 "sede": "EVA"
 },
 "005002-C5+40-4": {
@@ -141,7 +141,7 @@
 "hora": "18:45",
 "inst": "Semifinal",
 "p1": "Acosta, Alejandro / Silva, Diego Fernando",
-"p2": "",
+"p2": "Buono, Juan José / Nicotera, José",
 "res": "",
 "sede": "EVA"
 },
@@ -152,7 +152,7 @@
 "gan": null,
 "hora": "18:45",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Macaudier, Esteban / Rocha, Juan",
 "p2": "Duette, Ezequiel Alejandro / Quintana, Jorge",
 "res": "",
 "sede": "GM"
@@ -208,13 +208,13 @@
 "005002-C5-4": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:45",
 "inst": "Cuartos de Final",
 "p1": "Harttmann, Maximiliano / Hernández, Martín",
 "p2": "Moya, Bruno / Segovia, Agustín",
-"res": "",
+"res": "6/2 3/6 6/2",
 "sede": "GM"
 },
 "005002-C5-5": {
@@ -237,7 +237,7 @@
 "hora": "17:30",
 "inst": "Semifinal",
 "p1": "Cavazzoni, Joaquín / Montes de Oca, Matías",
-"p2": "",
+"p2": "Moya, Bruno / Segovia, Agustín",
 "res": "",
 "sede": "EVA"
 },
@@ -256,13 +256,13 @@
 "005002-C6+40-1": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "12:30",
 "inst": "Cuartos de Final",
 "p1": "Dell Orto, Raúl Enrique / Ledesma, Cristian Horacio",
 "p2": "Tejeda, Adrián / Vallejos, Pedro Osvaldo",
-"res": "",
+"res": "6/2 3/6 7/6",
 "sede": "EVA"
 },
 "005002-C6+40-2": {
@@ -308,7 +308,7 @@
 "gan": null,
 "hora": "18:45",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Dell Orto, Raúl Enrique / Ledesma, Cristian Horacio",
 "p2": "Epifani, Pablo Andrés / Nelson, Carlos Daniel",
 "res": "",
 "sede": "GM"
@@ -316,7 +316,7 @@
 "005002-C6+40-6": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "15:00",
 "inst": "Semifinal",
@@ -364,7 +364,7 @@
 "005002-C6-3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "15:00",
 "inst": "Cuartos de Final",
@@ -376,7 +376,7 @@
 "005002-C6-4": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "15:00",
 "inst": "Cuartos de Final",
@@ -484,7 +484,7 @@
 "005002-C7-6": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "15:00",
 "inst": "Semifinal",
@@ -532,13 +532,13 @@
 "005002-D5-3": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:45",
 "inst": "Cuartos de Final",
 "p1": "Pastorella, María Laura / Yeza, Silvana Valeria",
 "p2": "Carabajal, Carolina / Romero Mansilla, Carolina",
-"res": "",
+"res": "6/4 6/1",
 "sede": "EVA"
 },
 "005002-D5-4": {
@@ -556,13 +556,13 @@
 "005002-D5-5": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:45",
 "inst": "Semifinal",
 "p1": "Flores, María Belén / Segura, Mirta",
 "p2": "Binetti, Milena Anabela / Movia, María Belen",
-"res": "",
+"res": "6/7 6/3 6/1",
 "sede": "EVA"
 },
 "005002-D5-6": {
@@ -572,7 +572,7 @@
 "gan": null,
 "hora": "18:45",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Pastorella, María Laura / Yeza, Silvana Valeria",
 "p2": "",
 "res": "",
 "sede": "EVA"
@@ -584,7 +584,7 @@
 "gan": null,
 "hora": "20:00",
 "inst": "Final",
-"p1": "",
+"p1": "Binetti, Milena Anabela / Movia, María Belen",
 "p2": "",
 "res": "",
 "sede": "EVA"
