@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 17:08",
+"actualizado": "2026-11-21 17:39",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1802,13 +1802,13 @@
 "015001-D7-C2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Hernández, Betina / Liciaga, María",
 "p2": "Brown, Cecilia / Mercerat, Lorena",
-"res": "",
+"res": "6/2 6/1",
 "sede": "Estación Norte",
 "zona": "C"
 },

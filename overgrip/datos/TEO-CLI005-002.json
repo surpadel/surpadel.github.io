@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 17:09",
+"actualizado": "2026-11-21 17:39",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -376,13 +376,13 @@
 "005002-C6-4": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Cuartos de Final",
 "p1": "Baliño, Nicolás Gustavo / Castro, Matías",
 "p2": "Carpio, Federico / Courtis, Matías",
-"res": "",
+"res": "6/4 3/6 7/5",
 "sede": "GM"
 },
 "005002-C6-5": {
@@ -405,7 +405,7 @@
 "hora": "18:45",
 "inst": "Semifinal",
 "p1": "Bravo, David / Guerrero, Julián Alejandro",
-"p2": "",
+"p2": "Carpio, Federico / Courtis, Matías",
 "res": "",
 "sede": "EVA"
 },
@@ -712,7 +712,7 @@
 "005002-D7-4": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:15",
 "inst": "Cuartos de Final",

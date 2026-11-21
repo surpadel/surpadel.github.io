@@ -1,170 +1,5 @@
 [
  {
-  "torneo": "TEO-CLI009-001",
-  "hora": "2026-11-08 18:37",
-  "partidos": [
-   {
-    "codigo": "009001-D3-61",
-    "cat": "Damas 3ra",
-    "inst": "Semifinal",
-    "dia": "2026-11-08",
-    "hora": "15:00",
-    "sede": "La Meca Quilmes",
-    "estado": "Finalizado",
-    "p1": "López, Sandra / Paolucci, Cintia",
-    "p2": "Maira, Prado / Profitos, Juliana",
-    "res": "6/4 7/5",
-    "gan": 2
-   },
-   {
-    "codigo": "009001-D3-62",
-    "cat": "Damas 3ra",
-    "inst": "Semifinal",
-    "dia": "2026-11-08",
-    "hora": "15:00",
-    "sede": "La Meca Quilmes",
-    "estado": "Finalizado",
-    "p1": "Ahumada Mussi, Bernardita / Vega, Olivia Valentina",
-    "p2": "Figueredo, Gala / Meyerhoffer, Mariet",
-    "res": "6/1 6/3",
-    "gan": 2
-   },
-   {
-    "codigo": "009001-D4-61",
-    "cat": "Damas 4ta",
-    "inst": "Semifinal",
-    "dia": "2026-11-08",
-    "hora": "15:00",
-    "sede": "La Meca Quilmes",
-    "estado": "Finalizado",
-    "p1": "Álvarez, Paula Daniela / Sánchez, Mariela",
-    "p2": "Assalone, Daniela / Hidalgo, Vanina",
-    "res": "6/3 6/2",
-    "gan": 1
-   },
-   {
-    "codigo": "009001-D4-62",
-    "cat": "Damas 4ta",
-    "inst": "Semifinal",
-    "dia": "2026-11-08",
-    "hora": "15:00",
-    "sede": "La Meca Quilmes",
-    "estado": "Finalizado",
-    "p1": "Fotia, Martina / Núñez, Nicole",
-    "p2": "Amoroso, Victoria / Kodelia, Erika",
-    "res": "3/6 7/6 6/2",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI009-001",
-  "hora": "2026-11-08 19:07",
-  "partidos": [
-   {
-    "codigo": "009001-D2-61",
-    "cat": "Damas 2da",
-    "inst": "Semifinal",
-    "dia": "2026-11-08",
-    "hora": "16:30",
-    "sede": "La Meca Quilmes",
-    "estado": "Finalizado",
-    "p1": "Castro, Martina / Marceca, Melina",
-    "p2": "Bedrossian, Agustina / Martínez, Agustina",
-    "res": "6/4 6/2",
-    "gan": 2
-   },
-   {
-    "codigo": "009001-D2-62",
-    "cat": "Damas 2da",
-    "inst": "Semifinal",
-    "dia": "2026-11-08",
-    "hora": "16:30",
-    "sede": "La Meca Quilmes",
-    "estado": "Finalizado",
-    "p1": "Cosentino, Daniela Paula / Moras, Ainara",
-    "p2": "Muravchik, María Claudia / Vanina, Ramírez",
-    "res": "6/4 6/1",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI009-001",
-  "hora": "2026-11-08 22:08",
-  "partidos": [
-   {
-    "codigo": "009001-D3-64",
-    "cat": "Damas 3ra",
-    "inst": "Final",
-    "dia": "2026-11-08",
-    "hora": "18:00",
-    "sede": "La Meca Quilmes",
-    "estado": "Finalizado",
-    "p1": "Prado, Maira / Profitos, Juliana",
-    "p2": "Figueredo, Gala / Meyerhoffer, Mariet",
-    "res": "6/4 6/2",
-    "gan": 2
-   },
-   {
-    "codigo": "009001-D4-64",
-    "cat": "Damas 4ta",
-    "inst": "Final",
-    "dia": "2026-11-08",
-    "hora": "18:00",
-    "sede": "La Meca Quilmes",
-    "estado": "Finalizado",
-    "p1": "Álvarez, Paula Daniela / Sánchez, Mariela",
-    "p2": "Amoroso, Victoria / Kodelia, Erika",
-    "res": "6/4 4/6 6/4",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI009-001",
-  "hora": "2026-11-08 23:07",
-  "partidos": [
-   {
-    "codigo": "009001-D2-64",
-    "cat": "Damas 2da",
-    "inst": "Final",
-    "dia": "2026-11-08",
-    "hora": "19:30",
-    "sede": "La Meca Quilmes",
-    "estado": "Finalizado",
-    "p1": "Bedrossian, Agustina / Martínez, Agustina",
-    "p2": "Muravchik, María Claudia / Vanina, Ramírez",
-    "res": "6/3 6/2",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-14 12:08",
-  "partidos": [
-   {
-    "codigo": "008001-C6+50-54",
-    "cat": "Caballeros 6ta +50",
-    "inst": "Octavos de Final",
-    "dia": "2026-11-14",
-    "hora": "10:00",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Alfonso, Héctor Omar / Fernández, Jorge",
-    "p2": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
-    "res": "4/6 6/2 6/4",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
   "torneo": "TEO-CLI008-001",
   "hora": "2026-11-14 12:38",
   "partidos": [
@@ -1721,6 +1556,25 @@
   "hechos": [
    "005002-C4-2",
    "005002-C4-4"
+  ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-21 17:39",
+  "partidos": [
+   {
+    "codigo": "005002-C6-4",
+    "cat": "Caballeros 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "15:00",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "Baliño, Nicolás Gustavo / Castro, Matías",
+    "p2": "Carpio, Federico / Courtis, Matías",
+    "res": "6/4 3/6 7/5",
+    "gan": 2
+   }
   ]
  }
 ]
