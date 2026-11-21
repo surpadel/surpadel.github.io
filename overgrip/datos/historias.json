@@ -1444,6 +1444,7 @@
   "grupo": "TEO-CLI005-002|Cuartos de Final|rosa|2026-11-21",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/cuartos-rosa-1121-2039-1.png",
   "alt": "Cuartos: Damas 6ta, ganaron Scattularo A. / Tunich F. 4/6 7/5 6/4; Damas 7ma, ganaron Banegas G. / Waczynski B. 6/4 7/5",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  }
 ]
