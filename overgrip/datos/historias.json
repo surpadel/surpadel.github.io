@@ -1275,5 +1275,23 @@
   "en_buffer": "6b00fd4e9ffbc8503cef7c21",
   "modo": "auto",
   "publicada_en": "2026-11-20 23:09"
+ },
+ {
+  "creada": "2026-11-21 09:09",
+  "torneo": "TEO-CLI011-001",
+  "inst": "Hoy",
+  "tipo": "hoy",
+  "clave": "hoy-2026-11-21",
+  "organiza": "",
+  "etiquetas": [
+   "metropadeloficial",
+   "boulevard_81",
+   "apbberazategui"
+  ],
+  "codigos": {},
+  "archivo": "especiales/hoy-2026-11-21.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/especiales/hoy-2026-11-21.png",
+  "alt": "Hoy se juega: Metro Padel; Animal 81; APB Master EVA · Berazategui. Seguí @surpadelstore para tener todos los resultados al día.",
+  "publicada": false
  }
 ]
