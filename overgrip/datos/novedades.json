@@ -1342,5 +1342,24 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-21 11:08",
+  "partidos": [
+   {
+    "codigo": "005002-C5+40-1",
+    "cat": "Caballeros 5ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "10:00",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Acosta, Alejandro / Silva, Diego Fernando",
+    "p2": "Frasson, Gabriel / Martin, Hernán",
+    "res": "6/0 6/0",
+    "gan": 1
+   }
+  ]
  }
 ]

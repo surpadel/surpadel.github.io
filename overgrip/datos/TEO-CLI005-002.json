@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 10:38",
+"actualizado": "2026-11-21 11:08",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -88,13 +88,13 @@
 "005002-C5+40-1": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Cuartos de Final",
 "p1": "Acosta, Alejandro / Silva, Diego Fernando",
 "p2": "Frasson, Gabriel / Martin, Hernán",
-"res": "",
+"res": "6/0 6/0",
 "sede": "EVA"
 },
 "005002-C5+40-2": {
@@ -140,7 +140,7 @@
 "gan": null,
 "hora": "18:45",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Acosta, Alejandro / Silva, Diego Fernando",
 "p2": "",
 "res": "",
 "sede": "EVA"
