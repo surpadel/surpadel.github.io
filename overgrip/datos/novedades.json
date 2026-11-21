@@ -1,39 +1,6 @@
 [
  {
   "torneo": "TEO-CLI009-001",
-  "hora": "2026-11-08 16:37",
-  "partidos": [
-   {
-    "codigo": "009001-D2-57",
-    "cat": "Damas 2da",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-08",
-    "hora": "14:00",
-    "sede": "La Meca Quilmes",
-    "estado": "Finalizado",
-    "p1": "Costa, Valeria / Nicolini, Andrea",
-    "p2": "Castro, Martina / Marceca, Melina",
-    "res": "6/4 4/6 12/10",
-    "gan": 2
-   },
-   {
-    "codigo": "009001-D2-58",
-    "cat": "Damas 2da",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-08",
-    "hora": "14:00",
-    "sede": "La Meca Quilmes",
-    "estado": "Finalizado",
-    "p1": "Chenlo, Melina / Penillas, Florencia",
-    "p2": "Bedrossian, Agustina / Martínez, Agustina",
-    "res": "7/6 5/7 11/8",
-    "gan": 1
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI009-001",
   "hora": "2026-11-08 18:37",
   "partidos": [
    {
@@ -1436,6 +1403,25 @@
   "hechos": [
    "005002-D5-1",
    "005002-D6-2"
+  ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-21 12:38",
+  "partidos": [
+   {
+    "codigo": "005002-C5+40-4",
+    "cat": "Caballeros 5ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "11:15",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "Orosco, Leonardo Sebastián / Ortega, Ariel",
+    "p2": "Duette, Ezequiel Alejandro / Quintana, Jorge",
+    "res": "6/3 6/4",
+    "gan": 2
+   }
   ]
  }
 ]

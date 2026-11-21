@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 12:08",
+"actualizado": "2026-11-21 12:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -138,7 +138,7 @@
 "dia": "2026-11-23",
 "estado": "Programado",
 "gan": null,
-"hora": "17:30",
+"hora": "19:30",
 "inst": "Final",
 "p1": "",
 "p2": "",
@@ -1529,13 +1529,13 @@
 "015001-D6-A1": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:30",
 "inst": "Zona",
 "p1": "Ruggieri, Avril / Sardón, Clarisa",
 "p2": "Barrios, Natalia / Niz, Miriam Marisa",
-"res": "",
+"res": "6/3 6/0",
 "sede": "Estación Norte",
 "zona": "A"
 },
@@ -1559,7 +1559,7 @@
 "gan": null,
 "hora": "16:00",
 "inst": "Zona",
-"p1": "",
+"p1": "Ruggieri, Avril / Sardón, Clarisa",
 "p2": "",
 "res": "",
 "sede": "Estación Norte",
@@ -1572,7 +1572,7 @@
 "gan": null,
 "hora": "17:30",
 "inst": "Zona",
-"p1": "",
+"p1": "Barrios, Natalia / Niz, Miriam Marisa",
 "p2": "",
 "res": "",
 "sede": "Estación Norte",
@@ -1594,13 +1594,13 @@
 "015001-D6-B2": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:30",
 "inst": "Zona",
 "p1": "Díaz Colodrero, Camila / Saldivia, Soledad",
 "p2": "Fernández, Luciana / Vena, Viviana",
-"res": "",
+"res": "6/1 6/1",
 "sede": "Estación Norte",
 "zona": "B"
 },
@@ -1612,7 +1612,7 @@
 "hora": "14:30",
 "inst": "Zona",
 "p1": "",
-"p2": "",
+"p2": "Fernández, Luciana / Vena, Viviana",
 "res": "",
 "sede": "Estación Norte",
 "zona": "B"
@@ -1625,7 +1625,7 @@
 "hora": "14:30",
 "inst": "Zona",
 "p1": "",
-"p2": "",
+"p2": "Díaz Colodrero, Camila / Saldivia, Soledad",
 "res": "",
 "sede": "Estación Norte",
 "zona": "B"
