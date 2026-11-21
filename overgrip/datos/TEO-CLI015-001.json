@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 13:38",
+"actualizado": "2026-11-21 14:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1945,13 +1945,13 @@
 "015001-D7-G1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:00",
 "inst": "Zona",
 "p1": "Frías, Brenda / Sola Barni, Jimena",
 "p2": "Corbalán, Magali / Ratusny, Justina",
-"res": "",
+"res": "6/0 6/2",
 "sede": "Estación Norte",
 "zona": "G"
 },
