@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 19:08",
+"actualizado": "2026-11-21 19:38",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -64,7 +64,7 @@
 "005002-C4-6": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:30",
 "inst": "Semifinal",
@@ -136,7 +136,7 @@
 "005002-C5+40-5": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:45",
 "inst": "Semifinal",
@@ -172,7 +172,7 @@
 "005002-C5-1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:30",
 "inst": "Cuartos de Final",
@@ -184,13 +184,13 @@
 "005002-C5-2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:30",
 "inst": "Cuartos de Final",
 "p1": "Greco, Luciano / Rossi, Bruno Nicolás",
 "p2": "Chamorro, Sebastián / González, Tomás",
-"res": "",
+"res": "3/6 6/2 6/3",
 "sede": "GM"
 },
 "005002-C5-3": {
@@ -225,14 +225,14 @@
 "hora": "21:15",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Chamorro, Sebastián / González, Tomás",
 "res": "",
 "sede": "EVA"
 },
 "005002-C5-6": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:30",
 "inst": "Semifinal",
@@ -304,7 +304,7 @@
 "005002-C6+40-5": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:45",
 "inst": "Semifinal",

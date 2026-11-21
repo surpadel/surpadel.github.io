@@ -1395,5 +1395,38 @@
   "alt": "Cuartos: Caballeros 6ta +40, ganaron Bermúdez P. / Cabral A. 6/3 6/4; Caballeros 6ta +40, ganaron Epifani P. / Nelson C. 7/5 6/2; Caballeros 6ta +40, ganaron Dell Orto R. / Ledesma C. 6/2 3/6 7/6; Caballeros 7ma, ganaron Jara J. / Medina L. 6/2 6/2; Caballeros 7ma, ganaron Benítez Sánchez H. / Morbidoni D. 6/0 4/6 6/1; Caballeros 7ma, ganaron Capitina G. / Rojas C. 6/3 4/6 6/2",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-21 19:38",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Cuartos de Final",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-D5-3": "6/4 6/1",
+   "005002-D5-4": "6/4 6/1",
+   "005002-D6-4": "6/0 6/1",
+   "005002-D6-1": "6/1 6/2"
+  },
+  "archivo": "TEO-CLI005-002/cuartos-rosa-1121-1938-1.png",
+  "grupo": "TEO-CLI005-002|Cuartos de Final|rosa|2026-11-21",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/cuartos-rosa-1121-1938-1.png",
+  "alt": "Cuartos: Damas 5ta, ganaron Pastorella M. / Yeza S. 6/4 6/1; Damas 5ta, ganaron Chapuis J. / Velázquez C. 6/4 6/1; Damas 6ta, ganaron Alcaraz A. / Giorcelli M. 6/0 6/1; Damas 6ta, ganaron Guerra L. / Ruiz Díaz L. 6/1 6/2",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-21 19:38",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Cuartos de Final",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-D7-3": "2/6 6/4 7/5",
+   "005002-D7-4": "6/0 6/4",
+   "005002-D7-1": "6/2 4/6 7/6"
+  },
+  "archivo": "TEO-CLI005-002/cuartos-rosa-1121-1938-2.png",
+  "grupo": "TEO-CLI005-002|Cuartos de Final|rosa|2026-11-21",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/cuartos-rosa-1121-1938-2.png",
+  "alt": "Cuartos: Damas 7ma, ganaron Ceballos E. / Mutti Salort T. 2/6 6/4 7/5; Damas 7ma, ganaron Lloveras K. / Piccinini M. 6/0 6/4; Damas 7ma, ganaron Bosnach G. / Drab R. 6/2 4/6 7/6",
+  "publicada": false
  }
 ]
