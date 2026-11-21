@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 13:08",
+"actualizado": "2026-11-21 13:38",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -556,7 +556,7 @@
 "005002-D5-5": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:45",
 "inst": "Semifinal",
@@ -628,13 +628,13 @@
 "005002-D6-4": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "12:30",
 "inst": "Cuartos de Final",
 "p1": "Discioscia, Melisa / Rodríguez, Fiorella",
 "p2": "Alcaraz, Azul Anabella / Giorcelli, Mailen",
-"res": "",
+"res": "6/0 6/1",
 "sede": "EVA"
 },
 "005002-D6-5": {
@@ -657,7 +657,7 @@
 "hora": "21:15",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Alcaraz, Azul Anabella / Giorcelli, Mailen",
 "res": "",
 "sede": "EVA"
 },

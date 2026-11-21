@@ -1481,5 +1481,24 @@
     "gan": 1
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-21 13:38",
+  "partidos": [
+   {
+    "codigo": "005002-D6-4",
+    "cat": "Damas 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "12:30",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Discioscia, Melisa / Rodríguez, Fiorella",
+    "p2": "Alcaraz, Azul Anabella / Giorcelli, Mailen",
+    "res": "6/0 6/1",
+    "gan": 2
+   }
+  ]
  }
 ]

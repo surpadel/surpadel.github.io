@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 13:08",
+"actualizado": "2026-11-21 13:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1581,13 +1581,13 @@
 "015001-D6-B1": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:30",
 "inst": "Zona",
 "p1": "Altamirano, Cynthia / Gago, Natalin",
 "p2": "Acuña, Claudia / Rodríguez, Alejandra Valeria",
-"res": "",
+"res": "6/2 2/6 7/5",
 "sede": "Estación Norte",
 "zona": "B"
 },
@@ -1611,7 +1611,7 @@
 "gan": null,
 "hora": "14:30",
 "inst": "Zona",
-"p1": "",
+"p1": "Acuña, Claudia / Rodríguez, Alejandra Valeria",
 "p2": "Fernández, Luciana / Vena, Viviana",
 "res": "",
 "sede": "Estación Norte",
@@ -1624,7 +1624,7 @@
 "gan": null,
 "hora": "14:30",
 "inst": "Zona",
-"p1": "",
+"p1": "Altamirano, Cynthia / Gago, Natalin",
 "p2": "Díaz Colodrero, Camila / Saldivia, Soledad",
 "res": "",
 "sede": "Estación Norte",
