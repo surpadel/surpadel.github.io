@@ -1,16 +1,16 @@
 {
-"actualizado": "2026-11-21 18:38",
+"actualizado": "2026-11-21 19:08",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:15",
 "inst": "Cuartos de Final",
 "p1": "Sandoval, Matías Leandro / Silva, Bruno Jorge",
 "p2": "Calvanese, Simón / Torres, Agustín",
-"res": "",
+"res": "6/7 6/3 6/4",
 "sede": "EVA"
 },
 "005002-C4-2": {
@@ -56,7 +56,7 @@
 "gan": null,
 "hora": "20:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Sandoval, Matías Leandro / Silva, Bruno Jorge",
 "p2": "Martínez, Agustín / Pacheco, Ignacio",
 "res": "",
 "sede": "EVA"
@@ -316,13 +316,13 @@
 "005002-C6+40-6": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Semifinal",
 "p1": "Kowal, Ramiro / Larrea, Rodrigo",
 "p2": "Bermúdez, Pablo / Cabral, Ariel",
-"res": "",
+"res": "6/4 6/7 6/4",
 "sede": "EVA"
 },
 "005002-C6+40-7": {
@@ -333,7 +333,7 @@
 "hora": "18:45",
 "inst": "Final",
 "p1": "",
-"p2": "",
+"p2": "Bermúdez, Pablo / Cabral, Ariel",
 "res": "",
 "sede": "EVA"
 },
@@ -388,13 +388,13 @@
 "005002-C6-5": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:15",
 "inst": "Semifinal",
 "p1": "Calello, Adrián / Gutiérrez, Martín",
 "p2": "Rodríguez, Federico / San Pedro, Emanuel Oscar",
-"res": "",
+"res": "6/4 7/6",
 "sede": "EVA"
 },
 "005002-C6-6": {
@@ -416,7 +416,7 @@
 "gan": null,
 "hora": "17:30",
 "inst": "Final",
-"p1": "",
+"p1": "Rodríguez, Federico / San Pedro, Emanuel Oscar",
 "p2": "",
 "res": "",
 "sede": "EVA"
@@ -424,13 +424,13 @@
 "005002-C7-1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:15",
 "inst": "Cuartos de Final",
 "p1": "Escobar, Mauricio / Fuenzalida, Javier",
 "p2": "Binetti, Gonzalo / Meza, Cristian",
-"res": "",
+"res": "5/7 6/4 6/4",
 "sede": "EVA"
 },
 "005002-C7-2": {
@@ -476,7 +476,7 @@
 "gan": null,
 "hora": "20:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Escobar, Mauricio / Fuenzalida, Javier",
 "p2": "Capitina, Gabriel / Rojas, Cristian",
 "res": "",
 "sede": "EVA"
@@ -544,13 +544,13 @@
 "005002-D5-4": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Cuartos de Final",
 "p1": "Magno, Camila / Romano, Patricia Gladys",
 "p2": "Chapuis, Jacqueline / Velázquez, Carolina Belen",
-"res": "",
+"res": "6/4 6/1",
 "sede": "EVA"
 },
 "005002-D5-5": {
@@ -573,7 +573,7 @@
 "hora": "18:45",
 "inst": "Semifinal",
 "p1": "Pastorella, María Laura / Yeza, Silvana Valeria",
-"p2": "",
+"p2": "Chapuis, Jacqueline / Velázquez, Carolina Belen",
 "res": "",
 "sede": "EVA"
 },
@@ -676,19 +676,19 @@
 "005002-D7-1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:15",
 "inst": "Cuartos de Final",
 "p1": "Bosnach, Gisela / Drab, Rocío",
 "p2": "Gobenko, Paula / Torres, Julieta Mariela",
-"res": "",
+"res": "6/2 4/6 7/6",
 "sede": "GM"
 },
 "005002-D7-2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:30",
 "inst": "Cuartos de Final",
@@ -728,7 +728,7 @@
 "gan": null,
 "hora": "21:15",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Bosnach, Gisela / Drab, Rocío",
 "p2": "",
 "res": "",
 "sede": "EVA"

@@ -1614,5 +1614,89 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-21 19:08",
+  "partidos": [
+   {
+    "codigo": "005002-C6+40-6",
+    "cat": "Caballeros 6ta +40",
+    "inst": "Semifinal",
+    "dia": "2026-11-21",
+    "hora": "15:00",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Kowal, Ramiro / Larrea, Rodrigo",
+    "p2": "Bermúdez, Pablo / Cabral, Ariel",
+    "res": "6/4 6/7 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-D5-4",
+    "cat": "Damas 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "15:00",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Magno, Camila / Romano, Patricia Gladys",
+    "p2": "Chapuis, Jacqueline / Velázquez, Carolina Belen",
+    "res": "6/4 6/1",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-C4-1",
+    "cat": "Caballeros 4ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "16:15",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Sandoval, Matías Leandro / Silva, Bruno Jorge",
+    "p2": "Calvanese, Simón / Torres, Agustín",
+    "res": "6/7 6/3 6/4",
+    "gan": 1
+   },
+   {
+    "codigo": "005002-C6-5",
+    "cat": "Caballeros 6ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-21",
+    "hora": "16:15",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Calello, Adrián / Gutiérrez, Martín",
+    "p2": "Rodríguez, Federico / San Pedro, Emanuel Oscar",
+    "res": "6/4 7/6",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-C7-1",
+    "cat": "Caballeros 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "16:15",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Escobar, Mauricio / Fuenzalida, Javier",
+    "p2": "Binetti, Gonzalo / Meza, Cristian",
+    "res": "5/7 6/4 6/4",
+    "gan": 1
+   },
+   {
+    "codigo": "005002-D7-1",
+    "cat": "Damas 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "16:15",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "Bosnach, Gisela / Drab, Rocío",
+    "p2": "Gobenko, Paula / Torres, Julieta Mariela",
+    "res": "6/2 4/6 7/6",
+    "gan": 1
+   }
+  ]
  }
 ]
