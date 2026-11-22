@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 21:38",
+"actualizado": "2026-11-21 22:08",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -64,13 +64,13 @@
 "005002-C4-6": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:30",
 "inst": "Semifinal",
 "p1": "Bravo, Iván Alexis / Pérez, Cristian Fernando",
 "p2": "Lorefice, Fernando Adrián / Reynoso, Julio Leandro",
-"res": "",
+"res": "6/7 6/3 6/2",
 "sede": "EVA"
 },
 "005002-C4-7": {
@@ -81,7 +81,7 @@
 "hora": "18:45",
 "inst": "Final",
 "p1": "",
-"p2": "",
+"p2": "Lorefice, Fernando Adrián / Reynoso, Julio Leandro",
 "res": "",
 "sede": "EVA"
 },
@@ -136,13 +136,13 @@
 "005002-C5+40-5": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:45",
 "inst": "Semifinal",
 "p1": "Acosta, Alejandro / Silva, Diego Fernando",
 "p2": "Buono, Juan José / Nicotera, José",
-"res": "",
+"res": "6/4 6/4",
 "sede": "EVA"
 },
 "005002-C5+40-6": {
@@ -164,7 +164,7 @@
 "gan": null,
 "hora": "18:45",
 "inst": "Final",
-"p1": "",
+"p1": "Buono, Juan José / Nicotera, José",
 "p2": "Duette, Ezequiel Alejandro / Quintana, Jorge",
 "res": "",
 "sede": "EVA"
@@ -172,13 +172,13 @@
 "005002-C5-1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:30",
 "inst": "Cuartos de Final",
 "p1": "Esquivel, Nahuel / Yirula, David Ezequiel",
 "p2": "Delfini, Gastón / Lamelo, Lautaro",
-"res": "",
+"res": "6/2 6/3",
 "sede": "EVA"
 },
 "005002-C5-2": {
@@ -224,7 +224,7 @@
 "gan": null,
 "hora": "21:15",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Esquivel, Nahuel / Yirula, David Ezequiel",
 "p2": "Chamorro, Sebastián / González, Tomás",
 "res": "",
 "sede": "EVA"
@@ -232,13 +232,13 @@
 "005002-C5-6": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:30",
 "inst": "Semifinal",
 "p1": "Cavazzoni, Joaquín / Montes de Oca, Matías",
 "p2": "Moya, Bruno / Segovia, Agustín",
-"res": "",
+"res": "6/4 6/4",
 "sede": "EVA"
 },
 "005002-C5-7": {
@@ -249,7 +249,7 @@
 "hora": "20:00",
 "inst": "Final",
 "p1": "",
-"p2": "",
+"p2": "Moya, Bruno / Segovia, Agustín",
 "res": "",
 "sede": "EVA"
 },
@@ -400,13 +400,13 @@
 "005002-C6-6": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:45",
 "inst": "Semifinal",
 "p1": "Bravo, David / Guerrero, Julián Alejandro",
 "p2": "Carpio, Federico / Courtis, Matías",
-"res": "",
+"res": "6/1 6/4",
 "sede": "EVA"
 },
 "005002-C6-7": {
@@ -417,7 +417,7 @@
 "hora": "17:30",
 "inst": "Final",
 "p1": "Rodríguez, Federico / San Pedro, Emanuel Oscar",
-"p2": "",
+"p2": "Bravo, David / Guerrero, Julián Alejandro",
 "res": "",
 "sede": "EVA"
 },
@@ -568,13 +568,13 @@
 "005002-D5-6": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:45",
 "inst": "Semifinal",
 "p1": "Pastorella, María Laura / Yeza, Silvana Valeria",
 "p2": "Chapuis, Jacqueline / Velázquez, Carolina Belen",
-"res": "",
+"res": "6/2 6/1",
 "sede": "EVA"
 },
 "005002-D5-7": {
@@ -585,7 +585,7 @@
 "hora": "20:00",
 "inst": "Final",
 "p1": "Binetti, Milena Anabela / Movia, María Belen",
-"p2": "",
+"p2": "Chapuis, Jacqueline / Velázquez, Carolina Belen",
 "res": "",
 "sede": "EVA"
 },

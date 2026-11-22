@@ -1484,5 +1484,20 @@
   "alt": "Cuartos: Caballeros 4ta, ganaron Sandoval M. / Silva B. 6/7 6/3 6/4; Caballeros 5ta, ganaron Chamorro S. / González T. 3/6 6/2 6/3; Caballeros 6ta, ganaron Carpio F. / Courtis M. 6/4 3/6 7/5; Caballeros 7ma, ganaron Escobar M. / Fuenzalida J. 5/7 6/4 6/4",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-21 22:09",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Cuartos de Final",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-C5-1": "6/2 6/3"
+  },
+  "archivo": "TEO-CLI005-002/cuartos-azul-1121-2209-1.png",
+  "grupo": "TEO-CLI005-002|Cuartos de Final|azul|2026-11-21",
+  "suelta": true,
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/cuartos-azul-1121-2209-1.png",
+  "alt": "Cuartos: Caballeros 5ta, ganaron Esquivel N. / Yirula D. 6/2 6/3",
+  "publicada": false
  }
 ]

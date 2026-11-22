@@ -1,85 +1,6 @@
 [
  {
   "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-14 17:37",
-  "partidos": [
-   {
-    "codigo": "008001-C5+50-60",
-    "cat": "Caballeros 5ta +50",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-14",
-    "hora": "16:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Conti, Maximiliano Gastón / García, Norberto Fernando",
-    "p2": "Ambrosetti, Diego / García, Juan",
-    "res": "7/5 6/2",
-    "gan": 2
-   },
-   {
-    "codigo": "008001-C6+50-57",
-    "cat": "Caballeros 6ta +50",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-14",
-    "hora": "16:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Monzon, Miguel Eduardo / Sosa, Fernando Fabián",
-    "p2": "De Pierris, Gastón / Hernández, Ariel Hernán",
-    "res": "6/3 6/3",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-14 18:07",
-  "partidos": [
-   {
-    "codigo": "008001-C5+50-59",
-    "cat": "Caballeros 5ta +50",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-14",
-    "hora": "15:00",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Bautista, Renee Arnaldo / De Marco, Fabián",
-    "p2": "Frías, Víctor Hugo / Silva, Pedro Bienvenido",
-    "res": "6/2 7/6",
-    "gan": 1
-   },
-   {
-    "codigo": "008001-C5+50-57",
-    "cat": "Caballeros 5ta +50",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-14",
-    "hora": "16:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Oliverio, Víctor Hugo / Valaco, Néstor",
-    "p2": "Cortina, Alejandro / Di Lorenzo, Javier Eduardo",
-    "res": "6/3 2/6 6/0",
-    "gan": 1
-   },
-   {
-    "codigo": "008001-C5+50-58",
-    "cat": "Caballeros 5ta +50",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-14",
-    "hora": "16:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Canales, Gustavo / Vera, Osvaldo Manuel",
-    "p2": "Gural, Esteban Edgardo / Quatrocchi, Luciano",
-    "res": "6/4 6/3",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI008-001",
   "hora": "2026-11-14 19:37",
   "partidos": [
    {
@@ -1598,6 +1519,93 @@
     "res": "7/5 6/4",
     "gan": 2
    }
+  ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-21 22:08",
+  "partidos": [
+   {
+    "codigo": "005002-C4-6",
+    "cat": "Caballeros 4ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-21",
+    "hora": "17:30",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Bravo, Iván Alexis / Pérez, Cristian Fernando",
+    "p2": "Lorefice, Fernando Adrián / Reynoso, Julio Leandro",
+    "res": "6/7 6/3 6/2",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-C5-1",
+    "cat": "Caballeros 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-21",
+    "hora": "17:30",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Esquivel, Nahuel / Yirula, David Ezequiel",
+    "p2": "Delfini, Gastón / Lamelo, Lautaro",
+    "res": "6/2 6/3",
+    "gan": 1
+   },
+   {
+    "codigo": "005002-C5-6",
+    "cat": "Caballeros 5ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-21",
+    "hora": "17:30",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Cavazzoni, Joaquín / Montes de Oca, Matías",
+    "p2": "Moya, Bruno / Segovia, Agustín",
+    "res": "6/4 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-C5+40-5",
+    "cat": "Caballeros 5ta +40",
+    "inst": "Semifinal",
+    "dia": "2026-11-21",
+    "hora": "18:45",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Acosta, Alejandro / Silva, Diego Fernando",
+    "p2": "Buono, Juan José / Nicotera, José",
+    "res": "6/4 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-C6-6",
+    "cat": "Caballeros 6ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-21",
+    "hora": "18:45",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Bravo, David / Guerrero, Julián Alejandro",
+    "p2": "Carpio, Federico / Courtis, Matías",
+    "res": "6/1 6/4",
+    "gan": 1
+   },
+   {
+    "codigo": "005002-D5-6",
+    "cat": "Damas 5ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-21",
+    "hora": "18:45",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Pastorella, María Laura / Yeza, Silvana Valeria",
+    "p2": "Chapuis, Jacqueline / Velázquez, Carolina Belen",
+    "res": "6/2 6/1",
+    "gan": 2
+   }
+  ],
+  "hechos": [
+   "005002-C5-1"
   ]
  }
 ]
