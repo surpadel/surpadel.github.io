@@ -1,16 +1,16 @@
 {
-"actualizado": "2026-11-22 18:08",
+"actualizado": "2026-11-22 18:37",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:00",
 "inst": "Cuartos de Final",
 "p1": "Larrouet, Nicolás / Palavecino, -marcos",
 "p2": "Rechiutti, Alejandro / Tocho, Diego",
-"res": "",
+"res": "1/6 6/4 7/6",
 "sede": "Boulevard 81"
 },
 "015001-C2-59": {
@@ -33,7 +33,7 @@
 "hora": "20:30",
 "inst": "Semifinal",
 "p1": "Di Gregori, Marcos / Grabiel, Galo Nahuel",
-"p2": "",
+"p2": "Rechiutti, Alejandro / Tocho, Diego",
 "res": "",
 "sede": "Estación Norte"
 },
@@ -1217,13 +1217,13 @@
 "015001-C7-E2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Bernazza, Franco / Santana, Flavio",
 "p2": "Monteverde, Felipe / Ocampo, Lorenzo",
-"res": "",
+"res": "6/1 6/1",
 "sede": "Boulevard 81",
 "zona": "E"
 },
@@ -1477,13 +1477,13 @@
 "015001-D5-E3": {
 "cat": "Damas 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "14:30",
 "inst": "Zona",
 "p1": "García, Marta / Martínez, Andrea Verónica",
 "p2": "Corsetti, Delfina / Pérez, Silvana Paola",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "Boulevard 81",
 "zona": "E"
 },

@@ -1756,5 +1756,23 @@
   "alt": "Cuartos: Caballeros 5ta, ganaron Dauria V. / Hernández M. 7/5 6/2; Caballeros 5ta, ganaron Jara A. / Montes T. 7/6 0/6 6/4",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-22 18:38",
+  "torneo": "TEO-CLI011-001",
+  "inst": "16avos",
+  "organiza": "metropadeloficial",
+  "codigos": {
+   "011001-C6-42": "6/2 6/0",
+   "011001-C6-34": "6/3 4/6 6/2"
+  },
+  "archivo": "TEO-CLI011-001/16avos-azul-1122-1838-1.png",
+  "grupo": "TEO-CLI011-001|16avos|azul|2026-11-22",
+  "demorados": [
+   "011001-C6-39"
+  ],
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/16avos-azul-1122-1838-1.png",
+  "alt": "16avos: Caballeros 6ta, ganaron Daureli M. / Vera C. 6/2 6/0; Caballeros 6ta, ganaron Novello S. / Rodríguez L. 6/3 4/6 6/2",
+  "publicada": false
  }
 ]

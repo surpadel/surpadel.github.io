@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 18:08",
+"actualizado": "2026-11-22 18:37",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -532,7 +532,7 @@
 "011001-C7-55": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:00",
 "inst": "Octavos de Final",
@@ -544,13 +544,13 @@
 "011001-C7-56": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "15:45",
 "inst": "Octavos de Final",
 "p1": "Di Maio, Agustín / Sokol, Pablo",
 "p2": "Corrales, Matías Lautaro / Corrales, Mariano Nahuel",
-"res": "",
+"res": "7/6 6/3",
 "sede": "El Portal"
 },
 "011001-C7-57": {
@@ -597,7 +597,7 @@
 "hora": "20:45",
 "inst": "Cuartos de Final",
 "p1": "",
-"p2": "",
+"p2": "Di Maio, Agustín / Sokol, Pablo",
 "res": "",
 "sede": "El Portal"
 },

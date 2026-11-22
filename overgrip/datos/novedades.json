@@ -1667,10 +1667,7 @@
     "gan": 2
    }
   ],
-  "hechos": [
-   "011001-C5-57",
-   "011001-C5-58"
-  ]
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI011-001",
@@ -1715,6 +1712,9 @@
     "res": "6/2 6/0",
     "gan": 2
    }
+  ],
+  "hechos": [
+   "011001-C6-34"
   ]
  },
  {
@@ -1822,6 +1822,44 @@
     "p1": "Carretero, Leandro / Massa, Jorge",
     "p2": "Garcia, Faustino / Mercado, Bautista",
     "res": "6/7 6/3 6/3",
+    "gan": 2
+   }
+  ]
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 18:37",
+  "partidos": [
+   {
+    "codigo": "011001-C7-56",
+    "cat": "Caballeros 7ma",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "15:45",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Di Maio, Agustín / Sokol, Pablo",
+    "p2": "Corrales, Matías Lautaro / Corrales, Mariano Nahuel",
+    "res": "7/6 6/3",
+    "gan": 1
+   }
+  ]
+ },
+ {
+  "torneo": "TEO-CLI015-001",
+  "hora": "2026-11-22 18:37",
+  "partidos": [
+   {
+    "codigo": "015001-C2-58",
+    "cat": "Caballeros 2da",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "16:00",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Larrouet, Nicolás / Palavecino, -marcos",
+    "p2": "Rechiutti, Alejandro / Tocho, Diego",
+    "res": "1/6 6/4 7/6",
     "gan": 2
    }
   ]
