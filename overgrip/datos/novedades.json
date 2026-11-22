@@ -1671,5 +1671,50 @@
    "011001-C5-57",
    "011001-C5-58"
   ]
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 16:37",
+  "partidos": [
+   {
+    "codigo": "011001-C6-34",
+    "cat": "Caballeros 6ta",
+    "inst": "16avos",
+    "dia": "2026-11-22",
+    "hora": "13:15",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Novello, Santiago / Rodríguez, Leonardo",
+    "p2": "Oña, Leonardo / Sánchez, Matías Nahuel",
+    "res": "6/3 4/6 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C7-51",
+    "cat": "Caballeros 7ma",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "14:30",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "La Rosa, Leandro Gabriel / Moreno, Juan Camilo",
+    "p2": "Chinchilla, Nahuel / Estanga, Pablo",
+    "res": "6/0 7/5",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C7-52",
+    "cat": "Caballeros 7ma",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "14:30",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Casciana, Matías / Sosa, Mauro Ezequiel",
+    "p2": "Bengler, Fernando / Knorr, Mario",
+    "res": "6/2 6/0",
+    "gan": 2
+   }
+  ]
  }
 ]

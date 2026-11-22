@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 15:37",
+"actualizado": "2026-11-22 16:37",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -184,13 +184,13 @@
 "011001-C6-34": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:15",
 "inst": "16avos",
 "p1": "Novello, Santiago / Rodríguez, Leonardo",
 "p2": "Oña, Leonardo / Sánchez, Matías Nahuel",
-"res": "",
+"res": "6/3 4/6 6/2",
 "sede": "El Portal"
 },
 "011001-C6-39": {
@@ -237,7 +237,7 @@
 "hora": "18:15",
 "inst": "Octavos de Final",
 "p1": "Almiron, Agustín / Felitte, Damián",
-"p2": "",
+"p2": "Novello, Santiago / Rodríguez, Leonardo",
 "res": "",
 "sede": "El Portal"
 },
@@ -460,7 +460,7 @@
 "011001-C7-49": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "15:45",
 "inst": "Octavos de Final",
@@ -484,31 +484,31 @@
 "011001-C7-51": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "14:30",
 "inst": "Octavos de Final",
 "p1": "La Rosa, Leandro Gabriel / Moreno, Juan Camilo",
 "p2": "Chinchilla, Nahuel / Estanga, Pablo",
-"res": "",
+"res": "6/0 7/5",
 "sede": "El Portal"
 },
 "011001-C7-52": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "14:30",
 "inst": "Octavos de Final",
 "p1": "Casciana, Matías / Sosa, Mauro Ezequiel",
 "p2": "Bengler, Fernando / Knorr, Mario",
-"res": "",
+"res": "6/2 6/0",
 "sede": "El Portal"
 },
 "011001-C7-53": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "15:45",
 "inst": "Octavos de Final",
@@ -572,8 +572,8 @@
 "gan": null,
 "hora": "20:45",
 "inst": "Cuartos de Final",
-"p1": "",
-"p2": "",
+"p1": "La Rosa, Leandro Gabriel / Moreno, Juan Camilo",
+"p2": "Bengler, Fernando / Knorr, Mario",
 "res": "",
 "sede": "El Portal"
 },
