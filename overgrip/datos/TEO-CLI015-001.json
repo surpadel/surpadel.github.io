@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 11:07",
+"actualizado": "2026-11-22 11:37",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -81,7 +81,7 @@
 "hora": "14:30",
 "inst": "Cuartos de Final",
 "p1": "Barrameda, Leonardo Gabriel / Casanovas, Juan Pablo",
-"p2": "",
+"p2": "Iglesias, Pablo / Quevedo, Ignacio",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -92,7 +92,7 @@
 "gan": null,
 "hora": "14:30",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Ibarra, Agustín / Márquez, Manuel",
 "p2": "Agostinelli, Facundo / Farías, Santiago",
 "res": "",
 "sede": "Boulevard 81"
@@ -385,13 +385,13 @@
 "015001-C3-C2": {
 "cat": "Caballeros 3ra",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "Ibarra, Agustín / Márquez, Manuel",
 "p2": "Iglesias, Pablo / Quevedo, Ignacio",
-"res": "",
+"res": "6/4 6/1",
 "sede": "Estación Norte",
 "zona": "C"
 },
@@ -580,7 +580,7 @@
 "015001-C4-E1": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:30",
 "inst": "Zona",
@@ -645,13 +645,13 @@
 "015001-C4-F3": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "10:00",
 "inst": "Zona",
 "p1": "Cabrera, Martina / González, Gerónimo",
 "p2": "Cardinali, Matías / Sendra, Sebastián",
-"res": "",
+"res": "7/5 7/6",
 "sede": "Estación Norte",
 "zona": "F"
 },
@@ -1360,13 +1360,13 @@
 "015001-D5-B3": {
 "cat": "Damas 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Zona",
 "p1": "Foltan Mendiberry, Luciana / Jodzik, Tatiana",
 "p2": "Gonzáles, Gisela Pamela / Ruiz, Claudia Jorgelina",
-"res": "",
+"res": "6/3 6/3",
 "sede": "Estación Norte",
 "zona": "B"
 },
@@ -1568,13 +1568,13 @@
 "015001-D6-A4": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Barrios, Natalia / Niz, Miriam Marisa",
 "p2": "Cornejo, Hebe / Martins, Daiana",
-"res": "",
+"res": "6/1 6/2",
 "sede": "Estación Norte",
 "zona": "A"
 },
@@ -1659,13 +1659,13 @@
 "015001-D6-C3": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "Cantoni, Alma / Guevara, Lara",
 "p2": "Borba, Teresa / Lomeña, María de los Ángeles",
-"res": "",
+"res": "6/1 6/3",
 "sede": "Estación Norte",
 "zona": "C"
 },
@@ -1828,13 +1828,13 @@
 "015001-D7-D1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 1,
 "hora": "13:00",
 "inst": "Zona",
 "p1": "Mayocchi, Graciela / Pane, Antonella",
 "p2": "Galeano, Maia / Riche, Natalia Soledad",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "Boulevard 81",
 "zona": "D"
 },
@@ -1958,26 +1958,26 @@
 "015001-D7-G2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:30",
 "inst": "Zona",
 "p1": "Frías, Brenda / Sola Barni, Jimena",
 "p2": "Gianfelici, Milagros / Ochandorena, Milagros",
-"res": "",
+"res": "6/2 6/0",
 "sede": "Estación Norte",
 "zona": "G"
 },
 "015001-D7-G3": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Corbalán, Magali / Ratusny, Justina",
 "p2": "Gianfelici, Milagros / Ochandorena, Milagros",
-"res": "",
+"res": "6/4 6/4",
 "sede": "Estación Norte",
 "zona": "G"
 }

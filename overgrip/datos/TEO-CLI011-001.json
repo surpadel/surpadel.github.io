@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 10:37",
+"actualizado": "2026-11-22 11:37",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -40,13 +40,13 @@
 "011001-C5-52": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "10:00",
 "inst": "Octavos de Final",
 "p1": "Kaufmann, Gustavo / Marchissio, Ezequiel",
 "p2": "Jara, Alejandro Anibal / Montes, Tobias Alexander",
-"res": "",
+"res": "6/1 6/3",
 "sede": "El Portal"
 },
 "011001-C5-53": {
@@ -117,7 +117,7 @@
 "hora": "13:15",
 "inst": "Cuartos de Final",
 "p1": "",
-"p2": "",
+"p2": "Jara, Alejandro Anibal / Montes, Tobias Alexander",
 "res": "",
 "sede": "El Portal"
 },
