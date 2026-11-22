@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 08:37",
+"actualizado": "2026-11-22 11:07",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1152,13 +1152,13 @@
 "015001-C7-C3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "10:00",
 "inst": "Zona",
 "p1": "Ruiz, Santiago / Varveri, Luciano José",
 "p2": "Gómez, Leandro / Mardikian, Federico",
-"res": "",
+"res": "6/4 6/2",
 "sede": "Estación Norte",
 "zona": "C"
 },
@@ -1815,13 +1815,13 @@
 "015001-D7-C3": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Zona",
 "p1": "Bentivegna, Agostina / Cachorro, Camila",
 "p2": "Brown, Cecilia / Mercerat, Lorena",
-"res": "",
+"res": "6/2 6/1",
 "sede": "Estación Norte",
 "zona": "C"
 },
