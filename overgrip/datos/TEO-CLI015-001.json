@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 18:37",
+"actualizado": "2026-11-22 19:37",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1022,26 +1022,26 @@
 "015001-C6-B3": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Dupen, Flavio Sebastián / Ortega, Lucas Ariel",
 "p2": "Fonseca, Joaquín / San Martin, Joaquín",
-"res": "",
+"res": "1/6 6/4 6/4",
 "sede": "Boulevard 81",
 "zona": "B"
 },
 "015001-C6-B4": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Angeletti, Tomás / Strassburguer, Ian",
 "p2": "Pablo, Cuartas / Salinas, Luisina",
-"res": "",
+"res": "6/4 3/6 6/4",
 "sede": "Boulevard 81",
 "zona": "B"
 },
