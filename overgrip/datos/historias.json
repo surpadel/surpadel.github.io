@@ -1791,5 +1791,40 @@
   "alt": "16avos: Caballeros 6ta, ganaron Muriel J. / Peralta B. 3/6 7/6 6/2",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-22 20:08",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Cuartos de Final",
+  "organiza": "boulevard_81",
+  "codigos": {
+   "015001-C2-58": "1/6 6/4 7/6",
+   "015001-C3-57": "6/3 3/6 6/4",
+   "015001-C3-58": "6/3 6/4",
+   "015001-C3-59": "6/2 6/0",
+   "015001-C3-60": "6/7 6/3 6/3"
+  },
+  "archivo": "TEO-CLI015-001/cuartos-azul-1122-2008-1.png",
+  "grupo": "TEO-CLI015-001|Cuartos de Final|azul|2026-11-22",
+  "demorados": [
+   "015001-C2-59"
+  ],
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/cuartos-azul-1122-2008-1.png",
+  "alt": "Cuartos: Caballeros 2da, ganaron Rechiutti A. / Tocho D. 1/6 6/4 7/6; Caballeros 3ra, ganaron Sala A. / Yop O. 6/3 3/6 6/4; Caballeros 3ra, ganaron Barrameda L. / Casanovas J. 6/3 6/4; Caballeros 3ra, ganaron Ibarra A. / Márquez M. 6/2 6/0; Caballeros 3ra, ganaron Garcia F. / Mercado B. 6/7 6/3 6/3",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-22 20:08",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Final",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-D7-7": "6/3 4/6 6/0"
+  },
+  "archivo": "TEO-CLI005-002/final-rosa-1122-2008-1.png",
+  "grupo": "TEO-CLI005-002|Final|rosa|2026-11-22",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/final-rosa-1122-2008-1.png",
+  "alt": "Finales: Damas 7ma, ganaron Banegas G. / Waczynski B. 6/3 4/6 6/0",
+  "publicada": false
  }
 ]

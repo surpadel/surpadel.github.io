@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 19:07",
+"actualizado": "2026-11-22 20:07",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -232,7 +232,7 @@
 "011001-C6-49": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:15",
 "inst": "Octavos de Final",
@@ -244,7 +244,7 @@
 "011001-C6-50": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:15",
 "inst": "Octavos de Final",
@@ -256,13 +256,13 @@
 "011001-C6-51": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:00",
 "inst": "Octavos de Final",
 "p1": "Buenaventura, Alejandro / Robledo, Guillermo",
 "p2": "Fons, Pablo Alberto / Roura, Ignacio Daniel",
-"res": "",
+"res": "4/6 6/4 6/4",
 "sede": "El Portal"
 },
 "011001-C6-52": {
@@ -304,7 +304,7 @@
 "011001-C6-55": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:30",
 "inst": "Octavos de Final",
@@ -316,13 +316,13 @@
 "011001-C6-56": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:15",
 "inst": "Octavos de Final",
 "p1": "Garay, Diego / Gómez, Agustín",
 "p2": "Maldonado, Matías Damián / Parra, Nicolás",
-"res": "",
+"res": "6/1 6/3",
 "sede": "El Portal"
 },
 "011001-C6-57": {
@@ -344,7 +344,7 @@
 "gan": null,
 "hora": "23:15",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Fons, Pablo Alberto / Roura, Ignacio Daniel",
 "p2": "",
 "res": "",
 "sede": "El Portal"
@@ -369,7 +369,7 @@
 "hora": "23:15",
 "inst": "Cuartos de Final",
 "p1": "",
-"p2": "",
+"p2": "Garay, Diego / Gómez, Agustín",
 "res": "",
 "sede": "El Portal"
 },
@@ -532,13 +532,13 @@
 "011001-C7-55": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:00",
 "inst": "Octavos de Final",
 "p1": "Achar, Rodrigo / Casarero, Jonathan",
 "p2": "Jaime, Facundo / Jamardo, Agustín",
-"res": "",
+"res": "6/1 7/6",
 "sede": "El Portal"
 },
 "011001-C7-56": {
@@ -596,7 +596,7 @@
 "gan": null,
 "hora": "20:45",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Jaime, Facundo / Jamardo, Agustín",
 "p2": "Di Maio, Agustín / Sokol, Pablo",
 "res": "",
 "sede": "El Portal"

@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 08:37",
+"actualizado": "2026-11-22 20:07",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -76,7 +76,7 @@
 "005002-C4-7": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:45",
 "inst": "Final",
@@ -160,7 +160,7 @@
 "005002-C5+40-7": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:45",
 "inst": "Final",
@@ -328,7 +328,7 @@
 "005002-C6+40-7": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:45",
 "inst": "Final",
@@ -412,13 +412,13 @@
 "005002-C6-7": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:30",
 "inst": "Final",
 "p1": "Rodríguez, Federico / San Pedro, Emanuel Oscar",
 "p2": "Bravo, David / Guerrero, Julián Alejandro",
-"res": "",
+"res": "6/4 3/6 6/2",
 "sede": "EVA"
 },
 "005002-C7-1": {
@@ -496,13 +496,13 @@
 "005002-C7-7": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:30",
 "inst": "Final",
 "p1": "Escobar, Mauricio / Fuenzalida, Javier",
 "p2": "Benítez Sánchez, Hernán / Morbidoni, Damián",
-"res": "",
+"res": "6/4 6/3",
 "sede": "EVA"
 },
 "005002-D5-1": {
@@ -748,13 +748,13 @@
 "005002-D7-7": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:30",
 "inst": "Final",
 "p1": "Banegas, Guadalupe / Waczynski, Brenda",
 "p2": "Lloveras, Karen / Piccinini, Macarena",
-"res": "",
+"res": "6/3 4/6 6/0",
 "sede": "EVA"
 }
 },

@@ -1804,7 +1804,8 @@
     "res": "6/7 6/3 6/3",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI011-001",
@@ -1842,7 +1843,8 @@
     "res": "1/6 6/4 7/6",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI011-001",
@@ -1890,6 +1892,99 @@
   ],
   "hechos": [
    "011001-C6-39"
+  ]
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 20:07",
+  "partidos": [
+   {
+    "codigo": "011001-C6-51",
+    "cat": "Caballeros 6ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "17:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Buenaventura, Alejandro / Robledo, Guillermo",
+    "p2": "Fons, Pablo Alberto / Roura, Ignacio Daniel",
+    "res": "4/6 6/4 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "011001-C7-55",
+    "cat": "Caballeros 7ma",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "17:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Achar, Rodrigo / Casarero, Jonathan",
+    "p2": "Jaime, Facundo / Jamardo, Agustín",
+    "res": "6/1 7/6",
+    "gan": 2
+   },
+   {
+    "codigo": "011001-C6-56",
+    "cat": "Caballeros 6ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "18:15",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Garay, Diego / Gómez, Agustín",
+    "p2": "Maldonado, Matías Damián / Parra, Nicolás",
+    "res": "6/1 6/3",
+    "gan": 1
+   }
+  ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-22 20:07",
+  "partidos": [
+   {
+    "codigo": "005002-C6-7",
+    "cat": "Caballeros 6ta",
+    "inst": "Final",
+    "dia": "2026-11-22",
+    "hora": "17:30",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Rodríguez, Federico / San Pedro, Emanuel Oscar",
+    "p2": "Bravo, David / Guerrero, Julián Alejandro",
+    "res": "6/4 3/6 6/2",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-C7-7",
+    "cat": "Caballeros 7ma",
+    "inst": "Final",
+    "dia": "2026-11-22",
+    "hora": "17:30",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Escobar, Mauricio / Fuenzalida, Javier",
+    "p2": "Benítez Sánchez, Hernán / Morbidoni, Damián",
+    "res": "6/4 6/3",
+    "gan": 1
+   },
+   {
+    "codigo": "005002-D7-7",
+    "cat": "Damas 7ma",
+    "inst": "Final",
+    "dia": "2026-11-22",
+    "hora": "17:30",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Banegas, Guadalupe / Waczynski, Brenda",
+    "p2": "Lloveras, Karen / Piccinini, Macarena",
+    "res": "6/3 4/6 6/0",
+    "gan": 1
+   }
+  ],
+  "hechos": [
+   "005002-D7-7"
   ]
  }
 ]

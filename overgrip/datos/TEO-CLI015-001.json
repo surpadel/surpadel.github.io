@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 19:37",
+"actualizado": "2026-11-22 20:07",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1061,13 +1061,13 @@
 "015001-C7-A2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Álvarez, Julio / Vargas, Gustavo",
 "p2": "Marelli, Juan / Marquez Girat, Patricio",
-"res": "",
+"res": "6/0 6/1",
 "sede": "Boulevard 81",
 "zona": "A"
 },
@@ -1464,13 +1464,13 @@
 "015001-D5-E2": {
 "cat": "Damas 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Montone, Milagros / Reboredo, Martina",
 "p2": "Corsetti, Delfina / Pérez, Silvana Paola",
-"res": "",
+"res": "1/6 6/2 6/4",
 "sede": "Boulevard 81",
 "zona": "E"
 },
