@@ -73,7 +73,8 @@ def dia_texto(iso):
 
 def peleado(p):
     """Cuanto más chico, más peleado: 3 sets primero, después tie-breaks y diferencia de games."""
-    sets = [tuple(map(int, s.split("/"))) for s in p["res"].split()]
+    # ignora marcas como "WO" o "(abandono)" y tie-breaks "7/6(5)"
+    sets = [(int(a), int(b)) for a, b in re.findall(r"(\d+)\s*/\s*(\d+)", p.get("res") or "")]
     dif = abs(sum(a for a, _ in sets) - sum(b for _, b in sets))
     tb = sum(1 for a, b in sets if {a, b} == {6, 7})
     return (-len(sets), -tb, dif)

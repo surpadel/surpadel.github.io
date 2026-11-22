@@ -1,5 +1,5 @@
 """Estilo 'transmisión de circuito pro': marcadores tipo TV, títulos metalizados, franjas de luz."""
-import sys, json, pathlib
+import sys, json, pathlib, re
 import gen
 from playwright.sync_api import sync_playwright
 
@@ -72,16 +72,21 @@ def cabecera(t, corto, etiqueta, titulo, logo, tam_titulo=78, compacto=False):
             f'<div class=metal style="font-size:{tam_titulo}px;margin-top:6px">{titulo}</div>')
 
 def scoreboard(m, label):
-    def sets(sc, mine):
+    # El resultado puede traer marcas que no son sets: "WO 6/0 6/0", "6/7 7/6 6/0 (abandono)",
+    # o tie-breaks "7/6(5)". Solo se dibujan los sets; la marca va en el encabezado.
+    sc = m.get("s") or ""
+    nota = "W.O." if re.search(r"\bW\.?O\b", sc, re.I) else (
+        "Abandono" if re.search(r"abandon|ret", sc, re.I) else "Final")
+    pares = re.findall(r"(\d+)\s*/\s*(\d+)", sc)
+    def sets(mine):
         out = ""
-        for s in sc.split():
-            a, b = s.split("/")
+        for a, b in pares:
             v, o = (a, b) if mine else (b, a)
             out += f'<div class="set{" won" if int(v) > int(o) else ""}">{v}</div>'
         return out
-    return (f'<div class=sb><div class=hd><span>{label}</span><span>Final</span></div>'
-            f'<div class="row w"><div class=tri></div><div class=nm>{m["g"]}</div>{sets(m["s"], True)}</div>'
-            f'<div class=row><div class=tri></div><div class=nm>{m["p"]}</div>{sets(m["s"], False)}</div></div>')
+    return (f'<div class=sb><div class=hd><span>{label}</span><span>{nota}</span></div>'
+            f'<div class="row w"><div class=tri></div><div class=nm>{m["g"]}</div>{sets(True)}</div>'
+            f'<div class=row><div class=tri></div><div class=nm>{m["p"]}</div>{sets(False)}</div></div>')
 
 def story_resultados(d):
     t = T[d.get("tema", "azul")]
