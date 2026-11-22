@@ -1789,6 +1789,7 @@
   "suelta": true,
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/16avos-azul-1122-1908-1.png",
   "alt": "16avos: Caballeros 6ta, ganaron Muriel J. / Peralta B. 3/6 7/6 6/2",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  }
 ]
