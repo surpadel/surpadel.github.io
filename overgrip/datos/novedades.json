@@ -1614,6 +1614,53 @@
     "res": "6/4 6/1",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 14:37",
+  "partidos": [
+   {
+    "codigo": "011001-C5-54",
+    "cat": "Caballeros 5ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "12:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Godoy, Tobias / Godoy, Emanuel",
+    "p2": "Cosentino, Daniela Paula / Lagoria, César",
+    "res": "6/4 3/6 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "011001-C5-56",
+    "cat": "Caballeros 5ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "12:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Corbalan, Leonardo / Padovani, Marcos",
+    "p2": "Romano, Franco Martín / Romano, Claudio Paul",
+    "res": "7/6 6/7 6/3",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C6-47",
+    "cat": "Caballeros 6ta",
+    "inst": "16avos",
+    "dia": "2026-11-22",
+    "hora": "14:30",
+    "sede": "El Portal",
+    "estado": "WO",
+    "p1": "Garay, Diego / Gómez, Agustín",
+    "p2": "Cappelletti, Cristian / Martínez, Fernando",
+    "res": "WO 6/0 6/0",
+    "gan": 1
+   }
+  ],
+  "dibujada": true
  }
 ]

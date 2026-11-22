@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 14:08",
+"actualizado": "2026-11-22 14:37",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -64,13 +64,13 @@
 "011001-C5-54": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "12:00",
 "inst": "Octavos de Final",
 "p1": "Godoy, Tobias / Godoy, Emanuel",
 "p2": "Cosentino, Daniela Paula / Lagoria, César",
-"res": "",
+"res": "6/4 3/6 6/4",
 "sede": "El Portal"
 },
 "011001-C5-55": {
@@ -88,19 +88,19 @@
 "011001-C5-56": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "12:00",
 "inst": "Octavos de Final",
 "p1": "Corbalan, Leonardo / Padovani, Marcos",
 "p2": "Romano, Franco Martín / Romano, Claudio Paul",
-"res": "",
+"res": "7/6 6/7 6/3",
 "sede": "El Portal"
 },
 "011001-C5-57": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:15",
 "inst": "Cuartos de Final",
@@ -129,7 +129,7 @@
 "hora": "20:45",
 "inst": "Cuartos de Final",
 "p1": "Martínez, Tomás / Soler, Gustavo Julián",
-"p2": "",
+"p2": "Cosentino, Daniela Paula / Lagoria, César",
 "res": "",
 "sede": "El Portal"
 },
@@ -141,7 +141,7 @@
 "hora": "20:45",
 "inst": "Cuartos de Final",
 "p1": "Palacios, Nazareno / Ponce, César",
-"p2": "",
+"p2": "Corbalan, Leonardo / Padovani, Marcos",
 "res": "",
 "sede": "El Portal"
 },
@@ -184,7 +184,7 @@
 "011001-C6-34": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:15",
 "inst": "16avos",
@@ -208,7 +208,7 @@
 "011001-C6-42": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:15",
 "inst": "16avos",
@@ -220,13 +220,13 @@
 "011001-C6-47": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 1,
 "hora": "14:30",
 "inst": "16avos",
 "p1": "Garay, Diego / Gómez, Agustín",
 "p2": "Cappelletti, Cristian / Martínez, Fernando",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "El Portal"
 },
 "011001-C6-49": {
@@ -320,7 +320,7 @@
 "gan": null,
 "hora": "18:15",
 "inst": "Octavos de Final",
-"p1": "",
+"p1": "Garay, Diego / Gómez, Agustín",
 "p2": "Maldonado, Matías Damián / Parra, Nicolás",
 "res": "",
 "sede": "El Portal"

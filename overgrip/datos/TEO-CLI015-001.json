@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 14:08",
+"actualizado": "2026-11-22 14:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -415,7 +415,7 @@
 "gan": null,
 "hora": "16:00",
 "inst": "Zona",
-"p1": "Franco Nahuel, Vaccari / González, Damián",
+"p1": "González, Damián / Vaccari, Franco Nahuel",
 "p2": "Canegalli, Mauro / Zappini, Santino",
 "res": "",
 "sede": "Estación Norte",
@@ -1503,13 +1503,13 @@
 "015001-D5-F2": {
 "cat": "Damas 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:00",
 "inst": "Zona",
 "p1": "Larroude, Juliana / Vallejos, Gabriela",
 "p2": "Genta, Vanesa / Mostafa, Mercedes",
-"res": "",
+"res": "6/3 6/4",
 "sede": "Estación Norte",
 "zona": "F"
 },
@@ -1750,13 +1750,13 @@
 "015001-D7-B1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:30",
 "inst": "Zona",
 "p1": "Basilico, Jimena / Vera, Cristina",
 "p2": "Piñero, Lorena / Ponce de Leon, Noelia",
-"res": "",
+"res": "0/6 7/5 6/4",
 "sede": "Estación Norte",
 "zona": "B"
 },
