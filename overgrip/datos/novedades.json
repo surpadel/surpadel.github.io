@@ -1735,5 +1735,95 @@
     "gan": 1
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 18:08",
+  "partidos": [
+   {
+    "codigo": "011001-C7-49",
+    "cat": "Caballeros 7ma",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "15:45",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Bocchieri, Matías / Mangione, Braian",
+    "p2": "Lecce, Carlos / Vilanova, Sergio Rolando",
+    "res": "4/6 6/1 6/1",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C7-50",
+    "cat": "Caballeros 7ma",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "15:45",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Aramburu, Alejandro / Lisio, Leandro",
+    "p2": "Delaguila, Nicolás Daniel / Galanti, Patricio",
+    "res": "7/6 6/2",
+    "gan": 1
+   }
+  ]
+ },
+ {
+  "torneo": "TEO-CLI015-001",
+  "hora": "2026-11-22 18:08",
+  "partidos": [
+   {
+    "codigo": "015001-C3-57",
+    "cat": "Caballeros 3ra",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "14:30",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Sala, Agustín / Yop, Octavio",
+    "p2": "Dondo, Benjamín / Mugavero, Eric Yael",
+    "res": "6/3 3/6 6/4",
+    "gan": 1
+   },
+   {
+    "codigo": "015001-C3-58",
+    "cat": "Caballeros 3ra",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "14:30",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Barrameda, Leonardo Gabriel / Casanovas, Juan Pablo",
+    "p2": "Iglesias, Pablo / Quevedo, Ignacio",
+    "res": "6/3 6/4",
+    "gan": 1
+   },
+   {
+    "codigo": "015001-C3-59",
+    "cat": "Caballeros 3ra",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "14:30",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Ibarra, Agustín / Márquez, Manuel",
+    "p2": "Agostinelli, Facundo / Farías, Santiago",
+    "res": "6/2 6/0",
+    "gan": 1
+   },
+   {
+    "codigo": "015001-C3-60",
+    "cat": "Caballeros 3ra",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "16:00",
+    "sede": "Estación Norte",
+    "estado": "Finalizado",
+    "p1": "Carretero, Leandro / Massa, Jorge",
+    "p2": "Garcia, Faustino / Mercado, Bautista",
+    "res": "6/7 6/3 6/3",
+    "gan": 2
+   }
+  ]
  }
 ]
