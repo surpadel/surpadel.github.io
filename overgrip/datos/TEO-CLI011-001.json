@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 17:07",
+"actualizado": "2026-11-22 17:38",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -280,7 +280,7 @@
 "011001-C6-53": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "17:00",
 "inst": "Octavos de Final",
@@ -508,13 +508,13 @@
 "011001-C7-53": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "15:45",
 "inst": "Octavos de Final",
 "p1": "Arbarzua, Carlos / Fernández, Walter",
 "p2": "Riffel, Nahuel Ángel / Santoro, Diego José Emilio",
-"res": "",
+"res": "6/2 6/4",
 "sede": "El Portal"
 },
 "011001-C7-54": {
@@ -544,7 +544,7 @@
 "011001-C7-56": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "15:45",
 "inst": "Octavos de Final",
@@ -584,7 +584,7 @@
 "gan": null,
 "hora": "22:00",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Arbarzua, Carlos / Fernández, Walter",
 "p2": "",
 "res": "",
 "sede": "El Portal"

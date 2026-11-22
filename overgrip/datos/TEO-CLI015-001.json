@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 17:07",
+"actualizado": "2026-11-22 17:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -840,26 +840,26 @@
 "015001-C6+45-A3": {
 "cat": "Caballeros 6ta +45",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Barboza, Eduardo Jorge / Rodríguez, Fernando",
 "p2": "Andrada, Alejandro / Escola, Alexander",
-"res": "",
+"res": "6/2 7/6",
 "sede": "Estación Norte",
 "zona": "A"
 },
 "015001-C6+45-A4": {
 "cat": "Caballeros 6ta +45",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Doporto, Eduardo / Roldan, Raúl",
 "p2": "Bulazio, Mario / Pereyra, Sebastián",
-"res": "",
+"res": "6/2 6/3",
 "sede": "Estación Norte",
 "zona": "A"
 },
@@ -1763,13 +1763,13 @@
 "015001-D7-B2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:00",
 "inst": "Zona",
 "p1": "Basilico, Jimena / Vera, Cristina",
 "p2": "Grioni, Rocío / Picardo, María Mercedes",
-"res": "",
+"res": "6/1 2/6 6/2",
 "sede": "Estación Norte",
 "zona": "B"
 },

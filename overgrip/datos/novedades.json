@@ -1716,5 +1716,24 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 17:38",
+  "partidos": [
+   {
+    "codigo": "011001-C7-53",
+    "cat": "Caballeros 7ma",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "15:45",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Arbarzua, Carlos / Fernández, Walter",
+    "p2": "Riffel, Nahuel Ángel / Santoro, Diego José Emilio",
+    "res": "6/2 6/4",
+    "gan": 1
+   }
+  ]
  }
 ]
