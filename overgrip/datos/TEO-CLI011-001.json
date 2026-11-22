@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-20 00:08",
+"actualizado": "2026-11-22 09:37",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -412,7 +412,7 @@
 "011001-C7-34": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "09:00",
 "inst": "16avos",
@@ -424,7 +424,7 @@
 "011001-C7-39": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "09:00",
 "inst": "16avos",
@@ -436,7 +436,7 @@
 "011001-C7-42": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "09:00",
 "inst": "16avos",
@@ -448,7 +448,7 @@
 "011001-C7-47": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "09:00",
 "inst": "16avos",
