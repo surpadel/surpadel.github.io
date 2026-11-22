@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 23:37",
+"actualizado": "2026-11-22 08:37",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -220,13 +220,13 @@
 "005002-C5-5": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:15",
 "inst": "Semifinal",
 "p1": "Esquivel, Nahuel / Yirula, David Ezequiel",
 "p2": "Chamorro, Sebastián / González, Tomás",
-"res": "",
+"res": "4/6 6/0 6/2 (abandono)",
 "sede": "EVA"
 },
 "005002-C5-6": {
@@ -248,7 +248,7 @@
 "gan": null,
 "hora": "20:00",
 "inst": "Final",
-"p1": "",
+"p1": "Esquivel, Nahuel / Yirula, David Ezequiel",
 "p2": "Moya, Bruno / Segovia, Agustín",
 "res": "",
 "sede": "EVA"
@@ -724,13 +724,13 @@
 "005002-D7-5": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "21:15",
 "inst": "Semifinal",
 "p1": "Bosnach, Gisela / Drab, Rocío",
 "p2": "Banegas, Guadalupe / Waczynski, Brenda",
-"res": "",
+"res": "5/7 7/5 6/4",
 "sede": "EVA"
 },
 "005002-D7-6": {
@@ -752,7 +752,7 @@
 "gan": null,
 "hora": "17:30",
 "inst": "Final",
-"p1": "",
+"p1": "Banegas, Guadalupe / Waczynski, Brenda",
 "p2": "Lloveras, Karen / Piccinini, Macarena",
 "res": "",
 "sede": "EVA"

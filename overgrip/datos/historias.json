@@ -1588,5 +1588,37 @@
   "en_buffer": "6b0255b8846b0ee90754b33b",
   "modo": "auto",
   "publicada_en": "2026-11-21 23:38"
+ },
+ {
+  "creada": "2026-11-22 08:38",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Semifinal",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-C5-5": "4/6 6/0 6/2 (abandono)"
+  },
+  "archivo": "TEO-CLI005-002/semifinal-azul-1122-0838-1.png",
+  "grupo": "TEO-CLI005-002|Semifinal|azul|2026-11-21",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/semifinal-azul-1122-0838-1.png",
+  "alt": "Semifinales: Caballeros 5ta, ganaron Esquivel N. / Yirula D. 4/6 6/0 6/2 (abandono)",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-22 08:38",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Semifinal",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-D5-6": "6/2 6/1",
+   "005002-D6-5": "7/5 6/4",
+   "005002-D6-6": "6/4 6/4",
+   "005002-D7-6": "1/6 6/4 6/1",
+   "005002-D7-5": "5/7 7/5 6/4"
+  },
+  "archivo": "TEO-CLI005-002/semifinal-rosa-1122-0838-1.png",
+  "grupo": "TEO-CLI005-002|Semifinal|rosa|2026-11-21",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/semifinal-rosa-1122-0838-1.png",
+  "alt": "Semifinales: Damas 5ta, ganaron Chapuis J. / Velázquez C. 6/2 6/1; Damas 6ta, ganaron García Pereira D. / Natasha K. 7/5 6/4; Damas 6ta, ganaron Scattularo A. / Tunich F. 6/4 6/4; Damas 7ma, ganaron Lloveras K. / Piccinini M. 1/6 6/4 6/1; Damas 7ma, ganaron Banegas G. / Waczynski B. 5/7 7/5 6/4",
+  "publicada": false
  }
 ]
