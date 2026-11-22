@@ -1688,5 +1688,35 @@
   "en_buffer": "6b03059c846b0ee90795e4f3",
   "modo": "auto",
   "publicada_en": "2026-11-22 12:09"
+ },
+ {
+  "creada": "2026-11-22 13:08",
+  "torneo": "TEO-CLI011-001",
+  "inst": "Octavos de Final",
+  "organiza": "metropadeloficial",
+  "codigos": {
+   "011001-D7-50": "DESCALIF. 6/0 6/0",
+   "011001-D7-55": "6/0 6/3"
+  },
+  "archivo": "TEO-CLI011-001/octavos-rosa-1122-1308-1.png",
+  "grupo": "TEO-CLI011-001|Octavos de Final|rosa|2026-11-22",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/octavos-rosa-1122-1308-1.png",
+  "alt": "Octavos: Damas 7ma, ganaron Bruno T. / Simonetti M. DESCALIF. 6/0 6/0; Damas 7ma, ganaron Dogil V. / Valarino V. 6/0 6/3",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-22 13:08",
+  "torneo": "TEO-CLI011-001",
+  "inst": "Cuartos de Final",
+  "organiza": "metropadeloficial",
+  "codigos": {
+   "011001-D7-58": "6/4 7/6",
+   "011001-D7-59": "3/6 7/5 6/3"
+  },
+  "archivo": "TEO-CLI011-001/cuartos-rosa-1122-1308-1.png",
+  "grupo": "TEO-CLI011-001|Cuartos de Final|rosa|2026-11-22",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/cuartos-rosa-1122-1308-1.png",
+  "alt": "Cuartos: Damas 7ma, ganaron Orellana M. / Orellana M. 6/4 7/6; Damas 7ma, ganaron Ali Y. / Toledo C. 3/6 7/5 6/3",
+  "publicada": false
  }
 ]

@@ -1575,6 +1575,53 @@
     "res": "DESCALIF. 6/0 6/0",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 13:07",
+  "partidos": [
+   {
+    "codigo": "011001-D7-55",
+    "cat": "Damas 7ma",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "11:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Dogil, Victoria / Valarino, Viviana",
+    "p2": "Garcia, Victoria / Mereles, Daiana",
+    "res": "6/0 6/3",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-D7-58",
+    "cat": "Damas 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "11:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Mayer, Stefania / Miksa, Sofía",
+    "p2": "Orellana, Melany Milagros / Orellana, Micaela",
+    "res": "6/4 7/6",
+    "gan": 2
+   },
+   {
+    "codigo": "011001-D7-59",
+    "cat": "Damas 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "11:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Barraza, Camila / Ferraro, Chiara",
+    "p2": "Ali, Yessica / Toledo, Cintia",
+    "res": "3/6 7/5 6/3",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
  }
 ]

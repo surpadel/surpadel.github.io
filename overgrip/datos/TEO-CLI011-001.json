@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 12:37",
+"actualizado": "2026-11-22 13:07",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -52,7 +52,7 @@
 "011001-C5-53": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:00",
 "inst": "Octavos de Final",
@@ -64,7 +64,7 @@
 "011001-C5-54": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:00",
 "inst": "Octavos de Final",
@@ -76,7 +76,7 @@
 "011001-C5-55": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:00",
 "inst": "Octavos de Final",
@@ -652,13 +652,13 @@
 "011001-D7-55": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:00",
 "inst": "Octavos de Final",
 "p1": "Dogil, Victoria / Valarino, Viviana",
 "p2": "Garcia, Victoria / Mereles, Daiana",
-"res": "",
+"res": "6/0 6/3",
 "sede": "El Portal"
 },
 "011001-D7-57": {
@@ -676,25 +676,25 @@
 "011001-D7-58": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:00",
 "inst": "Cuartos de Final",
 "p1": "Mayer, Stefania / Miksa, Sofía",
 "p2": "Orellana, Melany Milagros / Orellana, Micaela",
-"res": "",
+"res": "6/4 7/6",
 "sede": "El Portal"
 },
 "011001-D7-59": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:00",
 "inst": "Cuartos de Final",
 "p1": "Barraza, Camila / Ferraro, Chiara",
 "p2": "Ali, Yessica / Toledo, Cintia",
-"res": "",
+"res": "3/6 7/5 6/3",
 "sede": "El Portal"
 },
 "011001-D7-60": {
@@ -704,7 +704,7 @@
 "gan": null,
 "hora": "19:30",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Dogil, Victoria / Valarino, Viviana",
 "p2": "Ferrara, Natalia / Tercic, Maia",
 "res": "",
 "sede": "El Portal"
@@ -717,7 +717,7 @@
 "hora": "16:30",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Orellana, Melany Milagros / Orellana, Micaela",
 "res": "",
 "sede": "Mitre Padel"
 },
@@ -728,7 +728,7 @@
 "gan": null,
 "hora": "16:30",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Ali, Yessica / Toledo, Cintia",
 "p2": "",
 "res": "",
 "sede": "Mitre Padel"

@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 12:37",
+"actualizado": "2026-11-22 13:07",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -580,13 +580,13 @@
 "015001-C4-E1": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:30",
 "inst": "Zona",
 "p1": "Kaethler, Juan Pablo / Romero, Guillermo",
 "p2": "Russo, Agustín / Ventureira, Nicolás Manuel",
-"res": "",
+"res": "6/4 6/4",
 "sede": "Estación Norte",
 "zona": "E"
 },
