@@ -1446,5 +1446,21 @@
   "alt": "Cuartos: Damas 6ta, ganaron Scattularo A. / Tunich F. 4/6 7/5 6/4; Damas 7ma, ganaron Banegas G. / Waczynski B. 6/4 7/5",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-21 21:09",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Llaves",
+  "tipo": "llaves",
+  "clave": "llaves-TEO-CLI015-001",
+  "organiza": "boulevard_81",
+  "etiquetas": [
+   "boulevard_81"
+  ],
+  "codigos": {},
+  "archivo": "TEO-CLI015-001/llaves.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/llaves.png",
+  "alt": "Ya están las llaves de Animal 81: se juegan desde el domingo 22/11. Mirá tu cruce en app.overgrip.com.ar.",
+  "publicada": false
  }
 ]

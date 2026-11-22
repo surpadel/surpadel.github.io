@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 20:38",
+"actualizado": "2026-11-21 21:09",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -52,7 +52,7 @@
 "005002-C4-5": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:00",
 "inst": "Semifinal",
@@ -568,7 +568,7 @@
 "005002-D5-6": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:45",
 "inst": "Semifinal",

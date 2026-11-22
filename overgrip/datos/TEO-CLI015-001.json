@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 19:38",
+"actualizado": "2026-11-21 21:09",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -9,7 +9,7 @@
 "hora": "16:00",
 "inst": "Cuartos de Final",
 "p1": "",
-"p2": "",
+"p2": "Rechiutti, Alejandro / Tocho, Diego",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -20,8 +20,8 @@
 "gan": null,
 "hora": "16:00",
 "inst": "Cuartos de Final",
-"p1": "",
-"p2": "",
+"p1": "Hachicho, Santino / Prieto, Matías",
+"p2": "Montesi, Sebastián / Ocampo, Facundo",
 "res": "",
 "sede": "Estación Norte"
 },
@@ -32,7 +32,7 @@
 "gan": null,
 "hora": "20:30",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Di Gregori, Marcos / Grabiel, Galo Nahuel",
 "p2": "",
 "res": "",
 "sede": "Estación Norte"
@@ -177,13 +177,13 @@
 "015001-C2-A3": {
 "cat": "Caballeros 2da",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Gavio, Gastón / Noguera, Maximiliano Claudio",
 "p2": "Di Gregori, Marcos / Grabiel, Galo Nahuel",
-"res": "",
+"res": "4/6 7/5 6/3",
 "sede": "Boulevard 81",
 "zona": "A"
 },
@@ -229,13 +229,13 @@
 "015001-C2-C1": {
 "cat": "Caballeros 2da",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "Guattini, Lautaro / Ruiz, Fernando",
 "p2": "Hachicho, Santino / Prieto, Matías",
-"res": "",
+"res": "6/4",
 "sede": "Boulevard 81",
 "zona": "C"
 },
@@ -515,13 +515,13 @@
 "015001-C4-C2": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Chijlis, Germán / Piñero, Sebastián",
 "p2": "Esposito, Maximiliano / Rodríguez, Martín",
-"res": "",
+"res": "6/1 6/0",
 "sede": "Boulevard 81",
 "zona": "C"
 },
@@ -632,13 +632,13 @@
 "015001-C4-F2": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "H. Martínez, Gastón / Ocampo, Rodrigo",
 "p2": "Cardinali, Matías / Sendra, Sebastián",
-"res": "",
+"res": "7/6 6/4",
 "sede": "Boulevard 81",
 "zona": "F"
 },
@@ -1178,13 +1178,13 @@
 "015001-C7-D2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:00",
 "inst": "Zona",
 "p1": "Barrios, Lian Dustyn / Pérez, Valentín",
 "p2": "Rueda, Matías Ezequiel / Soto, Lucas",
-"res": "",
+"res": "6/4 6/1",
 "sede": "Boulevard 81",
 "zona": "D"
 },
@@ -1334,13 +1334,13 @@
 "015001-D5-B1": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "Borgoglio, Eleonora / Cuartas, Pilar",
 "p2": "Foltan Mendiberry, Luciana / Jodzik, Tatiana",
-"res": "",
+"res": "6/4 6/4",
 "sede": "Boulevard 81",
 "zona": "B"
 },
@@ -1399,13 +1399,13 @@
 "015001-D5-C3": {
 "cat": "Damas 5ta",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Nuez, Tania Anahí / Roberto, María Belen",
 "p2": "Martínez Carretero, Mariángeles Noelia / Toledo, Andrea Marisa",
-"res": "",
+"res": "6/4 6/7 6/2",
 "sede": "Boulevard 81",
 "zona": "C"
 },
@@ -1893,13 +1893,13 @@
 "015001-D7-E3": {
 "cat": "Damas 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "González Taverna, Verónica / Iribertegui, Julieta",
 "p2": "Reynaldi, María Florencia / Vilas, Onila",
-"res": "",
+"res": "3/6 7/5 7/6",
 "sede": "Boulevard 81",
 "zona": "E"
 },
