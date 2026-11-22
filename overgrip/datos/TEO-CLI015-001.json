@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 12:08",
+"actualizado": "2026-11-22 12:37",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -658,13 +658,13 @@
 "015001-C5-A1": {
 "cat": "Caballeros 5ta",
 "dia": null,
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": null,
 "inst": "Zona",
 "p1": "Suplente, Jugador / Troncoso Sánchez, Juan Ignacio",
 "p2": "Pérez, Cristian Hernán / Pozzi, Franco",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": null,
 "zona": "A"
 },
@@ -1282,13 +1282,13 @@
 "015001-D5-A1": {
 "cat": "Damas 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:30",
 "inst": "Zona",
 "p1": "Casado Argüello, Giorgina / Garay, Lucía Antonela",
 "p2": "Banegas, Paula / Raffe, Micaela",
-"res": "",
+"res": "6/2 6/1",
 "sede": "Estación Norte",
 "zona": "A"
 },
@@ -1300,7 +1300,7 @@
 "hora": "13:00",
 "inst": "Zona",
 "p1": "Butron, Nadia María / Jara Evelin, Yasmin",
-"p2": "Ángeles Sánchez, María / Nicotera, Celeste",
+"p2": "Nicotera, Celeste / Sánchez, María Ángeles",
 "res": "",
 "sede": "Estación Norte",
 "zona": "A"
@@ -1312,7 +1312,7 @@
 "gan": null,
 "hora": "17:30",
 "inst": "Zona",
-"p1": "",
+"p1": "Casado Argüello, Giorgina / Garay, Lucía Antonela",
 "p2": "",
 "res": "",
 "sede": "Estación Norte",
@@ -1325,7 +1325,7 @@
 "gan": null,
 "hora": "16:00",
 "inst": "Zona",
-"p1": "",
+"p1": "Banegas, Paula / Raffe, Micaela",
 "p2": "",
 "res": "",
 "sede": "Estación Norte",
@@ -1724,13 +1724,13 @@
 "015001-D7-A2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:30",
 "inst": "Zona",
 "p1": "Bauer, Wendy / Rios, María del Pilar",
 "p2": "Cuartas, Melisa / Vera, Laura",
-"res": "",
+"res": "6/2 6/3",
 "sede": "Boulevard 81",
 "zona": "A"
 },
@@ -1867,13 +1867,13 @@
 "015001-D7-E1": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "10:00",
 "inst": "Zona",
 "p1": "Ruiz, Melanie / Salvo, Vanina",
 "p2": "González Taverna, Verónica / Iribertegui, Julieta",
-"res": "",
+"res": "6/1 6/2",
 "sede": "Boulevard 81",
 "zona": "E"
 },

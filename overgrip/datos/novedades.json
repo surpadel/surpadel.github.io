@@ -1,45 +1,5 @@
 [
  {
-  "torneo": "TEO-CLI010-001",
-  "hora": "2026-11-15 11:38",
-  "partidos": [
-   {
-    "codigo": "010001-C6-50",
-    "cat": "Caballeros 6ta",
-    "inst": "Octavos de Final",
-    "dia": "2026-11-15",
-    "hora": "10:00",
-    "sede": "Eleven",
-    "estado": "Finalizado",
-    "p1": "Bernatene, Oscar / Rodríguez, Juan",
-    "p2": "Albariño, Rodrigo / Morales, Máximo",
-    "res": "7/6 6/4",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI010-001",
-  "hora": "2026-11-15 12:08",
-  "partidos": [
-   {
-    "codigo": "010001-C6-60",
-    "cat": "Caballeros 6ta",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-15",
-    "hora": "12:00",
-    "sede": "Eleven",
-    "estado": "Finalizado",
-    "p1": "Arteaga, Thomas / Capra, Nicolás",
-    "p2": "Argüelles, Marcos / Muñoz, Nicolás",
-    "res": "6/0 6/3",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
   "torneo": "TEO-CLI008-001",
   "hora": "2026-11-15 12:38",
   "partidos": [
@@ -1597,5 +1557,24 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 12:37",
+  "partidos": [
+   {
+    "codigo": "011001-D7-50",
+    "cat": "Damas 7ma",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "11:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Bruno, Tatiana / Simonetti, María Sol",
+    "p2": "López, Elizabeth / Walsh, Araceli",
+    "res": "DESCALIF. 6/0 6/0",
+    "gan": 1
+   }
+  ]
  }
 ]

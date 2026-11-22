@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 12:08",
+"actualizado": "2026-11-22 12:37",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -88,7 +88,7 @@
 "011001-C5-56": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:00",
 "inst": "Octavos de Final",
@@ -640,13 +640,13 @@
 "011001-D7-50": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:00",
 "inst": "Octavos de Final",
 "p1": "Bruno, Tatiana / Simonetti, María Sol",
 "p2": "López, Elizabeth / Walsh, Araceli",
-"res": "",
+"res": "DESCALIF. 6/0 6/0",
 "sede": "El Portal"
 },
 "011001-D7-55": {
@@ -669,7 +669,7 @@
 "hora": "19:30",
 "inst": "Cuartos de Final",
 "p1": "López Muollo, Analia / Polizzotto, María Laura",
-"p2": "",
+"p2": "Bruno, Tatiana / Simonetti, María Sol",
 "res": "",
 "sede": "El Portal"
 },
