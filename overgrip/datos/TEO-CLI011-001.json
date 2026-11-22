@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 10:07",
+"actualizado": "2026-11-22 10:37",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -16,19 +16,19 @@
 "011001-C5-50": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "10:00",
 "inst": "Octavos de Final",
 "p1": "Mori, Franco / Rodríguez, Federico",
 "p2": "Alegre, Sergio Dario / Robledo, Ángel",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "El Portal"
 },
 "011001-C5-51": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "10:00",
 "inst": "Octavos de Final",
@@ -40,7 +40,7 @@
 "011001-C5-52": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "10:00",
 "inst": "Octavos de Final",
@@ -105,7 +105,7 @@
 "hora": "13:15",
 "inst": "Cuartos de Final",
 "p1": "",
-"p2": "",
+"p2": "Alegre, Sergio Dario / Robledo, Ángel",
 "res": "",
 "sede": "El Portal"
 },
@@ -412,49 +412,49 @@
 "011001-C7-34": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "09:00",
 "inst": "16avos",
 "p1": "Marazzato, Franco Ariel / Méndez, Dylan",
 "p2": "Lecce, Carlos / Vilanova, Sergio Rolando",
-"res": "",
+"res": "6/4 6/4",
 "sede": "El Portal"
 },
 "011001-C7-39": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "09:00",
 "inst": "16avos",
 "p1": "Casciana, Matías / Sosa, Mauro Ezequiel",
 "p2": "Condo, Luciano / Fernández, Lucas",
-"res": "",
+"res": "6/1 7/5",
 "sede": "El Portal"
 },
 "011001-C7-42": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "09:00",
 "inst": "16avos",
 "p1": "Ordonez, Matías / Si Filippo, Sebastián",
 "p2": "Riffel, Nahuel Ángel / Santoro, Diego José Emilio",
-"res": "",
+"res": "6/2 6/4",
 "sede": "El Portal"
 },
 "011001-C7-47": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "09:00",
 "inst": "16avos",
 "p1": "Di Maio, Agustín / Sokol, Pablo",
 "p2": "Ahumada, Thiago / Sandoval, Mateo",
-"res": "",
+"res": "6/1 6/3",
 "sede": "El Portal"
 },
 "011001-C7-49": {
@@ -465,7 +465,7 @@
 "hora": "15:45",
 "inst": "Octavos de Final",
 "p1": "Bocchieri, Matías / Mangione, Braian",
-"p2": "",
+"p2": "Lecce, Carlos / Vilanova, Sergio Rolando",
 "res": "",
 "sede": "El Portal"
 },
@@ -500,7 +500,7 @@
 "gan": null,
 "hora": "14:30",
 "inst": "Octavos de Final",
-"p1": "",
+"p1": "Casciana, Matías / Sosa, Mauro Ezequiel",
 "p2": "Bengler, Fernando / Knorr, Mario",
 "res": "",
 "sede": "El Portal"
@@ -513,7 +513,7 @@
 "hora": "15:45",
 "inst": "Octavos de Final",
 "p1": "Arbarzua, Carlos / Fernández, Walter",
-"p2": "",
+"p2": "Riffel, Nahuel Ángel / Santoro, Diego José Emilio",
 "res": "",
 "sede": "El Portal"
 },
@@ -548,7 +548,7 @@
 "gan": null,
 "hora": "15:45",
 "inst": "Octavos de Final",
-"p1": "",
+"p1": "Di Maio, Agustín / Sokol, Pablo",
 "p2": "Corrales, Matías Lautaro / Corrales, Mariano Nahuel",
 "res": "",
 "sede": "El Portal"

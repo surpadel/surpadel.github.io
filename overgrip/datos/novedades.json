@@ -1,144 +1,5 @@
 [
  {
-  "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-14 20:37",
-  "partidos": [
-   {
-    "codigo": "008001-C4+40-57",
-    "cat": "Caballeros 4ta +40",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-14",
-    "hora": "19:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Llena Alarcon, Hernán / Marascia, Damián Gustavo",
-    "p2": "Chijlis, Germán / López Osornio, Martín",
-    "res": "6/1 6/1",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-14 21:07",
-  "partidos": [
-   {
-    "codigo": "008001-C4+40-58",
-    "cat": "Caballeros 4ta +40",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-14",
-    "hora": "19:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Catullo, Sergio Gabriel / Tocci, Roberto",
-    "p2": "Gómez, Alberto Martín / Ledesma, Paulo Daniel",
-    "res": "7/5 6/2",
-    "gan": 2
-   },
-   {
-    "codigo": "008001-C4+40-60",
-    "cat": "Caballeros 4ta +40",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-14",
-    "hora": "19:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Pellegrini, Emmanuel / Rondeau, Jorge Alberto",
-    "p2": "Altamirano, Carlos Eugenio / Raggio, Alejandro César",
-    "res": "6/2 6/3",
-    "gan": 1
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-14 21:38",
-  "partidos": [
-   {
-    "codigo": "008001-C4+40-59",
-    "cat": "Caballeros 4ta +40",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-14",
-    "hora": "19:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Carra, Jerónimo / Ramos, Darío Eduardo",
-    "p2": "Fernández, Pablo Oscar / García, Amalio José",
-    "res": "7/5 3/6 6/4",
-    "gan": 1
-   },
-   {
-    "codigo": "008001-C6+50-59",
-    "cat": "Caballeros 6ta +50",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-14",
-    "hora": "20:15",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Isasi, Juan Manuel / Orona, Alejandro",
-    "p2": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
-    "res": "6/4 6/1",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI010-001",
-  "hora": "2026-11-15 10:08",
-  "partidos": [
-   {
-    "codigo": "010001-D7-59",
-    "cat": "Damas 7ma",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-15",
-    "hora": "09:00",
-    "sede": "Eleven",
-    "estado": "Finalizado",
-    "p1": "Becerra, Gabriela / Liciaga, María",
-    "p2": "De Luca, Andrea / Mesa, Gabriela",
-    "res": "6/4 6/1",
-    "gan": 2
-   },
-   {
-    "codigo": "010001-C6-55",
-    "cat": "Caballeros 6ta",
-    "inst": "Octavos de Final",
-    "dia": "2026-11-15",
-    "hora": "10:00",
-    "sede": "Eleven",
-    "estado": "Finalizado",
-    "p1": "Martínez, Andrés / Vega, Gustavo",
-    "p2": "Arteaga, Thomas / Capra, Nicolás",
-    "res": "6/0 6/0",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-15 11:08",
-  "partidos": [
-   {
-    "codigo": "008001-C5+40-61",
-    "cat": "Caballeros 5ta +40",
-    "inst": "Semifinal",
-    "dia": "2026-11-15",
-    "hora": "10:00",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Chiodini, Luciano / Hatrick, Patricio",
-    "p2": "Apecena, Fernando Óscar / Mercado, Mauricio Napoleón",
-    "res": "6/0 6/2",
-    "gan": 1
-   }
-  ],
-  "dibujada": true
- },
- {
   "torneo": "TEO-CLI010-001",
   "hora": "2026-11-15 11:08",
   "partidos": [
@@ -1627,6 +1488,78 @@
     "p1": "Bosnach, Gisela / Drab, Rocío",
     "p2": "Banegas, Guadalupe / Waczynski, Brenda",
     "res": "5/7 7/5 6/4",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 10:37",
+  "partidos": [
+   {
+    "codigo": "011001-C7-34",
+    "cat": "Caballeros 7ma",
+    "inst": "16avos",
+    "dia": "2026-11-22",
+    "hora": "09:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Marazzato, Franco Ariel / Méndez, Dylan",
+    "p2": "Lecce, Carlos / Vilanova, Sergio Rolando",
+    "res": "6/4 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "011001-C7-39",
+    "cat": "Caballeros 7ma",
+    "inst": "16avos",
+    "dia": "2026-11-22",
+    "hora": "09:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Casciana, Matías / Sosa, Mauro Ezequiel",
+    "p2": "Condo, Luciano / Fernández, Lucas",
+    "res": "6/1 7/5",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C7-42",
+    "cat": "Caballeros 7ma",
+    "inst": "16avos",
+    "dia": "2026-11-22",
+    "hora": "09:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Ordonez, Matías / Si Filippo, Sebastián",
+    "p2": "Riffel, Nahuel Ángel / Santoro, Diego José Emilio",
+    "res": "6/2 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "011001-C7-47",
+    "cat": "Caballeros 7ma",
+    "inst": "16avos",
+    "dia": "2026-11-22",
+    "hora": "09:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Di Maio, Agustín / Sokol, Pablo",
+    "p2": "Ahumada, Thiago / Sandoval, Mateo",
+    "res": "6/1 6/3",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C5-50",
+    "cat": "Caballeros 5ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "10:00",
+    "sede": "El Portal",
+    "estado": "WO",
+    "p1": "Mori, Franco / Rodríguez, Federico",
+    "p2": "Alegre, Sergio Dario / Robledo, Ángel",
+    "res": "WO 6/0 6/0",
     "gan": 2
    }
   ],
