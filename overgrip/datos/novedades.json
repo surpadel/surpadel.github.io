@@ -1,45 +1,5 @@
 [
  {
-  "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-15 13:08",
-  "partidos": [
-   {
-    "codigo": "008001-C5+50-62",
-    "cat": "Caballeros 5ta +50",
-    "inst": "Semifinal",
-    "dia": "2026-11-15",
-    "hora": "11:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Bautista, Renee Arnaldo / De Marco, Fabián",
-    "p2": "Ambrosetti, Diego / García, Juan",
-    "res": "6/4 6/3",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI010-001",
-  "hora": "2026-11-15 13:08",
-  "partidos": [
-   {
-    "codigo": "010001-D7-61",
-    "cat": "Damas 7ma",
-    "inst": "Semifinal",
-    "dia": "2026-11-15",
-    "hora": "11:00",
-    "sede": "Eleven",
-    "estado": "Finalizado",
-    "p1": "Borro, Candela / González, Virginia",
-    "p2": "Biondi, Valentina / Guazzaroni, Cecilia",
-    "res": "6/3 6/1",
-    "gan": 1
-   }
-  ],
-  "dibujada": true
- },
- {
   "torneo": "TEO-CLI010-001",
   "hora": "2026-11-15 13:38",
   "partidos": [
@@ -1662,5 +1622,54 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 15:37",
+  "partidos": [
+   {
+    "codigo": "011001-C5-57",
+    "cat": "Caballeros 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "13:15",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Dauria, Valentino / Hernández, Martín",
+    "p2": "Alegre, Sergio Dario / Robledo, Ángel",
+    "res": "7/5 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C5-58",
+    "cat": "Caballeros 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "13:15",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Picotto, Mauro / Thomas, Rivarola",
+    "p2": "Jara, Alejandro Anibal / Montes, Tobias Alexander",
+    "res": "7/6 0/6 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "011001-C6-42",
+    "cat": "Caballeros 6ta",
+    "inst": "16avos",
+    "dia": "2026-11-22",
+    "hora": "13:15",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Ayala, Ezequiel / Mollar Vigh, Patricio",
+    "p2": "Daureli, Maximiliano / Vera, Carlos Andrés",
+    "res": "6/2 6/0",
+    "gan": 2
+   }
+  ],
+  "hechos": [
+   "011001-C5-57",
+   "011001-C5-58"
+  ]
  }
 ]

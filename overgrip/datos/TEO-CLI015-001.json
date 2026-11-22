@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 15:08",
+"actualizado": "2026-11-22 15:37",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1295,13 +1295,13 @@
 "015001-D5-A2": {
 "cat": "Damas 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:00",
 "inst": "Zona",
 "p1": "Butron, Nadia María / Jara Evelin, Yasmin",
 "p2": "Nicotera, Celeste / Sánchez, María Ángeles",
-"res": "",
+"res": "5/7 6/2 6/2",
 "sede": "Estación Norte",
 "zona": "A"
 },
@@ -1313,7 +1313,7 @@
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Casado Argüello, Giorgina / Garay, Lucía Antonela",
-"p2": "",
+"p2": "Nicotera, Celeste / Sánchez, María Ángeles",
 "res": "",
 "sede": "Estación Norte",
 "zona": "A"
@@ -1326,7 +1326,7 @@
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Banegas, Paula / Raffe, Micaela",
-"p2": "",
+"p2": "Butron, Nadia María / Jara Evelin, Yasmin",
 "res": "",
 "sede": "Estación Norte",
 "zona": "A"

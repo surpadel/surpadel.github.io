@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 14:37",
+"actualizado": "2026-11-22 15:37",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -100,25 +100,25 @@
 "011001-C5-57": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:15",
 "inst": "Cuartos de Final",
 "p1": "Dauria, Valentino / Hernández, Martín",
 "p2": "Alegre, Sergio Dario / Robledo, Ángel",
-"res": "",
+"res": "7/5 6/2",
 "sede": "El Portal"
 },
 "011001-C5-58": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:15",
 "inst": "Cuartos de Final",
 "p1": "Picotto, Mauro / Thomas, Rivarola",
 "p2": "Jara, Alejandro Anibal / Montes, Tobias Alexander",
-"res": "",
+"res": "7/6 0/6 6/4",
 "sede": "El Portal"
 },
 "011001-C5-59": {
@@ -152,8 +152,8 @@
 "gan": null,
 "hora": "15:00",
 "inst": "Semifinal",
-"p1": "",
-"p2": "",
+"p1": "Dauria, Valentino / Hernández, Martín",
+"p2": "Jara, Alejandro Anibal / Montes, Tobias Alexander",
 "res": "",
 "sede": "Mitre Padel"
 },
@@ -196,7 +196,7 @@
 "011001-C6-39": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "14:30",
 "inst": "16avos",
@@ -208,13 +208,13 @@
 "011001-C6-42": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:15",
 "inst": "16avos",
 "p1": "Ayala, Ezequiel / Mollar Vigh, Patricio",
 "p2": "Daureli, Maximiliano / Vera, Carlos Andrés",
-"res": "",
+"res": "6/2 6/0",
 "sede": "El Portal"
 },
 "011001-C6-47": {
@@ -285,7 +285,7 @@
 "hora": "17:00",
 "inst": "Octavos de Final",
 "p1": "Conde Meira, Matías / Salvatierra, Marcelo",
-"p2": "",
+"p2": "Daureli, Maximiliano / Vera, Carlos Andrés",
 "res": "",
 "sede": "El Portal"
 },
@@ -484,7 +484,7 @@
 "011001-C7-51": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "14:30",
 "inst": "Octavos de Final",
@@ -496,7 +496,7 @@
 "011001-C7-52": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "14:30",
 "inst": "Octavos de Final",
