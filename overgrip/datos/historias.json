@@ -1500,5 +1500,48 @@
   "alt": "Cuartos: Caballeros 5ta, ganaron Esquivel N. / Yirula D. 6/2 6/3",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-21 23:08",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI015-001-2026-11-21-azul",
+  "organiza": "boulevard_81",
+  "etiquetas": [
+   "boulevard_81"
+  ],
+  "codigos": {
+   "015001-C2-A2": "4/6 6/4 6/3",
+   "015001-C3-B4": "1/6 6/3 6/4",
+   "015001-C4-B2": "7/6 6/7 6/4",
+   "015001-C5-C1": "3/6 6/3 7/6",
+   "015001-C7-C1": "3/6 7/6 7/6"
+  },
+  "archivo": "TEO-CLI015-001/zonas-2026-11-21-azul.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/zonas-2026-11-21-azul.png",
+  "alt": "Lo mejor de las zonas del sábado 21/11: Caballeros 2da, ganaron Di Gregori M. / Grabiel G. 4/6 6/4 6/3; Caballeros 3ra, ganaron Dondo B. / Mugavero E. 1/6 6/3 6/4; Caballeros 4ta, ganaron Congregado J. / Medina G. 7/6 6/7 6/4; Caballeros 5ta, ganaron Juaristi N. / Rodríguez G. 3/6 6/3 7/6; Caballeros 7ma, ganaron Nicasio Odo M. / Sosa J. 3/6 7/6 7/6",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-21 23:08",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI015-001-2026-11-21-rosa",
+  "organiza": "boulevard_81",
+  "etiquetas": [
+   "boulevard_81"
+  ],
+  "codigos": {
+   "015001-D5-B2": "4/6 7/5 7/6",
+   "015001-D5-C3": "6/4 6/7 6/2",
+   "015001-D6-B1": "6/2 2/6 7/5",
+   "015001-D7-E3": "3/6 7/5 7/6"
+  },
+  "archivo": "TEO-CLI015-001/zonas-2026-11-21-rosa.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/zonas-2026-11-21-rosa.png",
+  "alt": "Lo mejor de las zonas del sábado 21/11: Damas 5ta, ganaron Gonzáles G. / Ruiz C. 4/6 7/5 7/6; Damas 5ta, ganaron Nuez T. / Roberto M. 6/4 6/7 6/2; Damas 6ta, ganaron Acuña C. / Rodríguez A. 6/2 2/6 7/5; Damas 7ma, ganaron Reynaldi M. / Vilas O. 3/6 7/5 7/6",
+  "publicada": false
  }
 ]

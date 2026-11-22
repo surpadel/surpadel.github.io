@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 22:38",
+"actualizado": "2026-11-21 23:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1087,13 +1087,13 @@
 "015001-C7-B1": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-21",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "22:00",
 "inst": "Zona",
 "p1": "Herrera, Mariano / Herrera, Valentín",
 "p2": "Di Totto, Vanesa / Jaime, Ludmila Azul",
-"res": "",
+"res": "4/6 6/0 7/6",
 "sede": "Boulevard 81",
 "zona": "B"
 },
