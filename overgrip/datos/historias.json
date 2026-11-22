@@ -1498,6 +1498,7 @@
   "suelta": true,
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/cuartos-azul-1121-2209-1.png",
   "alt": "Cuartos: Caballeros 5ta, ganaron Esquivel N. / Yirula D. 6/2 6/3",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  }
 ]
