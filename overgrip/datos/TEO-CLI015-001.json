@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 13:07",
+"actualizado": "2026-11-22 14:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -905,13 +905,13 @@
 "015001-C6+45-C1": {
 "cat": "Caballeros 6ta +45",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:00",
 "inst": "Zona",
 "p1": "López, Fabio Rubén / Pestaña, Javier Guido",
 "p2": "Dondo, Daniel / Marchini, Martín",
-"res": "",
+"res": "6/2 6/2",
 "sede": "Estación Norte",
 "zona": "C"
 },

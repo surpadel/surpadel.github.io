@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 13:07",
+"actualizado": "2026-11-22 14:08",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -52,13 +52,13 @@
 "011001-C5-53": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "12:00",
 "inst": "Octavos de Final",
 "p1": "Martínez, Tomás / Soler, Gustavo Julián",
 "p2": "Calvieri, Braian / La Ferrera, Julián",
-"res": "",
+"res": "6/2 6/1",
 "sede": "El Portal"
 },
 "011001-C5-54": {
@@ -76,13 +76,13 @@
 "011001-C5-55": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "12:00",
 "inst": "Octavos de Final",
 "p1": "Palacios, Nazareno / Ponce, César",
 "p2": "Dacunti, Leonardo / Foresi, Diego",
-"res": "",
+"res": "6/4 6/1",
 "sede": "El Portal"
 },
 "011001-C5-56": {
@@ -112,7 +112,7 @@
 "011001-C5-58": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:15",
 "inst": "Cuartos de Final",
@@ -128,7 +128,7 @@
 "gan": null,
 "hora": "20:45",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Martínez, Tomás / Soler, Gustavo Julián",
 "p2": "",
 "res": "",
 "sede": "El Portal"
@@ -140,7 +140,7 @@
 "gan": null,
 "hora": "20:45",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Palacios, Nazareno / Ponce, César",
 "p2": "",
 "res": "",
 "sede": "El Portal"

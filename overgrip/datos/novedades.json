@@ -1,46 +1,6 @@
 [
  {
   "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-15 12:38",
-  "partidos": [
-   {
-    "codigo": "008001-C5+40-62",
-    "cat": "Caballeros 5ta +40",
-    "inst": "Semifinal",
-    "dia": "2026-11-15",
-    "hora": "10:00",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Erceg, Gustavo / Ríos, Luis Abel Nicolás",
-    "p2": "Ochandorena, Ariel / Travella, Lucas",
-    "res": "4/6 6/2 7/6",
-    "gan": 1
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI010-001",
-  "hora": "2026-11-15 12:38",
-  "partidos": [
-   {
-    "codigo": "010001-D7-62",
-    "cat": "Damas 7ma",
-    "inst": "Semifinal",
-    "dia": "2026-11-15",
-    "hora": "11:00",
-    "sede": "Eleven",
-    "estado": "Finalizado",
-    "p1": "De Luca, Andrea / Mesa, Gabriela",
-    "p2": "Dury, Lucía / Gómez Rivero, María Laura",
-    "res": "6/3 7/6",
-    "gan": 1
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI008-001",
   "hora": "2026-11-15 13:08",
   "partidos": [
    {
@@ -1623,5 +1583,37 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 14:08",
+  "partidos": [
+   {
+    "codigo": "011001-C5-53",
+    "cat": "Caballeros 5ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "12:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Martínez, Tomás / Soler, Gustavo Julián",
+    "p2": "Calvieri, Braian / La Ferrera, Julián",
+    "res": "6/2 6/1",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C5-55",
+    "cat": "Caballeros 5ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "12:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Palacios, Nazareno / Ponce, César",
+    "p2": "Dacunti, Leonardo / Foresi, Diego",
+    "res": "6/4 6/1",
+    "gan": 1
+   }
+  ]
  }
 ]
