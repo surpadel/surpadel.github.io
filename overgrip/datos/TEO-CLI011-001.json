@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 18:37",
+"actualizado": "2026-11-22 19:07",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -196,13 +196,13 @@
 "011001-C6-39": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "14:30",
 "inst": "16avos",
 "p1": "Muriel, Jorge / Peralta, Brian",
 "p2": "Cepeda, Carlos / Duarte, Genaro",
-"res": "",
+"res": "3/6 7/6 6/2",
 "sede": "El Portal"
 },
 "011001-C6-42": {
@@ -272,7 +272,7 @@
 "gan": null,
 "hora": "19:30",
 "inst": "Octavos de Final",
-"p1": "",
+"p1": "Muriel, Jorge / Peralta, Brian",
 "p2": "Ammaturo, Marcelo Leonel / Dubini, Emilio",
 "res": "",
 "sede": "El Portal"
@@ -280,19 +280,19 @@
 "011001-C6-53": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:00",
 "inst": "Octavos de Final",
 "p1": "Conde Meira, Matías / Salvatierra, Marcelo",
 "p2": "Daureli, Maximiliano / Vera, Carlos Andrés",
-"res": "",
+"res": "5/7 6/4 6/4",
 "sede": "El Portal"
 },
 "011001-C6-54": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:15",
 "inst": "Octavos de Final",
@@ -316,7 +316,7 @@
 "011001-C6-56": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "18:15",
 "inst": "Octavos de Final",
@@ -356,7 +356,7 @@
 "gan": null,
 "hora": "22:00",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Conde Meira, Matías / Salvatierra, Marcelo",
 "p2": "",
 "res": "",
 "sede": "El Portal"
@@ -520,13 +520,13 @@
 "011001-C7-54": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:00",
 "inst": "Octavos de Final",
 "p1": "Livoi, Brian Nahuel / Melia, Luciano",
 "p2": "Di Marco, Gian Franco / Garcia, Federico",
-"res": "",
+"res": "7/5 6/2",
 "sede": "El Portal"
 },
 "011001-C7-55": {
@@ -585,7 +585,7 @@
 "hora": "22:00",
 "inst": "Cuartos de Final",
 "p1": "Arbarzua, Carlos / Fernández, Walter",
-"p2": "",
+"p2": "Livoi, Brian Nahuel / Melia, Luciano",
 "res": "",
 "sede": "El Portal"
 },
