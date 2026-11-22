@@ -1754,6 +1754,7 @@
   "grupo": "TEO-CLI011-001|Cuartos de Final|azul|2026-11-22",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/cuartos-azul-1122-1538-1.png",
   "alt": "Cuartos: Caballeros 5ta, ganaron Dauria V. / Hernández M. 7/5 6/2; Caballeros 5ta, ganaron Jara A. / Montes T. 7/6 0/6 6/4",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  }
 ]
