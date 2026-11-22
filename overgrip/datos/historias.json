@@ -1463,5 +1463,25 @@
   "alt": "Ya están las llaves de Animal 81: se juegan desde el domingo 22/11. Mirá tu cruce en app.overgrip.com.ar.",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-21 21:38",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Cuartos de Final",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-C4-1": "6/7 6/3 6/4",
+   "005002-C5-2": "3/6 6/2 6/3",
+   "005002-C6-4": "6/4 3/6 7/5",
+   "005002-C7-1": "5/7 6/4 6/4"
+  },
+  "archivo": "TEO-CLI005-002/cuartos-azul-1121-2138-1.png",
+  "grupo": "TEO-CLI005-002|Cuartos de Final|azul|2026-11-21",
+  "demorados": [
+   "005002-C5-1"
+  ],
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/cuartos-azul-1121-2138-1.png",
+  "alt": "Cuartos: Caballeros 4ta, ganaron Sandoval M. / Silva B. 6/7 6/3 6/4; Caballeros 5ta, ganaron Chamorro S. / González T. 3/6 6/2 6/3; Caballeros 6ta, ganaron Carpio F. / Courtis M. 6/4 3/6 7/5; Caballeros 7ma, ganaron Escobar M. / Fuenzalida J. 5/7 6/4 6/4",
+  "publicada": false
  }
 ]

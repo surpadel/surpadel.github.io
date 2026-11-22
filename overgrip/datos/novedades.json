@@ -1,59 +1,6 @@
 [
  {
   "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-14 16:07",
-  "partidos": [
-   {
-    "codigo": "008001-C6+50-53",
-    "cat": "Caballeros 6ta +50",
-    "inst": "Octavos de Final",
-    "dia": "2026-11-14",
-    "hora": "13:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Isasi, Juan Manuel / Orona, Alejandro",
-    "p2": "Epifani, Andrés / Sole, Rubén",
-    "res": "6/7 7/6 7/5",
-    "gan": 1
-   },
-   {
-    "codigo": "008001-C4+40-50",
-    "cat": "Caballeros 4ta +40",
-    "inst": "Octavos de Final",
-    "dia": "2026-11-14",
-    "hora": "15:00",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Chijlis, Germán / López Osornio, Martín",
-    "p2": "Martiarena, Nicolás / Toloza, Sergio Daniel",
-    "res": "7/5 6/0",
-    "gan": 1
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-14 16:37",
-  "partidos": [
-   {
-    "codigo": "008001-C4+40-55",
-    "cat": "Caballeros 4ta +40",
-    "inst": "Octavos de Final",
-    "dia": "2026-11-14",
-    "hora": "15:00",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Pereyra, Pablo / Pereyra, Jorge",
-    "p2": "Pellegrini, Emmanuel / Rondeau, Jorge Alberto",
-    "res": "6/4 6/4",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI008-001",
   "hora": "2026-11-14 17:37",
   "partidos": [
    {
@@ -1415,7 +1362,8 @@
     "res": "6/4 3/6 7/5",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI005-002",
@@ -1541,6 +1489,8 @@
    }
   ],
   "hechos": [
+   "005002-C4-1",
+   "005002-C7-1",
    "005002-D5-4",
    "005002-D7-1"
   ]
@@ -1562,7 +1512,8 @@
     "res": "3/6 6/2 6/3",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI005-002",
@@ -1603,5 +1554,50 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-21 21:38",
+  "partidos": [
+   {
+    "codigo": "005002-C5+40-6",
+    "cat": "Caballeros 5ta +40",
+    "inst": "Semifinal",
+    "dia": "2026-11-21",
+    "hora": "18:45",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "Macaudier, Esteban / Rocha, Juan",
+    "p2": "Duette, Ezequiel Alejandro / Quintana, Jorge",
+    "res": "6/3 7/5",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-C6+40-5",
+    "cat": "Caballeros 6ta +40",
+    "inst": "Semifinal",
+    "dia": "2026-11-21",
+    "hora": "18:45",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "Dell Orto, Raúl Enrique / Ledesma, Cristian Horacio",
+    "p2": "Epifani, Pablo Andrés / Nelson, Carlos Daniel",
+    "res": "7/5 6/2",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-D6-5",
+    "cat": "Damas 6ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-21",
+    "hora": "18:45",
+    "sede": "GM",
+    "estado": "Finalizado",
+    "p1": "Guerra, Luciana / Ruiz Díaz, Lucía",
+    "p2": "García Pereira, Daniela / Natasha, Krassevich",
+    "res": "7/5 6/4",
+    "gan": 2
+   }
+  ]
  }
 ]
