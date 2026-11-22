@@ -1601,11 +1601,12 @@
   "grupo": "TEO-CLI005-002|Semifinal|azul|2026-11-21",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/semifinal-azul-1122-0838-1.png",
   "alt": "Semifinales: Caballeros 5ta, ganaron Esquivel N. / Yirula D. 4/6 6/0 6/2 (abandono)",
-  "publicada": false,
+  "publicada": true,
   "espera_desde": "2026-11-22 08:38",
   "motivos": [
    "005002-C5-5: marcador raro '4/6 6/0 6/2 (abandono)'"
-  ]
+  ],
+  "modo": "descartada"
  },
  {
   "creada": "2026-11-22 08:38",
