@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 14:38",
+"actualizado": "2026-11-22 15:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1425,13 +1425,13 @@
 "015001-D5-D2": {
 "cat": "Damas 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "13:00",
 "inst": "Zona",
 "p1": "Domínguez, María Eugenia / Romano, Patricia Gladys",
 "p2": "Asens, Sofía Agustina / Stofalo, Mariela",
-"res": "",
+"res": "7/6 7/5",
 "sede": "Estación Norte",
 "zona": "D"
 },
