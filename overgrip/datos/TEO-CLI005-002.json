@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-21 23:08",
+"actualizado": "2026-11-21 23:37",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -652,13 +652,13 @@
 "005002-D6-6": {
 "cat": "Damas 6ta",
 "dia": "2026-11-21",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:15",
 "inst": "Semifinal",
 "p1": "Scattularo, Agustina / Tunich, Florencia Belen",
 "p2": "Alcaraz, Azul Anabella / Giorcelli, Mailen",
-"res": "",
+"res": "6/4 6/4",
 "sede": "EVA"
 },
 "005002-D6-7": {
@@ -669,7 +669,7 @@
 "hora": "20:00",
 "inst": "Final",
 "p1": "García Pereira, Daniela / Natasha, Krassevich",
-"p2": "",
+"p2": "Scattularo, Agustina / Tunich, Florencia Belen",
 "res": "",
 "sede": "EVA"
 },
