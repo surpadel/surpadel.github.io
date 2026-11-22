@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 11:37",
+"actualizado": "2026-11-22 12:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -671,13 +671,13 @@
 "015001-C5-A2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Suplente, Jugador / Troncoso Sánchez, Juan Ignacio",
 "p2": "Sosa, Hernán José Salvador / Villafañe, Federico",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "Estación Norte",
 "zona": "A"
 },
@@ -697,13 +697,13 @@
 "015001-C5-B1": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 1,
 "hora": "11:30",
 "inst": "Zona",
 "p1": "Bortolazzo, Agustín / Menna, Emiliano",
 "p2": "Mercado, Gonzalo / Salazar, José",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "Estación Norte",
 "zona": "B"
 },
@@ -1700,7 +1700,7 @@
 "dia": "2026-11-23",
 "estado": "Programado",
 "gan": null,
-"hora": "16:00",
+"hora": "17:30",
 "inst": "Zona",
 "p1": "Raffino, Carla / Ravainera, Estefanía",
 "p2": "Luna, Andrea / Vattiato, Gabriela",
@@ -1964,7 +1964,7 @@
 "inst": "Zona",
 "p1": "Frías, Brenda / Sola Barni, Jimena",
 "p2": "Gianfelici, Milagros / Ochandorena, Milagros",
-"res": "6/2 6/0",
+"res": "6/3 6/0",
 "sede": "Estación Norte",
 "zona": "G"
 },
@@ -1977,7 +1977,7 @@
 "inst": "Zona",
 "p1": "Corbalán, Magali / Ratusny, Justina",
 "p2": "Gianfelici, Milagros / Ochandorena, Milagros",
-"res": "6/4 6/4",
+"res": "6/4 6/0",
 "sede": "Estación Norte",
 "zona": "G"
 }

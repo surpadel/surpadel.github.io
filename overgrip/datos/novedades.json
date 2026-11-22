@@ -1562,6 +1562,40 @@
     "res": "6/1 6/3",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 12:08",
+  "partidos": [
+   {
+    "codigo": "011001-C5-49",
+    "cat": "Caballeros 5ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "10:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Dauria, Valentino / Hernández, Martín",
+    "p2": "Aguilar, Gabriel Gastón / Rojos, Cristian",
+    "res": "4/6 6/3 7/6",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C5-51",
+    "cat": "Caballeros 5ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "10:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Daquila, César / Robledo, Benicio",
+    "p2": "Picotto, Mauro / Thomas, Rivarola",
+    "res": "6/1 7/5",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
  }
 ]

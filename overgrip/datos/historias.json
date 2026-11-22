@@ -1669,5 +1669,21 @@
   "en_buffer": "6b02f069846b0ee9078bf7ec",
   "modo": "auto",
   "publicada_en": "2026-11-22 10:38"
+ },
+ {
+  "creada": "2026-11-22 12:08",
+  "torneo": "TEO-CLI011-001",
+  "inst": "Octavos de Final",
+  "organiza": "metropadeloficial",
+  "codigos": {
+   "011001-C5-52": "6/1 6/3",
+   "011001-C5-49": "4/6 6/3 7/6",
+   "011001-C5-51": "6/1 7/5"
+  },
+  "archivo": "TEO-CLI011-001/octavos-azul-1122-1208-1.png",
+  "grupo": "TEO-CLI011-001|Octavos de Final|azul|2026-11-22",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/octavos-azul-1122-1208-1.png",
+  "alt": "Octavos: Caballeros 5ta, ganaron Jara A. / Montes T. 6/1 6/3; Caballeros 5ta, ganaron Dauria V. / Hernández M. 4/6 6/3 7/6; Caballeros 5ta, ganaron Picotto M. / Thomas R. 6/1 7/5",
+  "publicada": false
  }
 ]

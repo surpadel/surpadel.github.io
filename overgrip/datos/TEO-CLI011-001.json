@@ -1,16 +1,16 @@
 {
-"actualizado": "2026-11-22 11:37",
+"actualizado": "2026-11-22 12:08",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:00",
 "inst": "Octavos de Final",
 "p1": "Dauria, Valentino / Hernández, Martín",
 "p2": "Aguilar, Gabriel Gastón / Rojos, Cristian",
-"res": "",
+"res": "4/6 6/3 7/6",
 "sede": "El Portal"
 },
 "011001-C5-50": {
@@ -28,13 +28,13 @@
 "011001-C5-51": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "10:00",
 "inst": "Octavos de Final",
 "p1": "Daquila, César / Robledo, Benicio",
 "p2": "Picotto, Mauro / Thomas, Rivarola",
-"res": "",
+"res": "6/1 7/5",
 "sede": "El Portal"
 },
 "011001-C5-52": {
@@ -104,7 +104,7 @@
 "gan": null,
 "hora": "13:15",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Dauria, Valentino / Hernández, Martín",
 "p2": "Alegre, Sergio Dario / Robledo, Ángel",
 "res": "",
 "sede": "El Portal"
@@ -116,7 +116,7 @@
 "gan": null,
 "hora": "13:15",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Picotto, Mauro / Thomas, Rivarola",
 "p2": "Jara, Alejandro Anibal / Montes, Tobias Alexander",
 "res": "",
 "sede": "El Portal"
@@ -640,7 +640,7 @@
 "011001-D7-50": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:00",
 "inst": "Octavos de Final",
@@ -652,7 +652,7 @@
 "011001-D7-55": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:00",
 "inst": "Octavos de Final",
@@ -676,7 +676,7 @@
 "011001-D7-58": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:00",
 "inst": "Cuartos de Final",
@@ -688,7 +688,7 @@
 "011001-D7-59": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:00",
 "inst": "Cuartos de Final",
