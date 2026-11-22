@@ -1,58 +1,5 @@
 [
  {
-  "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-15 14:08",
-  "partidos": [
-   {
-    "codigo": "008001-C5+50-61",
-    "cat": "Caballeros 5ta +50",
-    "inst": "Semifinal",
-    "dia": "2026-11-15",
-    "hora": "11:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Oliverio, Víctor Hugo / Valaco, Néstor",
-    "p2": "Gural, Esteban Edgardo / Quatrocchi, Luciano",
-    "res": "6/1 5/7 7/6",
-    "gan": 2
-   },
-   {
-    "codigo": "008001-C6+50-62",
-    "cat": "Caballeros 6ta +50",
-    "inst": "Semifinal",
-    "dia": "2026-11-15",
-    "hora": "11:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "Gutiérrez, Martín / Quinteros, Marcelo Anibal",
-    "p2": "Di Nenno, Javier / Loureiro, Javier",
-    "res": "6/2 7/5",
-    "gan": 1
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI008-001",
-  "hora": "2026-11-15 14:38",
-  "partidos": [
-   {
-    "codigo": "008001-C6+50-61",
-    "cat": "Caballeros 6ta +50",
-    "inst": "Semifinal",
-    "dia": "2026-11-15",
-    "hora": "11:30",
-    "sede": "R5",
-    "estado": "Finalizado",
-    "p1": "De Pierris, Gastón / Hernández, Ariel Hernán",
-    "p2": "Armenti, Luis Antonio / Pantuso, Marcelo",
-    "res": "3/6 6/4 6/3",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
   "torneo": "TEO-CLI010-001",
   "hora": "2026-11-15 14:38",
   "partidos": [
@@ -1985,6 +1932,25 @@
   ],
   "hechos": [
    "005002-D7-7"
+  ]
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 20:37",
+  "partidos": [
+   {
+    "codigo": "011001-C6-54",
+    "cat": "Caballeros 6ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "18:15",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Mercado, Joaquín / Vaquero, Lucas",
+    "p2": "Jagiellowicz, Santiago / Soria, Ezequiel Sergio",
+    "res": "2/6 6/3 6/4",
+    "gan": 2
+   }
   ]
  }
 ]

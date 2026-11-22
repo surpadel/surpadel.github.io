@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 20:07",
+"actualizado": "2026-11-22 20:37",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -292,13 +292,13 @@
 "011001-C6-54": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:15",
 "inst": "Octavos de Final",
 "p1": "Mercado, Joaquín / Vaquero, Lucas",
 "p2": "Jagiellowicz, Santiago / Soria, Ezequiel Sergio",
-"res": "",
+"res": "2/6 6/3 6/4",
 "sede": "El Portal"
 },
 "011001-C6-55": {
@@ -357,7 +357,7 @@
 "hora": "22:00",
 "inst": "Cuartos de Final",
 "p1": "Conde Meira, Matías / Salvatierra, Marcelo",
-"p2": "",
+"p2": "Jagiellowicz, Santiago / Soria, Ezequiel Sergio",
 "res": "",
 "sede": "El Portal"
 },
@@ -664,7 +664,7 @@
 "011001-D7-57": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:30",
 "inst": "Cuartos de Final",
