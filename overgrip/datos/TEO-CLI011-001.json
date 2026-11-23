@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 23:07",
+"actualizado": "2026-11-22 23:38",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -136,13 +136,13 @@
 "011001-C5-60": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:45",
 "inst": "Cuartos de Final",
 "p1": "Palacios, Nazareno / Ponce, César",
 "p2": "Corbalan, Leonardo / Padovani, Marcos",
-"res": "",
+"res": "6/2 6/4",
 "sede": "El Portal"
 },
 "011001-C5-61": {
@@ -165,7 +165,7 @@
 "hora": "15:00",
 "inst": "Semifinal",
 "p1": "Martínez, Tomás / Soler, Gustavo Julián",
-"p2": "",
+"p2": "Palacios, Nazareno / Ponce, César",
 "res": "",
 "sede": "Mitre Padel"
 },
@@ -352,7 +352,7 @@
 "011001-C6-59": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "22:00",
 "inst": "Cuartos de Final",
@@ -580,7 +580,7 @@
 "011001-C7-59": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "22:00",
 "inst": "Cuartos de Final",
@@ -592,13 +592,13 @@
 "011001-C7-60": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:45",
 "inst": "Cuartos de Final",
 "p1": "Jaime, Facundo / Jamardo, Agustín",
 "p2": "Di Maio, Agustín / Sokol, Pablo",
-"res": "",
+"res": "6/2 7/5",
 "sede": "El Portal"
 },
 "011001-C7-61": {
@@ -621,7 +621,7 @@
 "hora": "12:00",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Jaime, Facundo / Jamardo, Agustín",
 "res": "",
 "sede": "Mitre Padel"
 },
