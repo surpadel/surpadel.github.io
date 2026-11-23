@@ -2112,5 +2112,24 @@
   "en_buffer": "6b045e27560763d91f0e40a3",
   "modo": "auto",
   "publicada_en": "2026-11-23 12:39"
+ },
+ {
+  "creada": "2026-11-23 17:08",
+  "torneo": "TEO-CLI011-001",
+  "inst": "Semifinal",
+  "organiza": "metropadeloficial",
+  "codigos": {
+   "011001-C5-61": "6/2 5/7 6/3",
+   "011001-C5-62": "7/6 6/2",
+   "011001-C6-61": "7/5 6/2",
+   "011001-C6-62": "4/6 6/1 6/2",
+   "011001-C7-61": "6/2 7/6",
+   "011001-C7-62": "7/6 6/2"
+  },
+  "archivo": "TEO-CLI011-001/semifinal-azul-1123-1708-1.png",
+  "grupo": "TEO-CLI011-001|Semifinal|azul|2026-11-23",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/semifinal-azul-1123-1708-1.png",
+  "alt": "Semifinales: Caballeros 5ta, ganaron Dauria V. / Hernández M. 6/2 5/7 6/3; Caballeros 5ta, ganaron Martínez T. / Soler G. 7/6 6/2; Caballeros 6ta, ganaron Novello S. / Rodríguez L. 7/5 6/2; Caballeros 6ta, ganaron Garay D. / Gómez A. 4/6 6/1 6/2; Caballeros 7ma, ganaron Bengler F. / Knorr M. 6/2 7/6; Caballeros 7ma, ganaron Arbarzua C. / Fernández W. 7/6 6/2",
+  "publicada": false
  }
 ]

@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-23 16:38",
+"actualizado": "2026-11-23 17:08",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -148,25 +148,25 @@
 "011001-C5-61": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-23",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "15:00",
 "inst": "Semifinal",
 "p1": "Dauria, Valentino / Hernández, Martín",
 "p2": "Jara, Alejandro Anibal / Montes, Tobias Alexander",
-"res": "",
+"res": "6/2 5/7 6/3",
 "sede": "Mitre Padel"
 },
 "011001-C5-62": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-23",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "15:00",
 "inst": "Semifinal",
 "p1": "Martínez, Tomás / Soler, Gustavo Julián",
 "p2": "Palacios, Nazareno / Ponce, César",
-"res": "",
+"res": "7/6 6/2",
 "sede": "Mitre Padel"
 },
 "011001-C5-64": {
@@ -176,8 +176,8 @@
 "gan": null,
 "hora": "18:00",
 "inst": "Final",
-"p1": "",
-"p2": "",
+"p1": "Dauria, Valentino / Hernández, Martín",
+"p2": "Martínez, Tomás / Soler, Gustavo Julián",
 "res": "",
 "sede": "Mitre Padel"
 },
@@ -712,7 +712,7 @@
 "011001-D7-61": {
 "cat": "Damas 7ma",
 "dia": "2026-11-23",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:30",
 "inst": "Semifinal",
@@ -724,7 +724,7 @@
 "011001-D7-62": {
 "cat": "Damas 7ma",
 "dia": "2026-11-23",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "16:30",
 "inst": "Semifinal",

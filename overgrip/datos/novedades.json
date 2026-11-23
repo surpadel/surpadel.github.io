@@ -1965,7 +1965,8 @@
     "res": "7/6 6/2",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI011-001",
@@ -1997,7 +1998,8 @@
     "res": "4/6 6/1 6/2",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI011-001",
@@ -2017,5 +2019,38 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-23 17:08",
+  "partidos": [
+   {
+    "codigo": "011001-C5-61",
+    "cat": "Caballeros 5ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-23",
+    "hora": "15:00",
+    "sede": "Mitre Padel",
+    "estado": "Finalizado",
+    "p1": "Dauria, Valentino / Hernández, Martín",
+    "p2": "Jara, Alejandro Anibal / Montes, Tobias Alexander",
+    "res": "6/2 5/7 6/3",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C5-62",
+    "cat": "Caballeros 5ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-23",
+    "hora": "15:00",
+    "sede": "Mitre Padel",
+    "estado": "Finalizado",
+    "p1": "Martínez, Tomás / Soler, Gustavo Julián",
+    "p2": "Palacios, Nazareno / Ponce, César",
+    "res": "7/6 6/2",
+    "gan": 1
+   }
+  ],
+  "dibujada": true
  }
 ]
