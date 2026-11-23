@@ -1,0 +1,307 @@
+{
+ "rama": "cab",
+ "torneo": "APB Master 2026",
+ "sub": "EVA · Berazategui",
+ "organiza": "apbberazategui",
+ "titulo": [
+  "Los",
+  "campeones"
+ ],
+ "cabecera": [
+  "Así se",
+  "coronaron"
+ ],
+ "cierre": [
+  "Pádel de acá,",
+  "al día"
+ ],
+ "partidos": [
+  {
+   "cat": "Caballeros 4ta",
+   "rama": "cab",
+   "ganan": "Lorefice / Reynoso",
+   "pierden": "Martínez / Pacheco",
+   "sets": [
+    [
+     6,
+     3
+    ],
+    [
+     2,
+     6
+    ],
+    [
+     6,
+     3
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 5ta",
+   "rama": "cab",
+   "ganan": "Moya / Segovia",
+   "pierden": "Esquivel / Yirula",
+   "sets": [
+    [
+     6,
+     4
+    ],
+    [
+     5,
+     7
+    ],
+    [
+     6,
+     2
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 5ta +40",
+   "rama": "cab",
+   "ganan": "Buono / Nicotera",
+   "pierden": "Duette / Quintana",
+   "sets": [
+    [
+     6,
+     7
+    ],
+    [
+     6,
+     1
+    ],
+    [
+     7,
+     5
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 6ta",
+   "rama": "cab",
+   "ganan": "Bravo / Guerrero",
+   "pierden": "Rodríguez / San Pedro",
+   "sets": [
+    [
+     6,
+     4
+    ],
+    [
+     3,
+     6
+    ],
+    [
+     6,
+     2
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 6ta +40",
+   "rama": "cab",
+   "ganan": "Epifani / Nelson",
+   "pierden": "Bermúdez / Cabral",
+   "sets": [
+    [
+     6,
+     4
+    ],
+    [
+     6,
+     2
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 7ma",
+   "rama": "cab",
+   "ganan": "Escobar / Fuenzalida",
+   "pierden": "Benítez Sánchez / Morbidoni",
+   "sets": [
+    [
+     6,
+     4
+    ],
+    [
+     6,
+     3
+    ]
+   ]
+  }
+ ],
+ "paginas": [
+  [
+   {
+    "cat": "Caballeros 4ta",
+    "rama": "cab",
+    "ganan": "Lorefice / Reynoso",
+    "pierden": "Martínez / Pacheco",
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
+   {
+    "cat": "Caballeros 5ta",
+    "rama": "cab",
+    "ganan": "Moya / Segovia",
+    "pierden": "Esquivel / Yirula",
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
+   {
+    "cat": "Caballeros 5ta +40",
+    "rama": "cab",
+    "ganan": "Buono / Nicotera",
+    "pierden": "Duette / Quintana",
+    "sets": [
+     [
+      6,
+      7
+     ],
+     [
+      6,
+      1
+     ],
+     [
+      7,
+      5
+     ]
+    ]
+   },
+   {
+    "cat": "Caballeros 6ta",
+    "rama": "cab",
+    "ganan": "Bravo / Guerrero",
+    "pierden": "Rodríguez / San Pedro",
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      3,
+      6
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
+   {
+    "cat": "Caballeros 6ta +40",
+    "rama": "cab",
+    "ganan": "Epifani / Nelson",
+    "pierden": "Bermúdez / Cabral",
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      2
+     ]
+    ]
+   },
+   {
+    "cat": "Caballeros 7ma",
+    "rama": "cab",
+    "ganan": "Escobar / Fuenzalida",
+    "pierden": "Benítez Sánchez / Morbidoni",
+    "sets": [
+     [
+      6,
+      4
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   }
+  ],
+  [
+   {
+    "cat": "Damas 5ta",
+    "rama": "dam",
+    "ganan": "Chapuis / Velázquez",
+    "pierden": "Binetti / Movia",
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      7,
+      5
+     ]
+    ]
+   },
+   {
+    "cat": "Damas 6ta",
+    "rama": "dam",
+    "ganan": "Scattularo / Tunich",
+    "pierden": "García Pereira / Natasha",
+    "sets": [
+     [
+      7,
+      5
+     ],
+     [
+      6,
+      3
+     ]
+    ]
+   },
+   {
+    "cat": "Damas 7ma",
+    "rama": "dam",
+    "ganan": "Banegas / Waczynski",
+    "pierden": "Lloveras / Piccinini",
+    "sets": [
+     [
+      6,
+      3
+     ],
+     [
+      4,
+      6
+     ],
+     [
+      6,
+      0
+     ]
+    ]
+   }
+  ]
+ ],
+ "fondos": [
+  "instagram/banco-tomas/toma10-club-barrio.mp4",
+  "marca/fondos/fondo-30-club-barrio-noche.png",
+  "marca/fondos/fondo-31-banco-club.png"
+ ]
+}
