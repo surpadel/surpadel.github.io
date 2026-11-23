@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-23 14:08",
+"actualizado": "2026-11-23 14:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -891,15 +891,15 @@
 },
 "015001-C6+45-B3": {
 "cat": "Caballeros 6ta +45",
-"dia": null,
-"estado": "Sin programar",
+"dia": "2026-11-25",
+"estado": "Programado",
 "gan": null,
-"hora": null,
+"hora": "21:00",
 "inst": "Zona",
 "p1": "Garibaldi, Luis / Scorcelli, Guillermo Marcelo",
 "p2": "Cahuepe, Nicolás / Casadei, Walter Ariel",
 "res": "",
-"sede": null,
+"sede": "Boulevard 81",
 "zona": "B"
 },
 "015001-C6+45-C1": {
@@ -1515,15 +1515,15 @@
 },
 "015001-D5-F3": {
 "cat": "Damas 5ta",
-"dia": null,
-"estado": "Sin programar",
+"dia": "2026-11-25",
+"estado": "Programado",
 "gan": null,
-"hora": null,
+"hora": "21:00",
 "inst": "Zona",
 "p1": "Davel, Irene / Vásquez, Mariela",
 "p2": "Genta, Vanesa / Mostafa, Mercedes",
 "res": "",
-"sede": null,
+"sede": "Boulevard 81",
 "zona": "F"
 },
 "015001-D6-A1": {
