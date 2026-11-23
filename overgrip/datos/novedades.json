@@ -1966,5 +1966,37 @@
     "gan": 1
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-23 15:08",
+  "partidos": [
+   {
+    "codigo": "011001-C6-61",
+    "cat": "Caballeros 6ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-23",
+    "hora": "13:30",
+    "sede": "Mitre Padel",
+    "estado": "Finalizado",
+    "p1": "Novello, Santiago / Rodríguez, Leonardo",
+    "p2": "Ammaturo, Marcelo Leonel / Dubini, Emilio",
+    "res": "7/5 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C6-62",
+    "cat": "Caballeros 6ta",
+    "inst": "Semifinal",
+    "dia": "2026-11-23",
+    "hora": "13:30",
+    "sede": "Mitre Padel",
+    "estado": "Finalizado",
+    "p1": "Conde Meira, Matías / Salvatierra, Marcelo",
+    "p2": "Garay, Diego / Gómez, Agustín",
+    "res": "4/6 6/1 6/2",
+    "gan": 2
+   }
+  ]
  }
 ]
