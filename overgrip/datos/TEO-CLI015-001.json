@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 22:37",
+"actualizado": "2026-11-23 11:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -566,15 +566,15 @@
 },
 "015001-C4-D3": {
 "cat": "Caballeros 4ta",
-"dia": null,
+"dia": "2026-11-23",
 "estado": "Programado",
 "gan": null,
-"hora": null,
+"hora": "21:00",
 "inst": "Zona",
 "p1": "Amico, Maximiliano / Pérez Serrano, Vanesa",
 "p2": "Gullo, Fermin / Moreno Lezana, Juan Ignacio",
 "res": "",
-"sede": null,
+"sede": "Boulevard 81",
 "zona": "D"
 },
 "015001-C4-E1": {
@@ -657,15 +657,15 @@
 },
 "015001-C5-A1": {
 "cat": "Caballeros 5ta",
-"dia": null,
+"dia": "2026-11-22",
 "estado": "WO",
 "gan": 2,
-"hora": null,
+"hora": "21:00",
 "inst": "Zona",
 "p1": "Suplente, Jugador / Troncoso Sánchez, Juan Ignacio",
 "p2": "Pérez, Cristian Hernán / Pozzi, Franco",
 "res": "WO 6/0 6/0",
-"sede": null,
+"sede": "Estación Norte",
 "zona": "A"
 },
 "015001-C5-A2": {
