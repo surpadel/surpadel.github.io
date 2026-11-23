@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-23 14:38",
+"actualizado": "2026-11-23 17:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1931,15 +1931,15 @@
 },
 "015001-D7-F3": {
 "cat": "Damas 7ma",
-"dia": null,
-"estado": "Sin programar",
+"dia": "2026-11-25",
+"estado": "Programado",
 "gan": null,
-"hora": null,
+"hora": "17:00",
 "inst": "Zona",
 "p1": "Balceda, María / Ortiz Ibero, Leandra",
 "p2": "Cataldi, María Jimena / Ferreyra, Claudia",
 "res": "",
-"sede": null,
+"sede": "Boulevard 81",
 "zona": "F"
 },
 "015001-D7-G1": {
