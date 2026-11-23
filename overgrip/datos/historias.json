@@ -2093,5 +2093,21 @@
   "en_buffer": "6b042cf16b6de50282594ee5",
   "modo": "auto",
   "publicada_en": "2026-11-23 09:09"
+ },
+ {
+  "creada": "2026-11-23 12:38",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Semifinal",
+  "organiza": "boulevard_81",
+  "codigos": {
+   "015001-C2-61": "6/7 6/4 6/3",
+   "015001-C3-61": "6/1 6/3"
+  },
+  "archivo": "TEO-CLI015-001/semifinal-azul-1123-1238-1.png",
+  "grupo": "TEO-CLI015-001|Semifinal|azul|2026-11-22",
+  "suelta": true,
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/semifinal-azul-1123-1238-1.png",
+  "alt": "Semifinales: Caballeros 2da, ganaron Rechiutti A. / Tocho D. 6/7 6/4 6/3; Caballeros 3ra, ganaron Sala A. / Yop O. 6/1 6/3",
+  "publicada": false
  }
 ]

@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-23 08:07",
+"actualizado": "2026-11-23 12:38",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -604,7 +604,7 @@
 "011001-C7-61": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-23",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:00",
 "inst": "Semifinal",
@@ -616,7 +616,7 @@
 "011001-C7-62": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-23",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "12:00",
 "inst": "Semifinal",
