@@ -1,118 +1,6 @@
 [
  {
   "torneo": "TEO-CLI005-002",
-  "hora": "2026-11-21 11:08",
-  "partidos": [
-   {
-    "codigo": "005002-C5+40-1",
-    "cat": "Caballeros 5ta +40",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "10:00",
-    "sede": "EVA",
-    "estado": "Finalizado",
-    "p1": "Acosta, Alejandro / Silva, Diego Fernando",
-    "p2": "Frasson, Gabriel / Martin, Hernán",
-    "res": "6/0 6/0",
-    "gan": 1
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI005-002",
-  "hora": "2026-11-21 11:38",
-  "partidos": [
-   {
-    "codigo": "005002-C6+40-4",
-    "cat": "Caballeros 6ta +40",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "10:00",
-    "sede": "GM",
-    "estado": "Finalizado",
-    "p1": "Bermúdez, Pablo / Cabral, Ariel",
-    "p2": "Carballo, Carlos / Lucidi, Juan Manuel",
-    "res": "6/3 6/4",
-    "gan": 1
-   },
-   {
-    "codigo": "005002-C7-4",
-    "cat": "Caballeros 7ma",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "10:00",
-    "sede": "EVA",
-    "estado": "Finalizado",
-    "p1": "Sanabria, Néstor José / Vergara, Christian",
-    "p2": "Jara, Jonatan / Medina, Lucas",
-    "res": "6/2 6/2",
-    "gan": 2
-   },
-   {
-    "codigo": "005002-D5-1",
-    "cat": "Damas 5ta",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "10:00",
-    "sede": "EVA",
-    "estado": "Finalizado",
-    "p1": "Flores, María Belén / Segura, Mirta",
-    "p2": "Luna, Keila / Martin, Karina Lorena",
-    "res": "3/6 6/1 6/1",
-    "gan": 1
-   },
-   {
-    "codigo": "005002-D6-2",
-    "cat": "Damas 6ta",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "10:00",
-    "sede": "GM",
-    "estado": "Finalizado",
-    "p1": "García Pereira, Daniela / Natasha, Krassevich",
-    "p2": "Cejas, Karina / Lozada, Karina",
-    "res": "6/1 6/4",
-    "gan": 1
-   },
-   {
-    "codigo": "005002-C6+40-3",
-    "cat": "Caballeros 6ta +40",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "11:15",
-    "sede": "EVA",
-    "estado": "WO",
-    "p1": "Kirchhoff, Damián / Nieto, Fernando",
-    "p2": "Kowal, Ramiro / Larrea, Rodrigo",
-    "res": "WO 6/0 6/0",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI005-002",
-  "hora": "2026-11-21 12:38",
-  "partidos": [
-   {
-    "codigo": "005002-C5+40-4",
-    "cat": "Caballeros 5ta +40",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "11:15",
-    "sede": "GM",
-    "estado": "Finalizado",
-    "p1": "Orosco, Leonardo Sebastián / Ortega, Ariel",
-    "p2": "Duette, Ezequiel Alejandro / Quintana, Jorge",
-    "res": "6/3 6/4",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI005-002",
   "hora": "2026-11-21 13:08",
   "partidos": [
    {
@@ -2052,5 +1940,37 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-23 18:08",
+  "partidos": [
+   {
+    "codigo": "011001-C6-64",
+    "cat": "Caballeros 6ta",
+    "inst": "Final",
+    "dia": "2026-11-23",
+    "hora": "16:30",
+    "sede": "Mitre Padel",
+    "estado": "Finalizado",
+    "p1": "Novello, Santiago / Rodríguez, Leonardo",
+    "p2": "Garay, Diego / Gómez, Agustín",
+    "res": "7/6 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "011001-D7-61",
+    "cat": "Damas 7ma",
+    "inst": "Semifinal",
+    "dia": "2026-11-23",
+    "hora": "16:30",
+    "sede": "Mitre Padel",
+    "estado": "Finalizado",
+    "p1": "López Muollo, Analia / Polizzotto, María Laura",
+    "p2": "Orellana, Melany Milagros / Orellana, Micaela",
+    "res": "6/2 6/4",
+    "gan": 2
+   }
+  ]
  }
 ]
