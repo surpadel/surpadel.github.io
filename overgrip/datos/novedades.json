@@ -1,26 +1,6 @@
 [
  {
   "torneo": "TEO-CLI005-002",
-  "hora": "2026-11-21 10:38",
-  "partidos": [
-   {
-    "codigo": "005002-D5-2",
-    "cat": "Damas 5ta",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "10:00",
-    "sede": "GM",
-    "estado": "WO",
-    "p1": "Cardozo, Roxana / Román, Lara Daniela",
-    "p2": "Binetti, Milena Anabela / Movia, María Belen",
-    "res": "WO 6/0 6/0",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI005-002",
   "hora": "2026-11-21 11:08",
   "partidos": [
    {
@@ -1954,5 +1934,37 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-23 14:08",
+  "partidos": [
+   {
+    "codigo": "011001-C7-61",
+    "cat": "Caballeros 7ma",
+    "inst": "Semifinal",
+    "dia": "2026-11-23",
+    "hora": "12:00",
+    "sede": "Mitre Padel",
+    "estado": "Finalizado",
+    "p1": "Aramburu, Alejandro / Lisio, Leandro",
+    "p2": "Bengler, Fernando / Knorr, Mario",
+    "res": "6/2 7/6",
+    "gan": 2
+   },
+   {
+    "codigo": "011001-C7-62",
+    "cat": "Caballeros 7ma",
+    "inst": "Semifinal",
+    "dia": "2026-11-23",
+    "hora": "12:00",
+    "sede": "Mitre Padel",
+    "estado": "Finalizado",
+    "p1": "Arbarzua, Carlos / Fernández, Walter",
+    "p2": "Jaime, Facundo / Jamardo, Agustín",
+    "res": "7/6 6/2",
+    "gan": 1
+   }
+  ]
  }
 ]

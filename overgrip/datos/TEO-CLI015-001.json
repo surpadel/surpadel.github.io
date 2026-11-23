@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-23 13:38",
+"actualizado": "2026-11-23 14:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -540,15 +540,15 @@
 },
 "015001-C4-D1": {
 "cat": "Caballeros 4ta",
-"dia": null,
+"dia": "2026-11-25",
 "estado": "Programado",
 "gan": null,
-"hora": null,
+"hora": "16:00",
 "inst": "Zona",
 "p1": "Lauria, Nicolás / López, Mauro",
 "p2": "Amico, Maximiliano / Pérez Serrano, Vanesa",
 "res": "",
-"sede": null,
+"sede": "Boulevard 81",
 "zona": "D"
 },
 "015001-C4-D2": {
@@ -865,15 +865,15 @@
 },
 "015001-C6+45-B1": {
 "cat": "Caballeros 6ta +45",
-"dia": null,
+"dia": "2026-11-24",
 "estado": "Programado",
 "gan": null,
-"hora": null,
+"hora": "21:00",
 "inst": "Zona",
 "p1": "Bruno, Martín / Profumo, Sergio Andrés",
 "p2": "Garibaldi, Luis / Scorcelli, Guillermo Marcelo",
 "res": "",
-"sede": null,
+"sede": "Boulevard 81",
 "zona": "B"
 },
 "015001-C6+45-B2": {
@@ -1321,13 +1321,13 @@
 "015001-D5-A4": {
 "cat": "Damas 5ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "16:00",
 "inst": "Zona",
 "p1": "Banegas, Paula / Raffe, Micaela",
 "p2": "Butron, Nadia María / Jara Evelin, Yasmin",
-"res": "",
+"res": "6/0 7/5",
 "sede": "Estación Norte",
 "zona": "A"
 },
@@ -1671,28 +1671,28 @@
 },
 "015001-D6-D1": {
 "cat": "Damas 6ta",
-"dia": null,
+"dia": "2026-11-25",
 "estado": "Programado",
 "gan": null,
-"hora": null,
+"hora": "21:00",
 "inst": "Zona",
 "p1": "Castelli, Macarena / Raffetto, Verónica",
 "p2": "Raffino, Carla / Ravainera, Estefanía",
 "res": "",
-"sede": null,
+"sede": "Boulevard 81",
 "zona": "D"
 },
 "015001-D6-D2": {
 "cat": "Damas 6ta",
-"dia": null,
+"dia": "2026-11-26",
 "estado": "Programado",
 "gan": null,
-"hora": null,
+"hora": "21:00",
 "inst": "Zona",
 "p1": "Castelli, Macarena / Raffetto, Verónica",
 "p2": "Luna, Andrea / Vattiato, Gabriela",
 "res": "",
-"sede": null,
+"sede": "Boulevard 81",
 "zona": "D"
 },
 "015001-D6-D3": {
