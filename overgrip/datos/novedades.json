@@ -2016,5 +2016,37 @@
     "gan": 1
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-22 21:37",
+  "partidos": [
+   {
+    "codigo": "005002-C4-7",
+    "cat": "Caballeros 4ta",
+    "inst": "Final",
+    "dia": "2026-11-22",
+    "hora": "18:45",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Martínez, Agustín / Pacheco, Ignacio",
+    "p2": "Lorefice, Fernando Adrián / Reynoso, Julio Leandro",
+    "res": "6/3 2/6 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "005002-C5+40-7",
+    "cat": "Caballeros 5ta +40",
+    "inst": "Final",
+    "dia": "2026-11-22",
+    "hora": "18:45",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Buono, Juan José / Nicotera, José",
+    "p2": "Duette, Ezequiel Alejandro / Quintana, Jorge",
+    "res": "6/7 6/1 7/5",
+    "gan": 1
+   }
+  ]
  }
 ]

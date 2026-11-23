@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 21:07",
+"actualizado": "2026-11-22 21:37",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -76,13 +76,13 @@
 "005002-C4-7": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:45",
 "inst": "Final",
 "p1": "Martínez, Agustín / Pacheco, Ignacio",
 "p2": "Lorefice, Fernando Adrián / Reynoso, Julio Leandro",
-"res": "",
+"res": "6/3 2/6 6/3",
 "sede": "EVA"
 },
 "005002-C5+40-1": {
@@ -160,13 +160,13 @@
 "005002-C5+40-7": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:45",
 "inst": "Final",
 "p1": "Buono, Juan José / Nicotera, José",
 "p2": "Duette, Ezequiel Alejandro / Quintana, Jorge",
-"res": "",
+"res": "6/7 6/1 7/5",
 "sede": "EVA"
 },
 "005002-C5-1": {
@@ -244,7 +244,7 @@
 "005002-C5-7": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:00",
 "inst": "Final",
@@ -580,7 +580,7 @@
 "005002-D5-7": {
 "cat": "Damas 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:00",
 "inst": "Final",
@@ -664,7 +664,7 @@
 "005002-D6-7": {
 "cat": "Damas 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:00",
 "inst": "Final",
