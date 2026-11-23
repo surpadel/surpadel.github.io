@@ -1998,5 +1998,24 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-23 16:38",
+  "partidos": [
+   {
+    "codigo": "011001-C7-64",
+    "cat": "Caballeros 7ma",
+    "inst": "Final",
+    "dia": "2026-11-23",
+    "hora": "15:00",
+    "sede": "Mitre Padel",
+    "estado": "Finalizado",
+    "p1": "Bengler, Fernando / Knorr, Mario",
+    "p2": "Arbarzua, Carlos / Fernández, Walter",
+    "res": "7/6 6/3",
+    "gan": 2
+   }
+  ]
  }
 ]

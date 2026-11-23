@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-23 15:08",
+"actualizado": "2026-11-23 16:38",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -628,13 +628,13 @@
 "011001-C7-64": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-23",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "15:00",
 "inst": "Final",
 "p1": "Bengler, Fernando / Knorr, Mario",
 "p2": "Arbarzua, Carlos / Fernández, Walter",
-"res": "",
+"res": "7/6 6/3",
 "sede": "Mitre Padel"
 },
 "011001-D7-50": {
