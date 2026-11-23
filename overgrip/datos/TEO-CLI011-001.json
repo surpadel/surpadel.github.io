@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 22:07",
+"actualizado": "2026-11-22 22:37",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -124,13 +124,13 @@
 "011001-C5-59": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:45",
 "inst": "Cuartos de Final",
 "p1": "Martínez, Tomás / Soler, Gustavo Julián",
 "p2": "Cosentino, Daniela Paula / Lagoria, César",
-"res": "",
+"res": "7/6 6/4",
 "sede": "El Portal"
 },
 "011001-C5-60": {
@@ -164,7 +164,7 @@
 "gan": null,
 "hora": "15:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Martínez, Tomás / Soler, Gustavo Julián",
 "p2": "",
 "res": "",
 "sede": "Mitre Padel"
@@ -268,13 +268,13 @@
 "011001-C6-52": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:30",
 "inst": "Octavos de Final",
 "p1": "Muriel, Jorge / Peralta, Brian",
 "p2": "Ammaturo, Marcelo Leonel / Dubini, Emilio",
-"res": "",
+"res": "7/5 6/4",
 "sede": "El Portal"
 },
 "011001-C6-53": {
@@ -345,7 +345,7 @@
 "hora": "23:15",
 "inst": "Cuartos de Final",
 "p1": "Fons, Pablo Alberto / Roura, Ignacio Daniel",
-"p2": "",
+"p2": "Ammaturo, Marcelo Leonel / Dubini, Emilio",
 "res": "",
 "sede": "El Portal"
 },
@@ -568,13 +568,13 @@
 "011001-C7-58": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "20:45",
 "inst": "Cuartos de Final",
 "p1": "La Rosa, Leandro Gabriel / Moreno, Juan Camilo",
 "p2": "Bengler, Fernando / Knorr, Mario",
-"res": "",
+"res": "6/1 6/2",
 "sede": "El Portal"
 },
 "011001-C7-59": {
@@ -609,7 +609,7 @@
 "hora": "12:00",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Bengler, Fernando / Knorr, Mario",
 "res": "",
 "sede": "Mitre Padel"
 },

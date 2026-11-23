@@ -1,25 +1,5 @@
 [
  {
-  "torneo": "TEO-CLI010-001",
-  "hora": "2026-11-15 14:38",
-  "partidos": [
-   {
-    "codigo": "010001-C6-58",
-    "cat": "Caballeros 6ta",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-15",
-    "hora": "13:00",
-    "sede": "Eleven",
-    "estado": "Finalizado",
-    "p1": "Giardinieri, Carlos Emanuel / Llanos Carosella, Matías",
-    "p2": "Agüero, Gustavo / Blanco, Oscar Gabriel",
-    "res": "6/4 4/6 11/8",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
   "torneo": "TEO-CLI008-001",
   "hora": "2026-11-15 15:08",
   "partidos": [
@@ -1640,9 +1620,7 @@
     "gan": 2
    }
   ],
-  "hechos": [
-   "011001-C6-34"
-  ]
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI011-001",
@@ -1661,7 +1639,8 @@
     "res": "6/2 6/4",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI011-001",
@@ -1693,7 +1672,8 @@
     "res": "7/6 6/2",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI015-001",
@@ -1771,7 +1751,8 @@
     "res": "7/6 6/3",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI015-001",
@@ -1837,9 +1818,7 @@
     "gan": 1
    }
   ],
-  "hechos": [
-   "011001-C6-39"
-  ]
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI011-001",
@@ -1884,7 +1863,8 @@
     "res": "6/1 6/3",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI005-002",
@@ -1951,7 +1931,8 @@
     "res": "2/6 6/3 6/4",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI011-001",
@@ -1996,7 +1977,8 @@
     "res": "6/3 6/3",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI005-002",
@@ -2081,5 +2063,101 @@
    }
   ],
   "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 22:37",
+  "partidos": [
+   {
+    "codigo": "011001-C6-52",
+    "cat": "Caballeros 6ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "19:30",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Muriel, Jorge / Peralta, Brian",
+    "p2": "Ammaturo, Marcelo Leonel / Dubini, Emilio",
+    "res": "7/5 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "011001-C5-59",
+    "cat": "Caballeros 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "20:45",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Martínez, Tomás / Soler, Gustavo Julián",
+    "p2": "Cosentino, Daniela Paula / Lagoria, César",
+    "res": "7/6 6/4",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C7-58",
+    "cat": "Caballeros 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "20:45",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "La Rosa, Leandro Gabriel / Moreno, Juan Camilo",
+    "p2": "Bengler, Fernando / Knorr, Mario",
+    "res": "6/1 6/2",
+    "gan": 2
+   }
+  ],
+  "hechos": [
+   "011001-C6-52"
+  ]
+ },
+ {
+  "torneo": "TEO-CLI015-001",
+  "hora": "2026-11-22 22:37",
+  "partidos": [
+   {
+    "codigo": "015001-C2-59",
+    "cat": "Caballeros 2da",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "16:00",
+    "sede": "Estación Norte",
+    "estado": "Finalizado",
+    "p1": "Hachicho, Santino / Prieto, Matías",
+    "p2": "Montesi, Sebastián / Ocampo, Facundo",
+    "res": "6/1 7/6",
+    "gan": 2
+   },
+   {
+    "codigo": "015001-C2-62",
+    "cat": "Caballeros 2da",
+    "inst": "Semifinal",
+    "dia": "2026-11-22",
+    "hora": "20:30",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Montesi, Sebastián / Ocampo, Facundo",
+    "p2": "Álvarez, Ramiro / Rosales, Gonzalo",
+    "res": "6/4 6/4",
+    "gan": 1
+   },
+   {
+    "codigo": "015001-C3-62",
+    "cat": "Caballeros 3ra",
+    "inst": "Semifinal",
+    "dia": "2026-11-22",
+    "hora": "20:30",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Ibarra, Agustín / Márquez, Manuel",
+    "p2": "Garcia, Faustino / Mercado, Bautista",
+    "res": "6/2 6/3",
+    "gan": 2
+   }
+  ],
+  "hechos": [
+   "015001-C2-59"
+  ]
  }
 ]

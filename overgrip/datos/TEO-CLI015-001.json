@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 22:07",
+"actualizado": "2026-11-22 22:37",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -16,13 +16,13 @@
 "015001-C2-59": {
 "cat": "Caballeros 2da",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:00",
 "inst": "Cuartos de Final",
 "p1": "Hachicho, Santino / Prieto, Matías",
 "p2": "Montesi, Sebastián / Ocampo, Facundo",
-"res": "",
+"res": "6/1 7/6",
 "sede": "Estación Norte"
 },
 "015001-C2-61": {
@@ -40,13 +40,13 @@
 "015001-C2-62": {
 "cat": "Caballeros 2da",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "20:30",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Montesi, Sebastián / Ocampo, Facundo",
 "p2": "Álvarez, Ramiro / Rosales, Gonzalo",
-"res": "",
+"res": "6/4 6/4",
 "sede": "Boulevard 81"
 },
 "015001-C2-64": {
@@ -57,7 +57,7 @@
 "hora": "19:30",
 "inst": "Final",
 "p1": "",
-"p2": "",
+"p2": "Montesi, Sebastián / Ocampo, Facundo",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -124,13 +124,13 @@
 "015001-C3-62": {
 "cat": "Caballeros 3ra",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "20:30",
 "inst": "Semifinal",
 "p1": "Ibarra, Agustín / Márquez, Manuel",
 "p2": "Garcia, Faustino / Mercado, Bautista",
-"res": "",
+"res": "6/2 6/3",
 "sede": "Boulevard 81"
 },
 "015001-C3-64": {
@@ -141,7 +141,7 @@
 "hora": "19:30",
 "inst": "Final",
 "p1": "",
-"p2": "",
+"p2": "Garcia, Faustino / Mercado, Bautista",
 "res": "",
 "sede": "Boulevard 81"
 }
@@ -1100,13 +1100,13 @@
 "015001-C7-B2": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "Herrera, Mariano / Herrera, Valentín",
 "p2": "Percara, Leandro / Volpicello, Lautaro",
-"res": "",
+"res": "6/3 0/6 6/1",
 "sede": "Boulevard 81",
 "zona": "B"
 },
@@ -1230,13 +1230,13 @@
 "015001-C7-E3": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:00",
 "inst": "Zona",
 "p1": "Liñeiro, Benicio / Quirós Cattoni, Mateo",
 "p2": "Monteverde, Felipe / Ocampo, Lorenzo",
-"res": "",
+"res": "6/1 7/5",
 "sede": "Boulevard 81",
 "zona": "E"
 },
