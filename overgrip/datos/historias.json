@@ -1924,5 +1924,82 @@
   "alt": "Cuartos: Caballeros 2da, ganaron Montesi S. / Ocampo F. 6/1 7/6",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-22 23:08",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Final",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-C4-7": "6/3 2/6 6/3",
+   "005002-C5-7": "6/4 5/7 6/2",
+   "005002-C5+40-7": "6/7 6/1 7/5",
+   "005002-C6-7": "6/4 3/6 6/2",
+   "005002-C6+40-7": "6/4 6/2",
+   "005002-C7-7": "6/4 6/3"
+  },
+  "archivo": "TEO-CLI005-002/final-azul-1122-2308-1.png",
+  "grupo": "TEO-CLI005-002|Final|azul|2026-11-22",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/final-azul-1122-2308-1.png",
+  "alt": "Finales: Caballeros 4ta, ganaron Lorefice F. / Reynoso J. 6/3 2/6 6/3; Caballeros 5ta, ganaron Moya B. / Segovia A. 6/4 5/7 6/2; Caballeros 5ta +40, ganaron Buono J. / Nicotera J. 6/7 6/1 7/5; Caballeros 6ta, ganaron Bravo D. / Guerrero J. 6/4 3/6 6/2; Caballeros 6ta +40, ganaron Epifani P. / Nelson C. 6/4 6/2; Caballeros 7ma, ganaron Escobar M. / Fuenzalida J. 6/4 6/3",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-22 23:08",
+  "torneo": "TEO-CLI005-002",
+  "inst": "Final",
+  "organiza": "apbberazategui",
+  "codigos": {
+   "005002-D5-7": "6/3 7/5",
+   "005002-D6-7": "7/5 6/3"
+  },
+  "archivo": "TEO-CLI005-002/final-rosa-1122-2308-1.png",
+  "grupo": "TEO-CLI005-002|Final|rosa|2026-11-22",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI005-002/final-rosa-1122-2308-1.png",
+  "alt": "Finales: Damas 5ta, ganaron Chapuis J. / Velázquez C. 6/3 7/5; Damas 6ta, ganaron Scattularo A. / Tunich F. 7/5 6/3",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-22 23:08",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI015-001-2026-11-22-azul",
+  "organiza": "boulevard_81",
+  "etiquetas": [
+   "boulevard_81"
+  ],
+  "codigos": {
+   "015001-C4-A1": "4/6 6/3 6/3",
+   "015001-C5-B2": "7/6 6/1",
+   "015001-C6-B1": "6/7 6/3 6/4",
+   "015001-C6+45-A3": "6/2 7/6",
+   "015001-C7-B2": "6/3 0/6 6/1"
+  },
+  "archivo": "TEO-CLI015-001/zonas-2026-11-22-azul.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/zonas-2026-11-22-azul.png",
+  "alt": "Lo mejor de las zonas del domingo 22/11: Caballeros 4ta, ganaron González D. / Vaccari F. 4/6 6/3 6/3; Caballeros 5ta, ganaron Bortolazzo A. / Menna E. 7/6 6/1; Caballeros 6ta, ganaron Dupen F. / Ortega L. 6/7 6/3 6/4; Caballeros 6ta +45, ganaron Andrada A. / Escola A. 6/2 7/6; Caballeros 7ma, ganaron Percara L. / Volpicello L. 6/3 0/6 6/1",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-22 23:08",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI015-001-2026-11-22-rosa",
+  "organiza": "boulevard_81",
+  "etiquetas": [
+   "boulevard_81"
+  ],
+  "codigos": {
+   "015001-D5-E2": "1/6 6/2 6/4",
+   "015001-D5-A2": "5/7 6/2 6/2",
+   "015001-D7-B1": "0/6 7/5 6/4",
+   "015001-D7-B2": "6/1 2/6 6/2"
+  },
+  "archivo": "TEO-CLI015-001/zonas-2026-11-22-rosa.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/zonas-2026-11-22-rosa.png",
+  "alt": "Lo mejor de las zonas del domingo 22/11: Damas 5ta, ganaron Corsetti D. / Pérez S. 1/6 6/2 6/4; Damas 5ta, ganaron Nicotera C. / Sánchez M. 5/7 6/2 6/2; Damas 7ma, ganaron Basilico J. / Vera C. 0/6 7/5 6/4; Damas 7ma, ganaron Basilico J. / Vera C. 6/1 2/6 6/2",
+  "publicada": false
  }
 ]
