@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 21:07",
+"actualizado": "2026-11-22 22:07",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -136,7 +136,7 @@
 "011001-C5-60": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:45",
 "inst": "Cuartos de Final",
@@ -568,7 +568,7 @@
 "011001-C7-58": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:45",
 "inst": "Cuartos de Final",
@@ -664,13 +664,13 @@
 "011001-D7-57": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:30",
 "inst": "Cuartos de Final",
 "p1": "López Muollo, Analia / Polizzotto, María Laura",
 "p2": "Bruno, Tatiana / Simonetti, María Sol",
-"res": "",
+"res": "6/2 6/3",
 "sede": "El Portal"
 },
 "011001-D7-58": {
@@ -700,13 +700,13 @@
 "011001-D7-60": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:30",
 "inst": "Cuartos de Final",
 "p1": "Dogil, Victoria / Valarino, Viviana",
 "p2": "Ferrara, Natalia / Tercic, Maia",
-"res": "",
+"res": "6/2 6/0",
 "sede": "El Portal"
 },
 "011001-D7-61": {
@@ -716,7 +716,7 @@
 "gan": null,
 "hora": "16:30",
 "inst": "Semifinal",
-"p1": "",
+"p1": "López Muollo, Analia / Polizzotto, María Laura",
 "p2": "Orellana, Melany Milagros / Orellana, Micaela",
 "res": "",
 "sede": "Mitre Padel"
@@ -729,7 +729,7 @@
 "hora": "16:30",
 "inst": "Semifinal",
 "p1": "Ali, Yessica / Toledo, Cintia",
-"p2": "",
+"p2": "Dogil, Victoria / Valarino, Viviana",
 "res": "",
 "sede": "Mitre Padel"
 },

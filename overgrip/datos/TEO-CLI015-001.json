@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 20:07",
+"actualizado": "2026-11-22 22:07",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -723,13 +723,13 @@
 "015001-C5-B3": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
-"gan": null,
+"estado": "WO",
+"gan": 2,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Mercado, Gonzalo / Salazar, José",
 "p2": "Castelli, Germán / Marasa, Matías Ezequiel",
-"res": "",
+"res": "WO 6/0 6/0",
 "sede": "Estación Norte",
 "zona": "B"
 },
