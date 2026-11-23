@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-23 18:08",
+"actualizado": "2026-11-23 18:39",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -724,13 +724,13 @@
 "011001-D7-62": {
 "cat": "Damas 7ma",
 "dia": "2026-11-23",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:30",
 "inst": "Semifinal",
 "p1": "Ali, Yessica / Toledo, Cintia",
 "p2": "Dogil, Victoria / Valarino, Viviana",
-"res": "",
+"res": "6/2 2/6 6/3",
 "sede": "Mitre Padel"
 },
 "011001-D7-64": {
@@ -741,7 +741,7 @@
 "hora": "19:30",
 "inst": "Final",
 "p1": "Orellana, Melany Milagros / Orellana, Micaela",
-"p2": "",
+"p2": "Dogil, Victoria / Valarino, Viviana",
 "res": "",
 "sede": "Mitre Padel"
 }

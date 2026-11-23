@@ -1971,6 +1971,29 @@
     "res": "6/2 6/4",
     "gan": 2
    }
+  ],
+  "hechos": [
+   "011001-D7-61"
   ]
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-23 18:39",
+  "partidos": [
+   {
+    "codigo": "011001-D7-62",
+    "cat": "Damas 7ma",
+    "inst": "Semifinal",
+    "dia": "2026-11-23",
+    "hora": "16:30",
+    "sede": "Mitre Padel",
+    "estado": "Finalizado",
+    "p1": "Ali, Yessica / Toledo, Cintia",
+    "p2": "Dogil, Victoria / Valarino, Viviana",
+    "res": "6/2 2/6 6/3",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
  }
 ]
