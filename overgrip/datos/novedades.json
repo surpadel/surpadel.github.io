@@ -1952,5 +1952,69 @@
     "gan": 2
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-22 21:07",
+  "partidos": [
+   {
+    "codigo": "011001-C6-49",
+    "cat": "Caballeros 6ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "18:15",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Almiron, Agustín / Felitte, Damián",
+    "p2": "Novello, Santiago / Rodríguez, Leonardo",
+    "res": "6/2 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "011001-C6-50",
+    "cat": "Caballeros 6ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "18:15",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Dermisache, Nahuel / Díaz, Patricio",
+    "p2": "López, Agustín / Urueña, Guillermo Ezequiel",
+    "res": "6/4 7/5",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C6-55",
+    "cat": "Caballeros 6ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-22",
+    "hora": "19:30",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Espindola, Javier Alejandro / Paz, Mariano",
+    "p2": "Cabello, Ramiro / Pérez, Leonardo",
+    "res": "6/3 6/3",
+    "gan": 1
+   }
+  ]
+ },
+ {
+  "torneo": "TEO-CLI005-002",
+  "hora": "2026-11-22 21:07",
+  "partidos": [
+   {
+    "codigo": "005002-C6+40-7",
+    "cat": "Caballeros 6ta +40",
+    "inst": "Final",
+    "dia": "2026-11-22",
+    "hora": "18:45",
+    "sede": "EVA",
+    "estado": "Finalizado",
+    "p1": "Epifani, Pablo Andrés / Nelson, Carlos Daniel",
+    "p2": "Bermúdez, Pablo / Cabral, Ariel",
+    "res": "6/4 6/2",
+    "gan": 1
+   }
+  ]
  }
 ]

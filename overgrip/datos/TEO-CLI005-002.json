@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 20:07",
+"actualizado": "2026-11-22 21:07",
 "cruces": {
 "005002-C4-1": {
 "cat": "Caballeros 4ta",
@@ -328,13 +328,13 @@
 "005002-C6+40-7": {
 "cat": "Caballeros 6ta +40",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:45",
 "inst": "Final",
 "p1": "Epifani, Pablo Andrés / Nelson, Carlos Daniel",
 "p2": "Bermúdez, Pablo / Cabral, Ariel",
-"res": "",
+"res": "6/4 6/2",
 "sede": "EVA"
 },
 "005002-C6-1": {

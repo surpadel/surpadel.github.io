@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 20:37",
+"actualizado": "2026-11-22 21:07",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -124,7 +124,7 @@
 "011001-C5-59": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "20:45",
 "inst": "Cuartos de Final",
@@ -232,25 +232,25 @@
 "011001-C6-49": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:15",
 "inst": "Octavos de Final",
 "p1": "Almiron, Agustín / Felitte, Damián",
 "p2": "Novello, Santiago / Rodríguez, Leonardo",
-"res": "",
+"res": "6/2 6/4",
 "sede": "El Portal"
 },
 "011001-C6-50": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:15",
 "inst": "Octavos de Final",
 "p1": "Dermisache, Nahuel / Díaz, Patricio",
 "p2": "López, Agustín / Urueña, Guillermo Ezequiel",
-"res": "",
+"res": "6/4 7/5",
 "sede": "El Portal"
 },
 "011001-C6-51": {
@@ -268,7 +268,7 @@
 "011001-C6-52": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:30",
 "inst": "Octavos de Final",
@@ -304,13 +304,13 @@
 "011001-C6-55": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:30",
 "inst": "Octavos de Final",
 "p1": "Espindola, Javier Alejandro / Paz, Mariano",
 "p2": "Cabello, Ramiro / Pérez, Leonardo",
-"res": "",
+"res": "6/3 6/3",
 "sede": "El Portal"
 },
 "011001-C6-56": {
@@ -332,8 +332,8 @@
 "gan": null,
 "hora": "22:00",
 "inst": "Cuartos de Final",
-"p1": "",
-"p2": "",
+"p1": "Novello, Santiago / Rodríguez, Leonardo",
+"p2": "Dermisache, Nahuel / Díaz, Patricio",
 "res": "",
 "sede": "El Portal"
 },
@@ -368,7 +368,7 @@
 "gan": null,
 "hora": "23:15",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Espindola, Javier Alejandro / Paz, Mariano",
 "p2": "Garay, Diego / Gómez, Agustín",
 "res": "",
 "sede": "El Portal"
@@ -700,7 +700,7 @@
 "011001-D7-60": {
 "cat": "Damas 7ma",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "19:30",
 "inst": "Cuartos de Final",
