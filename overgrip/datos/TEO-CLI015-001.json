@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-23 12:38",
+"actualizado": "2026-11-23 13:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -866,7 +866,7 @@
 "015001-C6+45-B1": {
 "cat": "Caballeros 6ta +45",
 "dia": null,
-"estado": "Sin programar",
+"estado": "Programado",
 "gan": null,
 "hora": null,
 "inst": "Zona",
@@ -1489,15 +1489,15 @@
 },
 "015001-D5-F1": {
 "cat": "Damas 5ta",
-"dia": null,
-"estado": "Sin programar",
+"dia": "2026-11-26",
+"estado": "Programado",
 "gan": null,
-"hora": null,
+"hora": "16:30",
 "inst": "Zona",
 "p1": "Larroude, Juliana / Vallejos, Gabriela",
 "p2": "Davel, Irene / Vásquez, Mariela",
 "res": "",
-"sede": null,
+"sede": "Boulevard 81",
 "zona": "F"
 },
 "015001-D5-F2": {
