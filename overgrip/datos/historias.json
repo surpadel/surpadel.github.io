@@ -1868,7 +1868,8 @@
   "grupo": "TEO-CLI011-001|Octavos de Final|azul|2026-11-22",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/octavos-azul-1122-2238-1.png",
   "alt": "Octavos: Caballeros 6ta, ganaron Conde Meira M. / Salvatierra M. 5/7 6/4 6/4; Caballeros 6ta, ganaron Fons P. / Roura I. 4/6 6/4 6/4; Caballeros 6ta, ganaron Garay D. / Gómez A. 6/1 6/3; Caballeros 6ta, ganaron Jagiellowicz S. / Soria E. 2/6 6/3 6/4; Caballeros 6ta, ganaron Novello S. / Rodríguez L. 6/2 6/4; Caballeros 6ta, ganaron Dermisache N. / Díaz P. 6/4 7/5",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  },
  {
   "creada": "2026-11-22 22:38",
@@ -1887,7 +1888,8 @@
   "grupo": "TEO-CLI011-001|Octavos de Final|azul|2026-11-22",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/octavos-azul-1122-2238-2.png",
   "alt": "Octavos: Caballeros 6ta, ganaron Espindola J. / Paz M. 6/3 6/3; Caballeros 6ta, ganaron Ammaturo M. / Dubini E. 7/5 6/4; Caballeros 7ma, ganaron La Rosa L. / Moreno J. 6/0 7/5; Caballeros 7ma, ganaron Bengler F. / Knorr M. 6/2 6/0; Caballeros 7ma, ganaron Arbarzua C. / Fernández W. 6/2 6/4; Caballeros 7ma, ganaron Bocchieri M. / Mangione B. 4/6 6/1 6/1",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  },
  {
   "creada": "2026-11-22 22:38",
@@ -1904,7 +1906,8 @@
   "grupo": "TEO-CLI011-001|Octavos de Final|azul|2026-11-22",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/octavos-azul-1122-2238-3.png",
   "alt": "Octavos: Caballeros 7ma, ganaron Aramburu A. / Lisio L. 7/6 6/2; Caballeros 7ma, ganaron Di Maio A. / Sokol P. 7/6 6/3; Caballeros 7ma, ganaron Livoi B. / Melia L. 7/5 6/2; Caballeros 7ma, ganaron Jaime F. / Jamardo A. 6/1 7/6",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  },
  {
   "creada": "2026-11-22 22:38",
@@ -1919,6 +1922,7 @@
   "suelta": true,
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/cuartos-azul-1122-2238-1.png",
   "alt": "Cuartos: Caballeros 2da, ganaron Montesi S. / Ocampo F. 6/1 7/6",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  }
 ]
