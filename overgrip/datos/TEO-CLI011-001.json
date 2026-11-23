@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-22 23:38",
+"actualizado": "2026-11-23 00:08",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -340,7 +340,7 @@
 "011001-C6-58": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "23:15",
 "inst": "Cuartos de Final",
@@ -352,13 +352,13 @@
 "011001-C6-59": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "22:00",
 "inst": "Cuartos de Final",
 "p1": "Conde Meira, Matías / Salvatierra, Marcelo",
 "p2": "Jagiellowicz, Santiago / Soria, Ezequiel Sergio",
-"res": "",
+"res": "6/0 6/2",
 "sede": "El Portal"
 },
 "011001-C6-60": {
@@ -392,7 +392,7 @@
 "gan": null,
 "hora": "13:30",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Conde Meira, Matías / Salvatierra, Marcelo",
 "p2": "",
 "res": "",
 "sede": "Mitre Padel"
@@ -556,13 +556,13 @@
 "011001-C7-57": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "22:00",
 "inst": "Cuartos de Final",
 "p1": "Bocchieri, Matías / Mangione, Braian",
 "p2": "Aramburu, Alejandro / Lisio, Leandro",
-"res": "",
+"res": "3/6 6/3 6/4",
 "sede": "El Portal"
 },
 "011001-C7-58": {
@@ -580,13 +580,13 @@
 "011001-C7-59": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-22",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "22:00",
 "inst": "Cuartos de Final",
 "p1": "Arbarzua, Carlos / Fernández, Walter",
 "p2": "Livoi, Brian Nahuel / Melia, Luciano",
-"res": "",
+"res": "6/0 6/3",
 "sede": "El Portal"
 },
 "011001-C7-60": {
@@ -608,7 +608,7 @@
 "gan": null,
 "hora": "12:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Aramburu, Alejandro / Lisio, Leandro",
 "p2": "Bengler, Fernando / Knorr, Mario",
 "res": "",
 "sede": "Mitre Padel"
@@ -620,7 +620,7 @@
 "gan": null,
 "hora": "12:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Arbarzua, Carlos / Fernández, Walter",
 "p2": "Jaime, Facundo / Jamardo, Agustín",
 "res": "",
 "sede": "Mitre Padel"

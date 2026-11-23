@@ -1945,5 +1945,50 @@
     "gan": 1
    }
   ]
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-23 00:08",
+  "partidos": [
+   {
+    "codigo": "011001-C6-59",
+    "cat": "Caballeros 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "22:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Conde Meira, Matías / Salvatierra, Marcelo",
+    "p2": "Jagiellowicz, Santiago / Soria, Ezequiel Sergio",
+    "res": "6/0 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "011001-C7-57",
+    "cat": "Caballeros 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "22:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Bocchieri, Matías / Mangione, Braian",
+    "p2": "Aramburu, Alejandro / Lisio, Leandro",
+    "res": "3/6 6/3 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "011001-C7-59",
+    "cat": "Caballeros 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-22",
+    "hora": "22:00",
+    "sede": "El Portal",
+    "estado": "Finalizado",
+    "p1": "Arbarzua, Carlos / Fernández, Walter",
+    "p2": "Livoi, Brian Nahuel / Melia, Luciano",
+    "res": "6/0 6/3",
+    "gan": 1
+   }
+  ]
  }
 ]
