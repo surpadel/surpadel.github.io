@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-24 12:38",
+"actualizado": "2026-11-24 13:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -567,13 +567,13 @@
 "015001-C4-D3": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-23",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Amico, Maximiliano / Pérez Serrano, Vanesa",
 "p2": "Gullo, Fermin / Moreno Lezana, Juan Ignacio",
-"res": "",
+"res": "3/6 7/6 6/4",
 "sede": "Boulevard 81",
 "zona": "D"
 },
@@ -800,10 +800,10 @@
 },
 "015001-C5-D3": {
 "cat": "Caballeros 5ta",
-"dia": "2026-11-21",
+"dia": "2026-11-26",
 "estado": "Programado",
 "gan": null,
-"hora": "11:30",
+"hora": "18:00",
 "inst": "Zona",
 "p1": "Parada, Juan Bautista / Rusi, Agustín",
 "p2": "Di Iasi, Luis / Mercado, Mauricio Napoleón",
@@ -1698,13 +1698,13 @@
 "015001-D6-D3": {
 "cat": "Damas 6ta",
 "dia": "2026-11-23",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "17:30",
 "inst": "Zona",
 "p1": "Raffino, Carla / Ravainera, Estefanía",
 "p2": "Luna, Andrea / Vattiato, Gabriela",
-"res": "",
+"res": "6/4 6/2",
 "sede": "Boulevard 81",
 "zona": "D"
 },
