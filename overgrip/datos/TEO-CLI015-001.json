@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-24 13:08",
+"actualizado": "2026-11-24 16:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -787,15 +787,15 @@
 },
 "015001-C5-D2": {
 "cat": "Caballeros 5ta",
-"dia": null,
-"estado": "Sin programar",
+"dia": "2026-11-27",
+"estado": "Programado",
 "gan": null,
-"hora": null,
+"hora": "19:30",
 "inst": "Zona",
 "p1": "Uceda, Leandro / Villalón, Diego",
 "p2": "Di Iasi, Luis / Mercado, Mauricio Napoleón",
 "res": "",
-"sede": null,
+"sede": "Boulevard 81",
 "zona": "D"
 },
 "015001-C5-D3": {
