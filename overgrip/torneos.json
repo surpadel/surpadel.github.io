@@ -99,9 +99,9 @@
    "Damas 7ma",
    "Damas 8va"
   ],
-  "estado": "En Curso",
+  "estado": "Finalizado",
   "auto": true,
-  "activo": true,
+  "activo": false,
   "alta": "2026-11-01",
   "fondos": {
    "azul": "fondo-04-cenital.jpg",
@@ -148,7 +148,7 @@
    "estacionnortepadel"
   ],
   "nombre": "ANIMAL 81 - 21-22-28-29 Noviembre",
-  "cuando": "20 al 26, 28 y 29 nov 2026",
+  "cuando": "20 al 29 nov 2026",
   "fechas": [
    "2026-11-20",
    "2026-11-21",
@@ -157,6 +157,7 @@
    "2026-11-24",
    "2026-11-25",
    "2026-11-26",
+   "2026-11-27",
    "2026-11-28",
    "2026-11-29"
   ],
