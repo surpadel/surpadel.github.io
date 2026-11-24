@@ -1,0 +1,93 @@
+{
+ "rama": "cab",
+ "torneo": "Metro Padel Open",
+ "sub": "Mitre Padel · Zona sur",
+ "organiza": "metropadeloficial",
+ "titulo": [
+  "Los",
+  "campeones"
+ ],
+ "cabecera": [
+  "Así se",
+  "coronaron"
+ ],
+ "cierre": [
+  "Pádel de acá,",
+  "al día"
+ ],
+ "partidos": [
+  {
+   "cat": "Caballeros 5ta",
+   "rama": "cab",
+   "ganan": "Martínez / Soler",
+   "pierden": "Dauria / Hernández",
+   "sets": [
+    [
+     4,
+     6
+    ],
+    [
+     7,
+     6
+    ],
+    [
+     6,
+     4
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 6ta",
+   "rama": "cab",
+   "ganan": "Garay / Gómez",
+   "pierden": "Novello / Rodríguez",
+   "sets": [
+    [
+     7,
+     6
+    ],
+    [
+     6,
+     3
+    ]
+   ]
+  },
+  {
+   "cat": "Caballeros 7ma",
+   "rama": "cab",
+   "ganan": "Arbarzua / Fernández",
+   "pierden": "Bengler / Knorr",
+   "sets": [
+    [
+     7,
+     6
+    ],
+    [
+     6,
+     3
+    ]
+   ]
+  },
+  {
+   "cat": "Damas 7ma",
+   "rama": "dam",
+   "ganan": "Orellana / Orellana",
+   "pierden": "Dogil / Valarino",
+   "sets": [
+    [
+     6,
+     4
+    ],
+    [
+     6,
+     2
+    ]
+   ]
+  }
+ ],
+ "fondos": [
+  "instagram/banco-tomas/toma11-tinglado.mp4",
+  "marca/fondos/fondo-29-tinglado-barrio.png",
+  "marca/fondos/fondo-32-entrada-club.png"
+ ]
+}
