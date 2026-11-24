@@ -2152,5 +2152,21 @@
   "en_buffer": "6b04b2c78165ce395b9b9f16",
   "modo": "auto",
   "publicada_en": "2026-11-23 18:40"
+ },
+ {
+  "creada": "2026-11-23 21:08",
+  "torneo": "TEO-CLI011-001",
+  "inst": "Final",
+  "organiza": "metropadeloficial",
+  "codigos": {
+   "011001-C5-64": "4/6 7/6 6/4",
+   "011001-C6-64": "7/6 6/3",
+   "011001-C7-64": "7/6 6/3"
+  },
+  "archivo": "TEO-CLI011-001/final-azul-1123-2108-1.png",
+  "grupo": "TEO-CLI011-001|Final|azul|2026-11-23",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI011-001/final-azul-1123-2108-1.png",
+  "alt": "Finales: Caballeros 5ta, ganaron Martínez T. / Soler G. 4/6 7/6 6/4; Caballeros 6ta, ganaron Garay D. / Gómez A. 7/6 6/3; Caballeros 7ma, ganaron Arbarzua C. / Fernández W. 7/6 6/3",
+  "publicada": false
  }
 ]

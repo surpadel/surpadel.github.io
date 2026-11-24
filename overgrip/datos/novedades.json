@@ -1,65 +1,6 @@
 [
  {
   "torneo": "TEO-CLI005-002",
-  "hora": "2026-11-21 13:08",
-  "partidos": [
-   {
-    "codigo": "005002-C5-3",
-    "cat": "Caballeros 5ta",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "11:15",
-    "sede": "EVA",
-    "estado": "Finalizado",
-    "p1": "Cavazzoni, Joaquín / Montes de Oca, Matías",
-    "p2": "Gauna, Brian / Ortiz, Juan",
-    "res": "6/1 7/6",
-    "gan": 1
-   },
-   {
-    "codigo": "005002-C6-1",
-    "cat": "Caballeros 6ta",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "11:15",
-    "sede": "GM",
-    "estado": "Finalizado",
-    "p1": "Calello, Adrián / Gutiérrez, Martín",
-    "p2": "Dello Iacono, Bruno Abel / Reynoso, Marcos David",
-    "res": "2/6 6/2 6/2",
-    "gan": 1
-   },
-   {
-    "codigo": "005002-C6-2",
-    "cat": "Caballeros 6ta",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "11:15",
-    "sede": "EVA",
-    "estado": "Finalizado",
-    "p1": "Cabezal, Cristian / Figueredo, Leonardo",
-    "p2": "Rodríguez, Federico / San Pedro, Emanuel Oscar",
-    "res": "6/0 6/1",
-    "gan": 2
-   },
-   {
-    "codigo": "005002-C7-3",
-    "cat": "Caballeros 7ma",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "11:15",
-    "sede": "GM",
-    "estado": "Finalizado",
-    "p1": "Benítez Sánchez, Hernán / Morbidoni, Damián",
-    "p2": "Atencio, Emmanuel / Trapani, Samuel",
-    "res": "6/0 4/6 6/1",
-    "gan": 1
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI005-002",
   "hora": "2026-11-21 13:38",
   "partidos": [
    {
@@ -1906,7 +1847,8 @@
     "res": "7/6 6/3",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI011-001",
@@ -1972,9 +1914,7 @@
     "gan": 2
    }
   ],
-  "hechos": [
-   "011001-D7-61"
-  ]
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI011-001",
@@ -1991,6 +1931,26 @@
     "p1": "Ali, Yessica / Toledo, Cintia",
     "p2": "Dogil, Victoria / Valarino, Viviana",
     "res": "6/2 2/6 6/3",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI011-001",
+  "hora": "2026-11-23 21:08",
+  "partidos": [
+   {
+    "codigo": "011001-C5-64",
+    "cat": "Caballeros 5ta",
+    "inst": "Final",
+    "dia": "2026-11-23",
+    "hora": "18:00",
+    "sede": "Mitre Padel",
+    "estado": "Finalizado",
+    "p1": "Dauria, Valentino / Hernández, Martín",
+    "p2": "Martínez, Tomás / Soler, Gustavo Julián",
+    "res": "4/6 7/6 6/4",
     "gan": 2
    }
   ],
