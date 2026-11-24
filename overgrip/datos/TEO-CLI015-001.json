@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-23 22:08",
+"actualizado": "2026-11-24 12:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -540,10 +540,10 @@
 },
 "015001-C4-D1": {
 "cat": "Caballeros 4ta",
-"dia": "2026-11-25",
+"dia": "2026-11-24",
 "estado": "Programado",
 "gan": null,
-"hora": "16:00",
+"hora": "21:00",
 "inst": "Zona",
 "p1": "Lauria, Nicolás / López, Mauro",
 "p2": "Amico, Maximiliano / Pérez Serrano, Vanesa",
