@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-23 21:08",
+"actualizado": "2026-11-23 22:08",
 "cruces": {
 "011001-C5-49": {
 "cat": "Caballeros 5ta",
@@ -736,13 +736,13 @@
 "011001-D7-64": {
 "cat": "Damas 7ma",
 "dia": "2026-11-23",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:30",
 "inst": "Final",
 "p1": "Orellana, Melany Milagros / Orellana, Micaela",
 "p2": "Dogil, Victoria / Valarino, Viviana",
-"res": "",
+"res": "6/4 6/2",
 "sede": "Mitre Padel"
 }
 },
