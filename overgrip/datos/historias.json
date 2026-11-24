@@ -2207,5 +2207,20 @@
   "en_buffer": "6b057e5e6ef6ae340289131d",
   "modo": "auto",
   "publicada_en": "2026-11-24 09:09"
+ },
+ {
+  "creada": "2026-11-24 12:38",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Final",
+  "organiza": "boulevard_81",
+  "codigos": {
+   "015001-C2-64": "4/6 6/3 6/3",
+   "015001-C3-64": "3/6 6/4 6/3"
+  },
+  "archivo": "TEO-CLI015-001/final-azul-1124-1238-1.png",
+  "grupo": "TEO-CLI015-001|Final|azul|2026-11-23",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/final-azul-1124-1238-1.png",
+  "alt": "Finales: Caballeros 2da, ganaron Montesi S. / Ocampo F. 4/6 6/3 6/3; Caballeros 3ra, ganaron Sala A. / Yop O. 3/6 6/4 6/3",
+  "publicada": false
  }
 ]

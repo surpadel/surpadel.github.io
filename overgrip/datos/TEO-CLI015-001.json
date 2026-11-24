@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-24 12:08",
+"actualizado": "2026-11-24 12:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -52,13 +52,13 @@
 "015001-C2-64": {
 "cat": "Caballeros 2da",
 "dia": "2026-11-23",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:30",
 "inst": "Final",
 "p1": "Rechiutti, Alejandro / Tocho, Diego",
 "p2": "Montesi, Sebastián / Ocampo, Facundo",
-"res": "",
+"res": "4/6 6/3 6/3",
 "sede": "Boulevard 81"
 },
 "015001-C3-57": {
@@ -136,13 +136,13 @@
 "015001-C3-64": {
 "cat": "Caballeros 3ra",
 "dia": "2026-11-23",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:30",
 "inst": "Final",
 "p1": "Sala, Agustín / Yop, Octavio",
 "p2": "Garcia, Faustino / Mercado, Bautista",
-"res": "",
+"res": "3/6 6/4 6/3",
 "sede": "Boulevard 81"
 }
 },
