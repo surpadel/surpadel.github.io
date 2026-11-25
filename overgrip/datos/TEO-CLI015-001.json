@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-24 20:38",
+"actualizado": "2026-11-25 08:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -541,13 +541,13 @@
 "015001-C4-D1": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-24",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Lauria, Nicolás / López, Mauro",
 "p2": "Amico, Maximiliano / Pérez Serrano, Vanesa",
-"res": "",
+"res": "7/6 6/2",
 "sede": "Boulevard 81",
 "zona": "D"
 },
