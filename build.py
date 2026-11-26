@@ -1,6 +1,6 @@
-"""Arma la web de Sur Padel a partir del catálogo público del proveedor.
+"""Arma la web de Sur Padel a partir del catálogo del proveedor (con usuario desde 25/11/2026).
 
-Uso: SUPPLIER_URL=https://... python build.py
+Uso: SUPPLIER_URL=https://... SUPPLIER_EMAIL=... SUPPLIER_PASSWORD=... python build.py
 Genera _site/index.html. Si el catálogo no se puede leer bien, termina con error
 y la web publicada anterior queda como está.
 """
@@ -67,8 +67,12 @@ def texto(fragmento: str) -> str:
 
 def estado(s: str) -> str:
     s = s.lower()
-    if "ltima" in s:
+    if "sin stock" in s or "encargo" in s:
+        return "e"
+    if "ltima unidad" in s:
         return "u"
+    if re.search(r"ltimas \d+ ?u", s):
+        return "s"
     if "camino" in s:
         return "c"
     if "stock" in s:
@@ -83,75 +87,89 @@ def usd(valor: str) -> float:
     return float(re.sub(r"[.,]", "", valor))
 
 
-def leer_catalogo() -> list[dict]:
-    # 17/11/2026: el proveedor rediseñó su web. El listado completo está en /catalogo
-    # y cada tarjeta dice "<estado> <nombre> U$D <costo> $<pesos> ARS Ver producto".
-    pagina = re.sub(r"<!--.*?-->", "", get(BASE + "/catalogo"), flags=re.S)
-    inicios = list(re.finditer(
-        r'<a[^>]*aria-label="Ver ([^"]+)"[^>]*href="[^"]*/catalogo/([a-z0-9-]+)"', pagina))
+def slugify(nombre: str) -> str:
+    import unicodedata
+    s = unicodedata.normalize("NFKD", nombre).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
+def leer_catalogo() -> tuple[list[dict], float | None]:
+    """25/11/2026: el proveedor cerró el catálogo con usuario y contraseña.
+    Se entra con un navegador sin ventana (Playwright) usando SUPPLIER_EMAIL y
+    SUPPLIER_PASSWORD, se lee /inventario y las fotos salen de /api/inventory/client-data.
+    Cada tarjeta dice: <nombre> / <estado> / $<pesos> ARS / U$D <costo>."""
+    from playwright.sync_api import sync_playwright
+
+    email = os.environ.get("SUPPLIER_EMAIL", "")
+    clave = os.environ.get("SUPPLIER_PASSWORD", "")
+    if not (email and clave):
+        sys.exit("Faltan SUPPLIER_EMAIL / SUPPLIER_PASSWORD; no se actualiza la web.")
+
+    with sync_playwright() as pw:
+        nav = pw.chromium.launch()
+        pag = nav.new_page()
+        pag.goto(BASE + "/auth/login", wait_until="networkidle")
+        pag.fill('input[type="email"]', email)
+        pag.fill('input[type="password"]', clave)
+        pag.click('button[type="submit"]')
+        try:
+            pag.wait_for_url("**/inventario**", timeout=30000)
+        except Exception:  # noqa: BLE001
+            nav.close()
+            sys.exit("No se pudo iniciar sesión en el proveedor; no se actualiza la web.")
+        pag.wait_for_function("document.body.innerText.includes('U$D')", timeout=60000)
+        pag.wait_for_timeout(3000)
+        lineas = [x.strip() for x in pag.inner_text("body").split("\n") if x.strip()]
+        datos = pag.evaluate("fetch('/api/inventory/client-data').then(r => r.json())")
+        nav.close()
+
+    fotos = {p.get("name", "").strip().lower(): p.get("image_url") or ""
+             for p in datos.get("products", [])}
+    dolar = None
+    if "Dólar blue" in lineas:
+        m = re.search(r"[\d.]+", lineas[lineas.index("Dólar blue") + 1])
+        if m:
+            dolar = float(m.group(0).replace(".", ""))
+
     productos, vistos = [], set()
-    for i, m in enumerate(inicios):
-        slug = m.group(2)
-        fin = inicios[i + 1].start() if i + 1 < len(inicios) else m.start() + 5000
-        t = texto(pagina[m.start():fin])
-        pm = re.search(r"U\$D\s*([\d.,]+)", t)
-        if not pm or slug in vistos:
+    for i in range(2, len(lineas) - 1):
+        ars = re.fullmatch(r"\$([\d.]+) ARS", lineas[i])
+        pu = re.fullmatch(r"U\$D\s*([\d.,]+)", lineas[i + 1])
+        if not (ars and pu):
+            continue
+        nombre = re.sub(r"\s+", " ", lineas[i - 2]).strip()
+        slug = slugify(nombre)
+        if slug in vistos:
             continue
         vistos.add(slug)
-        nombre = re.sub(r"\s+", " ", html.unescape(m.group(1))).strip()
-        st = t[:t.find(nombre)] if nombre in t else t[:pm.start()]
-        costo = usd(pm.group(1))
+        costo = usd(pu.group(1))
+        if dolar is None and costo:
+            valor = float(ars.group(1).replace(".", "")) / costo
+            dolar = round(valor) if 300 < valor < 10_000 else None
         marca, _, modelo = nombre.partition(" ")
         if marca == "Generic":
             marca = "Otras"
-        productos.append({"slug": slug, "marca": marca, "modelo": modelo, "costo": costo, "st": estado(st)})
-    return productos
-
-
-def leer_ficha(slug: str) -> str:
-    try:
-        return get(f"{BASE}/catalogo/{slug}")
-    except Exception as e:  # noqa: BLE001
-        print(f"Sin ficha para {slug}: {e}")
-        return ""
-
-
-def dolar_desde_ficha(ficha: str) -> float | None:
-    limpio = texto(ficha)
-    ars = re.search(r"\$\s?([\d.]+)\s*ARS", limpio)
-    usd = re.search(r"U\$D\s*([\d.,]+)", limpio)
-    if not (ars and usd):
-        return None
-    valor = float(ars.group(1).replace(".", "")) / float(usd.group(1).replace(",", ""))
-    return round(valor) if 300 < valor < 10_000 else None
-
-
-def foto(ficha: str) -> str:
-    m = re.search(r'https://[^"\'\s]+/product-images/[^"\'\s]+?\.(?:webp|jpe?g|png)', ficha)
-    return html.unescape(m.group(0)) if m else ""
+        productos.append({"slug": slug, "marca": marca, "modelo": modelo, "costo": costo,
+                          "st": estado(lineas[i - 1]), "foto_url": fotos.get(nombre.lower(), "")})
+    return productos, dolar
 
 
 def main() -> None:
-    productos = leer_catalogo()
+    productos, dolar = leer_catalogo()
     print(f"Productos leídos: {len(productos)}")
     if len(productos) < 50:
         sys.exit("El catálogo vino incompleto; no se actualiza la web.")
 
-    # Pedido de Nico (10/11/2026): no se muestran las "Por encargo".
+    # Pedido de Nico (10/11/2026): no se muestran las "Por encargo" (desde 25/11 "Sin stock").
     # Quedan solo En stock, Última unidad y En camino.
     ocultas = sum(1 for p in productos if p["st"] == "e")
     productos = [p for p in productos if p["st"] != "e"]
     print(f"Ocultas por encargo: {ocultas}. Quedan: {len(productos)}")
 
-    dolar = None
     for i, p in enumerate(productos):
-        ficha = leer_ficha(p["slug"])
-        p["foto"] = foto_limpia(foto(ficha), p["slug"])
-        if dolar is None:
-            dolar = dolar_desde_ficha(ficha)
+        p["foto"] = foto_limpia(p["foto_url"], p["slug"])
         if i % 50 == 0:
-            print(f"Fichas: {i}/{len(productos)}")
-        time.sleep(0.3)
+            print(f"Fotos: {i}/{len(productos)}")
     if dolar is None:
         sys.exit("No se pudo leer el tipo de cambio; no se actualiza la web.")
     print(f"Dólar: {dolar}")
