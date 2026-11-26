@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-26 17:38",
+"actualizado": "2026-11-26 18:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -380,7 +380,7 @@
 "gan": null,
 "hora": "13:30",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Cahuepe, Nicolás / Casadei, Walter Ariel",
 "p2": "Monzon, Miguel Eduardo / Sosa, Fernando Fabián",
 "res": "",
 "sede": "Estación Norte"
@@ -405,7 +405,7 @@
 "hora": "12:00",
 "inst": "Cuartos de Final",
 "p1": "Doporto, Eduardo / Roldan, Raúl",
-"p2": "",
+"p2": "Garibaldi, Luis / Scorcelli, Guillermo Marcelo",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -633,7 +633,7 @@
 "hora": "19:30",
 "inst": "Octavos de Final",
 "p1": "Nuez, Tania Anahí / Roberto, María Belen",
-"p2": "",
+"p2": "Genta, Vanesa / Mostafa, Mercedes",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -669,7 +669,7 @@
 "hora": "09:00",
 "inst": "Octavos de Final",
 "p1": "Casado Argüello, Giorgina / Garay, Lucía Antonela",
-"p2": "",
+"p2": "Davel, Irene / Vásquez, Mariela",
 "res": "",
 "sede": "Estación Norte"
 },
@@ -1742,13 +1742,13 @@
 "015001-C6+45-B1": {
 "cat": "Caballeros 6ta +45",
 "dia": "2026-11-26",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:30",
 "inst": "Zona",
 "p1": "Bruno, Martín / Profumo, Sergio Andrés",
 "p2": "Garibaldi, Luis / Scorcelli, Guillermo Marcelo",
-"res": "",
+"res": "6/2 6/1",
 "sede": "Boulevard 81",
 "zona": "B"
 },
@@ -2366,13 +2366,13 @@
 "015001-D5-F1": {
 "cat": "Damas 5ta",
 "dia": "2026-11-26",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "16:30",
 "inst": "Zona",
 "p1": "Larroude, Juliana / Vallejos, Gabriela",
 "p2": "Davel, Irene / Vásquez, Mariela",
-"res": "",
+"res": "6/4 6/2",
 "sede": "Boulevard 81",
 "zona": "F"
 },
