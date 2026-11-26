@@ -2244,5 +2244,25 @@
   "en_buffer": "6b06cfe2a583b0c85eae0fb9",
   "modo": "auto",
   "publicada_en": "2026-11-25 09:09"
+ },
+ {
+  "creada": "2026-11-25 23:08",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI015-001-2026-11-25-rosa",
+  "organiza": "boulevard_81",
+  "etiquetas": [
+   "boulevard_81"
+  ],
+  "codigos": {
+   "015001-D5-F3": "7/6 7/5",
+   "015001-D6-D1": "6/4 6/1",
+   "015001-D7-F3": "4/6 6/4 6/4"
+  },
+  "archivo": "TEO-CLI015-001/zonas-2026-11-25-rosa.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/zonas-2026-11-25-rosa.png",
+  "alt": "Lo mejor de las zonas del miércoles 25/11: Damas 5ta, ganaron Davel I. / Vásquez M. 7/6 7/5; Damas 6ta, ganaron Raffino C. / Ravainera E. 6/4 6/1; Damas 7ma, ganaron Cataldi M. / Ferreyra C. 4/6 6/4 6/4",
+  "publicada": false
  }
 ]
