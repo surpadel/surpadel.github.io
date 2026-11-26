@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-26 11:38",
+"actualizado": "2026-11-26 12:09",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -169,6 +169,30 @@
 "res": "",
 "sede": "Boulevard 81"
 },
+"015001-C4-52": {
+"cat": "Caballeros 4ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "09:00",
+"inst": "Octavos de Final",
+"p1": "García, Amalio José / Techera, Renzo",
+"p2": "Gullo, Fermin / Moreno Lezana, Juan Ignacio",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C4-54": {
+"cat": "Caballeros 4ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "10:30",
+"inst": "Octavos de Final",
+"p1": "Canegalli, Mauro / Zappini, Santino",
+"p2": "H. Martínez, Gastón / Ocampo, Rodrigo",
+"res": "",
+"sede": "Boulevard 81"
+},
 "015001-C4-55": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-27",
@@ -192,6 +216,66 @@
 "p2": "",
 "res": "",
 "sede": "Boulevard 81"
+},
+"015001-C4-58": {
+"cat": "Caballeros 4ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "13:30",
+"inst": "Cuartos de Final",
+"p1": "",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C5-57": {
+"cat": "Caballeros 5ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "10:30",
+"inst": "Cuartos de Final",
+"p1": "Pérez, Cristian Hernán / Pozzi, Franco",
+"p2": "Castelli, Germán / Marasa, Matías Ezequiel",
+"res": "",
+"sede": "Estación Norte"
+},
+"015001-C5-58": {
+"cat": "Caballeros 5ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "10:30",
+"inst": "Cuartos de Final",
+"p1": "Juaristi, Nahuel / Rodríguez, Gonzalo",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C5-59": {
+"cat": "Caballeros 5ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "10:30",
+"inst": "Cuartos de Final",
+"p1": "Gonzalez, Lucio / Riquelme, Gonzalo",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C5-60": {
+"cat": "Caballeros 5ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "10:30",
+"inst": "Cuartos de Final",
+"p1": "Sosa, Hernán José Salvador / Villafañe, Federico",
+"p2": "Bortolazzo, Agustín / Menna, Emiliano",
+"res": "",
+"sede": "Estación Norte"
 },
 "015001-C6+45-58": {
 "cat": "Caballeros 6ta +45",
@@ -225,6 +309,102 @@
 "hora": "12:00",
 "inst": "Cuartos de Final",
 "p1": "Doporto, Eduardo / Roldan, Raúl",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C6+45-61": {
+"cat": "Caballeros 6ta +45",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "13:00",
+"inst": "Semifinal",
+"p1": "Andrada, Alejandro / Escola, Alexander",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C6+45-62": {
+"cat": "Caballeros 6ta +45",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "13:00",
+"inst": "Semifinal",
+"p1": "",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C6+45-64": {
+"cat": "Caballeros 6ta +45",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "17:30",
+"inst": "Final",
+"p1": "",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C6-58": {
+"cat": "Caballeros 6ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "09:00",
+"inst": "Cuartos de Final",
+"p1": "Curiggiano, Flavio / Curiggiano, Roman",
+"p2": "Fonseca, Joaquín / San Martin, Joaquín",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C6-59": {
+"cat": "Caballeros 6ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "09:00",
+"inst": "Cuartos de Final",
+"p1": "Montuellie, Mauro / Santilli, Juan Manuel",
+"p2": "Pablo, Cuartas / Salinas, Luisina",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C6-61": {
+"cat": "Caballeros 6ta",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "10:00",
+"inst": "Semifinal",
+"p1": "Klug, Nahuel / Radiciotti, Facundo",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C6-62": {
+"cat": "Caballeros 6ta",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "10:00",
+"inst": "Semifinal",
+"p1": "",
+"p2": "Dupen, Flavio Sebastián / Ortega, Lucas Ariel",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C6-64": {
+"cat": "Caballeros 6ta",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "16:00",
+"inst": "Final",
+"p1": "",
 "p2": "",
 "res": "",
 "sede": "Boulevard 81"
@@ -289,6 +469,18 @@
 "res": "",
 "sede": "Estación Norte"
 },
+"015001-D5-55": {
+"cat": "Damas 5ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "09:00",
+"inst": "Octavos de Final",
+"p1": "Montone, Milagros / Reboredo, Martina",
+"p2": "González, Emilia / Silva, Mia Agustina",
+"res": "",
+"sede": "Boulevard 81"
+},
 "015001-D5-57": {
 "cat": "Damas 5ta",
 "dia": "2026-11-28",
@@ -310,6 +502,66 @@
 "inst": "Cuartos de Final",
 "p1": "",
 "p2": "Borgoglio, Eleonora / Cuartas, Pilar",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D6-50": {
+"cat": "Damas 6ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "12:00",
+"inst": "Octavos de Final",
+"p1": "Cornejo, Hebe / Martins, Daiana",
+"p2": "Fernández, Luciana / Vena, Viviana",
+"res": "",
+"sede": "Estación Norte"
+},
+"015001-D6-55": {
+"cat": "Damas 6ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "10:30",
+"inst": "Octavos de Final",
+"p1": "Petringa, María Eva / Sosa Cedrez, Yanela",
+"p2": "Díaz Colodrero, Camila / Saldivia, Soledad",
+"res": "",
+"sede": "Estación Norte"
+},
+"015001-D6-57": {
+"cat": "Damas 6ta",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "10:00",
+"inst": "Cuartos de Final",
+"p1": "Ruggieri, Avril / Sardón, Clarisa",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D6-58": {
+"cat": "Damas 6ta",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "10:00",
+"inst": "Cuartos de Final",
+"p1": "Cantoni, Alma / Guevara, Lara",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D6-59": {
+"cat": "Damas 6ta",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "10:00",
+"inst": "Cuartos de Final",
+"p1": "Borba, Teresa / Lomeña, María de los Ángeles",
+"p2": "",
 "res": "",
 "sede": "Boulevard 81"
 },
