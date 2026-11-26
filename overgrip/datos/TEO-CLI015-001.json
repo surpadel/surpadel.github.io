@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-26 10:08",
+"actualizado": "2026-11-26 10:39",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -178,6 +178,18 @@
 "inst": "Octavos de Final",
 "p1": "Kaethler, Juan Pablo / Romero, Guillermo",
 "p2": "Lauria, Nicolás / López, Mauro",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C4-57": {
+"cat": "Caballeros 4ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "10:30",
+"inst": "Cuartos de Final",
+"p1": "González, Damián / Vaccari, Franco Nahuel",
+"p2": "",
 "res": "",
 "sede": "Boulevard 81"
 },
