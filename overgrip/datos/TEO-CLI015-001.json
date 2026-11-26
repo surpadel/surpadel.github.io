@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-26 09:38",
+"actualizado": "2026-11-26 10:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -181,6 +181,18 @@
 "res": "",
 "sede": "Boulevard 81"
 },
+"015001-C6+45-58": {
+"cat": "Caballeros 6ta +45",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "13:30",
+"inst": "Cuartos de Final",
+"p1": "",
+"p2": "Monzon, Miguel Eduardo / Sosa, Fernando Fabián",
+"res": "",
+"sede": "Estación Norte"
+},
 "015001-C6+45-59": {
 "cat": "Caballeros 6ta +45",
 "dia": "2026-11-27",
@@ -190,6 +202,18 @@
 "inst": "Cuartos de Final",
 "p1": "Dondo, Daniel / Marchini, Martín",
 "p2": "Barboza, Eduardo Jorge / Rodríguez, Fernando",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C6+45-60": {
+"cat": "Caballeros 6ta +45",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "12:00",
+"inst": "Cuartos de Final",
+"p1": "Doporto, Eduardo / Roldan, Raúl",
+"p2": "",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -205,6 +229,90 @@
 "res": "",
 "sede": "Boulevard 81"
 },
+"015001-D5-50": {
+"cat": "Damas 5ta",
+"dia": "2026-11-27",
+"estado": "Programado",
+"gan": null,
+"hora": "19:30",
+"inst": "Octavos de Final",
+"p1": "Nuez, Tania Anahí / Roberto, María Belen",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D5-51": {
+"cat": "Damas 5ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "09:00",
+"inst": "Octavos de Final",
+"p1": "Corsetti, Delfina / Pérez, Silvana Paola",
+"p2": "Foltan Mendiberry, Luciana / Jodzik, Tatiana",
+"res": "",
+"sede": "Estación Norte"
+},
+"015001-D5-52": {
+"cat": "Damas 5ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "09:00",
+"inst": "Octavos de Final",
+"p1": "Banegas, Paula / Raffe, Micaela",
+"p2": "Asens, Sofía Agustina / Stofalo, Mariela",
+"res": "",
+"sede": "Estación Norte"
+},
+"015001-D5-54": {
+"cat": "Damas 5ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "09:00",
+"inst": "Octavos de Final",
+"p1": "Casado Argüello, Giorgina / Garay, Lucía Antonela",
+"p2": "",
+"res": "",
+"sede": "Estación Norte"
+},
+"015001-D5-57": {
+"cat": "Damas 5ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "13:30",
+"inst": "Cuartos de Final",
+"p1": "Nicotera, Celeste / Sánchez, María Ángeles",
+"p2": "",
+"res": "",
+"sede": "Estación Norte"
+},
+"015001-D5-60": {
+"cat": "Damas 5ta",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "13:30",
+"inst": "Cuartos de Final",
+"p1": "",
+"p2": "Borgoglio, Eleonora / Cuartas, Pilar",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D7-50": {
+"cat": "Damas 7ma",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "10:30",
+"inst": "Octavos de Final",
+"p1": "Balceda, María / Ortiz Ibero, Leandra",
+"p2": "Gianfelici, Milagros / Ochandorena, Milagros",
+"res": "",
+"sede": "Estación Norte"
+},
 "015001-D7-51": {
 "cat": "Damas 7ma",
 "dia": "2026-11-27",
@@ -217,6 +325,42 @@
 "res": "",
 "sede": "Boulevard 81"
 },
+"015001-D7-52": {
+"cat": "Damas 7ma",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "09:00",
+"inst": "Octavos de Final",
+"p1": "Grioni, Rocío / Picardo, María Mercedes",
+"p2": "Biondi, Valentina / Guazzaroni, Cecilia",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D7-53": {
+"cat": "Damas 7ma",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "09:00",
+"inst": "Octavos de Final",
+"p1": "Bentivegna, Agostina / Cachorro, Camila",
+"p2": "Arzubi, Francisca / De Luca, Andrea",
+"res": "",
+"sede": "Estación Norte"
+},
+"015001-D7-54": {
+"cat": "Damas 7ma",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "09:00",
+"inst": "Octavos de Final",
+"p1": "Mayocchi, Graciela / Pane, Antonella",
+"p2": "Cataldi, María Jimena / Ferreyra, Claudia",
+"res": "",
+"sede": "Estación Norte"
+},
 "015001-D7-55": {
 "cat": "Damas 7ma",
 "dia": "2026-11-27",
@@ -228,6 +372,54 @@
 "p2": "Ruiz, Melanie / Salvo, Vanina",
 "res": "",
 "sede": "Boulevard 81"
+},
+"015001-D7-57": {
+"cat": "Damas 7ma",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "13:30",
+"inst": "Cuartos de Final",
+"p1": "Cuartas, Melisa / Vera, Laura",
+"p2": "",
+"res": "",
+"sede": "Estación Norte"
+},
+"015001-D7-58": {
+"cat": "Damas 7ma",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "13:30",
+"inst": "Cuartos de Final",
+"p1": "",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D7-59": {
+"cat": "Damas 7ma",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "13:30",
+"inst": "Cuartos de Final",
+"p1": "",
+"p2": "",
+"res": "",
+"sede": "Estación Norte"
+},
+"015001-D7-60": {
+"cat": "Damas 7ma",
+"dia": "2026-11-28",
+"estado": "Programado",
+"gan": null,
+"hora": "13:30",
+"inst": "Cuartos de Final",
+"p1": "",
+"p2": "Basilico, Jimena / Vera, Cristina",
+"res": "",
+"sede": "Estación Norte"
 }
 },
 "torneo": "TEO-CLI015-001",
