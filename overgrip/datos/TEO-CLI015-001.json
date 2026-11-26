@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-26 09:08",
+"actualizado": "2026-11-26 09:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -181,6 +181,18 @@
 "res": "",
 "sede": "Boulevard 81"
 },
+"015001-C6+45-59": {
+"cat": "Caballeros 6ta +45",
+"dia": "2026-11-27",
+"estado": "Programado",
+"gan": null,
+"hora": "19:30",
+"inst": "Cuartos de Final",
+"p1": "Dondo, Daniel / Marchini, Martín",
+"p2": "Barboza, Eduardo Jorge / Rodríguez, Fernando",
+"res": "",
+"sede": "Boulevard 81"
+},
 "015001-C7-50": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-27",
@@ -202,6 +214,18 @@
 "inst": "Octavos de Final",
 "p1": "González Taverna, Verónica / Iribertegui, Julieta",
 "p2": "Hernández, Betina / Liciaga, María",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D7-55": {
+"cat": "Damas 7ma",
+"dia": "2026-11-27",
+"estado": "Programado",
+"gan": null,
+"hora": "19:30",
+"inst": "Octavos de Final",
+"p1": "Frías, Brenda / Sola Barni, Jimena",
+"p2": "Ruiz, Melanie / Salvo, Vanina",
 "res": "",
 "sede": "Boulevard 81"
 }
