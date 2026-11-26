@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-26 13:38",
+"actualizado": "2026-11-26 14:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -378,7 +378,7 @@
 "dia": "2026-11-28",
 "estado": "Programado",
 "gan": null,
-"hora": "13:30",
+"hora": "12:00",
 "inst": "Cuartos de Final",
 "p1": "",
 "p2": "Monzon, Miguel Eduardo / Sosa, Fernando Fabián",
@@ -567,10 +567,10 @@
 },
 "015001-C7-58": {
 "cat": "Caballeros 7ma",
-"dia": "2026-11-28",
+"dia": "2026-11-29",
 "estado": "Programado",
 "gan": null,
-"hora": "13:30",
+"hora": "13:00",
 "inst": "Cuartos de Final",
 "p1": "",
 "p2": "Rueda, Matías Ezequiel / Soto, Lucas",
@@ -733,6 +733,42 @@
 "res": "",
 "sede": "Boulevard 81"
 },
+"015001-D5-61": {
+"cat": "Damas 5ta",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "14:30",
+"inst": "Semifinal",
+"p1": "",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D5-62": {
+"cat": "Damas 5ta",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "14:30",
+"inst": "Semifinal",
+"p1": "",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D5-64": {
+"cat": "Damas 5ta",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "19:00",
+"inst": "Final",
+"p1": "",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
 "015001-D6-50": {
 "cat": "Damas 6ta",
 "dia": "2026-11-28",
@@ -802,6 +838,30 @@
 "inst": "Cuartos de Final",
 "p1": "",
 "p2": "Acuña, Claudia / Rodríguez, Alejandra Valeria",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D6-61": {
+"cat": "Damas 6ta",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "16:00",
+"inst": "Semifinal",
+"p1": "",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D6-62": {
+"cat": "Damas 6ta",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "16:00",
+"inst": "Semifinal",
+"p1": "",
+"p2": "",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -924,6 +984,42 @@
 "p2": "Basilico, Jimena / Vera, Cristina",
 "res": "",
 "sede": "Estación Norte"
+},
+"015001-D7-61": {
+"cat": "Damas 7ma",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "14:30",
+"inst": "Semifinal",
+"p1": "",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D7-62": {
+"cat": "Damas 7ma",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "14:30",
+"inst": "Semifinal",
+"p1": "",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D7-64": {
+"cat": "Damas 7ma",
+"dia": "2026-11-29",
+"estado": "Programado",
+"gan": null,
+"hora": "19:00",
+"inst": "Final",
+"p1": "",
+"p2": "",
+"res": "",
+"sede": "Boulevard 81"
 }
 },
 "torneo": "TEO-CLI015-001",
