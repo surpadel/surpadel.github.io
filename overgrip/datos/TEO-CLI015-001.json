@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-25 22:38",
+"actualizado": "2026-11-26 08:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -143,6 +143,66 @@
 "p1": "Sala, Agustín / Yop, Octavio",
 "p2": "Garcia, Faustino / Mercado, Bautista",
 "res": "3/6 6/4 6/3",
+"sede": "Boulevard 81"
+},
+"015001-C4-50": {
+"cat": "Caballeros 4ta",
+"dia": "2026-11-27",
+"estado": "Programado",
+"gan": null,
+"hora": "19:30",
+"inst": "Octavos de Final",
+"p1": "Esposito, Maximiliano / Rodríguez, Martín",
+"p2": "Cardinali, Matías / Sendra, Sebastián",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C4-51": {
+"cat": "Caballeros 4ta",
+"dia": "2026-11-27",
+"estado": "Programado",
+"gan": null,
+"hora": "18:00",
+"inst": "Octavos de Final",
+"p1": "Russo, Agustín / Ventureira, Nicolás Manuel",
+"p2": "Reynoso, Ulises / Yeoman, Agustín",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C4-55": {
+"cat": "Caballeros 4ta",
+"dia": "2026-11-27",
+"estado": "Programado",
+"gan": null,
+"hora": "21:00",
+"inst": "Octavos de Final",
+"p1": "Kaethler, Juan Pablo / Romero, Guillermo",
+"p2": "Lauria, Nicolás / López, Mauro",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-C7-50": {
+"cat": "Caballeros 7ma",
+"dia": "2026-11-27",
+"estado": "Programado",
+"gan": null,
+"hora": "18:00",
+"inst": "Octavos de Final",
+"p1": "Nicasio Odo, María Sol / Sosa, José",
+"p2": "Colaianni, Bautista / Lucia, Mateo",
+"res": "",
+"sede": "Boulevard 81"
+},
+"015001-D7-51": {
+"cat": "Damas 7ma",
+"dia": "2026-11-27",
+"estado": "Programado",
+"gan": null,
+"hora": "21:00",
+"inst": "Octavos de Final",
+"p1": "González Taverna, Verónica / Iribertegui, Julieta",
+"p2": "Hernández, Betina / Liciaga, María",
+"res": "",
 "sede": "Boulevard 81"
 }
 },
