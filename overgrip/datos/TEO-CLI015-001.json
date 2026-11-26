@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-25 08:38",
+"actualizado": "2026-11-25 22:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1516,13 +1516,13 @@
 "015001-D5-F3": {
 "cat": "Damas 5ta",
 "dia": "2026-11-25",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Davel, Irene / Vásquez, Mariela",
 "p2": "Genta, Vanesa / Mostafa, Mercedes",
-"res": "",
+"res": "7/6 7/5",
 "sede": "Boulevard 81",
 "zona": "F"
 },
@@ -1672,13 +1672,13 @@
 "015001-D6-D1": {
 "cat": "Damas 6ta",
 "dia": "2026-11-25",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Castelli, Macarena / Raffetto, Verónica",
 "p2": "Raffino, Carla / Ravainera, Estefanía",
-"res": "",
+"res": "6/4 6/1",
 "sede": "Boulevard 81",
 "zona": "D"
 },
@@ -1932,13 +1932,13 @@
 "015001-D7-F3": {
 "cat": "Damas 7ma",
 "dia": "2026-11-25",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:00",
 "inst": "Zona",
 "p1": "Balceda, María / Ortiz Ibero, Leandra",
 "p2": "Cataldi, María Jimena / Ferreyra, Claudia",
-"res": "",
+"res": "4/6 6/4 6/4",
 "sede": "Boulevard 81",
 "zona": "F"
 },
