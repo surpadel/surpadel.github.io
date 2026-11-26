@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-26 15:38",
+"actualizado": "2026-11-26 16:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -459,10 +459,10 @@
 },
 "015001-C6-59": {
 "cat": "Caballeros 6ta",
-"dia": "2026-11-28",
+"dia": "2026-11-27",
 "estado": "Programado",
 "gan": null,
-"hora": "09:00",
+"hora": "19:30",
 "inst": "Cuartos de Final",
 "p1": "Montuellie, Mauro / Santilli, Juan Manuel",
 "p2": "Pablo, Cuartas / Salinas, Luisina",
