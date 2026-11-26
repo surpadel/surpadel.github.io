@@ -2267,5 +2267,21 @@
   "en_buffer": "6b0794b7a791bea1b245fdcf",
   "modo": "auto",
   "publicada_en": "2026-11-25 23:08"
+ },
+ {
+  "creada": "2026-11-26 09:09",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Hoy",
+  "tipo": "hoy",
+  "clave": "hoy-2026-11-26",
+  "organiza": "",
+  "etiquetas": [
+   "boulevard_81"
+  ],
+  "codigos": {},
+  "archivo": "especiales/hoy-2026-11-26.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/especiales/hoy-2026-11-26.png",
+  "alt": "Hoy se juega: Animal 81. Seguí @surpadelstore para tener todos los resultados al día.",
+  "publicada": false
  }
 ]
