@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-27 08:08",
+"actualizado": "2026-11-27 09:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -813,7 +813,7 @@
 "hora": "12:00",
 "inst": "Cuartos de Final",
 "p1": "Cantoni, Alma / Guevara, Lara",
-"p2": "",
+"p2": "Raffino, Carla / Ravainera, Estefanía",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -825,7 +825,7 @@
 "hora": "10:00",
 "inst": "Cuartos de Final",
 "p1": "Borba, Teresa / Lomeña, María de los Ángeles",
-"p2": "",
+"p2": "Castelli, Macarena / Raffetto, Verónica",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -2561,13 +2561,13 @@
 "015001-D6-D2": {
 "cat": "Damas 6ta",
 "dia": "2026-11-26",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Zona",
 "p1": "Castelli, Macarena / Raffetto, Verónica",
 "p2": "Luna, Andrea / Vattiato, Gabriela",
-"res": "",
+"res": "1/6 6/1 6/1",
 "sede": "Boulevard 81",
 "zona": "D"
 },

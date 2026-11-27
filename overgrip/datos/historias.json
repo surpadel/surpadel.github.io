@@ -2286,5 +2286,40 @@
   "en_buffer": "6b082177d82636cd03d2b3c9",
   "modo": "auto",
   "publicada_en": "2026-11-26 09:09"
+ },
+ {
+  "creada": "2026-11-27 09:08",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Hoy",
+  "tipo": "hoy",
+  "clave": "hoy-2026-11-27",
+  "organiza": "",
+  "etiquetas": [
+   "boulevard_81"
+  ],
+  "codigos": {},
+  "archivo": "especiales/hoy-2026-11-27.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/especiales/hoy-2026-11-27.png",
+  "alt": "Hoy se juega: Animal 81. Seguí @surpadelstore para tener todos los resultados al día.",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-27 09:08",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI015-001-2026-11-26-rosa",
+  "organiza": "boulevard_81",
+  "etiquetas": [
+   "boulevard_81"
+  ],
+  "codigos": {
+   "015001-D5-F1": "6/4 6/2",
+   "015001-D6-D2": "1/6 6/1 6/1"
+  },
+  "archivo": "TEO-CLI015-001/zonas-2026-11-26-rosa.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/zonas-2026-11-26-rosa.png",
+  "alt": "Lo mejor de las zonas del jueves 26/11: Damas 5ta, ganaron Davel I. / Vásquez M. 6/4 6/2; Damas 6ta, ganaron Castelli M. / Raffetto V. 1/6 6/1 6/1",
+  "publicada": false
  }
 ]
