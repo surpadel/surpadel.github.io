@@ -1,0 +1,15 @@
+{"franja": "Mexico Major", "bajada": "Miércoles · 16avos",
+ "titulo": "Susto y <span class=gold>remontada</span>",
+ "bloques": [
+  {"rama": "Caballeros", "tema": "azul", "resumen": "a octavos", "nota": "Tello / Arce, afuera",
+   "partidos": [{"g": "Augsburger / Lebrón", "p": "Gala / Rubini", "s": "3/6 7/6 6/0", "et": "16avos"},
+                {"g": "Stupaczuk / Sanz", "p": "Aguirre / Lijó", "s": "7/5 6/2", "et": "16avos"},
+                {"g": "Alfonso / Libaak", "p": "Goenaga / Collado", "s": "6/3 7/5", "et": "16avos"},
+                {"g": "Valenzuela / Gil", "p": "Tello / Arce", "s": "7/6 7/5", "et": "16avos"},
+                {"g": "Tapia / Coello", "p": "Quílez / Mouriño", "s": "6/3 6/2", "et": "16avos"}]},
+  {"rama": "Damas", "tema": "rosa", "resumen": "a octavos", "nota": "doble 6-2",
+   "partidos": [{"g": "M. Fassio / Virseda", "p": "Martínez / Martínez", "s": "6/2 6/2", "et": "16avos"},
+                {"g": "Salazar / Osoro", "p": "Talaván / Saiz", "s": "6/2 6/2", "et": "16avos"}]}
+ ],
+ "dato": "Augsburger y Lebrón perdían un set y salvaron el tie-break: <b>cerraron con 6-0</b>. Hoy en octavos, duelo argentino: <b>Stupaczuk / Sanz vs Alfonso / Libaak</b>. También siguen Di Nenno y Sanyo.",
+ "cred": "Seguí el Major con <b>@surpadelstore</b>"}
