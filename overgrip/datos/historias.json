@@ -2327,5 +2327,24 @@
   "en_buffer": "6b0972ee1fd46e62e740482c",
   "modo": "auto",
   "publicada_en": "2026-11-27 09:09"
+ },
+ {
+  "creada": "2026-11-27 09:38",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Zonas",
+  "tipo": "zona",
+  "clave": "zona-TEO-CLI015-001-2026-11-26-azul",
+  "organiza": "boulevard_81",
+  "etiquetas": [
+   "boulevard_81"
+  ],
+  "codigos": {
+   "015001-C5-D3": "3/6 6/4 6/2",
+   "015001-C6+45-B1": "6/2 6/1"
+  },
+  "archivo": "TEO-CLI015-001/zonas-2026-11-26-azul.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/zonas-2026-11-26-azul.png",
+  "alt": "Lo mejor de las zonas del jueves 26/11: Caballeros 5ta, ganaron Di Iasi L. / Mercado M. 3/6 6/4 6/2; Caballeros 6ta +45, ganaron Garibaldi L. / Scorcelli G. 6/2 6/1",
+  "publicada": false
  }
 ]

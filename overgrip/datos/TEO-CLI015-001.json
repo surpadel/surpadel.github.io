@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-27 09:08",
+"actualizado": "2026-11-27 09:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -1677,13 +1677,13 @@
 "015001-C5-D3": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-26",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "18:00",
 "inst": "Zona",
 "p1": "Parada, Juan Bautista / Rusi, Agustín",
 "p2": "Di Iasi, Luis / Mercado, Mauricio Napoleón",
-"res": "",
+"res": "3/6 6/4 6/2",
 "sede": "Boulevard 81",
 "zona": "D"
 },
