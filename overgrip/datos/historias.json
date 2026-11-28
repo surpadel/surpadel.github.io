@@ -2385,7 +2385,10 @@
   "grupo": "TEO-CLI015-001|Octavos de Final|azul|2026-11-27",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/octavos-azul-1128-0938-1.png",
   "alt": "Octavos: Caballeros 4ta, ganaron Russo A. / Ventureira N. 6/3 6/2; Caballeros 4ta, ganaron Cardinali M. / Sendra S. 6/1 2/6 6/3; Caballeros 4ta, ganaron Kaethler J. / Romero G. 2/6 6/3 6/3; Caballeros 7ma, ganaron Nicasio Odo M. / Sosa J. 6/2 3/6 6/3",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6b0acb728e7dd71de78b4bdf",
+  "modo": "auto",
+  "publicada_en": "2026-11-28 09:39"
  },
  {
   "creada": "2026-11-28 09:38",
@@ -2416,6 +2419,9 @@
   "grupo": "TEO-CLI015-001|Cuartos de Final|azul|2026-11-27",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/cuartos-azul-1128-0938-1.png",
   "alt": "Cuartos: Caballeros 6ta, ganaron Montuellie M. / Santilli J. 6/7 7/6 6/1; Caballeros 6ta +45, ganaron Dondo D. / Marchini M. 6/2 3/6 6/3",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6b0acb680f9559e0ce1077a4",
+  "modo": "auto",
+  "publicada_en": "2026-11-28 09:39"
  }
 ]
