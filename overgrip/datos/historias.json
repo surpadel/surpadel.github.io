@@ -2485,5 +2485,22 @@
   "alt": "Octavos: Caballeros 4ta, ganaron García A. / Techera R. 6/4 6/0; Caballeros 4ta, ganaron H. Martínez G. / Ocampo R. 6/3 6/2",
   "publicada": true,
   "modo": "omitida"
+ },
+ {
+  "creada": "2026-11-28 15:08",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Octavos de Final",
+  "organiza": "boulevard_81",
+  "codigos": {
+   "015001-C7-54": "6/7 6/1 6/4",
+   "015001-C7-51": "6/4 6/0",
+   "015001-C7-55": "4/6 6/2 6/3"
+  },
+  "archivo": "TEO-CLI015-001/octavos-azul-1128-1508-1.png",
+  "grupo": "TEO-CLI015-001|Octavos de Final|azul|2026-11-28",
+  "suelta": true,
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/octavos-azul-1128-1508-1.png",
+  "alt": "Octavos: Caballeros 7ma, ganaron Lozano E. / Zavala J. 6/7 6/1 6/4; Caballeros 7ma, ganaron Bernazza F. / Santana F. 6/4 6/0; Caballeros 7ma, ganaron Barrios L. / Pérez V. 4/6 6/2 6/3",
+  "publicada": false
  }
 ]

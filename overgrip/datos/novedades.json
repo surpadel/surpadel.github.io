@@ -1,26 +1,6 @@
 [
  {
   "torneo": "TEO-CLI005-002",
-  "hora": "2026-11-21 19:38",
-  "partidos": [
-   {
-    "codigo": "005002-C5-2",
-    "cat": "Caballeros 5ta",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "17:30",
-    "sede": "GM",
-    "estado": "Finalizado",
-    "p1": "Greco, Luciano / Rossi, Bruno Nicolás",
-    "p2": "Chamorro, Sebastián / González, Tomás",
-    "res": "3/6 6/2 6/3",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI005-002",
   "hora": "2026-11-21 20:08",
   "partidos": [
    {
@@ -2218,6 +2198,186 @@
     "res": "6/1 6/2",
     "gan": 1
    }
+  ]
+ },
+ {
+  "torneo": "TEO-CLI015-001",
+  "hora": "2026-11-28 15:08",
+  "partidos": [
+   {
+    "codigo": "015001-C5-58",
+    "cat": "Caballeros 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "10:30",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Juaristi, Nahuel / Rodríguez, Gonzalo",
+    "p2": "Uceda, Leandro / Villalón, Diego",
+    "res": "3/6 6/1 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "015001-C5-59",
+    "cat": "Caballeros 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "10:30",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Gonzalez, Lucio / Riquelme, Gonzalo",
+    "p2": "Di Iasi, Luis / Mercado, Mauricio Napoleón",
+    "res": "6/1 2/6 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "015001-C5-60",
+    "cat": "Caballeros 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "10:30",
+    "sede": "Estación Norte",
+    "estado": "Finalizado",
+    "p1": "Sosa, Hernán José Salvador / Villafañe, Federico",
+    "p2": "Bortolazzo, Agustín / Menna, Emiliano",
+    "res": "6/2 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "015001-C6-58",
+    "cat": "Caballeros 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "10:30",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Curiggiano, Flavio / Curiggiano, Roman",
+    "p2": "Fonseca, Joaquín / San Martin, Joaquín",
+    "res": "7/5 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "015001-C7-54",
+    "cat": "Caballeros 7ma",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-28",
+    "hora": "10:30",
+    "sede": "Estación Norte",
+    "estado": "Finalizado",
+    "p1": "Ali, Ahmed / Massey, Federico",
+    "p2": "Lozano, Edu / Zavala, Josue",
+    "res": "6/7 6/1 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "015001-C4-60",
+    "cat": "Caballeros 4ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "12:00",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Kaethler, Juan Pablo / Romero, Guillermo",
+    "p2": "Congregado, Jonathan Ezequiel / Medina, Gustavo Leopoldo",
+    "res": "6/4 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "015001-C6+45-60",
+    "cat": "Caballeros 6ta +45",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "12:00",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Doporto, Eduardo / Roldan, Raúl",
+    "p2": "Garibaldi, Luis / Scorcelli, Guillermo Marcelo",
+    "res": "6/2 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "015001-C7-51",
+    "cat": "Caballeros 7ma",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-28",
+    "hora": "12:00",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Bernazza, Franco / Santana, Flavio",
+    "p2": "Di Totto, Vanesa / Jaime, Ludmila Azul",
+    "res": "6/4 6/0",
+    "gan": 1
+   },
+   {
+    "codigo": "015001-C7-55",
+    "cat": "Caballeros 7ma",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-28",
+    "hora": "12:00",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Liñeiro, Benicio / Quirós Cattoni, Mateo",
+    "p2": "Barrios, Lian Dustyn / Pérez, Valentín",
+    "res": "4/6 6/2 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "015001-C7-57",
+    "cat": "Caballeros 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "12:00",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "Marelli, Juan / Marquez Girat, Patricio",
+    "p2": "Nicasio Odo, María Sol / Sosa, José",
+    "res": "7/6 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "015001-C4-57",
+    "cat": "Caballeros 4ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "13:30",
+    "sede": "Boulevard 81",
+    "estado": "Finalizado",
+    "p1": "González, Damián / Vaccari, Franco Nahuel",
+    "p2": "Cardinali, Matías / Sendra, Sebastián",
+    "res": "6/4 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "015001-C6+45-58",
+    "cat": "Caballeros 6ta +45",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "13:30",
+    "sede": "Estación Norte",
+    "estado": "Finalizado",
+    "p1": "Cahuepe, Nicolás / Casadei, Walter Ariel",
+    "p2": "Monzon, Miguel Eduardo / Sosa, Fernando Fabián",
+    "res": "6/1 6/2",
+    "gan": 2
+   },
+   {
+    "codigo": "015001-D7-59",
+    "cat": "Damas 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "13:30",
+    "sede": "Estación Norte",
+    "estado": "Finalizado",
+    "p1": "Arzubi, Francisca / De Luca, Andrea",
+    "p2": "Cataldi, María Jimena / Ferreyra, Claudia",
+    "res": "6/3 2/6 6/4",
+    "gan": 2
+   }
+  ],
+  "hechos": [
+   "015001-C7-51",
+   "015001-C7-54",
+   "015001-C7-55"
   ]
  }
 ]
