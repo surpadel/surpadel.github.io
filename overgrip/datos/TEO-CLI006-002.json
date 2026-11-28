@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-28 14:08",
+"actualizado": "2026-11-28 14:38",
 "cruces": {
 "006002-C2-1": {
 "cat": "Caballeros 2da",
@@ -928,7 +928,7 @@
 "006002-D4-2": {
 "cat": "Damas 4ta",
 "dia": "2026-11-28",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:00",
 "inst": "Cuartos de Final",

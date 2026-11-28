@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-28 14:08",
+"actualizado": "2026-11-28 14:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -712,13 +712,13 @@
 "015001-D5-59": {
 "cat": "Damas 5ta",
 "dia": "2026-11-28",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:30",
 "inst": "Cuartos de Final",
 "p1": "Abramowicz, Delfina / Gómez Sabbatini, Camila",
 "p2": "Casado Argüello, Giorgina / Garay, Lucía Antonela",
-"res": "",
+"res": "6/1 6/2",
 "sede": "Estación Norte"
 },
 "015001-D5-60": {
@@ -752,7 +752,7 @@
 "gan": null,
 "hora": "14:30",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Abramowicz, Delfina / Gómez Sabbatini, Camila",
 "p2": "",
 "res": "",
 "sede": "Boulevard 81"

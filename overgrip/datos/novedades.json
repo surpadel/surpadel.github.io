@@ -1,131 +1,6 @@
 [
  {
   "torneo": "TEO-CLI005-002",
-  "hora": "2026-11-21 18:08",
-  "partidos": [
-   {
-    "codigo": "005002-D7-3",
-    "cat": "Damas 7ma",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "16:15",
-    "sede": "GM",
-    "estado": "Finalizado",
-    "p1": "Amadio, Andrea / Flores, María Elisa",
-    "p2": "Ceballos, Emma / Mutti Salort, Trinidad",
-    "res": "2/6 6/4 7/5",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI005-002",
-  "hora": "2026-11-21 18:38",
-  "partidos": [
-   {
-    "codigo": "005002-D7-4",
-    "cat": "Damas 7ma",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "16:15",
-    "sede": "GM",
-    "estado": "Finalizado",
-    "p1": "Loskin, Magali / Micelotta, Guadalupe",
-    "p2": "Lloveras, Karen / Piccinini, Macarena",
-    "res": "6/0 6/4",
-    "gan": 2
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI005-002",
-  "hora": "2026-11-21 19:08",
-  "partidos": [
-   {
-    "codigo": "005002-C6+40-6",
-    "cat": "Caballeros 6ta +40",
-    "inst": "Semifinal",
-    "dia": "2026-11-21",
-    "hora": "15:00",
-    "sede": "EVA",
-    "estado": "Finalizado",
-    "p1": "Kowal, Ramiro / Larrea, Rodrigo",
-    "p2": "Bermúdez, Pablo / Cabral, Ariel",
-    "res": "6/4 6/7 6/4",
-    "gan": 2
-   },
-   {
-    "codigo": "005002-D5-4",
-    "cat": "Damas 5ta",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "15:00",
-    "sede": "EVA",
-    "estado": "Finalizado",
-    "p1": "Magno, Camila / Romano, Patricia Gladys",
-    "p2": "Chapuis, Jacqueline / Velázquez, Carolina Belen",
-    "res": "6/4 6/1",
-    "gan": 2
-   },
-   {
-    "codigo": "005002-C4-1",
-    "cat": "Caballeros 4ta",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "16:15",
-    "sede": "EVA",
-    "estado": "Finalizado",
-    "p1": "Sandoval, Matías Leandro / Silva, Bruno Jorge",
-    "p2": "Calvanese, Simón / Torres, Agustín",
-    "res": "6/7 6/3 6/4",
-    "gan": 1
-   },
-   {
-    "codigo": "005002-C6-5",
-    "cat": "Caballeros 6ta",
-    "inst": "Semifinal",
-    "dia": "2026-11-21",
-    "hora": "16:15",
-    "sede": "EVA",
-    "estado": "Finalizado",
-    "p1": "Calello, Adrián / Gutiérrez, Martín",
-    "p2": "Rodríguez, Federico / San Pedro, Emanuel Oscar",
-    "res": "6/4 7/6",
-    "gan": 2
-   },
-   {
-    "codigo": "005002-C7-1",
-    "cat": "Caballeros 7ma",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "16:15",
-    "sede": "EVA",
-    "estado": "Finalizado",
-    "p1": "Escobar, Mauricio / Fuenzalida, Javier",
-    "p2": "Binetti, Gonzalo / Meza, Cristian",
-    "res": "5/7 6/4 6/4",
-    "gan": 1
-   },
-   {
-    "codigo": "005002-D7-1",
-    "cat": "Damas 7ma",
-    "inst": "Cuartos de Final",
-    "dia": "2026-11-21",
-    "hora": "16:15",
-    "sede": "GM",
-    "estado": "Finalizado",
-    "p1": "Bosnach, Gisela / Drab, Rocío",
-    "p2": "Gobenko, Paula / Torres, Julieta Mariela",
-    "res": "6/2 4/6 7/6",
-    "gan": 1
-   }
-  ],
-  "dibujada": true
- },
- {
-  "torneo": "TEO-CLI005-002",
   "hora": "2026-11-21 19:38",
   "partidos": [
    {
@@ -2005,15 +1880,7 @@
     "gan": 2
    }
   ],
-  "hechos": [
-   "015001-D5-51",
-   "015001-D5-52",
-   "015001-D5-54",
-   "015001-D5-55",
-   "015001-D7-52",
-   "015001-D7-53",
-   "015001-D7-54"
-  ]
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI015-001",
@@ -2330,6 +2197,25 @@
     "p1": "Roman, María Florencia / Yewszel, Mara",
     "p2": "Gutiérrez, Juliana / Liñeiro, Macarena",
     "res": "6/1 6/0",
+    "gan": 1
+   }
+  ]
+ },
+ {
+  "torneo": "TEO-CLI015-001",
+  "hora": "2026-11-28 14:38",
+  "partidos": [
+   {
+    "codigo": "015001-D5-59",
+    "cat": "Damas 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "13:30",
+    "sede": "Estación Norte",
+    "estado": "Finalizado",
+    "p1": "Abramowicz, Delfina / Gómez Sabbatini, Camila",
+    "p2": "Casado Argüello, Giorgina / Garay, Lucía Antonela",
+    "res": "6/1 6/2",
     "gan": 1
    }
   ]
