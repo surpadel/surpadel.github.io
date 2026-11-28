@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-28 11:38",
+"actualizado": "2026-11-28 12:08",
 "cruces": {
 "006002-C2-1": {
 "cat": "Caballeros 2da",
@@ -280,7 +280,7 @@
 "006002-C5+40-3": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-28",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:30",
 "inst": "Cuartos de Final",
@@ -292,7 +292,7 @@
 "006002-C5+40-4": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-28",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:30",
 "inst": "Cuartos de Final",
@@ -532,7 +532,7 @@
 "006002-C6+45-3": {
 "cat": "Caballeros 6ta +45",
 "dia": "2026-11-28",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:30",
 "inst": "Cuartos de Final",
@@ -1000,7 +1000,7 @@
 "006002-D5-1": {
 "cat": "Damas 5ta",
 "dia": "2026-11-28",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:30",
 "inst": "Cuartos de Final",
@@ -1012,7 +1012,7 @@
 "006002-D5-2": {
 "cat": "Damas 5ta",
 "dia": "2026-11-28",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:30",
 "inst": "Cuartos de Final",
@@ -1084,7 +1084,7 @@
 "006002-D6-1": {
 "cat": "Damas 6ta",
 "dia": "2026-11-28",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:30",
 "inst": "Cuartos de Final",
@@ -1096,7 +1096,7 @@
 "006002-D6-2": {
 "cat": "Damas 6ta",
 "dia": "2026-11-28",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "11:30",
 "inst": "Cuartos de Final",
