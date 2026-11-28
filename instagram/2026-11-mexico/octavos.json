@@ -1,0 +1,15 @@
+{"franja": "Mexico Major", "bajada": "Jueves · octavos",
+ "titulo": "Batacazo <span class=gold>argentino</span>",
+ "bloques": [
+  {"rama": "Caballeros", "tema": "azul", "resumen": "5 a cuartos", "nota": "Stupa / Sanz, afuera",
+   "partidos": [{"g": "Alfonso / Libaak", "p": "Stupaczuk / Sanz", "s": "7/6 4/6 6/4", "et": "Octavos"},
+                {"g": "Augsburger / Lebrón", "p": "Sanyo / Maxi Sánchez", "s": "7/6 6/4", "et": "Octavos"},
+                {"g": "Tapia / Coello", "p": "Ruiz / García", "s": "6/1 6/7 6/0", "et": "Octavos"},
+                {"g": "Di Nenno / Navarro", "p": "Jiménez / Chozas", "s": "6/3 6/4", "et": "Octavos"},
+                {"g": "Valenzuela / Gil", "p": "Sintes / Zamora", "s": "3/6 7/6 6/2", "et": "Octavos"}]},
+  {"rama": "Damas", "tema": "rosa", "resumen": "2 a cuartos", "nota": "Fassio y Osoro, afuera",
+   "partidos": [{"g": "Brea / Triay", "p": "Velasco / Eugenio", "s": "3/6 6/3 6/3", "et": "Octavos"},
+                {"g": "Jensen / Icardo", "p": "Lobo / Cánovas", "s": "6/4 6/2", "et": "Octavos"}]}
+ ],
+ "dato": "Alfonso y Libaak: <b>7 torneos seguidos en cuartos</b> desde que se juntaron en julio. Hoy, Tapia / Coello vs Valenzuela / Gil, sus <b>primeros cuartos de Major</b>.",
+ "cred": "Seguí el Major con <b>@surpadelstore</b>"}
