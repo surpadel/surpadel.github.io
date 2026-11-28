@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-28 10:38",
+"actualizado": "2026-11-28 11:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -784,13 +784,13 @@
 "015001-D6-55": {
 "cat": "Damas 6ta",
 "dia": "2026-11-28",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "10:30",
 "inst": "Octavos de Final",
 "p1": "Petringa, María Eva / Sosa Cedrez, Yanela",
 "p2": "Díaz Colodrero, Camila / Saldivia, Soledad",
-"res": "",
+"res": "6/3 6/3",
 "sede": "Estación Norte"
 },
 "015001-D6-57": {
@@ -836,7 +836,7 @@
 "gan": null,
 "hora": "11:30",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Petringa, María Eva / Sosa Cedrez, Yanela",
 "p2": "Acuña, Claudia / Rodríguez, Alejandra Valeria",
 "res": "",
 "sede": "Boulevard 81"
