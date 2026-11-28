@@ -2349,5 +2349,22 @@
   "en_buffer": "6b0979e8062ed764a8153064",
   "modo": "auto",
   "publicada_en": "2026-11-27 09:39"
+ },
+ {
+  "creada": "2026-11-28 09:08",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Hoy",
+  "tipo": "hoy",
+  "clave": "hoy-2026-11-28",
+  "organiza": "",
+  "etiquetas": [
+   "boulevard_81",
+   "jpqpadelquilmes"
+  ],
+  "codigos": {},
+  "archivo": "especiales/hoy-2026-11-28.png",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/especiales/hoy-2026-11-28.png",
+  "alt": "Hoy se juega: Animal 81; Master JPQ. Seguí @surpadelstore para tener todos los resultados al día.",
+  "publicada": false
  }
 ]
