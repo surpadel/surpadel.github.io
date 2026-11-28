@@ -2443,7 +2443,10 @@
   "grupo": "TEO-CLI015-001|Octavos de Final|rosa|2026-11-28",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/octavos-rosa-1128-1408-1.png",
   "alt": "Octavos: Damas 5ta, ganaron Foltan Mendiberry L. / Jodzik T. 6/3 6/0; Damas 5ta, ganaron Asens S. / Stofalo M. 6/4 6/2; Damas 5ta, ganaron Casado Argüello G. / Garay L. 6/3 6/3; Damas 5ta, ganaron Montone M. / Reboredo M. 6/3 6/0; Damas 6ta, ganaron Petringa M. / Sosa Cedrez Y. 6/3 6/3",
-  "publicada": false
+  "publicada": true,
+  "en_buffer": "6b0b0ab1253b566c9ce2f169",
+  "modo": "auto",
+  "publicada_en": "2026-11-28 14:09"
  },
  {
   "creada": "2026-11-28 14:08",
@@ -2461,6 +2464,7 @@
   "grupo": "TEO-CLI015-001|Octavos de Final|rosa|2026-11-28",
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/octavos-rosa-1128-1408-2.png",
   "alt": "Octavos: Damas 6ta, ganaron Fernández L. / Vena V. 7/5 3/6 6/4; Damas 7ma, ganaron Grioni R. / Picardo M. 6/4 6/3; Damas 7ma, ganaron Arzubi F. / De Luca A. 6/4 3/6 6/3; Damas 7ma, ganaron Cataldi M. / Ferreyra C. 6/2 6/1; Damas 7ma, ganaron Gianfelici M. / Ochandorena M. 6/3 6/1",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  }
 ]
