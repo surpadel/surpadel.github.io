@@ -2369,5 +2369,53 @@
   "en_buffer": "6b0ac460d3a625228d4903fd",
   "modo": "auto",
   "publicada_en": "2026-11-28 09:09"
+ },
+ {
+  "creada": "2026-11-28 09:38",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Octavos de Final",
+  "organiza": "boulevard_81",
+  "codigos": {
+   "015001-C4-51": "6/3 6/2",
+   "015001-C4-50": "6/1 2/6 6/3",
+   "015001-C4-55": "2/6 6/3 6/3",
+   "015001-C7-50": "6/2 3/6 6/3"
+  },
+  "archivo": "TEO-CLI015-001/octavos-azul-1128-0938-1.png",
+  "grupo": "TEO-CLI015-001|Octavos de Final|azul|2026-11-27",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/octavos-azul-1128-0938-1.png",
+  "alt": "Octavos: Caballeros 4ta, ganaron Russo A. / Ventureira N. 6/3 6/2; Caballeros 4ta, ganaron Cardinali M. / Sendra S. 6/1 2/6 6/3; Caballeros 4ta, ganaron Kaethler J. / Romero G. 2/6 6/3 6/3; Caballeros 7ma, ganaron Nicasio Odo M. / Sosa J. 6/2 3/6 6/3",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-28 09:38",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Octavos de Final",
+  "organiza": "boulevard_81",
+  "codigos": {
+   "015001-D5-50": "6/3 2/6 6/2",
+   "015001-D7-51": "6/2 6/2",
+   "015001-D7-55": "6/3 6/3"
+  },
+  "archivo": "TEO-CLI015-001/octavos-rosa-1128-0938-1.png",
+  "grupo": "TEO-CLI015-001|Octavos de Final|rosa|2026-11-27",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/octavos-rosa-1128-0938-1.png",
+  "alt": "Octavos: Damas 5ta, ganaron Genta V. / Mostafa M. 6/3 2/6 6/2; Damas 7ma, ganaron González Taverna V. / Iribertegui J. 6/2 6/2; Damas 7ma, ganaron Ruiz M. / Salvo V. 6/3 6/3",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-28 09:38",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Cuartos de Final",
+  "organiza": "boulevard_81",
+  "codigos": {
+   "015001-C6-59": "6/7 7/6 6/1",
+   "015001-C6+45-59": "6/2 3/6 6/3"
+  },
+  "archivo": "TEO-CLI015-001/cuartos-azul-1128-0938-1.png",
+  "grupo": "TEO-CLI015-001|Cuartos de Final|azul|2026-11-27",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/cuartos-azul-1128-0938-1.png",
+  "alt": "Cuartos: Caballeros 6ta, ganaron Montuellie M. / Santilli J. 6/7 7/6 6/1; Caballeros 6ta +45, ganaron Dondo D. / Marchini M. 6/2 3/6 6/3",
+  "publicada": false
  }
 ]

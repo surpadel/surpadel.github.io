@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-27 22:38",
+"actualizado": "2026-11-28 09:38",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -148,25 +148,25 @@
 "015001-C4-50": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-27",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:30",
 "inst": "Octavos de Final",
 "p1": "Esposito, Maximiliano / Rodríguez, Martín",
 "p2": "Cardinali, Matías / Sendra, Sebastián",
-"res": "",
+"res": "6/1 2/6 6/3",
 "sede": "Boulevard 81"
 },
 "015001-C4-51": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-27",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:00",
 "inst": "Octavos de Final",
 "p1": "Russo, Agustín / Ventureira, Nicolás Manuel",
 "p2": "Reynoso, Ulises / Yeoman, Agustín",
-"res": "",
+"res": "6/3 6/2",
 "sede": "Boulevard 81"
 },
 "015001-C4-52": {
@@ -196,13 +196,13 @@
 "015001-C4-55": {
 "cat": "Caballeros 4ta",
 "dia": "2026-11-27",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Octavos de Final",
 "p1": "Kaethler, Juan Pablo / Romero, Guillermo",
 "p2": "Lauria, Nicolás / López, Mauro",
-"res": "",
+"res": "2/6 6/3 6/3",
 "sede": "Boulevard 81"
 },
 "015001-C4-57": {
@@ -213,7 +213,7 @@
 "hora": "13:30",
 "inst": "Cuartos de Final",
 "p1": "González, Damián / Vaccari, Franco Nahuel",
-"p2": "",
+"p2": "Cardinali, Matías / Sendra, Sebastián",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -224,7 +224,7 @@
 "gan": null,
 "hora": "13:30",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Russo, Agustín / Ventureira, Nicolás Manuel",
 "p2": "",
 "res": "",
 "sede": "Boulevard 81"
@@ -248,7 +248,7 @@
 "gan": null,
 "hora": "12:00",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Kaethler, Juan Pablo / Romero, Guillermo",
 "p2": "Congregado, Jonathan Ezequiel / Medina, Gustavo Leopoldo",
 "res": "",
 "sede": "Boulevard 81"
@@ -294,12 +294,12 @@
 "dia": "2026-11-28",
 "estado": "Programado",
 "gan": null,
-"hora": "10:30",
+"hora": "21:00",
 "inst": "Cuartos de Final",
 "p1": "Pérez, Cristian Hernán / Pozzi, Franco",
 "p2": "Castelli, Germán / Marasa, Matías Ezequiel",
 "res": "",
-"sede": "Estación Norte"
+"sede": "Boulevard 81"
 },
 "015001-C5-58": {
 "cat": "Caballeros 5ta",
@@ -309,7 +309,7 @@
 "hora": "10:30",
 "inst": "Cuartos de Final",
 "p1": "Juaristi, Nahuel / Rodríguez, Gonzalo",
-"p2": "",
+"p2": "Uceda, Leandro / Villalón, Diego",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -321,7 +321,7 @@
 "hora": "10:30",
 "inst": "Cuartos de Final",
 "p1": "Gonzalez, Lucio / Riquelme, Gonzalo",
-"p2": "",
+"p2": "Di Iasi, Luis / Mercado, Mauricio Napoleón",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -388,13 +388,13 @@
 "015001-C6+45-59": {
 "cat": "Caballeros 6ta +45",
 "dia": "2026-11-27",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:30",
 "inst": "Cuartos de Final",
 "p1": "Dondo, Daniel / Marchini, Martín",
 "p2": "Barboza, Eduardo Jorge / Rodríguez, Fernando",
-"res": "",
+"res": "6/2 3/6 6/3",
 "sede": "Boulevard 81"
 },
 "015001-C6+45-60": {
@@ -428,7 +428,7 @@
 "gan": null,
 "hora": "13:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Dondo, Daniel / Marchini, Martín",
 "p2": "",
 "res": "",
 "sede": "Boulevard 81"
@@ -460,13 +460,13 @@
 "015001-C6-59": {
 "cat": "Caballeros 6ta",
 "dia": "2026-11-27",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:30",
 "inst": "Cuartos de Final",
 "p1": "Montuellie, Mauro / Santilli, Juan Manuel",
 "p2": "Pablo, Cuartas / Salinas, Luisina",
-"res": "",
+"res": "6/7 7/6 6/1",
 "sede": "Boulevard 81"
 },
 "015001-C6-61": {
@@ -488,7 +488,7 @@
 "gan": null,
 "hora": "10:00",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Montuellie, Mauro / Santilli, Juan Manuel",
 "p2": "Dupen, Flavio Sebastián / Ortega, Lucas Ariel",
 "res": "",
 "sede": "Boulevard 81"
@@ -508,13 +508,13 @@
 "015001-C7-50": {
 "cat": "Caballeros 7ma",
 "dia": "2026-11-27",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "18:00",
 "inst": "Octavos de Final",
 "p1": "Nicasio Odo, María Sol / Sosa, José",
 "p2": "Colaianni, Bautista / Lucia, Mateo",
-"res": "",
+"res": "6/2 3/6 6/3",
 "sede": "Boulevard 81"
 },
 "015001-C7-51": {
@@ -561,7 +561,7 @@
 "hora": "12:00",
 "inst": "Cuartos de Final",
 "p1": "Marelli, Juan / Marquez Girat, Patricio",
-"p2": "",
+"p2": "Nicasio Odo, María Sol / Sosa, José",
 "res": "",
 "sede": "Boulevard 81"
 },
@@ -628,13 +628,13 @@
 "015001-D5-50": {
 "cat": "Damas 5ta",
 "dia": "2026-11-27",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "19:30",
 "inst": "Octavos de Final",
 "p1": "Nuez, Tania Anahí / Roberto, María Belen",
 "p2": "Genta, Vanesa / Mostafa, Mercedes",
-"res": "",
+"res": "6/3 2/6 6/2",
 "sede": "Boulevard 81"
 },
 "015001-D5-51": {
@@ -693,7 +693,7 @@
 "hora": "13:30",
 "inst": "Cuartos de Final",
 "p1": "Nicotera, Celeste / Sánchez, María Ángeles",
-"p2": "",
+"p2": "Genta, Vanesa / Mostafa, Mercedes",
 "res": "",
 "sede": "Estación Norte"
 },
@@ -880,13 +880,13 @@
 "015001-D7-51": {
 "cat": "Damas 7ma",
 "dia": "2026-11-27",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "21:00",
 "inst": "Octavos de Final",
 "p1": "González Taverna, Verónica / Iribertegui, Julieta",
 "p2": "Hernández, Betina / Liciaga, María",
-"res": "",
+"res": "6/2 6/2",
 "sede": "Boulevard 81"
 },
 "015001-D7-52": {
@@ -928,13 +928,13 @@
 "015001-D7-55": {
 "cat": "Damas 7ma",
 "dia": "2026-11-27",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "21:00",
 "inst": "Octavos de Final",
 "p1": "Frías, Brenda / Sola Barni, Jimena",
 "p2": "Ruiz, Melanie / Salvo, Vanina",
-"res": "",
+"res": "6/3 6/3",
 "sede": "Boulevard 81"
 },
 "015001-D7-57": {
@@ -956,7 +956,7 @@
 "gan": null,
 "hora": "14:30",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "González Taverna, Verónica / Iribertegui, Julieta",
 "p2": "",
 "res": "",
 "sede": "Boulevard 81"
@@ -980,7 +980,7 @@
 "gan": null,
 "hora": "13:30",
 "inst": "Cuartos de Final",
-"p1": "",
+"p1": "Ruiz, Melanie / Salvo, Vanina",
 "p2": "Basilico, Jimena / Vera, Cristina",
 "res": "",
 "sede": "Estación Norte"
@@ -1664,13 +1664,13 @@
 "015001-C5-D2": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-27",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "19:30",
 "inst": "Zona",
 "p1": "Uceda, Leandro / Villalón, Diego",
 "p2": "Di Iasi, Luis / Mercado, Mauricio Napoleón",
-"res": "",
+"res": "6/4 6/2",
 "sede": "Boulevard 81",
 "zona": "D"
 },
