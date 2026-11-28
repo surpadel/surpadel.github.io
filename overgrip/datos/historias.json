@@ -2483,6 +2483,7 @@
   ],
   "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/octavos-azul-1128-1439-1.png",
   "alt": "Octavos: Caballeros 4ta, ganaron García A. / Techera R. 6/4 6/0; Caballeros 4ta, ganaron H. Martínez G. / Ocampo R. 6/3 6/2",
-  "publicada": false
+  "publicada": true,
+  "modo": "omitida"
  }
 ]
