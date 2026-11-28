@@ -2004,6 +2004,15 @@
     "res": "6/2 6/1",
     "gan": 2
    }
+  ],
+  "hechos": [
+   "015001-D5-51",
+   "015001-D5-52",
+   "015001-D5-54",
+   "015001-D5-55",
+   "015001-D7-52",
+   "015001-D7-53",
+   "015001-D7-54"
   ]
  },
  {
@@ -2023,7 +2032,8 @@
     "res": "6/3 6/3",
     "gan": 1
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI015-001",
@@ -2042,7 +2052,8 @@
     "res": "6/3 6/1",
     "gan": 2
    }
-  ]
+  ],
+  "dibujada": true
  },
  {
   "torneo": "TEO-CLI006-002",
@@ -2150,6 +2161,175 @@
     "p1": "Borras, Cristian Walter / Roberts, Kevin",
     "p2": "Velazco, Claudio / Velazco, Gustavo",
     "res": "6/2 6/2",
+    "gan": 1
+   }
+  ]
+ },
+ {
+  "torneo": "TEO-CLI015-001",
+  "hora": "2026-11-28 14:08",
+  "partidos": [
+   {
+    "codigo": "015001-D6-50",
+    "cat": "Damas 6ta",
+    "inst": "Octavos de Final",
+    "dia": "2026-11-28",
+    "hora": "12:00",
+    "sede": "Estación Norte",
+    "estado": "Finalizado",
+    "p1": "Cornejo, Hebe / Martins, Daiana",
+    "p2": "Fernández, Luciana / Vena, Viviana",
+    "res": "7/5 3/6 6/4",
+    "gan": 2
+   }
+  ],
+  "dibujada": true
+ },
+ {
+  "torneo": "TEO-CLI006-002",
+  "hora": "2026-11-28 14:08",
+  "partidos": [
+   {
+    "codigo": "006002-C5+40-3",
+    "cat": "Caballeros 5ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "11:30",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Castillo, Jorge / Marcote, Sebastián",
+    "p2": "Estavre, Fernando / Scarpato, Gabriel",
+    "res": "6/7 6/4 6/3",
+    "gan": 1
+   },
+   {
+    "codigo": "006002-C5+40-4",
+    "cat": "Caballeros 5ta +40",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "11:30",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Bragaioli, Facundo / Kaufmann, Gustavo",
+    "p2": "Ferreiro, Christian / Ruiz, Diego",
+    "res": "6/2 5/7 6/4",
+    "gan": 2
+   },
+   {
+    "codigo": "006002-C6+45-3",
+    "cat": "Caballeros 6ta +45",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "11:30",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Roberto Daniel Sosa, Roberto Daniel Sosa / Urrejola, Ricardo",
+    "p2": "Di Nenno, Javier / Loureiro, Javier",
+    "res": "6/0 6/7 6/1",
+    "gan": 1
+   },
+   {
+    "codigo": "006002-D5-1",
+    "cat": "Damas 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "11:30",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "González, Lisi / Stanganelli, Anabella",
+    "p2": "Marilyn, Vera / Rodríguez, Florencia",
+    "res": "7/6 6/0",
+    "gan": 1
+   },
+   {
+    "codigo": "006002-D5-2",
+    "cat": "Damas 5ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "11:30",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Burgos, Noelia Annabella / Torres, Tatiana",
+    "p2": "Fotia, María Celeste / Seoane, Florencia",
+    "res": "6/3 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "006002-D6-1",
+    "cat": "Damas 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "11:30",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Duperré, Marianela Belén / Robles, Gala",
+    "p2": "Pérez, Julieta / Rodríguez, Fiorella",
+    "res": "6/4 6/4",
+    "gan": 1
+   },
+   {
+    "codigo": "006002-D6-2",
+    "cat": "Damas 6ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "11:30",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Boveri Ansaldo, Lola / Palena, Sofía",
+    "p2": "Alegre, Andrea / Luzzi, Jennifer",
+    "res": "6/2 6/4",
+    "gan": 1
+   },
+   {
+    "codigo": "006002-C6+45-4",
+    "cat": "Caballeros 6ta +45",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "12:30",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Crubellati, Andrés / Lucidi, Juan Manuel",
+    "p2": "Cabral, Ariel / Chavez, Gerardo",
+    "res": "6/3 6/3",
+    "gan": 2
+   },
+   {
+    "codigo": "006002-D4-1",
+    "cat": "Damas 4ta",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Álvarez, Paula Daniela / Profitos, Juliana",
+    "p2": "Groba, Alicia / Verdun, Mónica",
+    "res": "6/2 6/3",
+    "gan": 1
+   },
+   {
+    "codigo": "006002-D7-2",
+    "cat": "Damas 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Bosnach, Gisela / Flores, María Elisa",
+    "p2": "Cufone, Florencia Noelia / Lourenco, Camila",
+    "res": "6/1 6/2",
+    "gan": 1
+   },
+   {
+    "codigo": "006002-D7-4",
+    "cat": "Damas 7ma",
+    "inst": "Cuartos de Final",
+    "dia": "2026-11-28",
+    "hora": "13:00",
+    "sede": "La Meca Quilmes",
+    "estado": "Finalizado",
+    "p1": "Roman, María Florencia / Yewszel, Mara",
+    "p2": "Gutiérrez, Juliana / Liñeiro, Macarena",
+    "res": "6/1 6/0",
     "gan": 1
    }
   ]

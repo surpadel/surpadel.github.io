@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-28 12:38",
+"actualizado": "2026-11-28 14:08",
 "cruces": {
 "006002-C2-1": {
 "cat": "Caballeros 2da",
@@ -280,25 +280,25 @@
 "006002-C5+40-3": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-28",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:30",
 "inst": "Cuartos de Final",
 "p1": "Castillo, Jorge / Marcote, Sebastián",
 "p2": "Estavre, Fernando / Scarpato, Gabriel",
-"res": "",
+"res": "6/7 6/4 6/3",
 "sede": "La Meca Quilmes"
 },
 "006002-C5+40-4": {
 "cat": "Caballeros 5ta +40",
 "dia": "2026-11-28",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "11:30",
 "inst": "Cuartos de Final",
 "p1": "Bragaioli, Facundo / Kaufmann, Gustavo",
 "p2": "Ferreiro, Christian / Ruiz, Diego",
-"res": "",
+"res": "6/2 5/7 6/4",
 "sede": "La Meca Quilmes"
 },
 "006002-C5+40-5": {
@@ -320,8 +320,8 @@
 "gan": null,
 "hora": "19:00",
 "inst": "Semifinal",
-"p1": "",
-"p2": "",
+"p1": "Castillo, Jorge / Marcote, Sebastián",
+"p2": "Ferreiro, Christian / Ruiz, Diego",
 "res": "",
 "sede": "La Meca Quilmes"
 },
@@ -364,7 +364,7 @@
 "006002-C5-3": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-28",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:00",
 "inst": "Cuartos de Final",
@@ -376,7 +376,7 @@
 "006002-C5-4": {
 "cat": "Caballeros 5ta",
 "dia": "2026-11-28",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:00",
 "inst": "Cuartos de Final",
@@ -448,7 +448,7 @@
 "006002-C6+35-3": {
 "cat": "Caballeros 6ta +35",
 "dia": "2026-11-28",
-"estado": "Programado",
+"estado": "En curso",
 "gan": null,
 "hora": "13:00",
 "inst": "Cuartos de Final",
@@ -532,25 +532,25 @@
 "006002-C6+45-3": {
 "cat": "Caballeros 6ta +45",
 "dia": "2026-11-28",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:30",
 "inst": "Cuartos de Final",
 "p1": "Roberto Daniel Sosa, Roberto Daniel Sosa / Urrejola, Ricardo",
 "p2": "Di Nenno, Javier / Loureiro, Javier",
-"res": "",
+"res": "6/0 6/7 6/1",
 "sede": "La Meca Quilmes"
 },
 "006002-C6+45-4": {
 "cat": "Caballeros 6ta +45",
 "dia": "2026-11-28",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "12:30",
 "inst": "Cuartos de Final",
 "p1": "Crubellati, Andrés / Lucidi, Juan Manuel",
 "p2": "Cabral, Ariel / Chavez, Gerardo",
-"res": "",
+"res": "6/3 6/3",
 "sede": "La Meca Quilmes"
 },
 "006002-C6+45-5": {
@@ -572,8 +572,8 @@
 "gan": null,
 "hora": "16:00",
 "inst": "Semifinal",
-"p1": "",
-"p2": "",
+"p1": "Roberto Daniel Sosa, Roberto Daniel Sosa / Urrejola, Ricardo",
+"p2": "Cabral, Ariel / Chavez, Gerardo",
 "res": "",
 "sede": "La Meca Quilmes"
 },
@@ -916,13 +916,13 @@
 "006002-D4-1": {
 "cat": "Damas 4ta",
 "dia": "2026-11-28",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:00",
 "inst": "Cuartos de Final",
 "p1": "Álvarez, Paula Daniela / Profitos, Juliana",
 "p2": "Groba, Alicia / Verdun, Mónica",
-"res": "",
+"res": "6/2 6/3",
 "sede": "La Meca Quilmes"
 },
 "006002-D4-2": {
@@ -968,7 +968,7 @@
 "gan": null,
 "hora": "17:30",
 "inst": "Semifinal",
-"p1": "",
+"p1": "Álvarez, Paula Daniela / Profitos, Juliana",
 "p2": "",
 "res": "",
 "sede": "La Meca Quilmes"
@@ -1000,25 +1000,25 @@
 "006002-D5-1": {
 "cat": "Damas 5ta",
 "dia": "2026-11-28",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:30",
 "inst": "Cuartos de Final",
 "p1": "González, Lisi / Stanganelli, Anabella",
 "p2": "Marilyn, Vera / Rodríguez, Florencia",
-"res": "",
+"res": "7/6 6/0",
 "sede": "La Meca Quilmes"
 },
 "006002-D5-2": {
 "cat": "Damas 5ta",
 "dia": "2026-11-28",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:30",
 "inst": "Cuartos de Final",
 "p1": "Burgos, Noelia Annabella / Torres, Tatiana",
 "p2": "Fotia, María Celeste / Seoane, Florencia",
-"res": "",
+"res": "6/3 6/2",
 "sede": "La Meca Quilmes"
 },
 "006002-D5-3": {
@@ -1052,8 +1052,8 @@
 "gan": null,
 "hora": "16:00",
 "inst": "Semifinal",
-"p1": "",
-"p2": "",
+"p1": "González, Lisi / Stanganelli, Anabella",
+"p2": "Burgos, Noelia Annabella / Torres, Tatiana",
 "res": "",
 "sede": "La Meca Quilmes"
 },
@@ -1084,25 +1084,25 @@
 "006002-D6-1": {
 "cat": "Damas 6ta",
 "dia": "2026-11-28",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:30",
 "inst": "Cuartos de Final",
 "p1": "Duperré, Marianela Belén / Robles, Gala",
 "p2": "Pérez, Julieta / Rodríguez, Fiorella",
-"res": "",
+"res": "6/4 6/4",
 "sede": "La Meca Quilmes"
 },
 "006002-D6-2": {
 "cat": "Damas 6ta",
 "dia": "2026-11-28",
-"estado": "En curso",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "11:30",
 "inst": "Cuartos de Final",
 "p1": "Boveri Ansaldo, Lola / Palena, Sofía",
 "p2": "Alegre, Andrea / Luzzi, Jennifer",
-"res": "",
+"res": "6/2 6/4",
 "sede": "La Meca Quilmes"
 },
 "006002-D6-3": {
@@ -1136,8 +1136,8 @@
 "gan": null,
 "hora": "12:30",
 "inst": "Semifinal",
-"p1": "",
-"p2": "",
+"p1": "Duperré, Marianela Belén / Robles, Gala",
+"p2": "Boveri Ansaldo, Lola / Palena, Sofía",
 "res": "",
 "sede": "La Meca Quilmes"
 },
@@ -1180,13 +1180,13 @@
 "006002-D7-2": {
 "cat": "Damas 7ma",
 "dia": "2026-11-28",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:00",
 "inst": "Cuartos de Final",
 "p1": "Bosnach, Gisela / Flores, María Elisa",
 "p2": "Cufone, Florencia Noelia / Lourenco, Camila",
-"res": "",
+"res": "6/1 6/2",
 "sede": "La Meca Quilmes"
 },
 "006002-D7-3": {
@@ -1204,13 +1204,13 @@
 "006002-D7-4": {
 "cat": "Damas 7ma",
 "dia": "2026-11-28",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 1,
 "hora": "13:00",
 "inst": "Cuartos de Final",
 "p1": "Roman, María Florencia / Yewszel, Mara",
 "p2": "Gutiérrez, Juliana / Liñeiro, Macarena",
-"res": "",
+"res": "6/1 6/0",
 "sede": "La Meca Quilmes"
 },
 "006002-D7-5": {
@@ -1221,7 +1221,7 @@
 "hora": "12:30",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Bosnach, Gisela / Flores, María Elisa",
 "res": "",
 "sede": "La Meca Quilmes"
 },
@@ -1233,7 +1233,7 @@
 "hora": "12:30",
 "inst": "Semifinal",
 "p1": "",
-"p2": "",
+"p2": "Roman, María Florencia / Yewszel, Mara",
 "res": "",
 "sede": "La Meca Quilmes"
 },

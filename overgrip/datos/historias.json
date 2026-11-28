@@ -2426,5 +2426,41 @@
   "en_buffer": "6b0acb680f9559e0ce1077a4",
   "modo": "auto",
   "publicada_en": "2026-11-28 09:39"
+ },
+ {
+  "creada": "2026-11-28 14:08",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Octavos de Final",
+  "organiza": "boulevard_81",
+  "codigos": {
+   "015001-D5-51": "6/3 6/0",
+   "015001-D5-52": "6/4 6/2",
+   "015001-D5-54": "6/3 6/3",
+   "015001-D5-55": "6/3 6/0",
+   "015001-D6-55": "6/3 6/3"
+  },
+  "archivo": "TEO-CLI015-001/octavos-rosa-1128-1408-1.png",
+  "grupo": "TEO-CLI015-001|Octavos de Final|rosa|2026-11-28",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/octavos-rosa-1128-1408-1.png",
+  "alt": "Octavos: Damas 5ta, ganaron Foltan Mendiberry L. / Jodzik T. 6/3 6/0; Damas 5ta, ganaron Asens S. / Stofalo M. 6/4 6/2; Damas 5ta, ganaron Casado Argüello G. / Garay L. 6/3 6/3; Damas 5ta, ganaron Montone M. / Reboredo M. 6/3 6/0; Damas 6ta, ganaron Petringa M. / Sosa Cedrez Y. 6/3 6/3",
+  "publicada": false
+ },
+ {
+  "creada": "2026-11-28 14:08",
+  "torneo": "TEO-CLI015-001",
+  "inst": "Octavos de Final",
+  "organiza": "boulevard_81",
+  "codigos": {
+   "015001-D6-50": "7/5 3/6 6/4",
+   "015001-D7-52": "6/4 6/3",
+   "015001-D7-53": "6/4 3/6 6/3",
+   "015001-D7-54": "6/2 6/1",
+   "015001-D7-50": "6/3 6/1"
+  },
+  "archivo": "TEO-CLI015-001/octavos-rosa-1128-1408-2.png",
+  "grupo": "TEO-CLI015-001|Octavos de Final|rosa|2026-11-28",
+  "url": "https://raw.githubusercontent.com/surpadel/surpadel.github.io/main/instagram/overgrip/TEO-CLI015-001/octavos-rosa-1128-1408-2.png",
+  "alt": "Octavos: Damas 6ta, ganaron Fernández L. / Vena V. 7/5 3/6 6/4; Damas 7ma, ganaron Grioni R. / Picardo M. 6/4 6/3; Damas 7ma, ganaron Arzubi F. / De Luca A. 6/4 3/6 6/3; Damas 7ma, ganaron Cataldi M. / Ferreyra C. 6/2 6/1; Damas 7ma, ganaron Gianfelici M. / Ochandorena M. 6/3 6/1",
+  "publicada": false
  }
 ]

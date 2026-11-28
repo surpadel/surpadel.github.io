@@ -1,5 +1,5 @@
 {
-"actualizado": "2026-11-28 12:38",
+"actualizado": "2026-11-28 14:08",
 "cruces": {
 "015001-C2-58": {
 "cat": "Caballeros 2da",
@@ -772,13 +772,13 @@
 "015001-D6-50": {
 "cat": "Damas 6ta",
 "dia": "2026-11-28",
-"estado": "Programado",
-"gan": null,
+"estado": "Finalizado",
+"gan": 2,
 "hora": "12:00",
 "inst": "Octavos de Final",
 "p1": "Cornejo, Hebe / Martins, Daiana",
 "p2": "Fernández, Luciana / Vena, Viviana",
-"res": "",
+"res": "7/5 3/6 6/4",
 "sede": "Estación Norte"
 },
 "015001-D6-55": {
@@ -801,7 +801,7 @@
 "hora": "10:00",
 "inst": "Cuartos de Final",
 "p1": "Ruggieri, Avril / Sardón, Clarisa",
-"p2": "",
+"p2": "Fernández, Luciana / Vena, Viviana",
 "res": "",
 "sede": "Boulevard 81"
 },
